@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+.env*.local
+.env
+.vercel
+.DS_Store
+*.log
+.turbo
+.idea
+.vscode
+prisma/migrations/dev.db*
