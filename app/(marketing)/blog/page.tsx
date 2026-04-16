@@ -22,10 +22,10 @@ export default function BlogPage() {
             Blog
           </div>
           <h1 className="font-display font-black text-4xl md:text-5xl text-white leading-tight mb-4">
-            Tampa Bay's Dryer Vent Knowledge Base
+            Tampa Bay&apos;s Dryer Vent Knowledge Base
           </h1>
           <p className="text-lg text-white/75">
-            Expert guides, safety tips, and local insights from the team that's cleaned 15,000+ vents across Florida.
+            Expert guides, safety tips, and local insights from the team that&apos;s cleaned 15,000+ vents across Florida.
           </p>
         </div>
       </section>

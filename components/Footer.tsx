@@ -15,7 +15,7 @@ export default function Footer() {
               Dry Vent <span className="text-fire-glow">Tampa</span>
             </div>
             <p className="text-sm leading-relaxed mt-4 max-w-xs">
-              Tampa Bay's most trusted dryer vent cleaning service. Licensed, insured, and committed to keeping Florida homes safe from dryer fires.
+              Tampa Bay&apos;s most trusted dryer vent cleaning service. Licensed, insured, and committed to keeping Florida homes safe from dryer fires.
             </p>
             <div className="mt-5">
               <a href={`tel:${PHONE}`} className="text-gold font-bold text-lg">{PHONE_DISPLAY}</a>

@@ -88,7 +88,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
             <h2 className="font-display font-bold text-2xl text-navy mt-10 mb-4">How to generate this article</h2>
             <p className="text-gray-700 leading-relaxed">
-              Open this file in Claude Code and run: <code className="bg-gray-100 px-2 py-0.5 rounded text-sm">/AI SEO write full article body for "{post.title}" with 1,200+ words, definition-style intro, H2/H3 structure, structured comparison tables, internal links to /services and /areas pages, and FAQ block at the end.</code>
+              Open this file in Claude Code and run: <code className="bg-gray-100 px-2 py-0.5 rounded text-sm">/AI SEO write full article body for &quot;{post.title}&quot; with 1,200+ words, definition-style intro, H2/H3 structure, structured comparison tables, internal links to /services and /areas pages, and FAQ block at the end.</code>
             </p>
 
             <h2 className="font-display font-bold text-2xl text-navy mt-10 mb-4">Ready to book service?</h2>

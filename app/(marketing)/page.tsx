@@ -68,7 +68,7 @@ export default function HomePage() {
         badge="Rated 4.9/5 by 847+ Tampa Bay Homeowners"
         title={
           <>
-            Tampa Bay's #1 <em className="not-italic text-fire-glow">Dryer Vent Cleaning</em> Service
+            Tampa Bay&apos;s #1 <em className="not-italic text-fire-glow">Dryer Vent Cleaning</em> Service
           </>
         }
         subtitle="Protect your home from dryer fires, cut energy bills by up to 30%, and get clothes drying faster — all in under 60 minutes. Licensed, insured, and trusted across Tampa Bay."

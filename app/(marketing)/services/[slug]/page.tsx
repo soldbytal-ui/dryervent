@@ -64,7 +64,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         <div className="container-custom max-w-5xl grid md:grid-cols-2 gap-12 items-start">
           <div>
             <div className="inline-flex items-center gap-2 text-fire font-display font-bold text-xs uppercase tracking-widest mb-4">
-              WHAT'S INCLUDED
+              WHAT&apos;S INCLUDED
             </div>
             <h2 className="font-display font-extrabold text-3xl text-navy mb-4">Everything You Get</h2>
             <p className="text-gray-600 leading-relaxed mb-6">{service.description}</p>

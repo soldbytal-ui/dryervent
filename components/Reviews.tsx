@@ -39,7 +39,7 @@ export default function Reviews({ city, max = 3 }: Props) {
                   <Star key={idx} size={16} fill="currentColor" />
                 ))}
               </div>
-              <p className="text-white/85 italic leading-relaxed mb-5 text-sm">"{r.text}"</p>
+              <p className="text-white/85 italic leading-relaxed mb-5 text-sm">&quot;{r.text}&quot;</p>
               <div className="flex items-center gap-3">
                 <div className="w-11 h-11 bg-gradient-to-br from-fire to-gold rounded-full flex items-center justify-center font-display font-bold text-white text-sm">
                   {r.initials}

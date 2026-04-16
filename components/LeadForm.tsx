@@ -85,7 +85,7 @@ export default function LeadForm({ defaultCity, defaultService, page }: Props) {
             <CheckCircle2 className="text-green-600" size={36} />
           </div>
           <h3 className="font-display font-bold text-2xl text-navy mb-2">Got it!</h3>
-          <p className="text-gray-600 mb-1">We'll call you within the hour to confirm your free estimate.</p>
+          <p className="text-gray-600 mb-1">We&apos;ll call you within the hour to confirm your free estimate.</p>
           <p className="text-sm text-gray-500">Need it sooner? Call <a href={`tel:${process.env.NEXT_PUBLIC_BUSINESS_PHONE}`} className="text-fire font-bold">{process.env.NEXT_PUBLIC_BUSINESS_PHONE_DISPLAY || '(813) 555-1234'}</a></p>
         </div>
       ) : (

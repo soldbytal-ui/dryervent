@@ -21,10 +21,10 @@ export default function AboutPage() {
             About Us
           </div>
           <h1 className="font-display font-black text-4xl md:text-6xl text-white leading-tight mb-5">
-            Tampa Bay's Most <em className="not-italic text-fire-glow">Trusted</em> Dryer Vent Company
+            Tampa Bay&apos;s Most <em className="not-italic text-fire-glow">Trusted</em> Dryer Vent Company
           </h1>
           <p className="text-xl text-white/75 leading-relaxed">
-            Since 2015, we've cleaned over 15,000 dryer vents across Tampa Bay — protecting homes, saving energy, and giving Florida families peace of mind.
+            Since 2015, we&apos;ve cleaned over 15,000 dryer vents across Tampa Bay — protecting homes, saving energy, and giving Florida families peace of mind.
           </p>
         </div>
       </section>
@@ -39,7 +39,7 @@ export default function AboutPage() {
               Dry Vent Tampa was founded on a simple mission: protect Florida families from one of the most preventable home disasters — dryer fires. After witnessing how many Tampa Bay homes were operating with dangerously clogged vents, our founder assembled a team of certified professionals dedicated to doing dryer vent cleaning the right way.
             </p>
             <p className="text-gray-700 leading-relaxed mb-10">
-              Today, we're the go-to choice for homeowners, property managers, HOAs, and commercial property owners across the Tampa Bay metropolitan area. We use commercial-grade equipment, follow NFPA 211 standards, and stand behind every job with a satisfaction guarantee.
+              Today, we&apos;re the go-to choice for homeowners, property managers, HOAs, and commercial property owners across the Tampa Bay metropolitan area. We use commercial-grade equipment, follow NFPA 211 standards, and stand behind every job with a satisfaction guarantee.
             </p>
 
             <h2 className="font-display font-extrabold text-3xl text-navy mb-5">What Makes Us Different</h2>
@@ -70,7 +70,7 @@ export default function AboutPage() {
               Every Dry Vent Tampa technician follows the same 5-point protocol on every job: full system inspection, containment setup, rotary brush cleaning, airflow verification, and written documentation. You get photos, measurements, and a clear report showing exactly what we did.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              If you aren't completely satisfied, we'll come back at no charge until you are. That's our guarantee, and it's backed by 11 years of doing right by our customers across Tampa Bay.
+              If you aren&apos;t completely satisfied, we&apos;ll come back at no charge until you are. That&apos;s our guarantee, and it&apos;s backed by 11 years of doing right by our customers across Tampa Bay.
             </p>
           </div>
         </div>

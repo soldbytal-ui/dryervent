@@ -19,7 +19,7 @@ export default function DangerSection() {
             Your Dryer Could Be a Fire Hazard Right Now
           </h2>
           <p className="text-gray-600">
-            Clogged dryer vents are the #1 cause of home dryer fires in the U.S. In Florida's humid climate, the risk runs even higher.
+            Clogged dryer vents are the #1 cause of home dryer fires in the U.S. In Florida&apos;s humid climate, the risk runs even higher.
           </p>
         </div>
 
