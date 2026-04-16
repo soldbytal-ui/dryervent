@@ -8,26 +8,128 @@ datasource db {
 }
 
 model Lead {
-  id          String   @id @default(cuid())
-  name        String
-  phone       String
-  email       String?
-  zip         String
-  city        String?
-  service     String   @default("cleaning")
-  message     String?
-  source      String?  // utm_source
-  medium      String?  // utm_medium
-  campaign    String?  // utm_campaign
-  page        String?  // landing page
-  referrer    String?
-  userAgent   String?
-  ipAddress   String?
-  status      String   @default("new") // new | contacted | quoted | won | lost
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  id           String    @id @default(cuid())
+  name         String
+  phone        String
+  email        String?
+  zip          String
+  city         String?
+  service      String    @default("cleaning")
+  message      String?
+  source       String?
+  medium       String?
+  campaign     String?
+  page         String?
+  referrer     String?
+  userAgent    String?
+  ipAddress    String?
+  status       String    @default("new")
+  notes        String?
+  nextFollowUp DateTime?
+  assignedTo   String?
+  quotedAmount Decimal?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
 
   @@index([createdAt])
   @@index([status])
   @@index([city])
+}
+
+model Agent {
+  id             String       @id @default(cuid())
+  name           String
+  role           String
+  systemPrompt   String
+  reportsToId    String?
+  reportsTo      Agent?       @relation("AgentHierarchy", fields: [reportsToId], references: [id])
+  subordinates   Agent[]      @relation("AgentHierarchy")
+  model          String       @default("claude-haiku-4-5")
+  provider       String       @default("anthropic")
+  budgetMonthly  Decimal      @default(10.00)
+  budgetSpent    Decimal      @default(0.00)
+  heartbeatHours Int          @default(8)
+  lastHeartbeat  DateTime?
+  tools          String[]     @default([])
+  autoApprove    Boolean      @default(false)
+  status         String       @default("active")
+  tasks          Task[]
+  audits         AgentAudit[]
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+}
+
+model Task {
+  id          String    @id @default(cuid())
+  title       String
+  description String
+  status      String    @default("queued")
+  priority    String    @default("medium")
+  agentId     String
+  agent       Agent     @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  output      String?
+  tokensUsed  Int?
+  needsApproval Boolean @default(false)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  completedAt DateTime?
+
+  @@index([agentId])
+  @@index([status])
+}
+
+model AgentAudit {
+  id         String   @id @default(cuid())
+  agentId    String
+  agent      Agent    @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  actionType String
+  input      String?
+  output     String?
+  tokensUsed Int?
+  costUsd    Decimal?
+  createdAt  DateTime @default(now())
+
+  @@index([agentId])
+  @@index([createdAt])
+}
+
+model BrainRule {
+  id        String   @id @default(cuid())
+  category  String
+  text      String
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([category])
+}
+
+model AdAccount {
+  id           String    @id @default(cuid())
+  provider     String
+  accessToken  String
+  refreshToken String?
+  expiresAt    DateTime?
+  customerId   String?
+  email        String?
+  accountName  String?
+  connectedAt  DateTime  @default(now())
+
+  @@unique([provider])
+}
+
+model Campaign {
+  id           String   @id @default(cuid())
+  name         String
+  channel      String
+  status       String   @default("draft")
+  config       String
+  generatedAt  DateTime?
+  pushedAt     DateTime?
+  externalId   String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([channel])
+  @@index([status])
 }
