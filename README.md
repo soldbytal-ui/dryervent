@@ -1,4 +1,4 @@
-# Dry Vent Tampa
+# Airflow Dryer Vent Cleaning
 
 > Florida's highest-converting dryer vent cleaning website — built to dominate Google, Google Ads, AI search engines (ChatGPT, Perplexity, Claude, Gemini), and local SEO across the Tampa Bay area.
 
@@ -132,7 +132,7 @@ SUPABASE_SERVICE_ROLE_KEY="..."
 
 # Resend (for lead emails)
 RESEND_API_KEY="re_..."
-LEAD_NOTIFICATION_EMAIL="info@dryventtampa.com"
+LEAD_NOTIFICATION_EMAIL="info@airflowdryervent.com"
 
 # n8n webhook (for CRM/automation)
 N8N_LEAD_WEBHOOK_URL="https://your-n8n.com/webhook/dvt-lead"
@@ -144,9 +144,9 @@ NEXT_PUBLIC_GOOGLE_ADS_ID="AW-..."
 NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_LABEL="..."
 
 # Site
-NEXT_PUBLIC_SITE_URL="https://dryventtampa.com"
-NEXT_PUBLIC_BUSINESS_PHONE="+18135551234"
-NEXT_PUBLIC_BUSINESS_PHONE_DISPLAY="(813) 555-1234"
+NEXT_PUBLIC_SITE_URL="https://dryervent.vercel.app"
+NEXT_PUBLIC_BUSINESS_PHONE="+18137441127"
+NEXT_PUBLIC_BUSINESS_PHONE_DISPLAY="(813) 744-1127"
 ```
 
 ---
@@ -200,7 +200,7 @@ Open http://localhost:3000
 # 1. Push to GitHub
 git init
 git add .
-git commit -m "Initial commit: Dry Vent Tampa"
+git commit -m "Initial commit: Airflow Dryer Vent Cleaning"
 gh repo create dry-vent-tampa --private --source=. --push
 
 # 2. Deploy to Vercel

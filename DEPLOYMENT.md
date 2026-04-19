@@ -1,4 +1,4 @@
-# Deployment Guide — Dry Vent Tampa
+# Deployment Guide — Airflow Dryer Vent Cleaning
 
 Complete step-by-step deployment from zero to production. Follow these in order.
 
@@ -9,7 +9,7 @@ Complete step-by-step deployment from zero to production. Follow these in order.
 - Vercel account
 - Supabase account
 - Resend account (for transactional email)
-- Domain: dryventtampa.com (or similar)
+- Domain: airflowdryervent.com (or similar)
 
 ---
 
@@ -58,14 +58,14 @@ Visit http://localhost:3000 — you should see the full site.
 ## 3. Resend Setup
 
 1. Create account at https://resend.com
-2. Verify your domain `dryventtampa.com`:
+2. Verify your domain `airflowdryervent.com`:
    - Add the DNS records Resend provides to your domain registrar
    - Wait for verification (~30 min)
 3. Create API key (Dashboard → API Keys)
 4. Add to `.env.local`:
    ```
    RESEND_API_KEY="re_..."
-   LEAD_NOTIFICATION_EMAIL="info@dryventtampa.com"
+   LEAD_NOTIFICATION_EMAIL="info@airflowdryervent.com"
    ```
 
 ---
@@ -76,7 +76,7 @@ Visit http://localhost:3000 — you should see the full site.
 # In project root
 git init
 git add .
-git commit -m "Initial commit: Dry Vent Tampa production build"
+git commit -m "Initial commit: Airflow Dryer Vent Cleaning production build"
 
 # Create repo via GitHub CLI
 gh repo create dry-vent-tampa --private --source=. --push
@@ -118,7 +118,7 @@ Deploy this project to Vercel. Create a new Vercel project called "dry-vent-tamp
 ## 6. Domain Setup
 
 1. Vercel Dashboard → Your Project → Settings → Domains
-2. Add `dryventtampa.com` and `www.dryventtampa.com`
+2. Add `airflowdryervent.com` and `www.airflowdryervent.com`
 3. Update your registrar's DNS:
    - `A` record for `@` → Vercel's IP
    - `CNAME` for `www` → `cname.vercel-dns.com`
@@ -129,9 +129,9 @@ Deploy this project to Vercel. Create a new Vercel project called "dry-vent-tamp
 ## 7. Google Search Console
 
 1. https://search.google.com/search-console
-2. Add property: `https://dryventtampa.com`
+2. Add property: `https://airflowdryervent.com`
 3. Verify via DNS TXT record (provided by Google)
-4. Submit sitemap: `https://dryventtampa.com/sitemap.xml`
+4. Submit sitemap: `https://airflowdryervent.com/sitemap.xml`
 5. Add Google site verification code to `app/layout.tsx` metadata.verification.google
 
 ---
@@ -140,7 +140,7 @@ Deploy this project to Vercel. Create a new Vercel project called "dry-vent-tamp
 
 1. https://www.bing.com/webmasters
 2. Import from Google Search Console (easiest path)
-3. Submit sitemap: `https://dryventtampa.com/sitemap.xml`
+3. Submit sitemap: `https://airflowdryervent.com/sitemap.xml`
 
 ---
 
@@ -183,11 +183,11 @@ Run through each item:
 - [ ] All 15 area pages render correctly
 - [ ] All 5 service pages render correctly
 - [ ] Lead form submits successfully → check Supabase `Lead` table
-- [ ] Lead notification email received at info@dryventtampa.com
+- [ ] Lead notification email received at info@airflowdryervent.com
 - [ ] Phone click tracking fires (check GA4 real-time)
-- [ ] sitemap.xml accessible at https://dryventtampa.com/sitemap.xml
-- [ ] robots.txt accessible at https://dryventtampa.com/robots.txt
-- [ ] llms.txt accessible at https://dryventtampa.com/llms.txt
+- [ ] sitemap.xml accessible at https://airflowdryervent.com/sitemap.xml
+- [ ] robots.txt accessible at https://airflowdryervent.com/robots.txt
+- [ ] llms.txt accessible at https://airflowdryervent.com/llms.txt
 - [ ] Schema validates at https://validator.schema.org
 - [ ] Mobile sticky CTA shows on mobile only
 - [ ] Test on real phone (not just devtools)

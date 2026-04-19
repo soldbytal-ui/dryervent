@@ -8,7 +8,7 @@ import FinalCTA from '@/components/FinalCTA';
 
 export const metadata = buildMetadata({
   title: 'Dryer Vent Cleaning Prices Tampa Bay | Transparent Pricing',
-  description: 'Dry Vent Tampa pricing: Residential cleaning from $99, inspection from $79, repair from $149, installation from $249. No hidden fees, free estimates, all Tampa Bay.',
+  description: 'Airflow Dryer Vent Cleaning pricing: Residential cleaning from $99, inspection from $79, repair from $149, installation from $249. No hidden fees, free estimates, all Tampa Bay.',
   path: '/pricing',
 });
 

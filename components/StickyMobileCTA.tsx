@@ -1,7 +1,7 @@
 import { Phone } from 'lucide-react';
 
-const PHONE = process.env.NEXT_PUBLIC_BUSINESS_PHONE || '+18135551234';
-const PHONE_DISPLAY = process.env.NEXT_PUBLIC_BUSINESS_PHONE_DISPLAY || '(813) 555-1234';
+const PHONE = process.env.NEXT_PUBLIC_BUSINESS_PHONE || '+18137441127';
+const PHONE_DISPLAY = process.env.NEXT_PUBLIC_BUSINESS_PHONE_DISPLAY || '(813) 744-1127';
 
 export default function StickyMobileCTA() {
   return (

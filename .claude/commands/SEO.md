@@ -4,7 +4,7 @@ description: Full SEO audit + optimization of a specific page
 
 # /SEO — Traditional SEO Audit & Optimization
 
-You are auditing and optimizing a page on the Dry Vent Tampa website for traditional Google search. The target argument is the page path (e.g., `areas/tampa`, `services/residential-dryer-vent-cleaning`).
+You are auditing and optimizing a page on the Airflow Dryer Vent Cleaning website for traditional Google search. The target argument is the page path (e.g., `areas/tampa`, `services/residential-dryer-vent-cleaning`).
 
 ## Checklist — Check every item
 

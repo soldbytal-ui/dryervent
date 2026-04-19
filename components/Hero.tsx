@@ -1,7 +1,7 @@
 import { Star, Phone, Calendar, ShieldCheck, Award } from 'lucide-react';
 import LeadForm from './LeadForm';
 
-const PHONE = process.env.NEXT_PUBLIC_BUSINESS_PHONE || '+18135551234';
+const PHONE = process.env.NEXT_PUBLIC_BUSINESS_PHONE || '+18137441127';
 
 type Props = {
   badge?: string;

@@ -4,7 +4,7 @@ description: Optimize a page to rank and be cited in AI search (ChatGPT, Perplex
 
 # /ai-seo — AI Search / Generative Engine Optimization
 
-You are optimizing a page on Dry Vent Tampa to maximize the likelihood that AI search engines (ChatGPT Search, Perplexity, Claude, Gemini, Google AI Overviews) cite this site when users ask about dryer vent cleaning in Tampa Bay.
+You are optimizing a page on Airflow Dryer Vent Cleaning to maximize the likelihood that AI search engines (ChatGPT Search, Perplexity, Claude, Gemini, Google AI Overviews) cite this site when users ask about dryer vent cleaning in Tampa Bay.
 
 ## Core Principle
 
@@ -15,7 +15,7 @@ AI engines don't just rank pages — they **extract passages to quote**. Your jo
 ### 1. Definition-style intros
 Every page's first paragraph must be a standalone answer to the page's primary query.
 
-❌ **Bad:** "Welcome to Dry Vent Tampa, your trusted partner for all things vent cleaning in the sunshine state..."
+❌ **Bad:** "Welcome to Airflow Dryer Vent Cleaning, your trusted partner for all things vent cleaning in the sunshine state..."
 
 ✅ **Good:** "Dryer vent cleaning in Tampa is the professional removal of accumulated lint and debris from a home's complete dryer exhaust system. Tampa homes typically require this service every 12 months due to the region's high humidity and year-round dryer use."
 
@@ -98,4 +98,4 @@ After changes, test by asking in Perplexity / ChatGPT:
 - "how often dryer vent cleaning tampa"
 - "best dryer vent cleaning [city]"
 
-Track whether Dry Vent Tampa gets cited. If not yet, iterate.
+Track whether Airflow Dryer Vent Cleaning gets cited. If not yet, iterate.

@@ -2,8 +2,8 @@ import Link from 'next/link';
 import { areas } from '@/lib/areas';
 import { services } from '@/lib/services';
 
-const PHONE = process.env.NEXT_PUBLIC_BUSINESS_PHONE || '+18135551234';
-const PHONE_DISPLAY = process.env.NEXT_PUBLIC_BUSINESS_PHONE_DISPLAY || '(813) 555-1234';
+const PHONE = process.env.NEXT_PUBLIC_BUSINESS_PHONE || '+18137441127';
+const PHONE_DISPLAY = process.env.NEXT_PUBLIC_BUSINESS_PHONE_DISPLAY || '(813) 744-1127';
 
 export default function Footer() {
   return (
@@ -12,10 +12,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-10">
           <div>
             <div className="font-display font-extrabold text-2xl text-white">
-              Dry Vent <span className="text-fire-glow">Tampa</span>
+              Airflow <span className="text-fire-glow">Dryer Vent</span>
             </div>
             <p className="text-sm leading-relaxed mt-4 max-w-xs">
-              Tampa Bay&apos;s most trusted dryer vent cleaning service. Licensed, insured, and committed to keeping Florida homes safe from dryer fires.
+              Tampa Bay&apos;s locally-owned dryer vent and dryer duct cleaning service. Not a franchise — your home, your neighborhood, our team. Licensed, insured, and committed to keeping Florida homes safe from dryer fires.
             </p>
             <div className="mt-5">
               <a href={`tel:${PHONE}`} className="text-gold font-bold text-lg">{PHONE_DISPLAY}</a>
@@ -62,7 +62,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 text-xs">
-          <span>© {new Date().getFullYear()} Dry Vent Tampa. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} Airflow Dryer Vent Cleaning. All rights reserved.</span>
           <span>Licensed &amp; Insured · Serving Tampa Bay, Florida</span>
         </div>
       </div>

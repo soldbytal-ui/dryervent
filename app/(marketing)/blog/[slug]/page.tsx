@@ -7,7 +7,7 @@ import SchemaMarkup from '@/components/SchemaMarkup';
 import { breadcrumbSchema } from '@/lib/schema';
 import { posts } from '@/lib/posts';
 
-const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://dryventtampa.com';
+const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://dryervent.vercel.app';
 
 export function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
@@ -37,10 +37,10 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     description: post.excerpt,
     datePublished: post.date,
     dateModified: post.date,
-    author: { '@type': 'Organization', name: 'Dry Vent Tampa' },
+    author: { '@type': 'Organization', name: 'Airflow Dryer Vent Cleaning' },
     publisher: {
       '@type': 'Organization',
-      name: 'Dry Vent Tampa',
+      name: 'Airflow Dryer Vent Cleaning',
       logo: { '@type': 'ImageObject', url: `${SITE}/og-image.jpg` },
     },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE}/blog/${post.slug}` },

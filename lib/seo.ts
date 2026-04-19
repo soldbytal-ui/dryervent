@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://dryventtampa.com';
+const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://dryervent.vercel.app';
 
 type SeoInput = {
   title: string;
@@ -21,7 +21,7 @@ export function buildMetadata({ title, description, path, image, type = 'website
       title,
       description,
       url,
-      siteName: 'Dry Vent Tampa',
+      siteName: 'Airflow Dryer Vent Cleaning',
       images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
       locale: 'en_US',
       type,

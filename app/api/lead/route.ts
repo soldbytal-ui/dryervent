@@ -60,11 +60,11 @@ export async function POST(req: NextRequest) {
       const resend = new Resend(process.env.RESEND_API_KEY);
       resend.emails
         .send({
-          from: 'Dry Vent Tampa <leads@dryventtampa.com>',
+          from: 'Airflow Dryer Vent Cleaning <leads@airflowdryervent.com>',
           to: process.env.LEAD_NOTIFICATION_EMAIL,
           subject: `🔥 New Lead: ${data.name} — ${data.city || data.zip}`,
           html: `
-            <h2>New Lead from Dry Vent Tampa</h2>
+            <h2>New Lead from Airflow Dryer Vent Cleaning</h2>
             <table style="font-family: sans-serif; border-collapse: collapse;">
               <tr><td style="padding: 6px 12px;"><b>Name:</b></td><td style="padding: 6px 12px;">${data.name}</td></tr>
               <tr><td style="padding: 6px 12px;"><b>Phone:</b></td><td style="padding: 6px 12px;"><a href="tel:${data.phone}">${data.phone}</a></td></tr>

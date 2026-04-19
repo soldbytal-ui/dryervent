@@ -34,8 +34,9 @@ export type CampaignConfig = {
 };
 
 const BUSINESS_FACTS = `
-Business: Dry Vent Tampa
-Tagline: Tampa Bay's most trusted dryer vent cleaning
+Business: Airflow Dryer Vent Cleaning
+Tagline: Tampa Bay's locally-owned dryer vent & duct cleaning
+Positioning: Locally owned and independent. NOT a national franchise (counter to Dryer Vent Wizard).
 Phone: {{PHONE}}
 Licensed & Insured in Florida. NFPA 211 compliant.
 11 years serving Tampa Bay. 15,000+ vents cleaned. 4.9/5 across 847+ reviews.
@@ -43,7 +44,7 @@ Same-day service available. Free estimates. No obligation.
 `.trim();
 
 function businessFacts() {
-  const phone = process.env.NEXT_PUBLIC_BUSINESS_PHONE_DISPLAY || '(813) 555-1234';
+  const phone = process.env.NEXT_PUBLIC_BUSINESS_PHONE_DISPLAY || '(813) 744-1127';
   return BUSINESS_FACTS.replace('{{PHONE}}', phone);
 }
 

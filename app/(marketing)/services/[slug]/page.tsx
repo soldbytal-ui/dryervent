@@ -21,8 +21,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const service = getServiceBySlug(slug);
   if (!service) return {};
   return buildMetadata({
-    title: `${service.name} Tampa Bay | ${service.priceFrom ? `From $${service.priceFrom}` : 'Custom Pricing'} | Dry Vent Tampa`,
-    description: `${service.intro.slice(0, 155)}`,
+    title: `${service.name} Tampa Bay | ${service.priceFrom ? `From $${service.priceFrom}` : 'Custom Pricing'}`,
+    description: `${service.intro.split('.').slice(0, 2).join('.')}.`,
     path: `/services/${service.slug}`,
   });
 }
@@ -40,7 +40,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           faqSchema(service.faqs),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
-            { name: 'Services', url: '/services/residential-dryer-vent-cleaning' },
+            { name: 'Services', url: '/services' },
             { name: service.shortName, url: `/services/${service.slug}` },
           ]),
         ]}

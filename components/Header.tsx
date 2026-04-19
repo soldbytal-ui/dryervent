@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { Phone, Flame } from 'lucide-react';
 
-const PHONE = process.env.NEXT_PUBLIC_BUSINESS_PHONE || '+18135551234';
-const PHONE_DISPLAY = process.env.NEXT_PUBLIC_BUSINESS_PHONE_DISPLAY || '(813) 555-1234';
+const PHONE = process.env.NEXT_PUBLIC_BUSINESS_PHONE || '+18137441127';
+const PHONE_DISPLAY = process.env.NEXT_PUBLIC_BUSINESS_PHONE_DISPLAY || '(813) 744-1127';
 
 export default function Header() {
   return (
@@ -24,16 +24,16 @@ export default function Header() {
       {/* Main header */}
       <header className="bg-white py-4 border-b border-gray-200 sticky top-0 z-50 shadow-sm">
         <div className="container-custom flex justify-between items-center">
-          <Link href="/" className="flex items-center gap-3" aria-label="Dry Vent Tampa Home">
+          <Link href="/" className="flex items-center gap-3" aria-label="Airflow Dryer Vent Cleaning Home">
             <div className="w-12 h-12 bg-fire rounded-xl flex items-center justify-center shadow-lg shadow-fire/30">
               <Flame className="text-white" size={26} strokeWidth={2.5} />
             </div>
             <div>
               <div className="font-display font-extrabold text-xl text-navy leading-tight">
-                Dry Vent <span className="text-fire">Tampa</span>
+                Airflow <span className="text-fire">Dryer Vent</span>
               </div>
               <div className="text-[0.65rem] text-gray-400 font-semibold uppercase tracking-widest">
-                Licensed · Insured · Florida
+                Locally Owned · Licensed · Insured
               </div>
             </div>
           </Link>

@@ -4,8 +4,8 @@ import FinalCTA from '@/components/FinalCTA';
 import TrustBar from '@/components/TrustBar';
 
 export const metadata = buildMetadata({
-  title: 'About Dry Vent Tampa | Florida\'s Trusted Dryer Vent Experts',
-  description: 'Learn about Dry Vent Tampa — Florida\'s most trusted dryer vent cleaning company. Licensed, insured, 11+ years serving Tampa Bay with 847+ five-star reviews.',
+  title: 'About Airflow Dryer Vent Cleaning | Tampa Bay\'s Locally-Owned Dryer Vent Experts',
+  description: 'Learn about Airflow Dryer Vent Cleaning — the locally-owned, independent team serving Tampa Bay since 2015. Not a franchise. Licensed, insured, 11 years of experience, 15,000+ vents cleaned.',
   path: '/about',
 });
 
@@ -21,7 +21,7 @@ export default function AboutPage() {
             About Us
           </div>
           <h1 className="font-display font-black text-4xl md:text-6xl text-white leading-tight mb-5">
-            Tampa Bay&apos;s Most <em className="not-italic text-fire-glow">Trusted</em> Dryer Vent Company
+            Tampa Bay&apos;s <em className="not-italic text-fire-glow">Locally-Owned</em> Dryer Vent Company
           </h1>
           <p className="text-xl text-white/75 leading-relaxed">
             Since 2015, we&apos;ve cleaned over 15,000 dryer vents across Tampa Bay — protecting homes, saving energy, and giving Florida families peace of mind.
@@ -36,10 +36,10 @@ export default function AboutPage() {
           <div className="prose prose-lg max-w-none">
             <h2 className="font-display font-extrabold text-3xl text-navy mb-5">Our Story</h2>
             <p className="text-gray-700 leading-relaxed mb-5">
-              Dry Vent Tampa was founded on a simple mission: protect Florida families from one of the most preventable home disasters — dryer fires. After witnessing how many Tampa Bay homes were operating with dangerously clogged vents, our founder assembled a team of certified professionals dedicated to doing dryer vent cleaning the right way.
+              Airflow Dryer Vent Cleaning was founded on a simple mission: protect Florida families from one of the most preventable home disasters — dryer fires. After witnessing how many Tampa Bay homes were operating with dangerously clogged vents, the Airflow team assembled a crew of certified professionals dedicated to doing dryer vent and dryer duct cleaning the right way. We are locally owned and independent — not a national franchise. Every job is handled by our own technicians, not contractors.
             </p>
             <p className="text-gray-700 leading-relaxed mb-10">
-              Today, we&apos;re the go-to choice for homeowners, property managers, HOAs, and commercial property owners across the Tampa Bay metropolitan area. We use commercial-grade equipment, follow NFPA 211 standards, and stand behind every job with a satisfaction guarantee.
+              Today, we&apos;re the go-to choice for homeowners, property managers, HOAs, and commercial property owners across the Tampa Bay metropolitan area. We use commercial-grade rotary brush systems, follow NFPA 211 standards, and stand behind every job with a satisfaction guarantee.
             </p>
 
             <h2 className="font-display font-extrabold text-3xl text-navy mb-5">What Makes Us Different</h2>
@@ -67,7 +67,7 @@ export default function AboutPage() {
 
             <h2 className="font-display font-extrabold text-3xl text-navy mb-5">Our Commitment</h2>
             <p className="text-gray-700 leading-relaxed mb-5">
-              Every Dry Vent Tampa technician follows the same 5-point protocol on every job: full system inspection, containment setup, rotary brush cleaning, airflow verification, and written documentation. You get photos, measurements, and a clear report showing exactly what we did.
+              Every Airflow Dryer Vent Cleaning technician follows the same 5-point protocol on every job: full system inspection, containment setup, rotary brush cleaning, airflow verification, and written documentation. You get photos, measurements, and a clear report showing exactly what we did.
             </p>
             <p className="text-gray-700 leading-relaxed">
               If you aren&apos;t completely satisfied, we&apos;ll come back at no charge until you are. That&apos;s our guarantee, and it&apos;s backed by 11 years of doing right by our customers across Tampa Bay.

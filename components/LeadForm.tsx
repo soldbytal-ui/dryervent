@@ -86,7 +86,7 @@ export default function LeadForm({ defaultCity, defaultService, page }: Props) {
           </div>
           <h3 className="font-display font-bold text-2xl text-navy mb-2">Got it!</h3>
           <p className="text-gray-600 mb-1">We&apos;ll call you within the hour to confirm your free estimate.</p>
-          <p className="text-sm text-gray-500">Need it sooner? Call <a href={`tel:${process.env.NEXT_PUBLIC_BUSINESS_PHONE}`} className="text-fire font-bold">{process.env.NEXT_PUBLIC_BUSINESS_PHONE_DISPLAY || '(813) 555-1234'}</a></p>
+          <p className="text-sm text-gray-500">Need it sooner? Call <a href={`tel:${process.env.NEXT_PUBLIC_BUSINESS_PHONE}`} className="text-fire font-bold">{process.env.NEXT_PUBLIC_BUSINESS_PHONE_DISPLAY || '(813) 744-1127'}</a></p>
         </div>
       ) : (
         <>
@@ -119,7 +119,7 @@ export default function LeadForm({ defaultCity, defaultService, page }: Props) {
                   type="tel"
                   required
                   onInput={handlePhoneInput}
-                  placeholder="(813) 555-1234"
+                  placeholder="(813) 744-1127"
                   className="w-full px-4 py-3 border border-gray-200 rounded-lg bg-gray-50 focus:bg-white focus:border-fire focus:ring-2 focus:ring-fire/20 outline-none transition"
                 />
               </div>

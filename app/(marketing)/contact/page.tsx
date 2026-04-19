@@ -2,12 +2,12 @@ import { buildMetadata } from '@/lib/seo';
 import { Phone, Mail, Clock, MapPin } from 'lucide-react';
 import LeadForm from '@/components/LeadForm';
 
-const PHONE = process.env.NEXT_PUBLIC_BUSINESS_PHONE || '+18135551234';
-const PHONE_DISPLAY = process.env.NEXT_PUBLIC_BUSINESS_PHONE_DISPLAY || '(813) 555-1234';
+const PHONE = process.env.NEXT_PUBLIC_BUSINESS_PHONE || '+18137441127';
+const PHONE_DISPLAY = process.env.NEXT_PUBLIC_BUSINESS_PHONE_DISPLAY || '(813) 744-1127';
 
 export const metadata = buildMetadata({
-  title: 'Contact Dry Vent Tampa | Get a Free Estimate',
-  description: 'Get in touch with Dry Vent Tampa for a free dryer vent cleaning estimate. Call (813) 555-1234, email us, or book online. Same-day service across Tampa Bay.',
+  title: 'Contact Airflow Dryer Vent Cleaning | Get a Free Estimate',
+  description: 'Get in touch with Airflow Dryer Vent Cleaning for a free dryer vent or duct cleaning estimate. Call (813) 744-1127, email, or book online. Same-day service across Tampa Bay.',
   path: '/contact',
 });
 
@@ -43,13 +43,13 @@ export default function ContactPage() {
                 </div>
               </a>
 
-              <a href="mailto:info@dryventtampa.com" className="flex gap-4 p-5 bg-gray-50 rounded-xl border border-gray-200 hover:border-fire transition-all group">
+              <a href="mailto:info@airflowdryervent.com" className="flex gap-4 p-5 bg-gray-50 rounded-xl border border-gray-200 hover:border-fire transition-all group">
                 <div className="w-12 h-12 bg-fire/10 rounded-xl flex items-center justify-center flex-shrink-0">
                   <Mail className="text-fire" size={22} />
                 </div>
                 <div>
                   <div className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Email</div>
-                  <div className="font-display font-bold text-lg text-navy">info@dryventtampa.com</div>
+                  <div className="font-display font-bold text-lg text-navy">info@airflowdryervent.com</div>
                   <div className="text-sm text-gray-600">Replies within 2 hours</div>
                 </div>
               </a>

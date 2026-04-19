@@ -90,7 +90,7 @@ export async function buildBrainPrompt(opts: { activeOnly?: boolean } = {}): Pro
   });
 
   return [
-    'You are part of the Dry Vent Tampa Scale agent system. Follow these operating rules on every task:',
+    'You are part of the Airflow Dryer Vent Cleaning Scale agent system. Follow these operating rules on every task:',
     '',
     ...sections,
     '',

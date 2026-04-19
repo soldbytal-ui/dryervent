@@ -13,9 +13,9 @@ import { faqSchema, breadcrumbSchema } from '@/lib/schema';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
-  title: 'Dry Vent Tampa | #1 Dryer Vent Cleaning in Tampa Bay, FL',
+  title: 'Dryer Vent & Duct Cleaning Tampa Bay | Locally-Owned, Same-Day',
   description:
-    'Tampa Bay\'s top-rated dryer vent cleaning service. Prevent fires, cut energy bills, and dry clothes faster. Same-day service. Licensed & insured. Free estimate.',
+    'Locally-owned dryer vent and dryer duct cleaning across Tampa Bay. Prevent fires, cut energy bills, dry clothes faster. Licensed, insured, same-day service. Not a franchise. Call (813) 744-1127.',
   path: '/',
 });
 
@@ -42,7 +42,7 @@ const homepageFaqs = [
   },
   {
     q: 'Are you licensed and insured?',
-    a: 'Yes. Dry Vent Tampa is fully licensed and insured in the State of Florida. Documentation is available on request and is included in all commercial service contracts.',
+    a: 'Yes. Airflow Dryer Vent Cleaning is fully licensed and insured in the State of Florida. Documentation is available on request and is included in all commercial service contracts.',
   },
 ];
 

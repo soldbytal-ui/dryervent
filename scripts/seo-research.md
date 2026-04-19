@@ -1,4 +1,4 @@
-# SEO Research — Dry Vent Tampa
+# SEO Research — Airflow Dryer Vent Cleaning
 
 This file is populated when you run `/firecrawl` inside Claude Code. It captures:
 

@@ -1,10 +1,15 @@
 # CLAUDE.md — Project Guide for Claude Code
 
-This file teaches Claude Code how to work on **Dry Vent Tampa**. Read it completely before making changes.
+This file teaches Claude Code how to work on **Airflow Dryer Vent Cleaning**. Read it completely before making changes.
 
 ## Project Overview
 
-Dry Vent Tampa is a Next.js 15 lead-generation website for a Tampa Bay dryer vent cleaning business. The site is engineered to dominate both traditional Google search AND AI search engines (ChatGPT, Perplexity, Claude, Gemini).
+Airflow Dryer Vent Cleaning is a Next.js 15 lead-generation website for a Tampa Bay dryer vent cleaning business (formerly named "Dry Vent Tampa" in early code history). The business is locally owned and independent — not a national franchise. The site is engineered to dominate both traditional Google search AND AI search engines (ChatGPT, Perplexity, Claude, Gemini).
+
+**Phone:** (813) 744-1127 — always reference via `process.env.NEXT_PUBLIC_BUSINESS_PHONE_DISPLAY`
+**Production URL:** Set via `NEXT_PUBLIC_SITE_URL` env var. The client will choose a final domain later; until then the live deployment is at whatever URL is configured in `.env.local`.
+**Team voice:** "the Airflow team" / "our certified technicians". Never mention personal names.
+**Counter-positioning:** Against national franchises (Dryer Vent Wizard). Emphasize locally owned, not a franchise.
 
 **Stack:** Next.js 15 (App Router) · TypeScript · Tailwind · Prisma · Supabase (Postgres) · Resend · Vercel · n8n webhook
 

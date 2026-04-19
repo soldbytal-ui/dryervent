@@ -140,8 +140,8 @@ async function callOpenRouter(req: ScaleAIRequest): Promise<ScaleAIResponse> {
     headers: {
       'content-type': 'application/json',
       authorization: `Bearer ${apiKey}`,
-      'HTTP-Referer': process.env.NEXT_PUBLIC_SITE_URL || 'https://dryventtampa.com',
-      'X-Title': 'Dry Vent Tampa Scale',
+      'HTTP-Referer': process.env.NEXT_PUBLIC_SITE_URL || 'https://dryervent.vercel.app',
+      'X-Title': 'Airflow Dryer Vent Cleaning Scale',
     },
     body: JSON.stringify(body),
   });

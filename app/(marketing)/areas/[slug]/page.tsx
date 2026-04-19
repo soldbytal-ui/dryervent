@@ -21,8 +21,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const area = getAreaBySlug(slug);
   if (!area) return {};
   return buildMetadata({
-    title: `Dryer Vent Cleaning ${area.name}, FL | Same-Day Service | Dry Vent Tampa`,
-    description: `Professional dryer vent cleaning in ${area.name}, Florida. Prevent fires, reduce energy bills, dry clothes faster. Licensed, insured, same-day appointments. Call now for free estimate.`,
+    title: `Dryer Vent & Duct Cleaning ${area.name}, FL | Same-Day Service`,
+    description: `Locally-owned dryer vent and dryer duct cleaning in ${area.name}, Florida. Prevent fires, cut energy bills, dry clothes faster. Licensed, insured, same-day appointments. Free estimate — call (813) 744-1127.`,
     path: `/areas/${area.slug}`,
   });
 }
@@ -63,7 +63,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
           faqSchema(areaFaqs),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
-            { name: 'Areas', url: '/areas/tampa' },
+            { name: 'Areas', url: '/areas' },
             { name: area.name, url: `/areas/${area.slug}` },
           ]),
         ]}
@@ -171,7 +171,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
       <section className="bg-white py-20">
         <div className="container-custom max-w-4xl">
           <h2 className="font-display font-extrabold text-3xl md:text-4xl text-navy text-center mb-12">
-            Why {area.name} Chooses Dry Vent Tampa
+            Why {area.name} Chooses Airflow Dryer Vent Cleaning
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             {[
@@ -219,8 +219,8 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
       </section>
 
       <FinalCTA
-        headline={`Tampa Bay's Most Trusted Dryer Vent Service\nin ${area.name}.`}
-        sub={`Join thousands of ${area.name} homeowners who trust Dry Vent Tampa to keep their families safe.`}
+        headline={`Locally-Owned Dryer Vent Service\nin ${area.name}.`}
+        sub={`Join thousands of ${area.name} homeowners who trust Airflow Dryer Vent Cleaning to keep their families safe. Not a franchise — your neighbors, our team.`}
       />
     </>
   );

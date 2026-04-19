@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 import { areas } from '@/lib/areas';
 import { services } from '@/lib/services';
 
-const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://dryventtampa.com';
+const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://dryervent.vercel.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

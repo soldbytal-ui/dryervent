@@ -1,21 +1,20 @@
 import type { Area } from './areas';
 import type { Service } from './services';
 
-const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://dryventtampa.com';
-const PHONE = process.env.NEXT_PUBLIC_BUSINESS_PHONE || '+18135551234';
+const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://dryervent.vercel.app';
+const PHONE = process.env.NEXT_PUBLIC_BUSINESS_PHONE || '+18137441127';
 
 export function localBusinessSchema(area?: Area) {
-  return {
+  const base = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    '@id': `${SITE}#business`,
-    name: 'Dry Vent Tampa',
+    name: 'Airflow Dryer Vent Cleaning',
     image: `${SITE}/og-image.jpg`,
     url: SITE,
     telephone: PHONE,
     priceRange: '$$',
     description:
-      'Professional dryer vent cleaning, repair, and installation services across Tampa Bay. Licensed, insured, same-day appointments available.',
+      'Locally owned, professional dryer vent cleaning, repair, and installation serving Tampa Bay and all of Florida within 50 miles of Tampa. Licensed, insured, same-day appointments available.',
     address: {
       '@type': 'PostalAddress',
       addressLocality: area?.name || 'Tampa',
@@ -46,10 +45,23 @@ export function localBusinessSchema(area?: Area) {
       worstRating: '1',
     },
     sameAs: [
-      'https://www.facebook.com/dryventtampa',
-      'https://www.instagram.com/dryventtampa',
-      'https://www.google.com/maps/place/dryventtampa',
+      'https://www.facebook.com/airflowdryerventcleaning',
+      'https://www.instagram.com/airflowdryerventcleaning',
+      'https://www.google.com/maps/place/airflowdryerventcleaning',
     ],
+  };
+
+  if (area) {
+    return {
+      ...base,
+      '@id': `${SITE}/areas/${area.slug}#localbusiness`,
+      parentOrganization: { '@id': `${SITE}/#localbusiness` },
+    };
+  }
+
+  return {
+    ...base,
+    '@id': `${SITE}/#localbusiness`,
   };
 }
 
@@ -59,7 +71,7 @@ export function serviceSchema(service: Service) {
     '@type': 'Service',
     name: service.name,
     description: service.intro,
-    provider: { '@id': `${SITE}#business` },
+    provider: { '@id': `${SITE}/#localbusiness` },
     areaServed: { '@type': 'State', name: 'Florida' },
     offers: service.priceFrom
       ? {
@@ -109,6 +121,6 @@ export function reviewSchema(reviews: { name: string; rating: number; text: stri
     },
     reviewBody: r.text,
     datePublished: r.date,
-    itemReviewed: { '@id': `${SITE}#business` },
+    itemReviewed: { '@id': `${SITE}/#localbusiness` },
   }));
 }

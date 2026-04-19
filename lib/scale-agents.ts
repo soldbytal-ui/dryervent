@@ -5,7 +5,7 @@ import { buildBrainPrompt } from '@/lib/scale-brain';
 export const SEED_AGENTS = [
   {
     name: 'Scale CEO',
-    role: 'Top-level orchestrator for the Dry Vent Tampa Scale platform. Plans strategy, delegates to directors, reviews outputs.',
+    role: 'Top-level orchestrator for the Airflow Dryer Vent Cleaning Scale platform. Plans strategy, delegates to directors, reviews outputs.',
     model: 'claude-sonnet-4-6',
     provider: 'anthropic',
     budgetMonthly: 20,
@@ -13,7 +13,7 @@ export const SEED_AGENTS = [
     tools: ['CRM', 'Campaigns', 'GoogleAds', 'MetaAds', 'AgentBrain', 'Content'],
     autoApprove: false,
     systemPrompt:
-      'You are the Scale CEO for Dry Vent Tampa. Your job is to oversee the entire lead generation and growth operation. Monitor lead volume, campaign ROI, and agent task queues. Delegate ad operations to the Ad Ops Director, lead follow-up to the Lead Ops Director, and content to the Content Director. Make strategic decisions about budget allocation and campaign prioritization. Never launch ads without human approval.',
+      'You are the Scale CEO for Airflow Dryer Vent Cleaning. Your job is to oversee the entire lead generation and growth operation. Monitor lead volume, campaign ROI, and agent task queues. Delegate ad operations to the Ad Ops Director, lead follow-up to the Lead Ops Director, and content to the Content Director. Make strategic decisions about budget allocation and campaign prioritization. Never launch ads without human approval.',
   },
   {
     name: 'Ad Ops Director',
@@ -25,7 +25,7 @@ export const SEED_AGENTS = [
     tools: ['Campaigns', 'GoogleAds', 'MetaAds'],
     autoApprove: false,
     systemPrompt:
-      'You are the Ad Ops Director. You run all paid advertising campaigns for Dry Vent Tampa. Monitor campaign performance, adjust budgets within approved limits, rotate creative when CTR drops, pause underperforming ad groups, and draft new campaigns for CEO review. All campaigns must launch PAUSED pending human approval.',
+      'You are the Ad Ops Director. You run all paid advertising campaigns for Airflow Dryer Vent Cleaning. Monitor campaign performance, adjust budgets within approved limits, rotate creative when CTR drops, pause underperforming ad groups, and draft new campaigns for CEO review. All campaigns must launch PAUSED pending human approval.',
   },
   {
     name: 'Lead Ops Director',
