@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { areas } from '@/lib/areas';
 import { services } from '@/lib/services';
+import { COUNTIES } from '@/lib/internal-links';
 
 const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://dryervent.vercel.app';
 
@@ -13,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/contact`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${SITE}/pricing`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${SITE}/blog`, lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
+    { url: `${SITE}/areas`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
   ];
 
   const servicePages: MetadataRoute.Sitemap = services.map((s) => ({
@@ -22,6 +24,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
+  const countyPages: MetadataRoute.Sitemap = COUNTIES.map((c) => ({
+    url: `${SITE}/areas/counties/${c.slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly',
+    priority: 0.75,
+  }));
+
   const areaPages: MetadataRoute.Sitemap = areas.map((a) => ({
     url: `${SITE}/areas/${a.slug}`,
     lastModified: now,
@@ -29,5 +38,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  return [...staticPages, ...servicePages, ...areaPages];
+  return [...staticPages, ...servicePages, ...countyPages, ...areaPages];
 }

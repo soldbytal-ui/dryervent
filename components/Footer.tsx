@@ -1,11 +1,12 @@
 import Link from 'next/link';
-import { areas } from '@/lib/areas';
 import { services } from '@/lib/services';
+import { getCountyList, getCitiesByCounty } from '@/lib/internal-links';
 
 const PHONE = process.env.NEXT_PUBLIC_BUSINESS_PHONE || '+18137441127';
 const PHONE_DISPLAY = process.env.NEXT_PUBLIC_BUSINESS_PHONE_DISPLAY || '(813) 744-1127';
 
 export default function Footer() {
+  const counties = getCountyList();
   return (
     <footer className="bg-navy text-white/65 pt-16 pb-8">
       <div className="container-custom">
@@ -38,15 +39,34 @@ export default function Footer() {
 
           <div>
             <h4 className="font-display font-bold text-sm text-white uppercase tracking-wider mb-4">Areas Served</h4>
-            <ul className="grid grid-cols-2 gap-x-3 gap-y-2">
-              {areas.slice(0, 12).map((a) => (
-                <li key={a.slug}>
-                  <Link href={`/areas/${a.slug}`} className="text-sm hover:text-fire-glow transition-colors">
-                    {a.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            <div className="space-y-4">
+              {counties.map((c) => {
+                const cities = getCitiesByCounty(c.slug);
+                if (cities.length === 0) return null;
+                return (
+                  <div key={c.slug}>
+                    <Link
+                      href={`/areas/counties/${c.slug}`}
+                      className="text-xs font-display font-bold uppercase tracking-wider text-gold hover:text-fire-glow transition-colors"
+                    >
+                      {c.name} County
+                    </Link>
+                    <ul className="mt-1.5 grid grid-cols-2 gap-x-3 gap-y-1">
+                      {cities.map((a) => (
+                        <li key={a.slug}>
+                          <Link href={`/areas/${a.slug}`} className="text-sm hover:text-fire-glow transition-colors">
+                            {a.name}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                );
+              })}
+              <Link href="/areas" className="inline-block text-xs font-semibold text-fire-glow hover:text-white transition-colors">
+                View all areas →
+              </Link>
+            </div>
           </div>
 
           <div>
