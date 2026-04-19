@@ -11,6 +11,7 @@ export type Area = {
   neighborhoods: string[];
   landmarks: string[];
   drivers: string[]; // SEO-relevant local context
+  placeholder?: boolean; // Tier 2 stub — noindex until Phase 4 content build
 };
 
 export const areas: Area[] = [
@@ -157,7 +158,7 @@ export const areas: Area[] = [
   {
     slug: 'lutz',
     name: 'Lutz',
-    county: 'Pasco',
+    county: 'Hillsborough',
     zip: ['33548', '33549', '33558'],
     population: '24,000+',
     lat: 28.1511,
@@ -237,6 +238,7 @@ export const areas: Area[] = [
     neighborhoods: ['Kings Point', 'Renaissance', 'Del Webb Sun City Center', 'Cypress Creek'],
     landmarks: ['Kings Point Clubhouse', 'South Bay Hospital', 'Sun City Center Plaza'],
     drivers: ['55+ retirement community density', 'heavy daily dryer use', 'aging original vent infrastructure', 'HOA and property management contracts'],
+    placeholder: true,
   },
   {
     slug: 'dunedin',
@@ -251,6 +253,7 @@ export const areas: Area[] = [
     neighborhoods: ['Downtown Dunedin', 'Honeymoon Island area', 'Edgewater', 'Fairway Estates'],
     landmarks: ['Honeymoon Island State Park', 'Pinellas Trail', 'Dunedin Stadium'],
     drivers: ['coastal salt air corrosion', '1950s bungalow housing stock', 'shop-local community culture', 'Gulf-front humidity'],
+    placeholder: true,
   },
   {
     slug: 'largo',
@@ -265,6 +268,7 @@ export const areas: Area[] = [
     neighborhoods: ['Belleair Bluffs', 'Indian Rocks Beach corridor', 'Harbor Bluffs', 'East Bay'],
     landmarks: ['Largo Central Park', 'Pinellas County Heritage Village', 'Largo Medical Center'],
     drivers: ['dense mixed housing stock', 'mobile home park concentration', 'mid-century ranch homes', 'mid-Pinellas central location'],
+    placeholder: true,
   },
   {
     slug: 'pinellas-park',
@@ -279,6 +283,7 @@ export const areas: Area[] = [
     neighborhoods: ['Mainlands', 'Cross Bayou', 'Central Park', 'Hainan'],
     landmarks: ['Freedom Lake Park', 'Pinellas Park Performing Arts Center', 'Helen Howarth Park'],
     drivers: ['dense pre-1980 housing', 'mobile home park concentration', 'working-class affordability focus', 'aging vent infrastructure'],
+    placeholder: true,
   },
   {
     slug: 'new-port-richey',
@@ -293,6 +298,7 @@ export const areas: Area[] = [
     neighborhoods: ['Gulf Harbors', 'Seven Springs', 'River Ridge', 'Downtown New Port Richey', 'Jasmine Estates'],
     landmarks: ['Sims Park', 'Gulf Harbors Beach Club', 'Starkey Wilderness Preserve'],
     drivers: ['Gulf-front salt air', 'retirement community density', 'canal-adjacent corrosion', 'year-round heavy dryer use'],
+    placeholder: true,
   },
   {
     slug: 'odessa',
@@ -307,6 +313,7 @@ export const areas: Area[] = [
     neighborhoods: ['Starkey Ranch', 'Keystone', 'Ivy Lake Estates', 'Longleaf'],
     landmarks: ['Starkey Wilderness Park', 'Lake Keystone', 'Starkey Ranch District Park'],
     drivers: ['affluent master-planned homes', 'long vent runs in executive homes', 'equestrian-zoned large lots', 'mixed Hillsborough-Pasco geography'],
+    placeholder: true,
   },
   {
     slug: 'bradenton',
@@ -321,6 +328,7 @@ export const areas: Area[] = [
     neighborhoods: ['Lakewood Ranch', 'West Bradenton', 'Palma Sola', 'Cortez', 'Bayshore Gardens'],
     landmarks: ['LECOM Park', 'South Florida Museum', 'Lakewood Ranch Main Street'],
     drivers: ['Lakewood Ranch master-planned scale', 'rapid new construction', 'coastal Gulf exposure', 'within 50-mile Tampa service radius'],
+    placeholder: true,
   },
   {
     slug: 'sarasota',
@@ -335,6 +343,7 @@ export const areas: Area[] = [
     neighborhoods: ['Siesta Key', 'Longboat Key', 'Downtown Sarasota', 'Palmer Ranch', 'Lakewood Ranch (south)'],
     landmarks: ['Siesta Key Beach', 'Ringling Museum', 'St. Armands Circle'],
     drivers: ['luxury waterfront housing', 'snowbird seasonal occupancy', 'Gulf-facing salt exposure', 'semiannual cleaning standard'],
+    placeholder: true,
   },
 ];
 

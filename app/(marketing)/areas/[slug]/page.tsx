@@ -20,11 +20,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const area = getAreaBySlug(slug);
   if (!area) return {};
-  return buildMetadata({
+  const base = buildMetadata({
     title: `Dryer Vent & Duct Cleaning ${area.name}, FL | Same-Day Service`,
     description: `Locally-owned dryer vent and dryer duct cleaning in ${area.name}, Florida. Prevent fires, cut energy bills, dry clothes faster. Licensed, insured, same-day appointments. Free estimate — call (813) 744-1127.`,
     path: `/areas/${area.slug}`,
   });
+  if (area.placeholder) {
+    return { ...base, robots: { index: false, follow: true } };
+  }
+  return base;
 }
 
 export default async function AreaPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -81,6 +85,17 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
       />
 
       <TrustBar />
+
+      {area.placeholder && (
+        <section className="bg-orange-50 border-y border-fire/20 py-4">
+          <div className="container-custom max-w-4xl text-center">
+            <p className="text-sm text-navy">
+              <strong className="font-display font-bold">Full service information coming soon.</strong>{' '}
+              We actively serve {area.name}, {area.county} County — call <a href={`tel:+18137441127`} className="text-fire font-semibold underline">(813) 744-1127</a> for a free estimate while this page is being expanded.
+            </p>
+          </div>
+        </section>
+      )}
 
       {/* Local intro — definition-style for AI search */}
       <section className="bg-white py-16">
