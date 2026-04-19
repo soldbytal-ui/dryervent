@@ -1136,6 +1136,545 @@ export const areaContent: AreaContent[] = [
     responseNote:
       "Apollo Beach addresses are 30-45 minutes from our Tampa base via US-41 or I-75. We run a weekly Apollo Beach route, so same-week scheduling is the norm and same-day slots open up when we are already working MiraBay or Waterset that day. Stainless-steel cap inventory and 316 corrosion-resistant hardware travel on every truck — no second trip, no second invoice. Saturday appointments are available with no weekend surcharge.",
   },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 11. RIVERVIEW — builder-grade flex-foil failure cohort (IRC 2018 R303.6)
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'riverview',
+    metaTitle: 'Riverview Dryer Vent Cleaning | Flex-Foil Failure Cohort Specialists',
+    metaDescription:
+      'Riverview dryer vent and dryer duct cleaning for Panther Trace, Rivercrest, South Fork, Summerfield Crossings. Builder-grade flex-foil replacement, flat-rate from $149.',
+    heroSubtitle:
+      "Riverview is the Tampa submarket where 2010-2017 builder-grade flex foil is failing on schedule right now. A local crew that knows which developments Lennar built in which permit year — and replaces flex with rigid metal as standard practice.",
+    longIntro:
+      "Riverview dryer vent cleaning is a builder-grade-flex-foil failure discipline first and a cleaning job second. Roughly three-quarters of Riverview housing is new construction from the 2010-2023 Lennar, DR Horton, Pulte, KB Homes, and Taylor Morrison subdivision boom — Panther Trace, Rivercrest, South Fork, Summerfield Crossings, St. Andrews, Boyette Springs, Summerfield. Those builders specified flexible foil transition duct behind the dryer to hit price points. IRC 2018 R303.6 now prohibits flex foil for dryer vents in new construction, but permits issued 2010-2017 on those Riverview homes did not enforce it, and that material is failing at the five-to-eight-year mark. The 2010-2018 permit cohort is hitting the failure window right now. The Airflow team replaces failed flex with rigid metal dryer duct as standard practice — not as an upsell, but as the only code-compliant fix.",
+    whyClogHere:
+      "Riverview's clogging pattern is driven by the combination of builder-grade flex-foil vintage and Florida humidity, and the pattern differs development by development based on who built which phase in which permit year. Flexible foil duct has an accordion-ribbed interior surface that traps lint by design — every rib is a micro-catch. Combined with Tampa Bay dew points above 70°F for half the year, the lint never fully dries; it compacts into a felt-like mat that a household shop vac cannot remove and that accelerates the material's thermal fatigue. The 2010-2013 Lennar and DR Horton cohort in Panther Trace and parts of Rivercrest is deepest into the failure window. The 2014-2017 Pulte and KB Homes cohort in Summerfield Crossings, St. Andrews, and the newer Rivercrest sections is entering it now. Post-2018 construction is rigid-metal by code, but any home still running original 2010-2017 flex foil has dryer duct material that was never code-compliant for Riverview's climate and is actively degrading. Second-order effects compound the issue: the 2010-2018 Riverview permit cohort is almost entirely two-story floor plans with second-floor laundry, which means the failing flex foil is hidden inside interior wall cavities and attic chases where gravity-fed lint accumulation piles up at the lowest point of every dip. Exterior cap hardware on those same builds was specified at builder-grade minimum and is routinely corroded or stuck open by the time the first deep clean happens, inviting pest entry and rainwater intrusion that further degrades the interior surface of the flex. Annual cleaning is the NFPA 211 floor; any Riverview home in the 2010-2017 permit range needs camera inspection first because a clean-only job on a failing flex duct is a half-measure that reaccumulates lint within months.",
+    neighborhoodDetail: [
+      {
+        name: 'Panther Trace',
+        zip: '33579',
+        detail:
+          "Large 2010-2016 Lennar and DR Horton master-planned subdivision — deepest into the builder-grade flex-foil failure cohort across Riverview. The 2010-2013 original phases routinely surface failed flex duct during camera inspection.",
+      },
+      {
+        name: 'Rivercrest',
+        zip: '33569',
+        detail:
+          'Established 2005-2015 master-planned community with mixed Lennar and Pulte construction across phases. Original flex foil from the 2005-2010 phases is well past the five-to-eight-year failure window and is essentially guaranteed to need replacement.',
+      },
+      {
+        name: 'South Fork',
+        zip: '33579',
+        detail:
+          "Large DR Horton and Taylor Morrison 2013-2020 subdivision — the 2013-2017 permit cohort is the current failure wave, and homes sold resale in the last three years almost always have original builder-grade flex still in place behind the dryer.",
+      },
+      {
+        name: 'Summerfield Crossings',
+        zip: '33579',
+        detail:
+          'Primarily 2014-2018 KB Homes and Pulte construction — the trailing edge of the pre-IRC-2018 flex-foil permit cohort. Homes here are hitting the failure window now; camera-first inspection recommended on every cleaning.',
+      },
+      {
+        name: 'St. Andrews',
+        zip: '33579',
+        detail:
+          "Pulte-dominated 2014-2019 community on the eastern Riverview boundary. Two-story floor plans with flex-foil transition duct are the dominant pattern; second-floor surcharge applies to the typical installation here.",
+      },
+      {
+        name: 'Boyette Springs',
+        zip: '33569',
+        detail:
+          "Older established 1990s-2000s community — pre-dates the 2010-2018 flex-foil failure cohort, but original builder-grade flex from the late 1990s is even further past replacement age and often has been upgraded once already with in-spec replacement.",
+      },
+      {
+        name: 'Summerfield',
+        zip: '33579',
+        detail:
+          'Mid-2000s established Riverview subdivision with original builder-grade materials at end-of-life on essentially every home — this is the cohort where flex-foil replacement becomes the headline line item on the invoice more often than not.',
+      },
+    ],
+    includesList: [
+      'Camera-first inspection on 2010-2017 permit cohort homes before any cleaning pass (wand-only services skip this)',
+      'Identification of builder-grade flexible foil transition duct and semi-rigid flex still in service behind the dryer',
+      'Rigid metal dryer duct replacement as the code-compliant fix (IRC 2018 R303.6) — quoted before install',
+      'Full rotary brush of the interior dryer duct run from transition hose to exterior termination',
+      'Pre- and post-airflow measurement with calibrated anemometer',
+      'Exterior termination cap inspection, cleaning, and bird-guard verification',
+      'Photo documentation of flex-foil failure points (ribbed-surface lint packing, joint separation, kink compression)',
+      'Written report with airflow numbers, before-and-after photos, and next-cleaning timing within 24 hours',
+    ],
+    pricingNotes:
+      "Riverview pricing tracks the $149-$249 residential band for single-story cleanings and $199-$249 for the dominant two-story floor plans (second-floor laundry adds the standard $50 surcharge). The Riverview-specific line item is rigid-metal dryer duct replacement of failed builder-grade flex foil, quoted as wall ductwork repair ($195-$595) based on the run length and number of elbows needing conversion. On the 2010-2017 permit cohort — Panther Trace, Rivercrest, South Fork, Summerfield Crossings — we quote this line item on most visits because the flex is demonstrably failing; on post-2018 Palmetto Cay-style rigid-metal-by-code builds, wall ductwork repair is rare and the cleaning usually finishes inside standard single-family pricing. Multi-elbow conversions (four or more 90-degree bends over a 30-foot run, common in Panther Trace executive plans) can land at the top of the wall-ductwork-repair band because each elbow needs discrete cut, fit, and seal work rather than a slip-fit replacement. Condo / townhouse stock falls in the $129-$199 band. Inspection-only is $149 — a reasonable standalone service for a Riverview homeowner wanting a camera audit before deciding on cleaning scope, and it applies as credit toward a same-visit cleaning or replacement job.",
+    counterPositioning:
+      "National franchise crews are trained to clean and leave; the corporate routing center dispatches whatever franchisee is rotating through (FTC-disclosed as \"independently owned and operated franchises\") and that operator has no pattern library across Riverview phases. A local crew that has seen the same Lennar 2012 flex-foil failure across 40 Panther Trace homes can tell the homeowner why a clean-only job on failing duct material is a half-measure — and quote the real fix with photos.",
+    testimonial: {
+      text: "Panther Trace, original 2012 Lennar build. Had a national chain clean the vent eighteen months ago — same problem came back in six months. The Airflow tech ran a camera first before cleaning, showed me the flex foil behind the dryer was split at two elbow joints and the interior ribbing was packed solid with matted lint. Replaced with rigid metal, cleaned the rest of the run, photos and airflow numbers on the invoice. Finally understand why the last cleaning didn't stick.",
+      author: 'Jennifer M.',
+      neighborhood: 'Panther Trace',
+    },
+    cityFaqs: [
+      {
+        q: 'When is dryer vent cleaning busiest in Riverview?',
+        a: "January and September are the two demand peaks across Tampa Bay, each running near 880 monthly searches. Riverview's new-construction demographic concentrates demand around the January cold-snap dryer-strain window and the August-September back-to-school laundry ramp. October and February are the easiest months to book individual weekday appointments without waiting on a block-day HOA request.",
+      },
+      {
+        q: 'How much does dryer vent cleaning cost in Riverview?',
+        a: "Single-story cleanings fall into $149-$249; two-story floor plans (most of Panther Trace, South Fork, St. Andrews) land at $199-$249 because of the standard $50 second-floor surcharge. Condo / townhouse work is $129-$199. The Riverview-specific line item is rigid-metal replacement of failed 2010-2017 builder-grade flex foil, quoted as wall ductwork repair ($195-$595) with photos. Inspection-only is $149 — a reasonable audit step before committing to scope.",
+      },
+      {
+        q: 'My home was built by Lennar in 2013. Is the flex-foil duct really failing?',
+        a: "Very likely, yes. Flexible foil transition duct specified by Lennar, DR Horton, Pulte, KB Homes, and Taylor Morrison across 2010-2017 Riverview permits was never code-compliant under IRC 2018 R303.6 (which now prohibits flex foil for dryer vents in new construction) — and the material fails at the five-to-eight-year mark. A 2013 build is in the deep failure window now. We camera-inspect before cleaning, document the failure points with photos, and quote rigid-metal replacement as the code-compliant fix.",
+      },
+      {
+        q: 'Why does a clean-only job not work on my South Fork home?',
+        a: "Because cleaning a failing flex-foil dryer duct addresses symptoms, not cause. The accordion-ribbed interior of flex foil traps lint by design — every rib is a micro-catch — and once the material has thermal-fatigued and split at elbow joints, no amount of brushing restores it. Clean-only services on 2010-2017 Riverview homes often see repeat airflow problems within six months because the failing material re-traps lint faster than a sound rigid-metal duct would. Replacement is the real fix.",
+      },
+      {
+        q: 'How do I know if my Riverview home has flex foil or rigid metal duct?',
+        a: "If your home was permitted 2018 or later, it is almost certainly rigid metal by code (IRC 2018 R303.6). If it was permitted 2010-2017 — including most of Panther Trace, Rivercrest, South Fork, Summerfield Crossings, St. Andrews — flex foil is the default builder spec and the odds are high it is still in place. A camera inspection ($149 inspection-only) confirms the material and its condition before you commit to cleaning scope or replacement.",
+      },
+    ],
+    responseNote:
+      "Riverview addresses are 25-40 minutes from our Tampa base via I-75 and US-301. We run a standing Riverview route and camera inspection kit travels on every truck — no second trip to diagnose flex-foil failure. Same-week scheduling is the norm on Panther Trace, South Fork, and Summerfield Crossings; rigid-metal replacement parts in 4-inch diameter are stocked in-truck for runs up to 35 feet, plus the standard elbow counts and exterior cap replacements needed for a full flex-to-rigid conversion, so most cohort-failure jobs finish on the same visit as the cleaning without a callback. Saturday appointments available with no weekend surcharge; block-day HOA requests coordinated through Panther Trace and Rivercrest management are accommodated directly with documented per-home airflow readings in a compliance-ready packet.",
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 12. CLEARWATER — beach sand + salt aerosol + vacation-rental turnover
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'clearwater',
+    metaTitle: 'Clearwater Dryer Vent Cleaning | Beach Condo & Sand-Salt Specialists',
+    metaDescription:
+      'Clearwater dryer vent and dryer duct cleaning for Clearwater Beach, Island Estates, Sand Key, Countryside. HEPA containment for sand, vacation-rental turnaround, flat-rate from $129.',
+    heroSubtitle:
+      "Clearwater is not a Brandon tract-home job. Beach condos, vacation rentals, and shared vertical vent stacks need HEPA containment, sand-aware equipment, and a crew that understands salt-aerosol interactions — not a franchise playbook copy-pasted from the mainland.",
+    longIntro:
+      "Clearwater dryer vent cleaning is a fundamentally different protocol than mainland Tampa Bay work because three factors stack only here: airborne fine beach sand, continuous salt aerosol, and the fastest lint-accumulation rate in Pinellas County driven by vacation-rental guest turnover. Clearwater Beach, Sand Key, and Island Estates dryer duct runs route through shared vertical chases in the high-rise condo stock — one clogged unit degrades the entire column. Fine sand bonds with lint into an abrasive compound that damages dryer drum surfaces and destroys standard shop-vac filters on contact. Short-term Airbnb and HOA vacation-rental properties here see back-to-back guest laundry cycles that push lint accumulation past a 6-month cycle on the busiest beach-block condos. The Airflow team runs HEPA containment equipment rated for sand capture, carries 316 stainless exterior hardware for salt-spray addresses, and handles every Clearwater ZIP — 33755, 33756, 33759-33765, 33767 — across Countryside, Morningside, Skycrest mainland stock and the beach-condo tower inventory.",
+    whyClogHere:
+      "Clearwater's vent problems are driven by a three-factor stack that does not exist anywhere else in the Tampa Bay metro. First, beach sand. Airborne fine silica-based sand is present continuously on Clearwater Beach, Sand Key, and Island Estates, and it enters dryer duct systems through exterior terminations and interior intake. Once inside, sand bonds with lint by static and humidity into an abrasive compound — this compound scrubs dryer drum interior surfaces over time, accelerates metal ducting wear at elbow interior walls, and destroys standard HEPA shop-vac filters in a single job. The abrasion effect on drum interiors is the single most under-reported cause of premature dryer replacement on Clearwater beach-block addresses, and it compounds over the lifespan of the appliance regardless of how often the lint trap is emptied. Second, salt aerosol. The same waterfront exposure that drives canal-corrosion at Apollo Beach drives continuous salt corrosion of exterior vent cap hardware on every beach-block address — six-to-twelve-month hardware cycles on standard galvanized, versus three-to-five-year cycles for inland addresses. Salt interacts with sand and humidity inside the dryer duct to form a slightly acidic film that accelerates interior metal degradation at every elbow joint. Third, vacation-rental guest-load velocity. Clearwater's dense short-term rental inventory (Airbnb, VRBO, HOA vacation-rental stock) sees back-to-back guest laundry — a busy beach-week unit can run six-to-ten loads in seventy-two hours, more than a typical full-time residential household runs in three weeks. Combined with shared-vertical-chase dryer duct routing in the high-rise condo stock (Island Estates towers, Sand Key towers), a single clogged unit propagates airflow resistance through the entire column and, in the worst cases, backdrafts humid lint-laden air into adjacent units on the same riser. Some Clearwater HOAs enforce short-term-rental certification requirements that mandate documented quarterly vent service; the paperwork side of that work — airflow readings, photo documentation, date-stamped invoices — is familiar territory for a local operator but unfamiliar territory for a franchise field tech. Annual cleaning is the NFPA 211 floor; six-month cycles are the practical baseline for any beach-adjacent vacation rental.",
+    neighborhoodDetail: [
+      {
+        name: 'Clearwater Beach',
+        zip: '33767',
+        detail:
+          'Beach-block high-rise condo towers and vacation-rental inventory — the fastest-lint-accumulation addresses in Pinellas. HEPA containment and sand-aware filter spec is standard; shared vertical dryer duct chases require building-management coordination on multi-unit work.',
+      },
+      {
+        name: 'Island Estates',
+        zip: '33767',
+        detail:
+          "Gated island community with high-rise towers and canal-front single-family homes off Memorial Causeway. Continuous salt aerosol drives 6-12 month exterior cap hardware cycles; we specify 316 stainless or powder-coated aluminum replacement, never standard galvanized.",
+      },
+      {
+        name: 'Sand Key',
+        zip: '33767',
+        detail:
+          "Narrow barrier-island high-rise condo corridor south of Clearwater Beach — dense tower inventory with shared vertical vent stacks. Building-access coordination and HEPA-rated equipment are non-negotiable here; franchise crews typically skip shared-stack work entirely.",
+      },
+      {
+        name: 'Belleair',
+        zip: '33756',
+        detail:
+          'Established upscale residential community on the mainland bluffs — older single-family housing stock with some original mid-century vent materials still in place. Less sand exposure than barrier-island addresses but salt aerosol still reaches these addresses on prevailing winds.',
+      },
+      {
+        name: 'Countryside',
+        zip: '33761',
+        detail:
+          'Mainland master-planned community with 1980s-2000s single-family housing — the Clearwater cleaning job that most closely resembles a standard mainland Tampa Bay visit, but still within the salt-aerosol drift zone for exterior cap hardware decisions.',
+      },
+      {
+        name: 'Morningside',
+        zip: '33759',
+        detail:
+          "Established mainland Clearwater neighborhood with predominantly 1960s-1980s single-family homes — older builder-grade vent materials are common and frequently surface for replacement during cleaning. No direct beach exposure but salt still shortens exterior cap life.",
+      },
+      {
+        name: 'Skycrest',
+        zip: '33755',
+        detail:
+          "Older mainland residential neighborhood north of downtown Clearwater — mid-century single-family housing stock with a share of original undersized 3-inch dryer duct that needs code-update to 4-inch rigid metal during cleaning.",
+      },
+      {
+        name: 'Clearwater Downtown',
+        zip: '33755',
+        detail:
+          "Mid-rise residential and mixed-use corridor along Cleveland Street — a mix of converted older buildings and newer infill construction with varied vent routing that rewards camera inspection over assumption.",
+      },
+    ],
+    includesList: [
+      'HEPA-rated containment equipment with sand-capable filter media (standard shop-vac filters destroy on Clearwater beach-block work)',
+      'Pre-cleaning camera inspection on shared-vertical-chase high-rise condo stock (Island Estates, Sand Key, Clearwater Beach towers)',
+      'Building-management and HOA access coordination for multi-unit and shared-stack dryer duct work',
+      '316 stainless-steel or powder-coated aluminum exterior vent cap replacement for beach-block salt-exposure addresses',
+      'Full rotary brush cleaning of the dryer duct from transition hose to exterior termination',
+      'Pre- and post-airflow measurement with calibrated anemometer (recorded on invoice)',
+      'Short-term-rental certification documentation packet when HOA paperwork is required',
+      'Written report with photos, airflow numbers, and recommended re-cleaning cycle within 24 hours',
+    ],
+    pricingNotes:
+      "Clearwater pricing splits by housing type. Beach condo and high-rise tower units — Clearwater Beach, Sand Key, Island Estates — fall into the $129-$199 condo / townhouse band; shared-vertical-chase work that requires building coordination may land at the top of that range. Mainland single-family homes in Countryside, Morningside, and Skycrest run $149-$249 with the standard +$50 second-floor surcharge where it applies. Beach-block addresses needing 316 stainless or powder-coated aluminum exterior cap replacement carry a $65-$125 parts-plus-install line (the upgrade pays back in 1-2 cycles versus standard galvanized). Wall ductwork repair ($195-$595) surfaces most often in the older Morningside and Skycrest mid-century stock. Inspection-only is $149. Commercial and multi-unit HOA block work is custom-quoted. Zero surprise pricing — the rate range travels with the job.",
+    counterPositioning:
+      "Franchise field techs treat Clearwater Beach condos with the same playbook they use for Brandon tract homes — same wand, same filter, same forty-five-minute schedule block. The sand-plus-salt plus saltwater-humidity stack demands different containment, different equipment, and different scheduling. Corporate routing centers behind the FTC-mandated \"independently owned and operated franchises\" disclosure dispatch whichever operator is rotating through; they do not carry HEPA sand-media filters, 316 stainless cap inventory, or the shared-stack coordination habits this market requires.",
+    testimonial: {
+      text: "Top-floor unit on Sand Key, vacation-rental certification renewal coming up and the HOA needed a documented cleaning with airflow readings. Called a national chain first — they quoted a flat rate over the phone, showed up, took one look at the shared riser stack and said they do not do that work. Airflow came out the next day, coordinated with building management, ran HEPA containment, cleaned the unit stack, provided the paperwork for the HOA certification file. Airflow before and after on the invoice. That is what I was paying for the first time and did not get.",
+      author: 'Karen B.',
+      neighborhood: 'Sand Key',
+    },
+    cityFaqs: [
+      {
+        q: 'When is dryer vent cleaning busiest in Clearwater?',
+        a: "January and September are the two Tampa Bay demand peaks, each running near 880 monthly searches. Clearwater layers on a secondary vacation-rental turnover cycle — March-April and October are HOA certification renewal windows that concentrate short-term-rental cleaning demand. The easiest months to book individual Clearwater appointments are May-June and November for mainland work; beach-block condo work is always tighter because of building-access coordination.",
+      },
+      {
+        q: 'How much does dryer vent cleaning cost in Clearwater?',
+        a: "Beach condo and high-rise tower units (Clearwater Beach, Sand Key, Island Estates) fall into the $129-$199 condo band. Mainland single-family homes in Countryside, Morningside, Skycrest run $149-$249 with $50 second-floor surcharge where applicable. Beach-block addresses needing 316 stainless or powder-coated aluminum exterior cap replacement carry a $65-$125 parts-plus-install line. Wall ductwork repair is $195-$595 when needed; inspection-only is $149. Commercial and multi-unit HOA work is custom-quoted.",
+      },
+      {
+        q: 'Why do beach condos need different equipment than mainland homes?',
+        a: "Because airborne fine beach sand bonds with lint by static and humidity into an abrasive compound that destroys standard shop-vac filter media on contact and scrubs dryer drum surfaces over time. HEPA-rated sand-capable filter media is required to contain the material during cleaning without dumping it back into the condo unit, and shared vertical vent stacks in the tower inventory demand camera inspection and building-management coordination that franchise playbooks skip entirely.",
+      },
+      {
+        q: 'My Clearwater Beach unit is in an HOA that requires documented vent cleaning. Can you provide the paperwork?',
+        a: "Yes. Several Clearwater and Sand Key HOAs enforce short-term-rental certification requirements that include documented quarterly or annual vent service. We provide a certification-ready packet on every relevant job: pre- and post-airflow anemometer readings, photographic documentation of the cleaning, invoice line-items, and date-stamped records suitable for the HOA compliance file. This is standard documentation on every Clearwater job, not a premium add-on.",
+      },
+      {
+        q: 'How often should a Clearwater vacation rental get vent cleaning?',
+        a: "Six months is the practical baseline for any beach-adjacent short-term-rental unit because guest-turnover laundry velocity — back-to-back six-to-ten loads in seventy-two hours on a busy beach week — accumulates lint faster than full-time residential use. Owner-occupied beach condos can run the annual NFPA 211 floor. Mainland Countryside and Morningside single-family homes follow the standard annual schedule unless household laundry volume pushes toward a 9-month cycle.",
+      },
+    ],
+    responseNote:
+      "Clearwater addresses are 35-55 minutes from our Tampa base via the Courtney Campbell or Howard Frankland. We run a standing Clearwater route on two weekdays; beach-block and shared-stack condo work is scheduled on dedicated days because of building-management coordination. HEPA sand-media filters, 316 stainless cap inventory, and short-term-rental certification packets travel on every truck. Saturday appointments available with no weekend surcharge — useful for vacation-rental turnover-day scheduling.",
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 13. LAND O' LAKES — 2005-2010 insulation-compression vent kinks
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'land-o-lakes',
+    metaTitle: "Land O' Lakes Dryer Vent Cleaning | Camera-First Inspection",
+    metaDescription:
+      "Land O' Lakes dryer vent and dryer duct cleaning for Ballantrae, Connerton, Pebble Creek, Stonegate. Camera-first inspection for 2005-2010 builds, flat-rate from $149.",
+    heroSubtitle:
+      "Land O' Lakes 2005-2010 builds have insulation-compressed dryer duct paths hidden inside second-floor walls and attic chases. A flat phone quote cannot price what a camera has not seen. We inspect first, quote second.",
+    longIntro:
+      "Land O' Lakes dryer vent cleaning is a camera-first discipline because the 2005-2010 Pasco County build cohort does not have standard vent runs — it has insulation-compressed dryer duct paths with kinks and dips hidden inside second-floor walls and attic chases. Master-planned communities across Ballantrae, Connerton, Chapel Pines, Stonegate, Pebble Creek, Lake Padgett Estates, Stagecoach, and Wilderness Lake built 2005-2018 are now hitting the 15-to-20-year first-deep-clean window simultaneously, and the pre-recession 2005-2010 permit cohort is the one where rushed insulation crews compressed cellulose and fiberglass around dryer vent runs in ways that produced systematic kink-and-dip patterns along the metal duct path. A flat phone-quote service cannot price what it has not seen. The Airflow team runs camera inspection before quoting scope on every Land O' Lakes 2005-2010-cohort address and services every ZIP from 34637 through 34639.",
+    whyClogHere:
+      "Land O' Lakes vent problems are rooted in a specific construction-era pattern that Pasco County permit records make visible: the 2005-2010 pre-recession build cohort was rushed. Framing schedules compressed, insulation subcontractor crews rotated fast, and the practical consequence was that cellulose and fiberglass insulation was often packed around dryer duct runs inside second-floor walls and attic chases without regard for the duct path's geometry. Compressed insulation against metal dryer duct creates two problems. First, it kinks and dips the duct path — a straight factory-rated 4-inch metal run becomes, in practice, a series of subtle shallow sags and pinch-points that trap lint by design and compound airflow resistance. Second, the compression is invisible from both ends of the duct; from the dryer transition and from the exterior cap the run looks fine, and a cleaning wand passes through it without catching on anything. Only a camera inspection from inside the duct reveals the kink-and-dip pattern. A clean-only job on a kinked duct addresses symptoms, not cause — the lint reaccumulates at the same dip within months because the geometry that trapped it in the first place is still there. The 2005-2010 cohort is also now entering its 15-to-20-year first-deep-clean window, which means the kink-trapped lint has had nearly two decades to compact, and humidity-bound compaction (Tampa Bay dew points above 70°F for half the year) pushes the material toward a felt-mat state that rotary brushes have to scrub through segment by segment. Attic-chase routing adds a second compounding factor: Pasco summer attic temperatures regularly exceed 140°F, which thermally cycles the metal duct material and relaxes any factory-bent elbows near compressed insulation points — the dips deepen over time rather than stabilizing. Flat phone-quote pricing assumes a standard vent run; Land O' Lakes 2005-2010 builds do not have standard runs. Two addresses on the same Connerton street with the same floor plan can have dramatically different cleaning scope because the insulation crews on the day those particular homes were framed produced different compression patterns inside the walls. Camera inspection first, scope and price after.",
+    neighborhoodDetail: [
+      {
+        name: 'Ballantrae',
+        zip: '34638',
+        detail:
+          'Large 2003-2012 master-planned community — the early Ballantrae phases are core 2005-2010 insulation-compression cohort territory. Camera inspection before cleaning routinely surfaces kink-and-dip patterns in second-floor duct runs that wand-only services pass through without noticing.',
+      },
+      {
+        name: 'Connerton',
+        zip: '34637',
+        detail:
+          'Master-planned 2005-2018 community with mixed phase ages — the earliest Connerton sections (2005-2009) are deepest into the insulation-compression kink-dip pattern; later phases (2012-2018) have cleaner duct paths but are now hitting the 15-year first-deep-clean window.',
+      },
+      {
+        name: 'Chapel Pines',
+        zip: '34638',
+        detail:
+          "Established 2000s master-planned community — primarily two-story floor plans with second-floor laundry and dryer duct paths routed through attic chases where 2005-2008 insulation-compression kinks are the dominant pattern.",
+      },
+      {
+        name: 'Stonegate',
+        zip: '34638',
+        detail:
+          'Mid-2000s master-planned subdivision — the 2005-2009 Stonegate permit cohort is classic insulation-compression kink territory. Flat phone-quote pricing here is unreliable because the real scope only surfaces after camera inspection.',
+      },
+      {
+        name: 'Pebble Creek',
+        zip: '34639',
+        detail:
+          "Established 1990s-2000s community with mixed housing age — the older 1990s phases pre-date the insulation-compression cohort but have their own issues with original flex-foil transition duct, while the 2005-2009 infill sections have the systematic kink-dip pattern.",
+      },
+      {
+        name: 'Lake Padgett Estates',
+        zip: '34639',
+        detail:
+          "Older established waterfront and equestrian-zoned community north of Land O' Lakes proper — larger lot sizes and non-standard vent installations (pool houses, detached laundry rooms) are common, requiring rotary brush reach configurations beyond typical suburban kits.",
+      },
+      {
+        name: 'Stagecoach',
+        zip: '34638',
+        detail:
+          "Master-planned 2005-2015 community — core 2005-2010 insulation-compression cohort. The systematic kink-dip pattern is visible under camera inspection on the original phases; camera-first inspection is standard practice here rather than an upsell.",
+      },
+      {
+        name: 'Wilderness Lake',
+        zip: '34637',
+        detail:
+          "Gated 2000s master-planned community with larger executive two-story floor plans and second-floor laundry as the dominant standard — the longer runs compound the 2005-2010 insulation-compression kink problem because each subtle dip is one more lint-trap zone in a 30-foot duct path.",
+      },
+    ],
+    includesList: [
+      'Camera-first inspection of the dryer duct path on every 2005-2010 permit cohort address before quoting scope (wand-only services skip this)',
+      'Documentation of insulation-compression kink-and-dip locations with photos pulled from the camera feed',
+      'Rotary brush cleaning sized to actual duct diameter with multi-segment passes to scrub through compacted lint at each kink zone',
+      'Pre- and post-airflow measurement with calibrated anemometer (recorded on invoice)',
+      'Exterior termination cap inspection, cleaning, and bird-guard verification',
+      'Identification of any out-of-code flexible foil or semi-rigid duct material still in service',
+      'Remediation quote with before-and-after photos when kinks need physical access repair (wall ductwork repair line)',
+      'Written report with airflow numbers, camera-feed stills, and recommended re-cleaning cycle within 24 hours',
+    ],
+    pricingNotes:
+      "Land O' Lakes pricing tracks the $149-$249 single-family band, with most Connerton, Ballantrae, Chapel Pines, and Stonegate two-story floor plans landing at $199-$249 because of the standard +$50 second-floor surcharge. The Land O' Lakes-specific practice is the camera-first inspection — we quote the cleaning scope after we have seen the duct path, not before. On 2005-2010 cohort addresses, wall ductwork repair ($195-$595) surfaces as a quoted line item more often than the Tampa Bay average because insulation-compression kinks occasionally need physical access repair that goes beyond cleaning. Condo / townhouse work (Pebble Creek and similar) falls in the $129-$199 band. Inspection-only is $149 and is a reasonable standalone audit step for a Land O' Lakes homeowner who wants scope documentation before committing to cleaning spend.",
+    counterPositioning:
+      "Franchise quote-before-arrival pricing assumes a standard vent run; Land O' Lakes 2005-2010 builds do not have standard runs — they have insulation-compressed dips that drive up the actual work on-site and make a flat phone quote unreliable. The corporate routing center behind the FTC-mandated \"independently owned and operated franchises\" disclosure cannot deploy a camera-first inspection flow because the operator rotates visit-to-visit. We quote after camera inspection so the price is real.",
+    testimonial: {
+      text: "Connerton two-story, original 2007 build. Had a national chain quote me $129 over the phone, showed up with a wand and a shop vac, spent twenty minutes, left. Dryer still took two cycles for a load of jeans. Airflow came out, ran a camera first, showed me a spot in the second-floor wall where insulation had collapsed the duct into a shallow dip — lint was packed solid at that point and the wand never reached it. Rotary brush scrubbed through, before-and-after airflow on the invoice. Actually fixed.",
+      author: 'Ryan P.',
+      neighborhood: 'Connerton',
+    },
+    cityFaqs: [
+      {
+        q: "When is dryer vent cleaning busiest in Land O' Lakes?",
+        a: "January and September are the Tampa Bay demand peaks, each running near 880 monthly searches. Land O' Lakes concentrates demand in the January cold-snap window and the August-September back-to-school ramp common across the master-planned family-home submarkets. October and February-March are the easiest months to book individual weekday appointments without waiting on peak-season timing.",
+      },
+      {
+        q: "How much does dryer vent cleaning cost in Land O' Lakes?",
+        a: "Single-story homes fall into $149-$249; most two-story Connerton, Ballantrae, Chapel Pines, and Stonegate floor plans land at $199-$249 with the standard $50 second-floor surcharge. Condo / townhouse work is $129-$199. Wall ductwork repair ($195-$595) surfaces more often than average on 2005-2010 cohort addresses because of insulation-compression kinks needing physical access repair. Inspection-only is $149. We quote scope after camera inspection — the price on the invoice matches the quote, every job.",
+      },
+      {
+        q: 'Why does my 2008 home in Ballantrae need a camera inspection before cleaning?',
+        a: "Because the 2005-2010 Pasco permit cohort was built fast, and insulation crews regularly compressed cellulose and fiberglass around dryer duct runs inside second-floor walls and attic chases in ways that produced systematic kinks and dips along the metal duct path. Those compressions are invisible from both ends of the duct; only a camera feed from inside the run reveals them. Cleaning without knowing where the kinks are is cleaning blind, and lint reaccumulates at the same dip within months.",
+      },
+      {
+        q: 'Can you just give me a flat phone quote?',
+        a: "For 2015-and-later Land O' Lakes addresses with clean straight duct paths, yes — the standard $149-$249 single-family / $129-$199 condo ranges apply and the invoice matches the range. For the 2005-2010 cohort in Connerton, Ballantrae, Chapel Pines, Stonegate, and Stagecoach we decline to lock a flat phone quote before camera inspection because insulation-compression kinks change the actual scope. We prefer to inspect ($149), document the duct path, and quote real scope rather than surprise you on the invoice.",
+      },
+      {
+        q: "How often should a Land O' Lakes home get vent cleaning?",
+        a: "Annual is the NFPA 211 baseline and the right schedule for most Land O' Lakes households. The 2005-2010 cohort addresses where insulation-compression kinks are present benefit from a 9-month cycle until the kinks are physically remediated, because lint reaccumulates faster at each dip zone. Owner-occupied single-story homes and post-2015 clean-duct-path builds can run the annual schedule without additional concern.",
+      },
+    ],
+    responseNote:
+      "Land O' Lakes addresses are 30-45 minutes from our Tampa base via the Suncoast Parkway or I-75. Camera inspection kits travel on every truck — no second trip to diagnose insulation-compression kinks or scope wall-ductwork repair. Same-week scheduling is the norm; rigid-metal replacement parts cover standard 4-inch runs up to 35 feet in-truck for single-visit remediation. Saturday appointments available with no weekend surcharge.",
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 14. LUTZ — equestrian rural + 40+ ft detached-structure vent runs
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'lutz',
+    metaTitle: 'Lutz Dryer Vent Cleaning | 40+ ft Detached-Structure Runs',
+    metaDescription:
+      'Lutz dryer vent and dryer duct cleaning for Cheval, Van Dyke Farms, Stonebridge, Heritage Harbor. Detached-structure specialists, 50-foot rotary reach, flat-rate from $149.',
+    heroSubtitle:
+      "Lutz is Tampa equestrian country. Mother-in-law suites, pool houses, barn-converted workshops, and breezeway laundry rooms push dryer duct runs past 40 feet. One appointment, every structure. No re-dispatch, no second invoice.",
+    longIntro:
+      "Lutz dryer vent cleaning is a rural-outskirts discipline that does not exist in the standard Tampa-suburb franchise playbook. Lutz housing stock splits between equestrian and large-lot estates (Van Dyke Farms, Stonebridge, Lake Park) and newer subdivision infill (Cheval, Calusa Trace, Heritage Harbor) — and the rural-zone addresses commonly have detached mother-in-law suites, pool houses, barn-converted workshops with laundry hookups, or breezeway laundry rooms where the dryer duct run from the appliance to the exterior termination exceeds forty feet. That is beyond the rotary-brush reach of standard suburban cleaning kits. Add equestrian-zone airborne particulate — fine hay dust, feed dust, and pollen load materially higher than typical suburban Tampa — and cleaning frequency shifts from annual to semiannual for any address with horses on-property. The Airflow team carries a rotary brush kit rated for fifty-foot reach, services ZIP codes 33548, 33549, and 33558, and handles main house plus every secondary structure on one appointment — no per-structure re-dispatch.",
+    whyClogHere:
+      "Lutz's vent problems are a direct consequence of its zoning and housing pattern. The equestrian and large-lot estate sections — Van Dyke Farms, Stonebridge, Lake Park, parts of Heritage Harbor — commonly have detached structures with laundry: a mother-in-law suite over a detached garage, a pool house with a washer-dryer stack, a barn-converted workshop with hookups, or a breezeway laundry room between main house and secondary structure. The dryer duct run from a detached-structure laundry to a code-compliant exterior termination routinely exceeds forty feet because the structure itself is set back from the property line and the duct has to travel to a wall or roof cap location that is not over a living space. Standard suburban cleaning kits with 30-foot rotary brushes physically cannot reach the middle of these runs; wand-only setups reach ten feet from each end and leave twenty feet uncleaned. Secondary-structure runs also tend to be installed by handymen or general contractors rather than dedicated HVAC trades, which means elbow configurations, transition materials, and termination styles vary wildly from code-standard and often surface as surprises during camera inspection. Separately, equestrian-zone airborne particulate is a different animal than typical suburban Tampa air. Fine hay dust, feed dust, grain particulate, and horse-barn pollen stack are materially higher than non-equestrian addresses, and that particulate enters dryer duct systems through exterior terminations and mixes with lint into a denser compound that compacts faster. Cleaning frequency for equestrian addresses shifts from annual (NFPA 211 baseline) to semiannual — six-month cycles — as a realistic schedule. Add Tampa Bay dew points above 70°F for half the year and the particulate-lint compound becomes humidity-bound and felt-like, which rotary brushes have to scrub through segment by segment rather than glide through. The largest lots in Van Dyke Farms and Stonebridge also tend to have multiple dryers across the property — main house, guest suite, occasionally a staff quarters — each with its own duct path and its own cleaning requirement, and coordinating all of them on a single visit is the only sensible way to service these addresses without burning an entire day on re-dispatch logistics. Lutz rural-zone vent runs do not exist in the franchise playbook — they are a Tampa-outskirts edge case that local operators either know or refuse.",
+    neighborhoodDetail: [
+      {
+        name: 'Cheval',
+        zip: '33558',
+        detail:
+          "Gated upscale golf-course community — predominantly two-story executive homes with standard suburban vent routing, but a share of the estate-lot sections have detached pool houses or guest suites with secondary laundry and extended dryer duct runs.",
+      },
+      {
+        name: 'Van Dyke Farms',
+        zip: '33558',
+        detail:
+          'Equestrian-zoned large-lot community — horse-property density is high, detached mother-in-law suites and barn-converted workshops with laundry are common, and the 50-foot rotary brush reach kit is frequently the only way to clean the secondary-structure runs properly.',
+      },
+      {
+        name: 'Stonebridge',
+        zip: '33558',
+        detail:
+          "Large-lot established community with mixed equestrian and residential zoning — detached-structure dryer duct runs past 40 feet are common enough that camera inspection is the right starting step before committing to cleaning scope.",
+      },
+      {
+        name: 'Lake Park',
+        zip: '33548',
+        detail:
+          "Older established Lutz community near the Lake Park recreational area — mix of residential and rural-zoning addresses, with equestrian-adjacent particulate load driving 6-month cycles on the horse-property side of the neighborhood.",
+      },
+      {
+        name: 'Calusa Trace',
+        zip: '33558',
+        detail:
+          "Newer upscale subdivision infill — primarily two-story single-family homes with standard suburban vent routing. Less equestrian-zone particulate load than Van Dyke Farms or Stonebridge, but still within the Lutz 6-month-cycle drift zone on pollen-heavy springs.",
+      },
+      {
+        name: 'Heritage Harbor',
+        zip: '33558',
+        detail:
+          "Gated master-planned community with golf-course sections and larger executive floor plans — standard suburban vent routing for the core housing, but a share of the estate sections include detached pool houses and guest-suite laundry rooms that need the 50-foot brush reach kit.",
+      },
+      {
+        name: 'Lutz Proper',
+        zip: '33549',
+        detail:
+          "The core Lutz ZIP with mixed residential and rural-zoned housing — some 1970s-1990s original builder-grade flexible foil transition duct still in place on unrenovated homes, often replaced with rigid metal during first professional cleaning.",
+      },
+    ],
+    includesList: [
+      'Rotary brush kit rated for 50-foot reach — standard equipment for Lutz detached-structure runs beyond typical suburban kit capacity',
+      'Camera inspection before cleaning on any detached-structure run exceeding 40 feet to scope the actual path',
+      'Main house plus secondary-structure cleaning on one appointment (no per-structure re-dispatch, no second invoice)',
+      'Equestrian-particulate-aware filter media for addresses with horses on-property or adjacent horse-barn exposure',
+      'Pre- and post-airflow measurement with calibrated anemometer on every structure serviced',
+      'Exterior termination cap inspection, cleaning, and bird-guard verification at each structure',
+      'Identification of any out-of-code flexible foil or semi-rigid duct material still in service on older rural-zone addresses',
+      'Written report per structure with airflow numbers, photos, and 6-month or annual re-cleaning recommendation within 24 hours',
+    ],
+    pricingNotes:
+      "Lutz pricing accommodates the secondary-structure reality. A standard single-structure Lutz home falls into the $149-$249 residential band with the $50 second-floor surcharge where applicable — most Cheval, Heritage Harbor, and Calusa Trace two-story homes land at $199-$249. Multi-structure Lutz addresses (main house plus pool house, main house plus mother-in-law suite, main house plus barn-converted workshop) are quoted on one appointment with a per-structure rate — typically the main structure at standard pricing plus a reduced rate per secondary structure because the crew is already on-site. Wall ductwork repair ($195-$595) is quoted per structure as-needed. Equestrian-particulate addresses should plan on the 6-month cycle which doubles annual spend but keeps airflow consistent. Inspection-only is $149 per structure. Condo / townhouse stock (rare in Lutz) is $129-$199.",
+    counterPositioning:
+      "Lutz rural-zone vent runs do not exist in the franchise playbook — they are a Tampa-outskirts edge case. Local operators either know the work or refuse the job. The corporate routing center behind the FTC-mandated \"independently owned and operated franchises\" disclosure dispatches crews with standard 30-foot rotary kits that physically cannot reach the middle of a 45-foot detached-structure run, and franchise crews typically quote per-structure with re-dispatch between visits. One appointment, every structure, stocked for the reach this market needs.",
+    testimonial: {
+      text: "Van Dyke Farms, horse property with a mother-in-law suite above the detached garage. Called a national chain first — they quoted main house only, said the secondary structure would need a separate dispatch, did not mention their kit could not reach the 45-foot run anyway. Airflow came out, ran the 50-foot rotary on both structures in one appointment, showed me the equestrian-particulate compaction in the secondary-structure run that had been there since the last cleaning years ago. One invoice, airflow numbers for each structure, done.",
+      author: 'Susan H.',
+      neighborhood: 'Van Dyke Farms',
+    },
+    cityFaqs: [
+      {
+        q: 'When is dryer vent cleaning busiest in Lutz?',
+        a: "January and September are the Tampa Bay demand peaks, each running near 880 monthly searches. Lutz equestrian addresses layer on a pollen-season spike in March-April because of the higher airborne particulate load on horse properties. October-November is the easiest window for multi-structure estate appointments; individual main-house jobs book easily in May-June.",
+      },
+      {
+        q: 'How much does dryer vent cleaning cost in Lutz?',
+        a: "Standard single-structure Lutz homes fall into $149-$249; most two-story Cheval, Heritage Harbor, and Calusa Trace floor plans land at $199-$249 with the $50 second-floor surcharge. Multi-structure addresses (main house plus pool house, mother-in-law suite, or barn-converted workshop) are quoted on one appointment with the main structure at standard pricing and a reduced per-structure rate for each secondary. Wall ductwork repair is $195-$595 per structure as-needed. Inspection-only is $149 per structure. Condo work is $129-$199.",
+      },
+      {
+        q: 'I have a detached pool house with a washer-dryer. Do I need a separate appointment?',
+        a: "No. We handle main house plus every secondary structure on one appointment — no per-structure re-dispatch, no second invoice, no second trip charge. The rotary brush kit rated for 50-foot reach travels on every Lutz route truck, which covers the 40-plus-foot detached-structure runs that standard suburban kits cannot reach. Each structure gets its own airflow reading on the invoice and its own written report.",
+      },
+      {
+        q: "My Van Dyke Farms property has horses. Does that change the cleaning schedule?",
+        a: "Yes. Equestrian-zone airborne particulate — fine hay dust, feed dust, grain particulate, and horse-barn pollen — is materially higher than typical suburban Tampa air, and that particulate enters the dryer duct through exterior terminations and mixes with lint into a denser, faster-compacting compound. Cleaning frequency for horse-property addresses shifts from annual (NFPA 211 baseline) to semiannual — six-month cycles — as a realistic schedule that keeps airflow consistent.",
+      },
+      {
+        q: 'Why can my national-chain cleaner not reach the middle of my 45-foot detached-structure duct?',
+        a: "Because standard suburban rotary brush kits are sized for 30-foot maximum reach — adequate for typical two-story tract-home runs, insufficient for Lutz detached-structure geometry. Wand-only setups reach ten feet from each end of the duct and leave twenty-plus feet in the middle uncleaned. The 50-foot rotary brush kit is specialty equipment for this exact Tampa-outskirts edge case, and it is standard on our Lutz route trucks.",
+      },
+    ],
+    responseNote:
+      "Lutz addresses are 25-40 minutes from our Tampa base via the Suncoast Parkway or Dale Mabry extension. The 50-foot rotary brush kit for detached-structure runs is standard on every truck assigned to the Lutz route — no second trip to return with bigger equipment. Same-week scheduling is the norm; multi-structure estate appointments are scheduled slightly longer to fit every structure into one visit. Saturday appointments available with no weekend surcharge.",
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 15. VALRICO — FishHawk Ranch phase-by-phase + Facebook referral network
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'valrico',
+    metaTitle: 'Valrico Dryer Vent Cleaning | FishHawk Ranch Phase Specialists',
+    metaDescription:
+      'Valrico dryer vent and dryer duct cleaning for FishHawk Ranch (Starling, Garcia, Park Square, Palmetto Cay), Bloomingdale, Diamond Hill. Phase-level specialists, flat-rate from $149.',
+    heroSubtitle:
+      "FishHawk Ranch is not one neighborhood — it is Starling, Garcia, Park Square, Palmetto Cay, and a dozen more phases built by different contractors across 2001-2018. A crew that has done 800 FishHawk homes can pattern-match the vent routing from the street name alone.",
+    longIntro:
+      "Valrico dryer vent cleaning is, in practice, FishHawk Ranch phase-by-phase cleaning plus the established Valrico suburb inventory. FishHawk Ranch is the 10,000-plus-home master-planned community that dominates the slug — and FishHawk is not one neighborhood. It is Starling, Garcia, Park Square, Palmetto Cay, and a dozen more phases built by different primary contractors across roughly 2001 through 2018. Each phase has subtly different vent layouts, different builders, and different insulation standards, which means the dryer duct routing varies by phase in ways that pattern-match from the street name alone once a crew has run the neighborhood long enough. Around FishHawk, Valrico also includes Bloomingdale, Diamond Hill, River Hills, Buckhorn, and Valrico proper — established 1990s-2000s suburban stock hitting the 20-year original-material replacement window. The Airflow team has worked hundreds of FishHawk homes over the years, services every Valrico ZIP (33594, 33596) and the FishHawk 33547 boundary, and carries the phase-level knowledge the national chains cannot staff for.",
+    whyClogHere:
+      "Valrico's cleaning pattern is dominated by FishHawk Ranch phase-level construction variation layered onto the broader Valrico 1990s-2000s suburban inventory. FishHawk was built over roughly seventeen years — 2001 through 2018 — and the phases evolved substantially across that span. Starling (early 2000s) was built to different spec than Garcia (mid-2000s), which was built different than Park Square (late 2000s), which was built different than Palmetto Cay (2010s). Different primary contractors specified different transition-duct materials, different elbow configurations, different second-floor-laundry routing conventions. Some phases exit the exterior wall through side soffit, some through rear wall, some through roof cap — and the lint-trap zone patterns inside the duct path vary accordingly. A crew that has done 800 FishHawk homes can pattern-match the vent routing from a street name in Starling versus Garcia and plan the visit accordingly — rotary brush size, reach length, ladder position, inspection camera angle. A franchise truck visiting once a month cannot. Separately, Bloomingdale, Diamond Hill, and River Hills are now 20-to-25-year-old original-construction stock where original builder-grade flexible foil and semi-rigid duct material is at end-of-life and the dryer duct replacement line is on most invoices. The FishHawk community Facebook group has 15,000+ members and is one of the fastest-moving referral networks in the Tampa suburbs; a single review here propagates through the network faster than almost anywhere else, which means the quality bar for any crew working FishHawk is set by the community's ability to surface problems in real time. Annual cleaning is the NFPA 211 floor across Valrico; 9-month cycles are reasonable for the highest-volume FishHawk family households.",
+    neighborhoodDetail: [
+      {
+        name: 'FishHawk Ranch — Starling',
+        zip: '33547',
+        detail:
+          "Early-2000s FishHawk phase — different primary contractor than Garcia and Park Square, different vent pitch and exterior termination conventions. Pattern-matches by street name for a crew that has worked hundreds of Starling homes.",
+      },
+      {
+        name: 'FishHawk Ranch — Garcia',
+        zip: '33547',
+        detail:
+          "Mid-2000s FishHawk phase with distinct floor-plan mix and vent routing conventions versus Starling — different builder, different insulation standard, different exterior cap style on the original builds. Phase-specific pattern library matters here.",
+      },
+      {
+        name: 'FishHawk Ranch — Park Square',
+        zip: '33547',
+        detail:
+          "Late-2000s FishHawk phase — executive floor plans with longer second-floor dryer duct runs than earlier phases, and a different set of elbow-configuration conventions that change how multi-segment rotary brush cleaning has to be staged.",
+      },
+      {
+        name: 'FishHawk Ranch — Palmetto Cay',
+        zip: '33547',
+        detail:
+          "2010s FishHawk phase — the newest core phase with rigid-metal-by-code dryer duct on most builds and different builder conventions again. Entering its first deep-clean window now that homes are 10-15 years old.",
+      },
+      {
+        name: 'Bloomingdale',
+        zip: '33596',
+        detail:
+          "Established 1980s-1990s master-planned community with predominantly two-story homes — 20-to-25-year-old original builder-grade material is at end-of-life, and the wall ductwork repair line is quoted on most invoices here.",
+      },
+      {
+        name: 'Diamond Hill',
+        zip: '33596',
+        detail:
+          "Gated golf-course community with executive two-story floor plans — long 30-plus-foot second-floor dryer duct runs are standard, rotary brush reach is required, and original builder-grade transition hose is routinely replaced during first deep clean.",
+      },
+      {
+        name: 'River Hills',
+        zip: '33596',
+        detail:
+          "Gated master-planned community with mid-1990s to early-2000s housing — older original vent materials at end-of-life, and the Alafia River-adjacent addresses have higher ambient humidity that accelerates lint-moisture compaction inside the duct.",
+      },
+      {
+        name: 'Buckhorn',
+        zip: '33594',
+        detail:
+          "Established older neighborhood east of Brandon proper bordering Valrico — 1980s-1990s two-story stock with original ducting universally past replacement age and a pattern of in-place dryer upgrades on old duct that compounds airflow problems.",
+      },
+      {
+        name: 'Valrico Proper',
+        zip: '33594',
+        detail:
+          "The core Valrico ZIP with mixed housing ages from 1970s ranches to 2010s infill — standard suburban vent routing in most cases, with a share of older addresses still running original builder-grade flex duct that surfaces for replacement during first professional cleaning.",
+      },
+    ],
+    includesList: [
+      'FishHawk Ranch phase-level pattern library — Starling, Garcia, Park Square, Palmetto Cay vent routing differences accounted for in visit planning',
+      'Rotary brush system sized to actual duct diameter with reach configured to phase-specific run lengths',
+      'Multi-segment cleaning passes on 25-35 foot two-story runs (single-pass wand cleaning leaves the middle dirty)',
+      'Pre- and post-airflow measurement with calibrated anemometer (recorded on invoice)',
+      'Exterior termination cap inspection per phase-specific style (side soffit, rear wall, or roof cap depending on phase)',
+      'Identification of end-of-life original builder-grade material on 1990s-2000s Bloomingdale, Diamond Hill, River Hills stock',
+      'Photo documentation of any code or repair recommendations before any upsell (FishHawk Facebook network quality bar)',
+      'Written report with airflow numbers, phase-specific notes, and recommended re-cleaning cycle within 24 hours',
+    ],
+    pricingNotes:
+      "Valrico pricing reflects the two-story floor-plan dominance across FishHawk Ranch and the established suburban stock. Most single-family jobs land at $199-$249 because almost every FishHawk, Bloomingdale, Diamond Hill, and River Hills floor plan triggers the +$50 second-floor surcharge on the $149-$249 base. Park Square and Diamond Hill executive-size homes with 32-plus-foot vent runs can land at the top of the band. Wall ductwork repair ($195-$595) is the line item we quote most often in Valrico — on 1990s-2000s Bloomingdale, River Hills, and Buckhorn stock it is usually original builder-grade flex or transition-hose replacement; on FishHawk 2001-2008 Starling and Garcia phases it is occasionally a builder-grade flex replacement in the 5-to-8-year failure cohort pattern that also shows up in Riverview. Condo / townhouse work is $129-$199. Inspection-only is $149.",
+    counterPositioning:
+      "National chains treat FishHawk Ranch as one ZIP code on a map. A local operator who has done 800 FishHawk homes over the years knows Starling has different vent pitch than Garcia and can plan the visit accordingly — rotary brush size, reach, ladder position, camera angle. The corporate routing center behind the FTC-mandated \"independently owned and operated franchises\" disclosure rotates crews in and out and cannot build that pattern library. The FishHawk Facebook network surfaces a bad job within days.",
+    testimonial: {
+      text: "FishHawk Ranch, Garcia phase, original 2006 build. Asked on the FishHawk Facebook group for recommendations, Airflow came up immediately — multiple neighbors said the same crew. They showed up with a rotary rig configured for Garcia routing specifically, ran the full 30-foot duct path, pulled a felt-mat of lint the previous service obviously never reached, and replaced a failing transition hose I did not even know was failing. Photos, airflow numbers, everything on the invoice. Posted back to the group.",
+      author: 'Rebecca S.',
+      neighborhood: 'FishHawk Ranch — Garcia',
+    },
+    cityFaqs: [
+      {
+        q: 'When is dryer vent cleaning busiest in Valrico?',
+        a: "January and September are the Tampa Bay demand peaks, each running near 880 monthly searches. Valrico's FishHawk Ranch family-home demographic adds an August back-to-school surge that pulls some September volume early, and FishHawk community Facebook group referral threads concentrate demand in predictable clusters around posted recommendations. October and February are the easiest months for individual appointments; block-day HOA requests typically land in March or October.",
+      },
+      {
+        q: 'How much does dryer vent cleaning cost in Valrico?',
+        a: "Most Valrico jobs land at $199-$249 because almost every FishHawk, Bloomingdale, Diamond Hill, and River Hills floor plan triggers the $50 second-floor surcharge on the $149-$249 base. Park Square and Diamond Hill executive-size homes with 32-plus-foot runs can land at the top of that band. Wall ductwork repair is $195-$595 when original builder-grade material needs replacement — common on 1990s-2000s stock. Condo work is $129-$199. Inspection-only is $149.",
+      },
+      {
+        q: 'Why does the FishHawk phase matter for my dryer vent cleaning?',
+        a: "Because FishHawk Ranch is not one neighborhood — Starling, Garcia, Park Square, Palmetto Cay, and the other phases were built by different primary contractors across 2001-2018 with different vent routing, different elbow configurations, different exterior termination styles (side soffit versus rear wall versus roof cap), and different insulation standards. A crew that has done 800 FishHawk homes pattern-matches from the street name to plan rotary brush size, reach, ladder position, and camera angle before arrival. A franchise truck visiting once a month cannot.",
+      },
+      {
+        q: 'My 2004 FishHawk Starling home is original construction. What should I expect during cleaning?',
+        a: "Starling 2001-2005 builds commonly have original builder-grade flexible foil transition hose still in service and original exterior cap hardware at end-of-life. Camera inspection before cleaning reveals the condition; wall ductwork repair ($195-$595) to replace failed flex with rigid metal is quoted during the cleaning visit with photos, not as a surprise after. Expect a 75-110 minute job for a full rotary brush pass with replacement work included. Airflow numbers before and after are on the invoice.",
+      },
+      {
+        q: 'How often should a FishHawk Ranch family home get vent cleaning?',
+        a: "Annual is the NFPA 211 baseline and the right schedule for most FishHawk households. The two-story long-run ducting, high-volume family laundry pattern (5-8 loads per week is normal), and 90-degree elbows at every floor transition push the highest-volume households toward a 9-month cycle. Pet families and households with more than 4 occupants should plan on the 9-month interval; the FishHawk Facebook network usually circulates reminders ahead of the January and September peak windows.",
+      },
+    ],
+    responseNote:
+      "Valrico and FishHawk Ranch addresses are 25-35 minutes from our Tampa base via I-75 or Highway 60. The FishHawk phase-level pattern library travels with the crew — rotary brush kits are configured before arrival based on the street name. Same-week scheduling is the norm; block-day requests coordinated through the FishHawk Facebook community are common and we accommodate them directly. Saturday appointments available with no weekend surcharge.",
+  },
 ];
 
 export function getAreaContent(slug: string): AreaContent | undefined {
