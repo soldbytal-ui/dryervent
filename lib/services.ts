@@ -169,7 +169,7 @@ export const services: Service[] = [
     slug: 'dryer-vent-inspection',
     name: 'Dryer Vent Inspection',
     shortName: 'Vent Inspection',
-    priceFrom: 79,
+    priceFrom: 149,
     intro: 'A dryer vent inspection is a professional evaluation of your dryer exhaust system to identify safety hazards, code violations, blockages, damage, and efficiency problems. Inspections are commonly requested for home purchases, insurance claims, post-fire safety verification, and as preventive maintenance.',
     description: 'Our inspection service identifies every issue in your vent system without performing cleaning or repairs. This service is ideal for home buyers, sellers, insurance documentation, post-incident investigation, or homeowners wanting to know exactly what shape their vent is in before deciding on cleaning or repair.',
     duration: '30-45 minutes',
