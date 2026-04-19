@@ -8,7 +8,7 @@ import FinalCTA from '@/components/FinalCTA';
 
 export const metadata = buildMetadata({
   title: 'Dryer Vent Cleaning Prices Tampa Bay | Transparent Pricing',
-  description: 'Airflow Dryer Vent Cleaning pricing: Residential cleaning from $149, inspection from $149, repair from $195, installation from $249. No hidden fees, free estimates, all Tampa Bay.',
+  description: 'Airflow Dryer Vent Cleaning pricing: Residential cleaning from $79 (first 10 feet) + $10 per additional foot. Wall ductwork repair $195–$595. No hidden fees, free estimates, transparent per-foot model across all of Tampa Bay.',
   path: '/pricing',
 });
 

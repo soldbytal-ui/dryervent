@@ -51,7 +51,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
   const faqs = content?.cityFaqs ?? [
     {
       q: `How much does dryer vent cleaning cost in ${area.name}?`,
-      a: `Residential dryer vent cleaning in ${area.name} typically ranges from $149 to $249 depending on vent length, accessibility, and condition. We provide a free estimate before any work begins, with no hidden fees.`,
+      a: `Residential dryer vent cleaning in ${area.name} starts at $79 for the first 10 feet of vent run, plus $10 per additional foot. Most ${area.name} jobs land in the $79–$249 range depending on vent length and any wall ductwork repair needs. We provide a free estimate before any work begins, with no hidden fees.`,
     },
     {
       q: `How often should ${area.name} homeowners clean their dryer vents?`,
@@ -82,9 +82,9 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
     offers: {
       '@type': 'AggregateOffer',
       priceCurrency: 'USD',
-      lowPrice: '129',
+      lowPrice: '79',
       highPrice: '595',
-      priceRange: '$129–$595',
+      priceRange: '$79–$595',
       availability: 'https://schema.org/InStock',
     },
   };
@@ -297,14 +297,16 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
                 <thead className="bg-navy text-white">
                   <tr>
                     <th className="px-5 py-3 text-sm font-display font-bold">Service</th>
-                    <th className="px-5 py-3 text-sm font-display font-bold text-right">Price range</th>
+                    <th className="px-5 py-3 text-sm font-display font-bold">Price</th>
+                    <th className="px-5 py-3 text-sm font-display font-bold hidden md:table-cell">Notes</th>
                   </tr>
                 </thead>
                 <tbody>
                   {STANDARD_PRICING.map((row, i) => (
                     <tr key={row.label} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
-                      <td className="px-5 py-3 text-sm text-gray-700">{row.label}</td>
-                      <td className="px-5 py-3 text-sm font-display font-bold text-fire text-right">{row.range}</td>
+                      <td className="px-5 py-3 text-sm text-gray-700 align-top">{row.label}</td>
+                      <td className="px-5 py-3 text-sm font-display font-bold text-fire align-top whitespace-nowrap">{row.range}</td>
+                      <td className="px-5 py-3 text-xs text-gray-600 align-top hidden md:table-cell">{row.note}</td>
                     </tr>
                   ))}
                 </tbody>

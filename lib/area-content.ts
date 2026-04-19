@@ -36,7 +36,7 @@ export const areaContent: AreaContent[] = [
     slug: 'tampa',
     metaTitle: 'Tampa Dryer Vent Cleaning | Locally Owned, Same Week',
     metaDescription:
-      'Locally owned Tampa dryer vent cleaning. Transparent flat-rate pricing from $149, same-week appointments, full dryer duct inspection across all 26 Tampa ZIPs.',
+      'Locally owned Tampa dryer vent cleaning. Per-foot pricing from $79 + $10/ft, same-week appointments, full dryer duct inspection across all 26 Tampa ZIPs.',
     heroSubtitle:
       'Tampa-owned, Tampa-operated dryer vent cleaning across all 26 city ZIP codes — flat-rate pricing, same-week appointments, no franchise routing.',
     longIntro:
@@ -110,7 +110,7 @@ export const areaContent: AreaContent[] = [
       'Written report emailed within 24 hours covering airflow gain, materials found, and next-cleaning timing',
     ],
     pricingNotes:
-      "Most Tampa single-family homes fall squarely into the $149–$249 residential range. The two factors that move a Tampa job toward the higher end are vent run length (anything over 25 feet — common in New Tampa and Westchase) and second-floor laundry, which adds the standard $50 surcharge for ladder work and longer brush extensions. Downtown and Channelside condo units are typically $129–$199. Older Hyde Park and Seminole Heights homes occasionally surface a wall-ductwork repair need ($195–$595) when 1960s flexible foil is found behind drywall — we always photograph and quote before any repair work begins, never after.",
+      "Tampa pricing follows one rule: $79 base for the first 10 feet of vent run plus $10 per additional foot. Tampa's housing diversity drives the spread. Hyde Park and Seminole Heights bungalows with short single-story runs (10-14 ft) typically land at $79-$119. Westshore, Davis Islands, and downtown / Channelside condos with stacked vertical chases are usually under 10 feet and bill at the $79 base. New Tampa and Westchase two-story homes with 22-32 foot runs land at $199-$299. Older Hyde Park and Seminole Heights homes occasionally surface a wall ductwork repair need ($195-$595) when 1960s flexible foil is found behind drywall — always photographed and quoted before any repair work begins. The price is locked before the truck arrives.",
     counterPositioning:
       "When you call a national franchise for Tampa service, you reach a corporate routing center that may dispatch any one of several rotating franchisees — and the FTC-mandated fine print on their site reads \"independently owned and operated franchises.\" Pricing is hidden until the truck arrives. The Airflow team is one Tampa-owned business, one phone, one published price sheet, and the same NADCA-trained crew that cleaned your neighbor's vent last week.",
     testimonial: {
@@ -125,7 +125,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'How much does dryer vent cleaning cost in Tampa?',
-        a: 'Standard Tampa single-family homes run $149–$249 flat-rate. Condos and townhouses (Channelside, Westshore high-rises, downtown) run $129–$199. A second-floor laundry adds $50. Inspection-only visits with a written airflow report are $149. We publish the full price sheet on the site — no phone-quote dance, no pressure pricing once the truck arrives.',
+        a: 'Tampa residential cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Most single-story Hyde Park, Seminole Heights, and South Tampa bungalows with 10-14 ft runs land at $79-$119. Two-story New Tampa, Westchase, and Carrollwood Village homes with 22-32 ft runs land at $199-$299. Channelside, Westshore, and downtown condos are usually under 10 feet and bill at the $79 base. Wall ductwork repair is $195-$595 when needed, quoted with photos before any work begins. The price is locked before the truck arrives — no phone-quote dance, no pressure pricing once we show up.',
       },
       {
         q: 'How long does a dryer vent cleaning take in a Tampa home?',
@@ -137,7 +137,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'Do you service every part of Tampa, or just specific neighborhoods?',
-        a: 'Every ZIP. From 33602 downtown to 33647 in New Tampa, from 33611 in South Tampa out to 33635 in Westchase — all 26 Tampa ZIPs are covered at the same flat-rate pricing with no travel surcharge. The same crew also reaches Brandon, Riverview, Carrollwood, Lutz, and the rest of Hillsborough.',
+        a: 'Every ZIP. From 33602 downtown to 33647 in New Tampa, from 33611 in South Tampa out to 33635 in Westchase — all 26 Tampa ZIPs are covered at the same per-foot pricing with no travel surcharge. The same crew also reaches Brandon, Riverview, Carrollwood, Lutz, and the rest of Hillsborough.',
       },
     ],
     responseNote:
@@ -151,7 +151,7 @@ export const areaContent: AreaContent[] = [
     slug: 'st-petersburg',
     metaTitle: 'St. Petersburg Dryer Vent Cleaning | Salt-Air Specialists',
     metaDescription:
-      'St. Pete dryer vent and dryer duct cleaning specialists. Coastal salt corrosion, condo vent stacks, Old Northeast bungalows. Flat-rate pricing from $129.',
+      'St. Pete dryer vent and dryer duct cleaning specialists. Coastal salt corrosion, condo vent stacks, Old Northeast bungalows. Per-foot pricing from $79 + $10/ft.',
     heroSubtitle:
       "Pinellas peninsula specialists — salt-air vent corrosion, downtown condo stacks, and Old Northeast bungalows handled by a Tampa Bay-owned crew, not a national chain.",
     longIntro:
@@ -225,7 +225,7 @@ export const areaContent: AreaContent[] = [
       'Photo documentation and emailed written report within 24 hours',
     ],
     pricingNotes:
-      "Most St. Pete jobs sit at one of two clear price points. Single-family homes in Old Northeast, Crescent Lake, Tyrone, and Disston Heights run $149–$249. Condo and townhouse units — and there are a lot of them, from Beach Drive high-rises to barrier-island three-stories — run $129–$199. The St. Pete-specific add-on we see most often is exterior cap replacement: a corroded galvanized cap swapped for a stainless-steel unit runs $45–$95 in parts plus install. Snell Isle, Shore Acres, and St. Pete Beach addresses with active corrosion will see this line item more often than inland Tampa addresses.",
+      "St. Pete pricing follows the per-foot rule: $79 base for the first 10 feet of vent run plus $10 per additional foot. Old Northeast and Crescent Lake bungalows with short single-story runs (10-14 ft) typically land at $79-$119. Tyrone and Disston Heights mid-century ranches with 14-20 ft runs land at $119-$179. Beach Drive high-rises, downtown towers, and barrier-island condos are usually under 10 feet and bill at the $79 base — Snell Isle and Shore Acres waterfront homes can stretch to 18-22 ft ($159-$199). The St. Pete-specific add-on is exterior stainless-steel cap replacement when corrosion is found ($45-$95 parts plus install). Wall ductwork repair is $195-$595 for original 1940s-50s ducting that's failed. Price locked before the truck arrives.",
     counterPositioning:
       "No national chain has a dedicated St. Petersburg page, and there's a reason — salt-air work demands local knowledge that a corporate franchise routing system can't ship in. The franchise model uses the FTC-mandated phrase \"independently owned and operated franchises\" precisely because no two visits come from the same operator. Airflow is one Tampa Bay-owned business with one consistent crew that sees the same Pinellas corrosion patterns week after week.",
     testimonial: {
@@ -240,7 +240,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'How much does dryer vent cleaning cost in St. Pete?',
-        a: 'Single-family homes are $149–$249. Condos and townhouses — including most downtown high-rises and the barrier-island buildings — are $129–$199. Inspection-only with a written airflow report is $149. The most common St. Pete add-on is exterior stainless-steel cap replacement when corrosion is found; that is quoted with photos before any work happens.',
+        a: 'St. Pete cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Old Northeast and Crescent Lake bungalows with short runs land at $79-$119. Tyrone and Disston Heights ranches with 14-20 ft runs land at $119-$179. Most downtown, Beach Drive, and barrier-island condos are under 10 feet and bill at the $79 base. Inspection-only with a written airflow report is $79 (the same base rate). The most common St. Pete add-on is exterior stainless-steel cap replacement when corrosion is found ($45-$95 parts plus install), quoted with photos before any work happens.',
       },
       {
         q: 'How long does a typical St. Pete cleaning take?',
@@ -266,7 +266,7 @@ export const areaContent: AreaContent[] = [
     slug: 'south-tampa',
     metaTitle: 'South Tampa Dryer Vent Cleaning | Bayshore to Davis Islands',
     metaDescription:
-      'South Tampa dryer vent and dryer duct cleaning. Hyde Park, Bayshore, Davis Islands, Palma Ceia. Historic-home retrofit specialists. Flat-rate from $149.',
+      'South Tampa dryer vent and dryer duct cleaning. Hyde Park, Bayshore, Davis Islands, Palma Ceia. Historic-home retrofit specialists. From $79 + $10/ft.',
     heroSubtitle:
       "South Tampa's historic Bayshore, Davis Islands, Hyde Park, and Palma Ceia homes deserve a vent cleaner who understands 1920s ducting — not a national chain reading off a script.",
     longIntro:
@@ -334,7 +334,7 @@ export const areaContent: AreaContent[] = [
       'Written report with photos emailed within 24 hours',
     ],
     pricingNotes:
-      "South Tampa pricing tracks the historic-home specialty. Standard single-family cleanings start at $149, but Hyde Park, Bayshore Beautiful, and Davis Islands homes more often land at $199–$249 because of pre-cleaning camera inspection time and the longer, often retrofitted, duct paths. Wall ductwork repair ($195–$595) is the line item we quote most often in South Tampa — undersized 3-inch original runs, abandoned duct stubs, and out-of-code flexible foil all surface during the first thorough cleaning. Inspection-only at $149 is a popular entry point for first-time clients who want to know what's behind the wall before committing to repair.",
+      "South Tampa pricing follows the per-foot rule: $79 base for the first 10 feet plus $10 per additional foot. Historic Hyde Park, Bayshore Beautiful, Davis Islands, and Palma Ceia homes routinely have undersized 3-inch original runs that meander 14-22 feet through retrofitted laundry-room locations and exit through stucco or original brick — those land at $109-$199. Bayshore Beautiful basement-level installs that climb 16-20 ft up exterior walls land at $139-$179. Wall ductwork repair ($195-$595) is the line item we quote most often in South Tampa — undersized 3-inch runs, abandoned duct stubs, and out-of-code flexible foil all surface during the first thorough cleaning, always quoted with photos first. Price quoted before the truck arrives.",
     counterPositioning:
       "Historic South Tampa homes are not a fit for a national chain rotating crews through a corporate routing system. The franchise model trains technicians to one playbook; pre-1965 housing demands judgment that comes from working hundreds of these homes locally. The FTC requires those chains to disclose \"independently owned and operated franchises\" because the operator changes from visit to visit. Airflow is one team, one phone, one set of hands that knows Bayshore housing.",
     testimonial: {
@@ -349,7 +349,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'How much does cleaning cost for a historic Hyde Park or Bayshore home?',
-        a: "Standard single-family pricing is $149–$249. South Tampa historic homes more often land in the upper half of that band because of pre-cleaning camera inspection and longer retrofitted duct paths. Wall ductwork repair, when needed, runs $195–$595 and is always quoted with photos before any repair work begins. Inspection-only at $149 is a good first step if you've never had a professional look behind the wall.",
+        a: "South Tampa cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Historic Hyde Park, Bayshore Beautiful, and Davis Islands homes often have undersized 3-inch runs that meander 14-22 feet through retrofitted laundry rooms — those land at $109-$199. Wall ductwork repair, when needed, runs $195-$595 and is always quoted with photos before any repair work begins. Inspection-only with a written airflow report is $79 (the same base rate) — a good first step if you've never had a professional look behind the wall.",
       },
       {
         q: 'How long does a South Tampa cleaning visit take?',
@@ -375,9 +375,9 @@ export const areaContent: AreaContent[] = [
     slug: 'wesley-chapel',
     metaTitle: 'Wesley Chapel Dryer Vent Cleaning | HOA & Family Homes',
     metaDescription:
-      'Wesley Chapel dryer vent cleaning for Seven Oaks, Meadow Pointe, Wiregrass Ranch and more. HOA bulk pricing, second-floor laundry specialists, $149 flat-rate.',
+      'Wesley Chapel dryer vent cleaning for Seven Oaks, Meadow Pointe, Wiregrass Ranch. HOA bulk pricing, second-floor laundry specialists, from $79 + $10/ft.',
     heroSubtitle:
-      "Wesley Chapel's master-planned communities — Seven Oaks, Meadow Pointe, Wiregrass Ranch, Estancia — get a flat-rate cleaning from a Tampa Bay-owned crew, plus HOA bulk pricing for whole-block scheduling.",
+      "Wesley Chapel's master-planned communities — Seven Oaks, Meadow Pointe, Wiregrass Ranch, Estancia — get transparent per-foot pricing from a Tampa Bay-owned crew, plus HOA bulk pricing for whole-block scheduling.",
     longIntro:
       "Wesley Chapel dryer vent cleaning has a structural advantage other Tampa Bay submarkets don't: the housing is uniform. Master-planned communities like Seven Oaks, Meadow Pointe, Wiregrass Ranch, and Estancia were built block-by-block from the same set of floor plans, which means the dryer duct routing in your home is almost identical to your neighbor's — same run length, same number of elbows, same exit wall. That uniformity makes professional cleaning faster and unlocks a real opportunity: HOA bulk scheduling. When 8 or 12 neighbors book the same morning, the crew runs the block efficiently and per-home pricing drops noticeably. Airflow services every Wesley Chapel ZIP — 33543, 33544, 33545 — and works directly with HOA boards on multi-home days.",
     whyClogHere:
@@ -443,7 +443,7 @@ export const areaContent: AreaContent[] = [
       'Written report emailed within 24 hours covering airflow gain and next-cleaning timing',
     ],
     pricingNotes:
-      "Wesley Chapel pricing skews predictably because the housing is uniform. Standard single-family at $149-$249 is the baseline; the second-floor laundry surcharge (+$50) applies to almost every Seven Oaks, Wiregrass Ranch, Watergrass, and Estancia home, which puts most jobs in the $199-$249 zone. The bigger pricing story here is HOA bulk scheduling: when 8-12 neighbors on the same street book the same morning, per-home pricing drops 15-25% because of the routing efficiency. We coordinate the block-day directly with HOA boards or community Facebook groups — many Wesley Chapel communities have an annual vent-cleaning day on the calendar.",
+      "Wesley Chapel pricing follows the per-foot rule: $79 base for the first 10 feet plus $10 per additional foot. The housing is uniform, which makes the math predictable. Seven Oaks, Wiregrass Ranch, Watergrass, and Estancia two-story homes route 18-25 feet from second-floor laundry through wall cavities to a side soffit exit — that lands at $159-$229. Estancia executive plans with 28-32 ft runs land at $259-$299. The bigger pricing story is HOA bulk scheduling: when 8-12 neighbors on the same street book the same morning, per-home pricing drops 15-25% because of routing efficiency. We coordinate block-day directly with HOA boards or community Facebook groups — many Wesley Chapel communities now have an annual vent-cleaning day on the calendar.",
     counterPositioning:
       "A national chain dispatching to Seven Oaks via a corporate routing center has no incentive to coordinate the rest of your block, and no relationship with your HOA board. The franchise model — disclosed under FTC rules as \"independently owned and operated franchises\" — rotates operators visit-to-visit, which makes the bulk-day savings impossible to reproduce. One local Tampa Bay-owned crew, one HOA contact, one block-pricing offer.",
     testimonial: {
@@ -458,7 +458,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'How much does Wesley Chapel dryer vent cleaning cost?',
-        a: "Most homes land at $199-$249 because almost every floor plan has second-floor laundry (which adds the standard $50 surcharge to the $149 baseline). HOA bulk-day pricing — when 8 or more neighbors book the same morning — drops per-home pricing 15-25% off standard rates. Wall ductwork repair runs $195-$595 if non-code flexible foil transition hose needs replacement.",
+        a: "Wesley Chapel cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Most Seven Oaks, Wiregrass Ranch, Watergrass, and Estancia two-story homes route 18-25 feet from second-floor laundry to a side soffit exit, which lands at $159-$229. Estancia executive plans with 28-32 ft runs land at $259-$299. HOA bulk-day pricing — when 8 or more neighbors book the same morning — drops per-home pricing 15-25% off standard rates. Wall ductwork repair runs $195-$595 if non-code flexible foil transition hose needs replacement.",
       },
       {
         q: 'How long does a typical Wesley Chapel cleaning take?',
@@ -484,7 +484,7 @@ export const areaContent: AreaContent[] = [
     slug: 'brandon',
     metaTitle: 'Brandon Dryer Vent Cleaning | Bloomingdale & FishHawk',
     metaDescription:
-      'Brandon dryer vent cleaning for Bloomingdale, FishHawk Ranch, Brandon Lakes. Long 2-story duct runs, family-home volume, flat-rate pricing from $149.',
+      'Brandon dryer vent cleaning for Bloomingdale, FishHawk Ranch, Brandon Lakes. Long 2-story duct runs, family-home volume, per-foot pricing from $79 + $10/ft.',
     heroSubtitle:
       "Brandon's two-story tract homes — Bloomingdale, FishHawk Ranch, Brandon Lakes, Heather Lakes — get the long-run rotary brush treatment from a locally-owned crew, not a national franchise.",
     longIntro:
@@ -538,7 +538,7 @@ export const areaContent: AreaContent[] = [
         name: 'Brandon Pointe',
         zip: '33510',
         detail:
-          'Newer infill subdivision near downtown Brandon — predominantly two-story construction with second-floor laundry standard, and second-floor surcharge applies to most jobs here.',
+          'Newer infill subdivision near downtown Brandon — predominantly two-story construction with second-floor laundry standard, and the typical 22-30 ft runs put most jobs in the upper per-foot pricing band.',
       },
     ],
     includesList: [
@@ -552,7 +552,7 @@ export const areaContent: AreaContent[] = [
       'Written report with photos and airflow numbers emailed within 24 hours',
     ],
     pricingNotes:
-      "Brandon pricing predictably runs in the upper half of the standard $149-$249 single-family band because the housing is dominated by two-story floor plans. Almost every Bloomingdale, FishHawk, Heather Lakes, and Providence Lakes home triggers the +$50 second-floor laundry surcharge, putting most jobs at $199-$249. Long-run homes (FishHawk Ranch executive plans, Sterling Ranch) at the high end of the duct path range can land at the top of standard pricing. Wall ductwork repair ($195-$595) is the line item we quote most often in Brandon — usually for original transition hose replacement or code-update of out-of-spec elbow joints discovered during cleaning of older Bloomingdale and Brandon Lakes homes.",
+      "Brandon pricing follows the per-foot rule: $79 base for the first 10 feet plus $10 per additional foot. Brandon's housing is dominated by two-story tract homes with 22-32 ft duct paths from second-floor laundry through wall cavities to side or rear sidewall exits, which puts most jobs at $199-$299. FishHawk Ranch and Sterling Ranch executive plans with 32-35 ft runs land at $299-$329. Bloomingdale and Brandon Lakes single-story bungalow stock with 12-16 ft runs land at $99-$139. Wall ductwork repair ($195-$595) is the line item we quote most often in Brandon — usually for original transition hose replacement or code-update of out-of-spec elbow joints discovered during cleaning of older Bloomingdale and Brandon Lakes homes, always quoted with photos first.",
     counterPositioning:
       "Brandon's long vent runs are exactly the housing type where wand-only national-chain cleaners fail — they reach 8-10 feet from each end and miss the middle 15 feet entirely. Corporate routing centers dispatching rotating franchisees (FTC-disclosed as \"independently owned and operated franchises\") rarely audit equipment standards visit-to-visit. The Airflow crew runs the rotary brush system every job, and the same crew does Brandon week after week.",
     testimonial: {
@@ -567,7 +567,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'How much does dryer vent cleaning cost in Brandon?',
-        a: "Most Brandon homes land at $199-$249 because almost every floor plan has second-floor laundry (which adds the standard $50 surcharge to the $149 single-family baseline). FishHawk Ranch and Sterling Ranch executive-size homes with 32+ foot vent runs occasionally land at the top of that band. Wall ductwork repair, when needed, runs $195-$595 and is always quoted with photos before any work begins.",
+        a: "Brandon cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Most Brandon two-story homes route 22-32 feet from second-floor laundry to a sidewall exit, which puts most jobs at $199-$299. FishHawk Ranch and Sterling Ranch executive plans with 32-35 ft runs land at $299-$329. Single-story Bloomingdale and Brandon Lakes bungalows with 12-16 ft runs land at $99-$139. Wall ductwork repair, when needed, runs $195-$595 and is always quoted with photos before any work begins.",
       },
       {
         q: 'How long does a Brandon vent cleaning take?',
@@ -593,7 +593,7 @@ export const areaContent: AreaContent[] = [
     slug: 'new-tampa',
     metaTitle: 'New Tampa Dryer Vent Cleaning | 30-Ft Vertical Run Specialists',
     metaDescription:
-      'New Tampa dryer vent and dryer duct cleaning for Tampa Palms, Hunters Green, Cross Creek, Arbor Greene. 30+ ft vertical-run rotary brush specialists from $149.',
+      'New Tampa dryer vent and dryer duct cleaning for Tampa Palms, Hunters Green, Cross Creek, Arbor Greene. 30+ ft vertical-run rotary brush, $79 + $10/ft.',
     heroSubtitle:
       "New Tampa's executive two-story homes with 30+ foot vertical dryer duct runs need brush extensions that physically reach the top — not generic 20-foot kits. Locally-owned, I-75-corridor fast.",
     longIntro:
@@ -667,7 +667,7 @@ export const areaContent: AreaContent[] = [
       'Written report with photos and airflow numbers emailed within 24 hours',
     ],
     pricingNotes:
-      "New Tampa pricing consistently lands in the upper half of the standard $149–$249 single-family band because of two compounding factors: universal second-floor laundry (which triggers the standard $50 surcharge) and long vertical duct paths. Most Tampa Palms, Hunters Green, Arbor Greene, and West Meadows homes bill at $199–$249. Cory Lake Isles executive homes with 35-40 foot runs and roof-jack terminations occasionally move to the top of standard pricing. Inspection-only with a written airflow report is $149 — a common entry point for homeowners who have never had a 30-foot vertical run evaluated. Wall ductwork repair ($195–$595) is quoted with photos before any work begins, never added as a surprise.",
+      "New Tampa pricing follows the per-foot rule: $79 base for the first 10 feet plus $10 per additional foot. Long vertical runs are the headline here. Most Tampa Palms, Hunters Green, Arbor Greene, and West Meadows two-story homes route 28-35 feet from second-floor laundry through interior chases to a roof-jack or sidewall termination, which lands at $259-$329. Cory Lake Isles executive homes with 35-40 ft runs land at $329-$379. K-Bar Ranch and Live Oak Preserve homes with 28-32 ft paths land at $259-$299. Inspection-only with a written airflow report is $79 (the same base rate) — a common entry point for homeowners who have never had a 30-foot vertical run evaluated. Wall ductwork repair ($195-$595) is quoted with photos before any work begins, never added as a surprise.",
     counterPositioning:
       "National franchise crews arrive in New Tampa with standard 20-foot rotary brush kits from corporate inventory — which cannot physically reach the upper third of your 32-foot vertical dryer duct. Under the FTC-mandated \"independently owned and operated franchises\" disclosure, equipment standards vary operator-to-operator and there is no route-density relationship with the community. Airflow invests in 35-foot vertical-rated extensions because Tampa Palms and Cory Lake Isles homes actually require them.",
     testimonial: {
@@ -682,7 +682,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'How much does dryer vent cleaning cost in New Tampa?',
-        a: 'Most New Tampa homes land at $199–$249. The $149 single-family baseline plus the $50 second-floor laundry surcharge applies to nearly every Tampa Palms, Hunters Green, Arbor Greene, and Cory Lake Isles floor plan. Inspection-only with a written airflow report is $149 — useful if you are buying a New Tampa home and want to know what is happening in a 32-foot vertical run before closing. Wall ductwork repair, when needed, runs $195–$595 and is always quoted with photos first.',
+        a: 'New Tampa cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Most Tampa Palms, Hunters Green, Arbor Greene, and West Meadows two-story homes route 28-35 feet from second-floor laundry to a roof-jack or sidewall termination, which lands at $259-$329. Cory Lake Isles executive homes with 35-40 ft runs land at $329-$379. Inspection-only with a written airflow report is $79 (the same base rate) — useful if you are buying a New Tampa home and want to know what is happening in a 32-foot vertical run before closing. Wall ductwork repair, when needed, runs $195-$595 and is always quoted with photos first.',
       },
       {
         q: 'My Tampa Palms home has a 32-foot vertical run. Does it need special equipment?',
@@ -708,7 +708,7 @@ export const areaContent: AreaContent[] = [
     slug: 'carrollwood',
     metaTitle: 'Carrollwood Dryer Vent Cleaning | Retrofit Specialists',
     metaDescription:
-      'Carrollwood dryer vent cleaning and dryer duct retrofit for 1970s-era rigid aluminum vents past end-of-life. One-visit retrofits, flat-rate pricing from $149.',
+      'Carrollwood dryer vent cleaning and 1970s rigid-aluminum duct retrofit. One-visit retrofits, per-foot pricing from $79 + $10/ft.',
     heroSubtitle:
       "Carrollwood's 1960s-80s housing needs more than cleaning — it needs a retrofit from brittle original rigid aluminum to modern semi-rigid duct rated for today's high-efficiency dryers. One-visit service.",
     longIntro:
@@ -776,7 +776,7 @@ export const areaContent: AreaContent[] = [
       'Written report with photos, retrofit documentation, and airflow numbers emailed within 24 hours',
     ],
     pricingNotes:
-      "Carrollwood pricing has two tiers. Cleaning-only visits fall into the standard $149–$249 single-family band — most Original Carrollwood, Lake Magdalene, and Carrollwood Meadows single-story homes bill at $149–$199. The retrofit scenario is where Carrollwood becomes distinct. When we discover brittle 40-year-old rigid aluminum duct with cracked joints or confirmed leakage, the wall ductwork repair line ($195–$595) covers replacement with modern semi-rigid aluminum in the same visit. Carrollwood Village and Hamptons two-story homes with second-floor laundry add the standard +$50 and often land at $199–$249 for cleaning-only. Inspection-only at $149 is a reasonable first visit for any Carrollwood homeowner who has never had the duct evaluated.",
+      "Carrollwood pricing follows the per-foot rule: $79 base for the first 10 feet plus $10 per additional foot. Original Carrollwood, Lake Magdalene, and Carrollwood Meadows single-story ranches with 12-18 ft runs land at $99-$159. Carrollwood Village and Hamptons two-story homes with 22-28 ft second-floor runs land at $199-$259. Northdale executive homes with 26-32 ft paths land at $239-$299. The retrofit scenario is where Carrollwood becomes distinct: when we discover brittle 40-year-old rigid aluminum duct with cracked joints or confirmed leakage, the wall ductwork repair line ($195-$595) covers replacement with modern semi-rigid aluminum in the same visit. Inspection-only is $79 (the same base rate) — a reasonable first visit for any Carrollwood homeowner who has never had the duct evaluated.",
     counterPositioning:
       "National chains are clean-only shops in Carrollwood because their inventory is centralized and any material swap requires a corporate approval loop — which means a second visit, a second trip charge, and a second day off work for you. The FTC-disclosed \"independently owned and operated franchises\" model also means the operator who cleans today may not be the operator who returns for the retrofit. Airflow carries replacement duct on every truck and retrofits in one visit.",
     testimonial: {
@@ -791,7 +791,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'How much does Carrollwood dryer vent cleaning and retrofit cost?',
-        a: "Cleaning-only lands at $149-$249 depending on run length and second-floor laundry. Carrollwood's common retrofit scenario — replacing brittle 40-year-old rigid aluminum dryer duct with modern semi-rigid in the same visit — is the wall ductwork repair line at $195–$595. We quote the retrofit with photos before any work happens. Inspection-only with a written airflow report is $149 and is a good first step for any Carrollwood home that has never had a professional duct evaluation.",
+        a: "Carrollwood cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Original Carrollwood single-story ranches with 12-18 ft runs land at $99-$159; Carrollwood Village two-story homes with 22-28 ft runs land at $199-$259; Northdale executive plans with 26-32 ft paths land at $239-$299. Carrollwood's common retrofit scenario — replacing brittle 40-year-old rigid aluminum dryer duct with modern semi-rigid in the same visit — is the wall ductwork repair line at $195-$595, quoted with photos before any work happens. Inspection-only with a written airflow report is $79 (the same base rate) and is a good first step for any Carrollwood home that has never had a professional duct evaluation.",
       },
       {
         q: 'My Original Carrollwood home has original 1970s ducting. Should I clean it or replace it?',
@@ -817,7 +817,7 @@ export const areaContent: AreaContent[] = [
     slug: 'westchase',
     metaTitle: 'Westchase Dryer Vent Cleaning | Same-Day Availability',
     metaDescription:
-      'Westchase dryer vent and dryer duct cleaning specialists. Pulte, DR Horton, Westbury floor plan experts. Route density, same-day availability, flat-rate from $149.',
+      'Westchase dryer vent and dryer duct cleaning specialists. Pulte, DR Horton, Westbury floor plan experts. Route density, same-day availability, $79 + $10/ft.',
     heroSubtitle:
       "Westchase's 1990s-2000s Pulte, DR Horton, and Westbury floor plans — we have serviced so many identical homes we already know where your duct runs and where the clog will be. Same-day availability.",
     longIntro:
@@ -885,7 +885,7 @@ export const areaContent: AreaContent[] = [
       'Written report emailed within 24 hours with airflow gain and next-cleaning timing',
     ],
     pricingNotes:
-      "Westchase pricing lives in the $199-$249 zone for most homes because second-floor laundry is universal across Pulte, Westbury, and DR Horton floor plans — which triggers the standard $50 surcharge on top of the $149 single-family baseline. Townhouses in West Park Village and Berkeley Village fall into the $129-$199 condo/townhouse range. Where Westchase becomes interesting is HOA and NextDoor-driven block-day pricing: when 8-12 neighbors book the same morning, per-home pricing drops 15-25% because route density inside the community means zero drive time between addresses. Inspection-only is $149. Wall ductwork repair ($195-$595) is rare in Westchase because the housing is young enough that original ducting is still intact.",
+      "Westchase pricing follows the per-foot rule: $79 base for the first 10 feet plus $10 per additional foot. Standard Pulte, Westbury, and DR Horton two-story plans in Glenfield, Westchase proper, and the core sections route 22-28 feet from second-floor laundry to a sidewall termination, which lands at $199-$259. Bennington and The Greens at Westchase executive plans with 28-32 ft runs land at $259-$299. Radcliffe and Harbor Links homes typically run 24-30 ft ($219-$279). West Park Village and Berkeley Village townhouses are usually under 10 feet and bill at the $79 base. HOA and NextDoor-driven block-day pricing drops per-home pricing 15-25% when 8-12 neighbors book the same morning. Inspection-only is $79 (the same base rate). Wall ductwork repair ($195-$595) is rare in Westchase because the housing is young enough that original ducting is still intact.",
     counterPositioning:
       "A franchise crew dispatched from a corporate routing center in Lakeland or Riverview has no Westchase route density and no builder-template pattern library — every visit is discovery, not pattern match. Franchise territory maps do not map to Tampa's actual traffic patterns, which is why the FTC-mandated \"independently owned and operated franchises\" disclosure exists. The Airflow team runs a Westchase-heavy route weekly and has serviced your exact floor plan many times before.",
     testimonial: {
@@ -900,7 +900,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'How much does dryer vent cleaning cost in Westchase?',
-        a: 'Most Westchase single-family homes land at $199-$249 because second-floor laundry is universal across the Pulte, Westbury, and DR Horton floor plans (standard $50 surcharge on the $149 baseline). West Park Village and Berkeley Village townhouses run $129-$199. HOA block-day coordination (8+ neighbors) drops per-home pricing 15-25%. Inspection-only with a written airflow report is $149.',
+        a: 'Westchase cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Standard Pulte, Westbury, and DR Horton two-story plans with 22-28 ft runs land at $199-$259. Bennington and The Greens at Westchase executive plans with 28-32 ft runs land at $259-$299. West Park Village and Berkeley Village townhouses are usually under 10 feet and bill at the $79 base. HOA block-day coordination (8+ neighbors) drops per-home pricing 15-25%. Inspection-only with a written airflow report is $79 (the same base rate).',
       },
       {
         q: 'Why does a Westchase-based crew really matter?',
@@ -926,7 +926,7 @@ export const areaContent: AreaContent[] = [
     slug: 'plant-city',
     metaTitle: 'Plant City Dryer Vent Cleaning | Agricultural Particulate Specialists',
     metaDescription:
-      'Plant City dryer vent and dryer duct cleaning for Walden Lake, Strawberry Ridge, historic downtown, mobile homes. Agricultural-particulate specialists, flat-rate from $149.',
+      'Plant City dryer vent cleaning for Walden Lake, Strawberry Ridge, downtown bungalows, mobile homes. Agricultural-particulate specialists, $79 + $10/ft.',
     heroSubtitle:
       "Plant City air carries strawberry-field dust, grove pollen, and fine agricultural particulate that combines with lint to form a harder-to-remove compound than suburban Tampa. A local crew that handles bungalows, SFH subdivisions, and mobile homes with one truck.",
     longIntro:
@@ -974,7 +974,7 @@ export const areaContent: AreaContent[] = [
         name: 'Cork / Knights',
         zip: '33565',
         detail:
-          'Working-class agricultural communities on the Plant City edge with mobile homes, historic cottages, and scattered SFH. Transparent flat-rate pricing matters more here than in affluent Tampa suburbs, and we publish it openly.',
+          'Working-class agricultural communities on the Plant City edge with mobile homes, historic cottages, and scattered SFH. Transparent per-foot pricing matters more here than in affluent Tampa suburbs, and we publish it openly.',
       },
       {
         name: 'Lakeland edge / Plant City East',
@@ -994,7 +994,7 @@ export const areaContent: AreaContent[] = [
       'Written report with photos and airflow numbers emailed within 24 hours',
     ],
     pricingNotes:
-      "Plant City pricing is transparent flat-rate because the economic reality of the market demands it — pricing-sensitive households respond to published numbers, not phone-quote dances. Single-family cleanings in Walden Lake, Country Hills, and North Park Isle fall into the $149-$249 range, with most single-story homes at the $149-$199 end and two-story with second-floor laundry at $199-$249. Mobile-home cleanings in Strawberry Ridge and Turkey Creek typically fall into the $129-$199 range because of the shorter vent runs and simpler access, though exterior-skirting crawl-access can shift toward the middle of that band. Historic downtown bungalows with original 3-inch undersized duct often trigger the wall ductwork repair line ($195-$595) for code-update retrofit, always quoted with photos first. Inspection-only is $149.",
+      "Plant City pricing is transparent per-foot because the economic reality of the market demands it — pricing-sensitive households respond to published numbers, not phone-quote dances. The rule: $79 base for the first 10 feet plus $10 per additional foot. Single-story Walden Lake, Country Hills, and North Park Isle homes with 12-18 ft runs land at $99-$159. Two-story Walden Lake plans with 22-28 ft second-floor runs land at $199-$259. Strawberry Ridge and Turkey Creek mobile homes with short under-skirting runs typically land at $79-$99. Historic downtown bungalows with original 3-inch undersized duct often trigger the wall ductwork repair line ($195-$595) for code-update retrofit, always quoted with photos first. Inspection-only is $79 (the same base rate). The price is locked before the truck arrives.",
     counterPositioning:
       "A suburban-template franchise is not built for Plant City's housing diversity — one truck needs to clean a 1920s downtown bungalow in the morning, a 2020 Walden Lake SFH at lunch, and a Strawberry Ridge mobile home in the afternoon. The franchise model rotates operators via a corporate routing center under the FTC-mandated \"independently owned and operated franchises\" disclosure, and the Neighborly family of brands centralizes inventory by suburban template. One Airflow truck, one crew, three completely different jobs in a day.",
     testimonial: {
@@ -1009,7 +1009,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'How much does dryer vent cleaning cost in Plant City?',
-        a: 'We publish transparent flat-rate pricing because Plant City households deserve it: $149-$249 for single-family homes, $129-$199 for mobile homes and condo-style units, +$50 for second-floor laundry, $195-$595 for wall ductwork repair (including undersized 3-inch duct retrofit in historic downtown bungalows), and $149 for inspection-only with a written airflow report. No phone-quote dance, no pressure pricing once the truck arrives.',
+        a: 'Plant City cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Single-story Walden Lake, Country Hills, and North Park Isle homes with 12-18 ft runs land at $99-$159. Two-story Walden Lake plans with 22-28 ft runs land at $199-$259. Strawberry Ridge and Turkey Creek mobile homes with short under-skirting runs typically land at $79-$99. Historic downtown bungalows often trigger wall ductwork repair ($195-$595) for undersized 3-inch duct retrofit, quoted with photos first. Inspection-only with a written airflow report is $79 (the same base rate). No phone-quote dance, no pressure pricing once the truck arrives.',
       },
       {
         q: 'Does Plant City agricultural dust really affect my dryer vent more?',
@@ -1035,7 +1035,7 @@ export const areaContent: AreaContent[] = [
     slug: 'apollo-beach',
     metaTitle: 'Apollo Beach Dryer Vent Cleaning | MiraBay & Waterset Canal Specialists',
     metaDescription:
-      'Apollo Beach dryer vent and dryer duct cleaning for MiraBay, Waterset, Symphony Isles. Canal-corrosion specialists, stainless caps, flat-rate pricing from $149.',
+      'Apollo Beach dryer vent cleaning for MiraBay, Waterset, Symphony Isles. Canal-corrosion specialists, stainless caps, $79 + $10/ft pricing.',
     heroSubtitle:
       "Apollo Beach canal-front homes see exterior vent cap corrosion in 6-12 months instead of 3-5 years, and 2015-2018 builder-grade flex duct is already failing. A local crew that knows which side of MiraBay's canal streets gets the worst salt spray.",
     longIntro:
@@ -1103,7 +1103,7 @@ export const areaContent: AreaContent[] = [
       'Written report with photos and airflow numbers emailed within 24 hours',
     ],
     pricingNotes:
-      "Apollo Beach pricing reflects the waterfront-corrosion reality. Standard single-family cleanings fall into the $149-$249 band; second-floor laundry adds the standard +$50 (common in newer MiraBay and Waterset floor plans), which puts most jobs at $199-$249. The Apollo Beach-specific add-on is corrosion-resistant exterior cap replacement: a 316 stainless-steel or powder-coated aluminum cap runs $65-$125 in parts plus install — more than standard galvanized, but it breaks the 6-12 month corrosion-replacement cycle on canal-adjacent homes and pays back in 1-2 cycles. Wall ductwork repair ($195-$595) is increasingly common as 2015-2018 builder-grade flex hits failure — almost always quoted with photos during cleaning, never as a surprise. Inspection-only is $149.",
+      "Apollo Beach pricing follows the per-foot rule: $79 base for the first 10 feet plus $10 per additional foot. Most MiraBay, Waterset, and Andalucia two-story homes route 22-30 feet from second-floor laundry to a sidewall termination, which lands at $199-$279. Apollo Beach Estates single-story canal homes with 14-20 ft runs land at $119-$179. Southshore Falls 55+ patio homes are usually 12-16 ft ($99-$139). The Apollo Beach-specific add-on is corrosion-resistant exterior cap replacement: a 316 stainless-steel or powder-coated aluminum cap runs $65-$125 in parts plus install — pays back in 1-2 cycles versus standard galvanized. Wall ductwork repair ($195-$595) is increasingly common as 2015-2018 builder-grade flex hits failure — always quoted with photos during cleaning. Inspection-only is $79 (the same base rate).",
     counterPositioning:
       "A franchise tech rotating through Apollo Beach once a quarter via a corporate routing center never learns which side of MiraBay's canal streets gets the worst salt spray, or which Waterset section is deepest into the 2015 flex-failure cohort. The FTC-mandated \"independently owned and operated franchises\" disclosure means the operator changes visit-to-visit — no pattern library, no route density. A local crew running Apollo Beach weekly builds that knowledge street by street.",
     testimonial: {
@@ -1118,7 +1118,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'How much does dryer vent cleaning cost in Apollo Beach?',
-        a: 'Standard single-family cleanings run $149-$249, with most MiraBay, Waterset, and Andalucia two-story homes landing at $199-$249 (second-floor laundry triggers the $50 surcharge). The Apollo Beach-specific line item is corrosion-resistant exterior cap replacement: 316 stainless-steel or powder-coated aluminum at $65-$125 parts plus install, quoted with photos. Builder-grade flex duct replacement (wall ductwork repair, $195-$595) is increasingly common across the 2015-2018 cohort. Inspection-only is $149.',
+        a: 'Apollo Beach cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Most MiraBay, Waterset, and Andalucia two-story homes route 22-30 feet from second-floor laundry to a sidewall exit, which lands at $199-$279. Apollo Beach Estates single-story canal homes with 14-20 ft runs land at $119-$179. The Apollo Beach-specific line item is corrosion-resistant exterior cap replacement: 316 stainless-steel or powder-coated aluminum at $65-$125 parts plus install, quoted with photos. Builder-grade flex duct replacement (wall ductwork repair, $195-$595) is increasingly common across the 2015-2018 cohort. Inspection-only is $79 (the same base rate).',
       },
       {
         q: 'Does being on a canal really affect my dryer vent?',
@@ -1130,7 +1130,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'How often should an Apollo Beach waterfront home get vent cleaning?',
-        a: "Annual is the NFPA 211 baseline, but for canal-adjacent MiraBay, Symphony Isles, Apollo Beach Estates, and Harbour Isles homes a 9-month cycle is the practical recommendation because of the pool + canal + AC indoor humidity stack that drives lint-moisture compaction faster than inland suburbia. A 6-month inspection-only visit at $149 between cleanings is reasonable for direct-waterfront homes — it surfaces corrosion and flex-duct issues before they become airflow problems.",
+        a: "Annual is the NFPA 211 baseline, but for canal-adjacent MiraBay, Symphony Isles, Apollo Beach Estates, and Harbour Isles homes a 9-month cycle is the practical recommendation because of the pool + canal + AC indoor humidity stack that drives lint-moisture compaction faster than inland suburbia. A 6-month inspection-only visit at $79 (the same base rate) between cleanings is reasonable for direct-waterfront homes — it surfaces corrosion and flex-duct issues before they become airflow problems.",
       },
     ],
     responseNote:
@@ -1144,7 +1144,7 @@ export const areaContent: AreaContent[] = [
     slug: 'riverview',
     metaTitle: 'Riverview Dryer Vent Cleaning | Flex-Foil Failure Cohort Specialists',
     metaDescription:
-      'Riverview dryer vent and dryer duct cleaning for Panther Trace, Rivercrest, South Fork, Summerfield Crossings. Builder-grade flex-foil replacement, flat-rate from $149.',
+      'Riverview dryer vent cleaning for Panther Trace, Rivercrest, South Fork, Summerfield Crossings. Builder-grade flex-foil replacement, $79 + $10/ft.',
     heroSubtitle:
       "Riverview is the Tampa submarket where 2010-2017 builder-grade flex foil is failing on schedule right now. A local crew that knows which developments Lennar built in which permit year — and replaces flex with rigid metal as standard practice.",
     longIntro:
@@ -1180,7 +1180,7 @@ export const areaContent: AreaContent[] = [
         name: 'St. Andrews',
         zip: '33579',
         detail:
-          "Pulte-dominated 2014-2019 community on the eastern Riverview boundary. Two-story floor plans with flex-foil transition duct are the dominant pattern; second-floor surcharge applies to the typical installation here.",
+          "Pulte-dominated 2014-2019 community on the eastern Riverview boundary. Two-story floor plans with flex-foil transition duct are the dominant pattern; typical 22-28 ft second-floor runs put most jobs in the upper per-foot pricing band.",
       },
       {
         name: 'Boyette Springs',
@@ -1206,7 +1206,7 @@ export const areaContent: AreaContent[] = [
       'Written report with airflow numbers, before-and-after photos, and next-cleaning timing within 24 hours',
     ],
     pricingNotes:
-      "Riverview pricing tracks the $149-$249 residential band for single-story cleanings and $199-$249 for the dominant two-story floor plans (second-floor laundry adds the standard $50 surcharge). The Riverview-specific line item is rigid-metal dryer duct replacement of failed builder-grade flex foil, quoted as wall ductwork repair ($195-$595) based on the run length and number of elbows needing conversion. On the 2010-2017 permit cohort — Panther Trace, Rivercrest, South Fork, Summerfield Crossings — we quote this line item on most visits because the flex is demonstrably failing; on post-2018 Palmetto Cay-style rigid-metal-by-code builds, wall ductwork repair is rare and the cleaning usually finishes inside standard single-family pricing. Multi-elbow conversions (four or more 90-degree bends over a 30-foot run, common in Panther Trace executive plans) can land at the top of the wall-ductwork-repair band because each elbow needs discrete cut, fit, and seal work rather than a slip-fit replacement. Condo / townhouse stock falls in the $129-$199 band. Inspection-only is $149 — a reasonable standalone service for a Riverview homeowner wanting a camera audit before deciding on cleaning scope, and it applies as credit toward a same-visit cleaning or replacement job.",
+      "Riverview pricing follows the per-foot rule: $79 base for the first 10 feet plus $10 per additional foot. Most Panther Trace, South Fork, Summerfield Crossings, and St. Andrews two-story tract homes route 22-30 feet from second-floor laundry to a sidewall termination, which lands at $199-$279. Panther Trace executive plans with 30-35 ft runs and four-elbow paths land at $279-$329. Single-story Boyette Springs and Summerfield older stock with 14-18 ft runs land at $119-$159. The Riverview-specific line item is rigid-metal dryer duct replacement of failed 2010-2017 builder-grade flex foil, quoted as wall ductwork repair ($195-$595) based on run length and elbow count. On post-2018 rigid-metal-by-code builds, wall ductwork repair is rare. Inspection-only is $79 (the same base rate) and applies as credit toward a same-visit cleaning or replacement job.",
     counterPositioning:
       "National franchise crews are trained to clean and leave; the corporate routing center dispatches whatever franchisee is rotating through (FTC-disclosed as \"independently owned and operated franchises\") and that operator has no pattern library across Riverview phases. A local crew that has seen the same Lennar 2012 flex-foil failure across 40 Panther Trace homes can tell the homeowner why a clean-only job on failing duct material is a half-measure — and quote the real fix with photos.",
     testimonial: {
@@ -1221,7 +1221,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'How much does dryer vent cleaning cost in Riverview?',
-        a: "Single-story cleanings fall into $149-$249; two-story floor plans (most of Panther Trace, South Fork, St. Andrews) land at $199-$249 because of the standard $50 second-floor surcharge. Condo / townhouse work is $129-$199. The Riverview-specific line item is rigid-metal replacement of failed 2010-2017 builder-grade flex foil, quoted as wall ductwork repair ($195-$595) with photos. Inspection-only is $149 — a reasonable audit step before committing to scope.",
+        a: "Riverview cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Most Panther Trace, South Fork, Summerfield Crossings, and St. Andrews two-story tract homes route 22-30 feet from second-floor laundry to a sidewall exit, which lands at $199-$279. Panther Trace executive plans with 30-35 ft runs land at $279-$329. Single-story older stock with 14-18 ft runs land at $119-$159. The Riverview-specific line item is rigid-metal replacement of failed 2010-2017 builder-grade flex foil, quoted as wall ductwork repair ($195-$595) with photos. Inspection-only is $79 (the same base rate) — a reasonable audit step before committing to scope.",
       },
       {
         q: 'My home was built by Lennar in 2013. Is the flex-foil duct really failing?',
@@ -1233,7 +1233,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'How do I know if my Riverview home has flex foil or rigid metal duct?',
-        a: "If your home was permitted 2018 or later, it is almost certainly rigid metal by code (IRC 2018 R303.6). If it was permitted 2010-2017 — including most of Panther Trace, Rivercrest, South Fork, Summerfield Crossings, St. Andrews — flex foil is the default builder spec and the odds are high it is still in place. A camera inspection ($149 inspection-only) confirms the material and its condition before you commit to cleaning scope or replacement.",
+        a: "If your home was permitted 2018 or later, it is almost certainly rigid metal by code (IRC 2018 R303.6). If it was permitted 2010-2017 — including most of Panther Trace, Rivercrest, South Fork, Summerfield Crossings, St. Andrews — flex foil is the default builder spec and the odds are high it is still in place. A camera inspection ($79 inspection-only, the same base rate) confirms the material and its condition before you commit to cleaning scope or replacement.",
       },
     ],
     responseNote:
@@ -1247,7 +1247,7 @@ export const areaContent: AreaContent[] = [
     slug: 'clearwater',
     metaTitle: 'Clearwater Dryer Vent Cleaning | Beach Condo & Sand-Salt Specialists',
     metaDescription:
-      'Clearwater dryer vent and dryer duct cleaning for Clearwater Beach, Island Estates, Sand Key, Countryside. HEPA containment for sand, vacation-rental turnaround, flat-rate from $129.',
+      'Clearwater dryer vent cleaning for Clearwater Beach, Island Estates, Sand Key, Countryside. HEPA sand containment, vacation-rental turnaround, $79 + $10/ft.',
     heroSubtitle:
       "Clearwater is not a Brandon tract-home job. Beach condos, vacation rentals, and shared vertical vent stacks need HEPA containment, sand-aware equipment, and a crew that understands salt-aerosol interactions — not a franchise playbook copy-pasted from the mainland.",
     longIntro:
@@ -1315,7 +1315,7 @@ export const areaContent: AreaContent[] = [
       'Written report with photos, airflow numbers, and recommended re-cleaning cycle within 24 hours',
     ],
     pricingNotes:
-      "Clearwater pricing splits by housing type. Beach condo and high-rise tower units — Clearwater Beach, Sand Key, Island Estates — fall into the $129-$199 condo / townhouse band; shared-vertical-chase work that requires building coordination may land at the top of that range. Mainland single-family homes in Countryside, Morningside, and Skycrest run $149-$249 with the standard +$50 second-floor surcharge where it applies. Beach-block addresses needing 316 stainless or powder-coated aluminum exterior cap replacement carry a $65-$125 parts-plus-install line (the upgrade pays back in 1-2 cycles versus standard galvanized). Wall ductwork repair ($195-$595) surfaces most often in the older Morningside and Skycrest mid-century stock. Inspection-only is $149. Commercial and multi-unit HOA block work is custom-quoted. Zero surprise pricing — the rate range travels with the job.",
+      "Clearwater pricing follows the per-foot rule: $79 base for the first 10 feet plus $10 per additional foot. Clearwater Beach, Sand Key, and Island Estates beach condos and high-rise tower units typically have stacked vertical chases under 10 feet and bill at the $79 base — shared-stack coordination work occasionally adds to scope. Mainland Countryside, Morningside, and Skycrest single-story bungalows with 12-18 ft runs land at $99-$159. Belleair and Countryside two-story stock with 22-28 ft runs land at $199-$259. Beach-block addresses needing 316 stainless or powder-coated aluminum exterior cap replacement carry a $65-$125 parts-plus-install line (pays back in 1-2 cycles versus standard galvanized). Wall ductwork repair ($195-$595) surfaces most often in older Morningside and Skycrest mid-century stock. Inspection-only is $79 (the same base rate). Commercial and multi-unit HOA block work is custom-quoted.",
     counterPositioning:
       "Franchise field techs treat Clearwater Beach condos with the same playbook they use for Brandon tract homes — same wand, same filter, same forty-five-minute schedule block. The sand-plus-salt plus saltwater-humidity stack demands different containment, different equipment, and different scheduling. Corporate routing centers behind the FTC-mandated \"independently owned and operated franchises\" disclosure dispatch whichever operator is rotating through; they do not carry HEPA sand-media filters, 316 stainless cap inventory, or the shared-stack coordination habits this market requires.",
     testimonial: {
@@ -1330,7 +1330,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'How much does dryer vent cleaning cost in Clearwater?',
-        a: "Beach condo and high-rise tower units (Clearwater Beach, Sand Key, Island Estates) fall into the $129-$199 condo band. Mainland single-family homes in Countryside, Morningside, Skycrest run $149-$249 with $50 second-floor surcharge where applicable. Beach-block addresses needing 316 stainless or powder-coated aluminum exterior cap replacement carry a $65-$125 parts-plus-install line. Wall ductwork repair is $195-$595 when needed; inspection-only is $149. Commercial and multi-unit HOA work is custom-quoted.",
+        a: "Clearwater cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Beach condo and high-rise tower units (Clearwater Beach, Sand Key, Island Estates) typically have stacked chases under 10 feet and bill at the $79 base. Mainland Countryside, Morningside, Skycrest bungalows with 12-18 ft runs land at $99-$159; two-story Belleair and Countryside stock with 22-28 ft runs land at $199-$259. Beach-block addresses needing 316 stainless or powder-coated aluminum exterior cap replacement carry a $65-$125 parts-plus-install line. Wall ductwork repair is $195-$595 when needed; inspection-only is $79 (the same base rate). Commercial and multi-unit HOA work is custom-quoted.",
       },
       {
         q: 'Why do beach condos need different equipment than mainland homes?',
@@ -1356,7 +1356,7 @@ export const areaContent: AreaContent[] = [
     slug: 'land-o-lakes',
     metaTitle: "Land O' Lakes Dryer Vent Cleaning | Camera-First Inspection",
     metaDescription:
-      "Land O' Lakes dryer vent and dryer duct cleaning for Ballantrae, Connerton, Pebble Creek, Stonegate. Camera-first inspection for 2005-2010 builds, flat-rate from $149.",
+      "Land O' Lakes dryer vent and dryer duct cleaning for Ballantrae, Connerton, Pebble Creek, Stonegate. Camera-first inspection for 2005-2010 builds, $79 + $10/ft.",
     heroSubtitle:
       "Land O' Lakes 2005-2010 builds have insulation-compressed dryer duct paths hidden inside second-floor walls and attic chases. A flat phone quote cannot price what a camera has not seen. We inspect first, quote second.",
     longIntro:
@@ -1424,11 +1424,11 @@ export const areaContent: AreaContent[] = [
       'Written report with airflow numbers, camera-feed stills, and recommended re-cleaning cycle within 24 hours',
     ],
     pricingNotes:
-      "Land O' Lakes pricing tracks the $149-$249 single-family band, with most Connerton, Ballantrae, Chapel Pines, and Stonegate two-story floor plans landing at $199-$249 because of the standard +$50 second-floor surcharge. The Land O' Lakes-specific practice is the camera-first inspection — we quote the cleaning scope after we have seen the duct path, not before. On 2005-2010 cohort addresses, wall ductwork repair ($195-$595) surfaces as a quoted line item more often than the Tampa Bay average because insulation-compression kinks occasionally need physical access repair that goes beyond cleaning. Condo / townhouse work (Pebble Creek and similar) falls in the $129-$199 band. Inspection-only is $149 and is a reasonable standalone audit step for a Land O' Lakes homeowner who wants scope documentation before committing to cleaning spend.",
+      "Land O' Lakes pricing follows the per-foot rule: $79 base for the first 10 feet plus $10 per additional foot. Most Connerton, Ballantrae, Chapel Pines, and Stonegate two-story floor plans route 22-32 feet from second-floor laundry through attic chases — and on the 2005-2010 cohort those runs effectively become longer because insulation-compression kinks add resistance — landing at $199-$299. Wilderness Lake executive plans with 30-35 ft runs land at $279-$329. Single-story Pebble Creek stock with 14-18 ft runs lands at $119-$159. The Land O' Lakes-specific practice is camera-first inspection on 2005-2010 cohort addresses — we quote scope after we have seen the duct path, not before. Wall ductwork repair ($195-$595) surfaces more often than average because insulation-compression kinks sometimes need physical access repair. Inspection-only is $79 (the same base rate).",
     counterPositioning:
       "Franchise quote-before-arrival pricing assumes a standard vent run; Land O' Lakes 2005-2010 builds do not have standard runs — they have insulation-compressed dips that drive up the actual work on-site and make a flat phone quote unreliable. The corporate routing center behind the FTC-mandated \"independently owned and operated franchises\" disclosure cannot deploy a camera-first inspection flow because the operator rotates visit-to-visit. We quote after camera inspection so the price is real.",
     testimonial: {
-      text: "Connerton two-story, original 2007 build. Had a national chain quote me $129 over the phone, showed up with a wand and a shop vac, spent twenty minutes, left. Dryer still took two cycles for a load of jeans. Airflow came out, ran a camera first, showed me a spot in the second-floor wall where insulation had collapsed the duct into a shallow dip — lint was packed solid at that point and the wand never reached it. Rotary brush scrubbed through, before-and-after airflow on the invoice. Actually fixed.",
+      text: "Connerton two-story, original 2007 build. Had a national chain quote me a flat fee over the phone, showed up with a wand and a shop vac, spent twenty minutes, left. Dryer still took two cycles for a load of jeans. Airflow came out, ran a camera first, showed me a spot in the second-floor wall where insulation had collapsed the duct into a shallow dip — lint was packed solid at that point and the wand never reached it. Rotary brush scrubbed through, before-and-after airflow on the invoice. Actually fixed.",
       author: 'Ryan P.',
       neighborhood: 'Connerton',
     },
@@ -1439,7 +1439,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: "How much does dryer vent cleaning cost in Land O' Lakes?",
-        a: "Single-story homes fall into $149-$249; most two-story Connerton, Ballantrae, Chapel Pines, and Stonegate floor plans land at $199-$249 with the standard $50 second-floor surcharge. Condo / townhouse work is $129-$199. Wall ductwork repair ($195-$595) surfaces more often than average on 2005-2010 cohort addresses because of insulation-compression kinks needing physical access repair. Inspection-only is $149. We quote scope after camera inspection — the price on the invoice matches the quote, every job.",
+        a: "Land O' Lakes cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Most Connerton, Ballantrae, Chapel Pines, and Stonegate two-story floor plans route 22-32 feet through attic chases, landing at $199-$299. Wilderness Lake executive plans with 30-35 ft runs land at $279-$329. Single-story Pebble Creek stock with 14-18 ft runs lands at $119-$159. Wall ductwork repair ($195-$595) surfaces more often than average on 2005-2010 cohort addresses because of insulation-compression kinks needing physical access repair. Inspection-only is $79 (the same base rate). We quote scope after camera inspection — the price on the invoice matches the quote, every job.",
       },
       {
         q: 'Why does my 2008 home in Ballantrae need a camera inspection before cleaning?',
@@ -1447,7 +1447,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'Can you just give me a flat phone quote?',
-        a: "For 2015-and-later Land O' Lakes addresses with clean straight duct paths, yes — the standard $149-$249 single-family / $129-$199 condo ranges apply and the invoice matches the range. For the 2005-2010 cohort in Connerton, Ballantrae, Chapel Pines, Stonegate, and Stagecoach we decline to lock a flat phone quote before camera inspection because insulation-compression kinks change the actual scope. We prefer to inspect ($149), document the duct path, and quote real scope rather than surprise you on the invoice.",
+        a: "For 2015-and-later Land O' Lakes addresses with clean straight duct paths, yes — the per-foot rule ($79 for the first 10 feet plus $10 per additional foot) calculates straight from the run length and the invoice matches the quote. For the 2005-2010 cohort in Connerton, Ballantrae, Chapel Pines, Stonegate, and Stagecoach we decline to lock a price before camera inspection because insulation-compression kinks effectively lengthen the run and change the actual scope. We prefer to inspect ($79, the same base rate), document the duct path, and quote real scope rather than surprise you on the invoice.",
       },
       {
         q: "How often should a Land O' Lakes home get vent cleaning?",
@@ -1465,7 +1465,7 @@ export const areaContent: AreaContent[] = [
     slug: 'lutz',
     metaTitle: 'Lutz Dryer Vent Cleaning | 40+ ft Detached-Structure Runs',
     metaDescription:
-      'Lutz dryer vent and dryer duct cleaning for Cheval, Van Dyke Farms, Stonebridge, Heritage Harbor. Detached-structure specialists, 50-foot rotary reach, flat-rate from $149.',
+      'Lutz dryer vent cleaning for Cheval, Van Dyke Farms, Stonebridge, Heritage Harbor. Detached-structure specialists, 50-ft rotary reach, $79 + $10/ft.',
     heroSubtitle:
       "Lutz is Tampa equestrian country. Mother-in-law suites, pool houses, barn-converted workshops, and breezeway laundry rooms push dryer duct runs past 40 feet. One appointment, every structure. No re-dispatch, no second invoice.",
     longIntro:
@@ -1527,7 +1527,7 @@ export const areaContent: AreaContent[] = [
       'Written report per structure with airflow numbers, photos, and 6-month or annual re-cleaning recommendation within 24 hours',
     ],
     pricingNotes:
-      "Lutz pricing accommodates the secondary-structure reality. A standard single-structure Lutz home falls into the $149-$249 residential band with the $50 second-floor surcharge where applicable — most Cheval, Heritage Harbor, and Calusa Trace two-story homes land at $199-$249. Multi-structure Lutz addresses (main house plus pool house, main house plus mother-in-law suite, main house plus barn-converted workshop) are quoted on one appointment with a per-structure rate — typically the main structure at standard pricing plus a reduced rate per secondary structure because the crew is already on-site. Wall ductwork repair ($195-$595) is quoted per structure as-needed. Equestrian-particulate addresses should plan on the 6-month cycle which doubles annual spend but keeps airflow consistent. Inspection-only is $149 per structure. Condo / townhouse stock (rare in Lutz) is $129-$199.",
+      "Lutz pricing follows the per-foot rule: $79 base for the first 10 feet plus $10 per additional foot. Cheval, Heritage Harbor, and Calusa Trace two-story homes with 22-30 ft second-floor runs land at $199-$279. Lutz Proper single-story stock with 14-20 ft runs lands at $119-$179. Where Lutz becomes distinct is detached-structure runs: Van Dyke Farms and Stonebridge mother-in-law suites, pool houses, and barn-converted workshops routinely have 40-50 ft duct paths, which lands at $379-$479 per structure on the per-foot model. Multi-structure addresses are quoted on one appointment — main structure plus reduced per-structure rate for each secondary because the crew is already on-site. Wall ductwork repair ($195-$595) is quoted per structure as-needed. Inspection-only is $79 per structure (the same base rate).",
     counterPositioning:
       "Lutz rural-zone vent runs do not exist in the franchise playbook — they are a Tampa-outskirts edge case. Local operators either know the work or refuse the job. The corporate routing center behind the FTC-mandated \"independently owned and operated franchises\" disclosure dispatches crews with standard 30-foot rotary kits that physically cannot reach the middle of a 45-foot detached-structure run, and franchise crews typically quote per-structure with re-dispatch between visits. One appointment, every structure, stocked for the reach this market needs.",
     testimonial: {
@@ -1542,7 +1542,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'How much does dryer vent cleaning cost in Lutz?',
-        a: "Standard single-structure Lutz homes fall into $149-$249; most two-story Cheval, Heritage Harbor, and Calusa Trace floor plans land at $199-$249 with the $50 second-floor surcharge. Multi-structure addresses (main house plus pool house, mother-in-law suite, or barn-converted workshop) are quoted on one appointment with the main structure at standard pricing and a reduced per-structure rate for each secondary. Wall ductwork repair is $195-$595 per structure as-needed. Inspection-only is $149 per structure. Condo work is $129-$199.",
+        a: "Lutz cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Cheval, Heritage Harbor, and Calusa Trace two-story homes with 22-30 ft runs land at $199-$279. Lutz Proper single-story stock with 14-20 ft runs lands at $119-$179. Detached-structure runs in Van Dyke Farms and Stonebridge — mother-in-law suites, pool houses, barn-converted workshops — routinely hit 40-50 ft and land at $379-$479 per structure. Multi-structure addresses are quoted on one appointment with the main structure at standard pricing and a reduced per-structure rate for each secondary. Wall ductwork repair is $195-$595 per structure as-needed. Inspection-only is $79 per structure (the same base rate).",
       },
       {
         q: 'I have a detached pool house with a washer-dryer. Do I need a separate appointment?',
@@ -1568,7 +1568,7 @@ export const areaContent: AreaContent[] = [
     slug: 'valrico',
     metaTitle: 'Valrico Dryer Vent Cleaning | FishHawk Ranch Phase Specialists',
     metaDescription:
-      'Valrico dryer vent and dryer duct cleaning for FishHawk Ranch (Starling, Garcia, Park Square, Palmetto Cay), Bloomingdale, Diamond Hill. Phase-level specialists, flat-rate from $149.',
+      'Valrico dryer vent cleaning for FishHawk Ranch (Starling, Garcia, Park Square, Palmetto Cay), Bloomingdale, Diamond Hill. Phase-level specialists, $79 + $10/ft.',
     heroSubtitle:
       "FishHawk Ranch is not one neighborhood — it is Starling, Garcia, Park Square, Palmetto Cay, and a dozen more phases built by different contractors across 2001-2018. A crew that has done 800 FishHawk homes can pattern-match the vent routing from the street name alone.",
     longIntro:
@@ -1642,7 +1642,7 @@ export const areaContent: AreaContent[] = [
       'Written report with airflow numbers, phase-specific notes, and recommended re-cleaning cycle within 24 hours',
     ],
     pricingNotes:
-      "Valrico pricing reflects the two-story floor-plan dominance across FishHawk Ranch and the established suburban stock. Most single-family jobs land at $199-$249 because almost every FishHawk, Bloomingdale, Diamond Hill, and River Hills floor plan triggers the +$50 second-floor surcharge on the $149-$249 base. Park Square and Diamond Hill executive-size homes with 32-plus-foot vent runs can land at the top of the band. Wall ductwork repair ($195-$595) is the line item we quote most often in Valrico — on 1990s-2000s Bloomingdale, River Hills, and Buckhorn stock it is usually original builder-grade flex or transition-hose replacement; on FishHawk 2001-2008 Starling and Garcia phases it is occasionally a builder-grade flex replacement in the 5-to-8-year failure cohort pattern that also shows up in Riverview. Condo / townhouse work is $129-$199. Inspection-only is $149.",
+      "Valrico pricing follows the per-foot rule: $79 base for the first 10 feet plus $10 per additional foot. Most FishHawk Ranch (Starling, Garcia, Park Square, Palmetto Cay), Bloomingdale, and River Hills two-story floor plans route 22-30 feet from second-floor laundry to a sidewall termination, landing at $199-$279. Park Square and Diamond Hill executive plans with 32-35 ft runs land at $299-$329. Buckhorn and Valrico Proper single-story stock with 14-18 ft runs lands at $119-$159. Wall ductwork repair ($195-$595) is the line item we quote most often in Valrico — on 1990s-2000s Bloomingdale, River Hills, and Buckhorn stock it is usually original builder-grade flex or transition-hose replacement; on FishHawk 2001-2008 Starling and Garcia phases it is occasionally a builder-grade flex replacement in the 5-to-8-year failure cohort pattern that also shows up in Riverview. Inspection-only is $79 (the same base rate).",
     counterPositioning:
       "National chains treat FishHawk Ranch as one ZIP code on a map. A local operator who has done 800 FishHawk homes over the years knows Starling has different vent pitch than Garcia and can plan the visit accordingly — rotary brush size, reach, ladder position, camera angle. The corporate routing center behind the FTC-mandated \"independently owned and operated franchises\" disclosure rotates crews in and out and cannot build that pattern library. The FishHawk Facebook network surfaces a bad job within days.",
     testimonial: {
@@ -1657,7 +1657,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'How much does dryer vent cleaning cost in Valrico?',
-        a: "Most Valrico jobs land at $199-$249 because almost every FishHawk, Bloomingdale, Diamond Hill, and River Hills floor plan triggers the $50 second-floor surcharge on the $149-$249 base. Park Square and Diamond Hill executive-size homes with 32-plus-foot runs can land at the top of that band. Wall ductwork repair is $195-$595 when original builder-grade material needs replacement — common on 1990s-2000s stock. Condo work is $129-$199. Inspection-only is $149.",
+        a: "Valrico cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Most FishHawk Ranch, Bloomingdale, and River Hills two-story plans route 22-30 ft from second-floor laundry to a sidewall exit, landing at $199-$279. Park Square and Diamond Hill executive plans with 32-35 ft runs land at $299-$329. Buckhorn and Valrico Proper single-story stock with 14-18 ft runs lands at $119-$159. Wall ductwork repair is $195-$595 when original builder-grade material needs replacement — common on 1990s-2000s stock. Inspection-only is $79 (the same base rate).",
       },
       {
         q: 'Why does the FishHawk phase matter for my dryer vent cleaning?',
@@ -1665,7 +1665,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'My 2004 FishHawk Starling home is original construction. What should I expect during cleaning?',
-        a: "Starling 2001-2005 builds commonly have original builder-grade flexible foil transition hose still in service and original exterior cap hardware at end-of-life. Camera inspection before cleaning reveals the condition; wall ductwork repair ($195-$595) to replace failed flex with rigid metal is quoted during the cleaning visit with photos, not as a surprise after. Expect a 75-110 minute job for a full rotary brush pass with replacement work included. Airflow numbers before and after are on the invoice.",
+        a: "Starling 2001-2005 builds commonly have original builder-grade flexible foil transition hose still in service and original exterior cap hardware at end-of-life. Camera inspection before cleaning reveals the condition; wall ductwork repair ($195-$595) to replace failed flex with rigid metal is quoted during the cleaning visit with photos, not as a surprise after. Expect a 75-110 minute job for a full rotary brush pass with replacement work included. The cleaning itself follows the per-foot rule — base $79 plus $10 per foot beyond 10 — so a typical 24-28 ft Starling run lands at $219-$259 on cleaning, plus the wall repair line if needed. Airflow numbers before and after are on the invoice.",
       },
       {
         q: 'How often should a FishHawk Ranch family home get vent cleaning?',
@@ -1682,7 +1682,7 @@ export const areaContent: AreaContent[] = [
     slug: 'sun-city-center',
     metaTitle: 'Sun City Center Dryer Vent Cleaning | Kings Point Villas',
     metaDescription:
-      'Sun City Center dryer vent and dryer duct cleaning for Kings Point, Renaissance, Cypress Creek, and Freedom Plaza. Written estimates for HOA records, flat-rate from $149.',
+      'Sun City Center dryer vent cleaning for Kings Point, Renaissance, Cypress Creek, Freedom Plaza. Written HOA-ready estimates, $79 + $10/ft.',
     heroSubtitle:
       "Kings Point villas and Sun City Center patio homes run laundry more often than working-household suburbs — residents are home year-round, and small frequent loads accumulate lint faster. Written, scope-first estimates go straight into HOA paperwork unchanged.",
     longIntro:
@@ -1742,7 +1742,7 @@ export const areaContent: AreaContent[] = [
       "On-time arrival within the booked window — confirmed by text before dispatch",
     ],
     pricingNotes:
-      "Sun City Center pricing is predominantly single-story, which keeps most villa and patio-home jobs in the $149-$199 band without a second-floor surcharge. Condo and attached patio-home work inside Kings Point typically runs $129-$199 under the condo/townhouse rate. Wall ductwork repair ($195-$595) is a common line on 1970s-1990s original Kings Point and Del Webb stock where original flex hose or aluminum semi-rigid duct has reached end-of-life. Inspection-only is $149. Every estimate is written, itemized, and designed to be filed with HOA paperwork unchanged — no day-of pressure, no verbal-only quotes.",
+      "Sun City Center pricing follows the per-foot rule: $79 base for the first 10 feet plus $10 per additional foot. The headline here is short runs — Kings Point villas and Del Webb patio homes are predominantly single-story with 8-12 ft duct paths, so the majority of jobs land at the $79 base or just above ($79-$99). Detached patio homes in Sun City Center proper with 12-16 ft runs land at $99-$139. Renaissance newer two-story plans with 18-24 ft runs land at $159-$219. Wall ductwork repair ($195-$595) is a common line on 1970s-1990s original Kings Point and Del Webb stock where original flex hose or aluminum semi-rigid duct has reached end-of-life. Inspection-only is $79 (the same base rate). Every estimate is written, itemized, and designed to be filed with HOA paperwork unchanged.",
     counterPositioning:
       "Commission-quota franchise crews pressure-sell HVAC, duct, and accessory upgrades to fixed-income residents who do not need them. We write a scope-first estimate first — only the work required to restore airflow and meet code — and it goes into the HOA file unchanged. Corporate routing centers behind the FTC-mandated \"independently owned and operated franchises\" disclosure cannot staff for the Kings Point community-bulletin quality bar; one review there reaches the whole community overnight.",
     testimonial: {
@@ -1757,7 +1757,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: "How much does dryer vent cleaning cost in Sun City Center?",
-        a: "Most villa and single-story patio-home jobs land at $149-$199 on the residential single-family $149-$249 base because Sun City Center is predominantly single-story, so the +$50 second-floor surcharge rarely applies. Condo and attached Kings Point work is $129-$199 under the condo/townhouse rate. Wall ductwork repair is $195-$595 when original 1970s-1990s flex hose needs replacement. Inspection-only is $149. Every quote is written and itemized so it can be filed with HOA paperwork unchanged.",
+        a: "Sun City Center cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Kings Point villas and Del Webb patio homes are predominantly single-story with short 8-12 ft runs, so most jobs land right at the $79 base or just above ($79-$99). Detached patio homes with 12-16 ft runs land at $99-$139. Renaissance newer two-story plans with 18-24 ft runs land at $159-$219. Wall ductwork repair is $195-$595 when original 1970s-1990s flex hose needs replacement. Inspection-only is $79 (the same base rate). Every quote is written and itemized so it can be filed with HOA paperwork unchanged.",
       },
       {
         q: "Why does Sun City Center's 55+ demographic change the vent cleaning interval?",
@@ -1778,7 +1778,7 @@ export const areaContent: AreaContent[] = [
     slug: 'dunedin',
     metaTitle: 'Dunedin Dryer Vent Cleaning | 3-Inch Bungalow Retrofit',
     metaDescription:
-      'Dunedin dryer vent and dryer duct cleaning for downtown bungalows, Curlew Crest, Scotsdale, and Honeymoon Island. Undersized 3-inch retrofit specialists, flat-rate from $149.',
+      'Dunedin dryer vent cleaning for downtown bungalows, Curlew Crest, Scotsdale, Honeymoon Island. Undersized 3-inch retrofit specialists, $79 + $10/ft.',
     heroSubtitle:
       "Original 1950s-60s Dunedin bungalows commonly run 3-inch exhaust duct — modern dryers require 4-inch per current code. That undersized run is a fire risk and a drying-efficiency problem. Locally-owned, independent Tampa Bay operator — not a Neighborly franchise.",
     longIntro:
@@ -1832,7 +1832,7 @@ export const areaContent: AreaContent[] = [
       "Identification of end-of-life original aluminum or builder-grade flex duct for replacement during visit",
     ],
     pricingNotes:
-      "Dunedin pricing reflects the bungalow-dominant single-story housing stock, so most residential jobs land in the $149-$199 band before surcharges. The second-floor +$50 surcharge rarely applies because the original Dunedin housing stock is predominantly single-story. Wall ductwork repair ($195-$595) is the line item quoted most often here — 3-inch to 4-inch retrofits and original aluminum flex replacements are common during the first professional cleaning on a legacy bungalow. Condo work (small downtown inventory) is $129-$199. Inspection-only is $149, and diameter + exterior cap inspection is included.",
+      "Dunedin pricing follows the per-foot rule: $79 base for the first 10 feet plus $10 per additional foot. The bungalow-dominant single-story stock keeps runs short — most downtown Dunedin, Curlew Crest, and Scotsdale bungalows have 8-14 ft duct paths, so the majority of jobs land at $79-$119. Fairway Estates and 1990s infill stock with 14-18 ft runs lands at $119-$159. Honeymoon Island corridor waterfront homes are a similar range. Wall ductwork repair ($195-$595) is the line item quoted most often here — 3-inch to 4-inch retrofits and original aluminum flex replacements are common during the first professional cleaning on a legacy bungalow, always quoted with photos first. Inspection-only is $79 (the same base rate), and diameter + exterior cap inspection is included.",
     counterPositioning:
       "Neighborly-owned national chains route every Dunedin job through a corporate parent's dispatch system, and the franchise model runs on scripted upsell quotas. Dunedin's shop-local independent-business culture fits an independent Tampa Bay operator better than a Neighborly family of brands franchise. The FTC-mandated \"independently owned and operated franchises\" disclosure every chain puts at the bottom of its marketing describes exactly the disconnect residents already feel between chain branding and local accountability.",
     testimonial: {
@@ -1847,7 +1847,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: "How much does dryer vent cleaning cost in Dunedin?",
-        a: "Most Dunedin single-family jobs land at $149-$199 on the $149-$249 residential base, because the bungalow-dominant stock is mostly single-story and the +$50 second-floor surcharge rarely applies. Wall ductwork repair is $195-$595 — this is the line we quote most in Dunedin because 3-inch to 4-inch retrofits and original aluminum flex replacements are common. Condo work is $129-$199. Inspection-only is $149.",
+        a: "Dunedin cleaning starts at $79 for the first 10 feet plus $10 per additional foot. The bungalow-dominant single-story stock keeps most runs short — downtown Dunedin, Curlew Crest, and Scotsdale bungalows with 8-14 ft duct paths land at $79-$119. Fairway Estates and 1990s infill with 14-18 ft runs lands at $119-$159. Wall ductwork repair is $195-$595 — this is the line we quote most in Dunedin because 3-inch to 4-inch retrofits and original aluminum flex replacements are common. Inspection-only is $79 (the same base rate).",
       },
       {
         q: "My 1950s Dunedin bungalow still has a 3-inch dryer vent. Is that a problem?",
@@ -1868,7 +1868,7 @@ export const areaContent: AreaContent[] = [
     slug: 'largo',
     metaTitle: 'Largo Dryer Vent Cleaning | Mid-Pinellas Flat-Rate Pricing',
     metaDescription:
-      'Largo dryer vent and dryer duct cleaning for Bardmoor, Oakhurst, Harbor Bluffs, East Bay. Transparent flat-rate quotes, locally-routed, from $149 — no franchise overhead.',
+      'Largo dryer vent cleaning for Bardmoor, Oakhurst, Harbor Bluffs, East Bay. Per-foot quotes ($79 + $10/ft), locally-routed, no franchise overhead.',
     heroSubtitle:
       "Largo residents compare quotes across three or four operators before booking. A locally-routed Pinellas operator beats a franchise truck driving 35 minutes from a Tampa or Clearwater depot — that round-trip is baked into every chain quote.",
     longIntro:
@@ -1919,10 +1919,10 @@ export const areaContent: AreaContent[] = [
       "Mobile-home-specific termination access — ground-level and skirt-panel vent handling included",
       "Exterior termination cap inspection with photo documentation",
       "Pre- and post-airflow measurement with calibrated anemometer, recorded on the invoice",
-      "Written flat-rate quote before work starts — direct-comparison ready against any chain estimate",
+      "Written per-foot quote before work starts — direct-comparison ready against any chain estimate",
     ],
     pricingNotes:
-      "Largo pricing is built for a quote-comparison market. Single-family jobs run $149-$249 with the +$50 second-floor surcharge applying to the share of two-story Bardmoor and Oakhurst stock. Most single-story 1960s-1980s Largo proper and Oakhurst work lands at $149-$199. Condo and townhouse work is $129-$199. Mobile home work is quoted at the single-family rate and does not carry a liability surcharge — we handle the housing type other operators decline. Wall ductwork repair is $195-$595 when original 1960s-1970s builder-grade material needs replacement. Inspection-only is $149.",
+      "Largo pricing is built for a quote-comparison market and follows the per-foot rule: $79 base for the first 10 feet plus $10 per additional foot. Single-story 1960s-1980s Largo proper, Oakhurst, and East Bay stock with 12-16 ft runs lands at $99-$139 — the bulk of Largo work. Two-story Bardmoor executive plans with 22-28 ft runs land at $199-$259. Harbor Bluffs condos and townhouses are usually under 10 feet and bill at the $79 base. Mobile home work at Largo Mobile Home Parks typically has short ground-level or skirt-panel runs of 6-12 ft, landing at $79-$99 with no liability surcharge — we handle the housing type other operators decline. Wall ductwork repair is $195-$595 when original 1960s-1970s builder-grade material needs replacement. Inspection-only is $79 (the same base rate).",
     counterPositioning:
       "A national franchise truck driving 35 minutes from a Tampa or Clearwater depot to a Largo address charges for that 70-minute round trip whether the homeowner sees it broken out on the invoice or not. A Pinellas-based operator with a local route map keeps overhead down and prices better for the same work. The FTC-mandated \"independently owned and operated franchises\" disclosure on every national-chain quote describes a corporate routing center, not a local service footprint.",
     testimonial: {
@@ -1937,7 +1937,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: "How much does dryer vent cleaning cost in Largo?",
-        a: "Most single-family Largo jobs land at $149-$249 on the residential base, with the +$50 second-floor surcharge applying on two-story Bardmoor and Oakhurst floor plans — single-story Largo proper and Oakhurst homes typically land at $149-$199. Condo and townhouse work is $129-$199. Mobile home work is priced at the single-family rate with no liability surcharge. Wall ductwork repair is $195-$595 for original 1960s-1970s builder-grade replacement. Inspection-only is $149.",
+        a: "Largo cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Single-story 1960s-1980s Largo proper, Oakhurst, and East Bay homes with 12-16 ft runs typically land at $99-$139 — the bulk of Largo work. Two-story Bardmoor executive plans with 22-28 ft runs land at $199-$259. Harbor Bluffs condos and townhouses are usually under 10 feet and bill at the $79 base. Mobile home work has short ground-level or skirt-panel runs of 6-12 ft, landing at $79-$99 with no liability surcharge. Wall ductwork repair is $195-$595 for original 1960s-1970s builder-grade replacement. Inspection-only is $79 (the same base rate).",
       },
       {
         q: "Why is a locally-based operator cheaper than a Tampa or Clearwater franchise for Largo?",
@@ -1958,7 +1958,7 @@ export const areaContent: AreaContent[] = [
     slug: 'pinellas-park',
     metaTitle: 'Pinellas Park Dryer Vent Cleaning | 1960s Aluminum Retrofit',
     metaDescription:
-      'Pinellas Park dryer vent and dryer duct cleaning for Mainlands of Tamarac, Bonair Park, Tyrone Gardens. Aluminum-duct retrofit specialists, mobile-home service, from $149.',
+      'Pinellas Park dryer vent cleaning for Mainlands of Tamarac, Bonair Park, Tyrone Gardens. Aluminum-duct retrofit, mobile-home service, $79 + $10/ft.',
     heroSubtitle:
       "Many Pinellas Park homes still run original 1960s-70s aluminum exhaust duct — 50-plus years old, brittle at the joints, and mismatched to modern high-CFM dryers. Camera inspection before quote catches the severity; flat cleaning pricing misses it.",
     longIntro:
@@ -2012,7 +2012,7 @@ export const areaContent: AreaContent[] = [
       "Exterior termination cap inspection with photo documentation of corrosion or damage",
     ],
     pricingNotes:
-      "Pinellas Park pricing is built for a pricing-sensitive working-class market and reflects the predominantly single-story housing stock. Single-family jobs mostly land at $149-$199 on the $149-$249 residential base because the +$50 second-floor surcharge rarely applies. Wall ductwork repair ($195-$595) is the most-quoted line item in Pinellas Park — original 1960s-1970s aluminum-to-modern-rigid-metal retrofit is common enough that it shows up on most first-professional-cleaning invoices. Mobile home work at Mainlands of Tamarac and similar parks is priced at the single-family rate with no liability surcharge. Condo work is $129-$199. Inspection-only is $149.",
+      "Pinellas Park pricing follows the per-foot rule: $79 base for the first 10 feet plus $10 per additional foot. The predominantly single-story 1960s-1970s housing stock keeps runs short — Pinellas Park proper, Bonair Park, and Tyrone Gardens single-story homes with 10-16 ft runs typically land at $79-$139, the bulk of Pinellas Park work. Mobile home work at Mainlands of Tamarac and similar parks has short ground-level or skirt-panel runs of 6-10 ft and lands at the $79 base with no liability surcharge — we handle the housing type other operators decline. Wall ductwork repair ($195-$595) is the most-quoted line item in Pinellas Park because original 1960s-1970s aluminum-to-modern-rigid-metal retrofit is common enough that it shows up on most first-professional-cleaning invoices. Inspection-only is $79 (the same base rate).",
     counterPositioning:
       "National chains decline mobile-home work on liability grounds — Mainlands of Tamarac and similar Pinellas Park parks are a meaningful share of the local housing stock, and the franchise model leaves the market uncovered. We service it where the market actually is. The FTC-mandated \"independently owned and operated franchises\" disclosure on chain marketing describes a corporate routing center with centralized liability policy, not a local operator making housing-type-by-housing-type service decisions.",
     testimonial: {
@@ -2027,11 +2027,11 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: "How much does dryer vent cleaning cost in Pinellas Park?",
-        a: "Most single-family jobs land at $149-$199 on the $149-$249 residential base because the housing stock is predominantly single-story and the +$50 second-floor surcharge rarely applies. Wall ductwork repair is $195-$595 and is the most-quoted line item in Pinellas Park because original 1960s-1970s aluminum-to-rigid-metal retrofit is common. Condo work is $129-$199. Mobile home work is priced at the single-family rate with no liability surcharge. Inspection-only is $149.",
+        a: "Pinellas Park cleaning starts at $79 for the first 10 feet plus $10 per additional foot. The predominantly single-story 1960s-1970s housing stock keeps runs short — Pinellas Park proper, Bonair Park, and Tyrone Gardens homes with 10-16 ft runs typically land at $79-$139, the bulk of local work. Mobile home work has short 6-10 ft runs and lands at the $79 base with no liability surcharge. Wall ductwork repair is $195-$595 and is the most-quoted line item in Pinellas Park because original 1960s-1970s aluminum-to-rigid-metal retrofit is common. Inspection-only is $79 (the same base rate).",
       },
       {
         q: "My 1970 Pinellas Park home still has the original aluminum dryer duct. Is that a problem?",
-        a: "Yes. Original 1960s-1970s aluminum semi-rigid exhaust duct is now 50-plus years old, brittle at every joint, crack-prone at every elbow, and mismatched to the higher CFM a modern high-efficiency dryer produces. Cracks leak lint-laden exhaust into the wall cavity. Camera inspection on arrival documents exactly where the cracking is; retrofit to modern semi-rigid or rigid metal is quoted in writing as wall ductwork repair ($195-$595) before any work starts. Flat cleaning pricing without a camera inspection misses the severity entirely.",
+        a: "Yes. Original 1960s-1970s aluminum semi-rigid exhaust duct is now 50-plus years old, brittle at every joint, crack-prone at every elbow, and mismatched to the higher CFM a modern high-efficiency dryer produces. Cracks leak lint-laden exhaust into the wall cavity. Camera inspection on arrival documents exactly where the cracking is; retrofit to modern semi-rigid or rigid metal is quoted in writing as wall ductwork repair ($195-$595) before any work starts. Cleaning pricing without a camera inspection misses the severity entirely.",
       },
       {
         q: "Do you service mobile homes at Mainlands of Tamarac and other Pinellas Park parks?",
@@ -2047,13 +2047,33 @@ export function getAreaContent(slug: string): AreaContent | undefined {
   return areaContent.find((c) => c.slug === slug);
 }
 
-// Standard Tampa Bay price ranges used across all enhanced area pages.
+// Standard Tampa Bay pricing — per-foot model.
+// Base $79 for the first 10 feet of vent run, +$10 per additional foot beyond 10ft.
 // Individual cities can override via AreaContent.pricingNotes.
 export const STANDARD_PRICING = [
-  { label: 'Residential single-family', range: '$149–$249' },
-  { label: 'Condo / townhouse', range: '$129–$199' },
-  { label: 'Second-floor laundry surcharge', range: '+$50' },
-  { label: 'Wall ductwork repair', range: '$195–$595' },
-  { label: 'Inspection only', range: '$149' },
-  { label: 'Commercial / multi-unit', range: 'Custom quote' },
+  {
+    label: 'Standard Residential Cleaning',
+    range: 'From $79 (first 10 feet)',
+    note: 'Most common — includes inspection, cleaning, airflow test',
+  },
+  {
+    label: 'Additional Length',
+    range: '+$10 per foot after 10ft',
+    note: 'Long-run homes, 2-story, detached laundry',
+  },
+  {
+    label: 'Typical Total',
+    range: '$119–$249',
+    note: 'Most residential jobs fall in this range depending on vent length',
+  },
+  {
+    label: 'Condo / Townhouse',
+    range: 'From $79 (first 10 feet)',
+    note: 'Same structure — most condo vents are under 10 feet',
+  },
+  {
+    label: 'Wall Ductwork Repair',
+    range: '$195–$595',
+    note: 'Broken or damaged duct replacement, ranges by scope',
+  },
 ] as const;
