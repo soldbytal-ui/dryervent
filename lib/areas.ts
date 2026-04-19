@@ -238,7 +238,6 @@ export const areas: Area[] = [
     neighborhoods: ['Kings Point', 'Renaissance', 'Del Webb Sun City Center', 'Cypress Creek'],
     landmarks: ['Kings Point Clubhouse', 'South Bay Hospital', 'Sun City Center Plaza'],
     drivers: ['55+ retirement community density', 'heavy daily dryer use', 'aging original vent infrastructure', 'HOA and property management contracts'],
-    placeholder: true,
   },
   {
     slug: 'dunedin',
@@ -253,7 +252,6 @@ export const areas: Area[] = [
     neighborhoods: ['Downtown Dunedin', 'Honeymoon Island area', 'Edgewater', 'Fairway Estates'],
     landmarks: ['Honeymoon Island State Park', 'Pinellas Trail', 'Dunedin Stadium'],
     drivers: ['coastal salt air corrosion', '1950s bungalow housing stock', 'shop-local community culture', 'Gulf-front humidity'],
-    placeholder: true,
   },
   {
     slug: 'largo',
@@ -268,7 +266,6 @@ export const areas: Area[] = [
     neighborhoods: ['Belleair Bluffs', 'Indian Rocks Beach corridor', 'Harbor Bluffs', 'East Bay'],
     landmarks: ['Largo Central Park', 'Pinellas County Heritage Village', 'Largo Medical Center'],
     drivers: ['dense mixed housing stock', 'mobile home park concentration', 'mid-century ranch homes', 'mid-Pinellas central location'],
-    placeholder: true,
   },
   {
     slug: 'pinellas-park',
@@ -283,7 +280,6 @@ export const areas: Area[] = [
     neighborhoods: ['Mainlands', 'Cross Bayou', 'Central Park', 'Hainan'],
     landmarks: ['Freedom Lake Park', 'Pinellas Park Performing Arts Center', 'Helen Howarth Park'],
     drivers: ['dense pre-1980 housing', 'mobile home park concentration', 'working-class affordability focus', 'aging vent infrastructure'],
-    placeholder: true,
   },
   {
     slug: 'new-port-richey',

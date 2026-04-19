@@ -1675,6 +1675,372 @@ export const areaContent: AreaContent[] = [
     responseNote:
       "Valrico and FishHawk Ranch addresses are 25-35 minutes from our Tampa base via I-75 or Highway 60. The FishHawk phase-level pattern library travels with the crew — rotary brush kits are configured before arrival based on the street name. Same-week scheduling is the norm; block-day requests coordinated through the FishHawk Facebook community are common and we accommodate them directly. Saturday appointments available with no weekend surcharge.",
   },
+  // ─────────────────────────────────────────────────────────────────────────
+  // 16. SUN CITY CENTER — Tier 2 — 55+ retirement community, Kings Point
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'sun-city-center',
+    metaTitle: 'Sun City Center Dryer Vent Cleaning | Kings Point Villas',
+    metaDescription:
+      'Sun City Center dryer vent and dryer duct cleaning for Kings Point, Renaissance, Cypress Creek, and Freedom Plaza. Written estimates for HOA records, flat-rate from $149.',
+    heroSubtitle:
+      "Kings Point villas and Sun City Center patio homes run laundry more often than working-household suburbs — residents are home year-round, and small frequent loads accumulate lint faster. Written, scope-first estimates go straight into HOA paperwork unchanged.",
+    longIntro:
+      "Sun City Center dryer vent cleaning is, in practice, Kings Point villa cleaning plus the Sun City Center proper, Renaissance, Freedom Plaza, and Cypress Creek inventory — all inside the 33573 and 33574 ZIP envelope of Hillsborough's flagship 55+ active-adult community. The dryer duct math here is different from a working-household suburb: residents are home during the day, home year-round, and run laundry in smaller, more frequent loads. Weekly dryer run-hours are materially higher than a suburban benchmark, so the dryer vent accumulates lint faster than a standard usage chart predicts. The 1970s-through-2000s Kings Point villas and attached patio homes follow repeatable architectural patterns — one tech visit reveals a layout that applies to the neighbor's villa and the villa across the court. The Airflow team works Kings Point and Sun City Center routinely, writes scope-first estimates suitable for HOA records, and quotes transparent flat-rate pricing so fixed-income households can plan the expense without surprises.",
+    whyClogHere:
+      "Sun City Center's clogging pattern is driven by retirement-demographic dryer usage laid over aging, uniform housing stock. Residents who are home all day and home year-round run dryers more often than a typical working-household schedule — small loads of a few items at a time, multiple times per week, instead of one or two weekend marathon loads. Total dryer run-hours per week trend materially higher than the suburban average, which compresses the NFPA 211 annual cleaning interval into something closer to a 9-to-10-month practical cycle for high-use households. Kings Point villas built in the 1970s-1990s and the attached patio homes across Sun City Center proper run consistent floor plans by phase, meaning the dryer duct routing, exterior cap location, and elbow count repeat across whole courts. That pattern helps a crew that knows the community — and hurts a rotating franchise truck that sees each villa as a one-off. Many original builds still have the builder-grade flexible foil transition hose or aluminum semi-rigid duct from original construction, now 30-to-50 years old and at or past end-of-life. Humid summers accelerate lint-moisture compaction inside those older ducts. Kings Point community bulletin posts and the resident Facebook group surface both good and bad service reviews overnight, which sets a high quality bar for any crew working the community.",
+    neighborhoodDetail: [
+      {
+        name: 'Kings Point',
+        zip: '33573',
+        detail:
+          "The 5,000-plus-home condo and villa community inside Sun City Center — 1970s-1990s construction with repeatable vent layouts by phase. Pattern-match cleaning from one villa to the next-door unit.",
+      },
+      {
+        name: 'Sun City Center Proper',
+        zip: '33573',
+        detail:
+          "Detached patio homes and single-family builds across the original Del Webb core — mixed 1970s-2000s stock with standard suburban vent routing but higher weekly dryer run-hours than suburban averages.",
+      },
+      {
+        name: 'Renaissance',
+        zip: '33573',
+        detail:
+          "Newer gated 55+ enclave with 2000s-2010s construction — rigid-metal dryer duct by code on most builds and entering its first deep-clean interval as homes pass the 10-year mark.",
+      },
+      {
+        name: 'Freedom Plaza',
+        zip: '33573',
+        detail:
+          "Life-plan community with independent-living residences — shared-wall units with routing that requires coordination for exterior cap inspection and written reports acceptable to building management.",
+      },
+      {
+        name: 'Cypress Creek',
+        zip: '33573',
+        detail:
+          "Established 1980s-1990s neighborhood within Sun City Center with single-family and patio stock — original builder-grade flexible foil transition hose is routinely past end-of-life at first deep clean.",
+      },
+      {
+        name: 'Del Webb Sun City Center',
+        zip: '33573',
+        detail:
+          "The original 1960s-1970s Del Webb core — oldest housing stock in the community, frequently with original vent hardware never professionally serviced and exterior caps corroded past replacement.",
+      },
+      {
+        name: 'North Sun City Center (33574)',
+        zip: '33574',
+        detail:
+          "Outer ZIP covering the newer expansion edges of the community — mix of 1990s-2010s construction with a higher share of rigid-metal-compliant duct than the core 33573 stock.",
+      },
+    ],
+    includesList: [
+      "Written scope-first estimate suitable for HOA records before any work begins",
+      "Rotary brush cleaning sized to actual dryer duct diameter with reach configured for villa floor-plan run length",
+      "Exterior termination cap inspection with photo documentation of corrosion or damage",
+      "Identification of end-of-life original builder-grade flexible foil or aluminum semi-rigid duct",
+      "Pre- and post-airflow measurement with calibrated anemometer, recorded on the invoice",
+      "On-time arrival within the booked window — confirmed by text before dispatch",
+    ],
+    pricingNotes:
+      "Sun City Center pricing is predominantly single-story, which keeps most villa and patio-home jobs in the $149-$199 band without a second-floor surcharge. Condo and attached patio-home work inside Kings Point typically runs $129-$199 under the condo/townhouse rate. Wall ductwork repair ($195-$595) is a common line on 1970s-1990s original Kings Point and Del Webb stock where original flex hose or aluminum semi-rigid duct has reached end-of-life. Inspection-only is $149. Every estimate is written, itemized, and designed to be filed with HOA paperwork unchanged — no day-of pressure, no verbal-only quotes.",
+    counterPositioning:
+      "Commission-quota franchise crews pressure-sell HVAC, duct, and accessory upgrades to fixed-income residents who do not need them. We write a scope-first estimate first — only the work required to restore airflow and meet code — and it goes into the HOA file unchanged. Corporate routing centers behind the FTC-mandated \"independently owned and operated franchises\" disclosure cannot staff for the Kings Point community-bulletin quality bar; one review there reaches the whole community overnight.",
+    testimonial: {
+      text: "Kings Point villa, original 1987 build. The crew showed up in the booked window, wrote out a clean itemized estimate before touching anything, and handed me a printed copy I walked straight into the HOA office. Replaced the original flex hose that was cracked at three joints, ran a rotary brush through the whole duct, and left me airflow numbers on the invoice. No upsell attempts, no surprise charges. Told three neighbors the same afternoon.",
+      author: "Margaret H.",
+      neighborhood: "Kings Point",
+    },
+    cityFaqs: [
+      {
+        q: "When is dryer vent cleaning busiest in Sun City Center?",
+        a: "January and September are the Tampa Bay demand peaks, each running near 880 monthly searches across the metro. Sun City Center skews more evenly across the calendar than working-household suburbs because residents are home year-round and book on a personal cycle rather than a back-to-school or post-holiday spike. HOA-coordinated block-day requests concentrate in October and March, which tightens the schedule in those months. Individual appointments are easy to place in February, May, and November.",
+      },
+      {
+        q: "How much does dryer vent cleaning cost in Sun City Center?",
+        a: "Most villa and single-story patio-home jobs land at $149-$199 on the residential single-family $149-$249 base because Sun City Center is predominantly single-story, so the +$50 second-floor surcharge rarely applies. Condo and attached Kings Point work is $129-$199 under the condo/townhouse rate. Wall ductwork repair is $195-$595 when original 1970s-1990s flex hose needs replacement. Inspection-only is $149. Every quote is written and itemized so it can be filed with HOA paperwork unchanged.",
+      },
+      {
+        q: "Why does Sun City Center's 55+ demographic change the vent cleaning interval?",
+        a: "Because residents are home all day and home year-round, dryer run-hours per week trend materially higher than a typical working-household schedule — small frequent loads instead of one or two weekend marathons. Total weekly run time is higher, so lint accumulates faster. The NFPA 211 annual floor is still the baseline, but high-use Kings Point and Sun City Center households commonly benefit from a 9-to-10-month practical cycle rather than strict 12 months.",
+      },
+      {
+        q: "Can I get a written estimate I can file with my HOA?",
+        a: "Yes — every Sun City Center quote is scope-first, itemized, written, and formatted to go into HOA paperwork unchanged. We walk the vent path, camera-inspect where required, record airflow numbers, and hand over a printed estimate before any work starts. No verbal-only quotes, no day-of pressure, no commission-quota upsell scripts. Kings Point community bulletin posts and Facebook reviews hold every local operator to that standard.",
+      },
+    ],
+    responseNote:
+      "Sun City Center is 35-45 minutes from our Tampa base via I-75 south and SR-674. Same-week scheduling is standard, and block-day HOA coordination through Kings Point and Renaissance is routine — we handle the scheduling directly with the association. Saturday appointments available at no weekend surcharge.",
+  },
+  // ─────────────────────────────────────────────────────────────────────────
+  // 17. DUNEDIN — Tier 2 — coastal bungalows, undersized 3" vents, shop-local
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'dunedin',
+    metaTitle: 'Dunedin Dryer Vent Cleaning | 3-Inch Bungalow Retrofit',
+    metaDescription:
+      'Dunedin dryer vent and dryer duct cleaning for downtown bungalows, Curlew Crest, Scotsdale, and Honeymoon Island. Undersized 3-inch retrofit specialists, flat-rate from $149.',
+    heroSubtitle:
+      "Original 1950s-60s Dunedin bungalows commonly run 3-inch exhaust duct — modern dryers require 4-inch per current code. That undersized run is a fire risk and a drying-efficiency problem. Locally-owned, independent Tampa Bay operator — not a Neighborly franchise.",
+    longIntro:
+      "Dunedin dryer vent cleaning centers on a specific retrofit reality: many original 1950s-1960s Dunedin bungalows still run a 3-inch diameter exhaust duct, while modern dryers require a full 4-inch diameter dryer duct under current code. That undersized run is simultaneously a fire-risk issue — lint cannot clear a 3-inch run from a modern high-CFM dryer fast enough — and a drying-efficiency problem that shows up as longer cycle times and damp towels. Downtown Dunedin, Curlew Crest, Scotsdale, Fairway Estates, and the Honeymoon Island corridor all share a bungalow-dominant housing stock inside the single 34698 ZIP. Salt air from the Gulf, lighter than St. Pete's direct exposure but still present, corrodes exterior vent caps faster than inland Pinellas. Dunedin has a strong shop-local, independent-business culture — residents actively prefer an independent Tampa Bay operator over a Neighborly-owned national franchise. The Airflow team handles the 3-inch to 4-inch retrofit in place, services the full 34698 envelope, and fits the local shop-local ethos naturally.",
+    whyClogHere:
+      "Dunedin's clogging pattern has two main drivers. First, the 3-inch undersized original dryer duct retrofit issue: a large share of the original 1950s-1960s bungalow stock was built to the old residential code that accepted a 3-inch diameter exhaust run. Modern dryers are high-CFM and code now requires 4-inch. Running a modern dryer through a legacy 3-inch dryer vent means the exhaust cannot move lint fast enough; lint compacts against the duct walls, airflow collapses, cycle times stretch, and the lint-trap zone at the exterior termination becomes a fire-risk concentration point. First-time professional cleanings on these homes routinely turn up a recommendation to upsize the run during cleaning, and wall ductwork repair work is common. Second, salt air. Dunedin sits on the Gulf — not the direct open-Gulf exposure St. Petersburg's west side gets, but consistent salt aerosol nonetheless. Exterior vent caps, damper hardware, and any galvanized components corrode faster than inland Pinellas. The Honeymoon Island-adjacent addresses see the most aggressive corrosion. Combined, these factors mean Dunedin bungalows benefit from camera inspection on every visit — diameter check, exterior cap check, salt-corrosion check — not just a rotary brush and go. The NFPA 211 annual cleaning floor holds, and shorter cycles apply to the oldest unretrofitted bungalows.",
+    neighborhoodDetail: [
+      {
+        name: 'Downtown Dunedin',
+        zip: '34698',
+        detail:
+          "The historic bungalow core around Main Street and Broadway — 1920s-1950s original housing stock with the highest concentration of 3-inch undersized exhaust runs awaiting retrofit to modern 4-inch.",
+      },
+      {
+        name: 'Curlew Crest',
+        zip: '34698',
+        detail:
+          "Established neighborhood of 1960s-1980s single-family homes — mix of original undersized duct on older builds and standard 4-inch routing on newer infill. Camera inspection recommended on first visit.",
+      },
+      {
+        name: 'Scotsdale',
+        zip: '34698',
+        detail:
+          "Mid-20th-century residential pocket with mostly single-story bungalow and ranch stock — original aluminum or flex duct past end-of-life on most unrenovated homes.",
+      },
+      {
+        name: 'Fairway Estates',
+        zip: '34698',
+        detail:
+          "Golf-course-adjacent neighborhood with mixed mid-century to 1990s housing — vent routing varies by era, and original-build homes often still have builder-grade materials in service.",
+      },
+      {
+        name: 'Honeymoon Island Corridor',
+        zip: '34698',
+        detail:
+          "Homes along the Causeway and north Dunedin waterfront — most aggressive salt-air exposure in the city, with exterior caps corroding visibly faster than inland Dunedin addresses.",
+      },
+      {
+        name: 'Downtown Dunedin North / Pinellas Trail',
+        zip: '34698',
+        detail:
+          "Streets along and near the Pinellas Trail — dense older bungalow housing with short straight vent runs but a high retrofit rate because of the undersized original duct diameter.",
+      },
+    ],
+    includesList: [
+      "Diameter check of existing dryer duct — 3-inch versus 4-inch identified on arrival with camera or tape",
+      "Rotary brush cleaning sized to actual duct diameter (3-inch kit available for legacy runs pending retrofit)",
+      "Exterior termination cap inspection for salt-air corrosion and replacement quoted if required",
+      "Written recommendation for 3-inch to 4-inch retrofit when a modern high-CFM dryer is feeding an undersized run",
+      "Pre- and post-airflow measurement with calibrated anemometer, recorded on the invoice",
+      "Identification of end-of-life original aluminum or builder-grade flex duct for replacement during visit",
+    ],
+    pricingNotes:
+      "Dunedin pricing reflects the bungalow-dominant single-story housing stock, so most residential jobs land in the $149-$199 band before surcharges. The second-floor +$50 surcharge rarely applies because the original Dunedin housing stock is predominantly single-story. Wall ductwork repair ($195-$595) is the line item quoted most often here — 3-inch to 4-inch retrofits and original aluminum flex replacements are common during the first professional cleaning on a legacy bungalow. Condo work (small downtown inventory) is $129-$199. Inspection-only is $149, and diameter + exterior cap inspection is included.",
+    counterPositioning:
+      "Neighborly-owned national chains route every Dunedin job through a corporate parent's dispatch system, and the franchise model runs on scripted upsell quotas. Dunedin's shop-local independent-business culture fits an independent Tampa Bay operator better than a Neighborly family of brands franchise. The FTC-mandated \"independently owned and operated franchises\" disclosure every chain puts at the bottom of its marketing describes exactly the disconnect residents already feel between chain branding and local accountability.",
+    testimonial: {
+      text: "1952 downtown Dunedin bungalow, original duct was still the 3-inch. The crew caught it on the first camera pass, explained why the dryer had been taking two cycles to finish a load of towels, quoted the 4-inch retrofit in writing before starting, and had it done the same visit. Airflow numbers on the invoice, before and after. Independent local team, no franchise pitch. Exactly the kind of operator Dunedin should be hiring.",
+      author: "James T.",
+      neighborhood: "Downtown Dunedin",
+    },
+    cityFaqs: [
+      {
+        q: "When is dryer vent cleaning busiest in Dunedin?",
+        a: "January and September are the Tampa Bay demand peaks, each running near 880 monthly searches across the metro. Dunedin's demand cycle tracks the Pinellas calendar closely — January post-holiday cleanup and September back-to-school. Snowbird residents returning in October and departing in May add modest spikes on both ends. The easiest months to place an individual appointment are February, June, and November.",
+      },
+      {
+        q: "How much does dryer vent cleaning cost in Dunedin?",
+        a: "Most Dunedin single-family jobs land at $149-$199 on the $149-$249 residential base, because the bungalow-dominant stock is mostly single-story and the +$50 second-floor surcharge rarely applies. Wall ductwork repair is $195-$595 — this is the line we quote most in Dunedin because 3-inch to 4-inch retrofits and original aluminum flex replacements are common. Condo work is $129-$199. Inspection-only is $149.",
+      },
+      {
+        q: "My 1950s Dunedin bungalow still has a 3-inch dryer vent. Is that a problem?",
+        a: "Yes. Modern dryers are high-CFM and current residential code requires a 4-inch diameter exhaust duct. A 3-inch legacy run cannot clear lint fast enough, which is a fire-safety concern and a drying-efficiency problem — longer cycles, damp towels, lint compacting on duct walls. The in-place retrofit to 4-inch is standard wall-ductwork repair work ($195-$595) and is quoted in writing before any work starts, usually the same visit as the initial cleaning.",
+      },
+      {
+        q: "Why hire an independent Tampa Bay operator over a national franchise in Dunedin?",
+        a: "Dunedin has a strong shop-local, independent-business culture — the downtown commercial district is visibly built around it. Neighborly-owned national chains route dispatch and marketing through a corporate parent, and the FTC-mandated \"independently owned and operated franchises\" disclosure exists because the chain branding does not match true local accountability. An independent Tampa Bay operator fits the Dunedin ethos and answers directly to the reviews residents post, not to a corporate scorecard.",
+      },
+    ],
+    responseNote:
+      "Dunedin is 40-55 minutes from our Tampa base via the Courtney Campbell or I-275. Same-week scheduling is standard across all 34698 addresses. Saturday appointments available at no weekend surcharge, and we coordinate with the Pinellas Trail and downtown business-district neighbors directly when multiple homes book on the same block.",
+  },
+  // ─────────────────────────────────────────────────────────────────────────
+  // 18. LARGO — Tier 2 — dense mid-Pinellas middle-class, quote-comparison mkt
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'largo',
+    metaTitle: 'Largo Dryer Vent Cleaning | Mid-Pinellas Flat-Rate Pricing',
+    metaDescription:
+      'Largo dryer vent and dryer duct cleaning for Bardmoor, Oakhurst, Harbor Bluffs, East Bay. Transparent flat-rate quotes, locally-routed, from $149 — no franchise overhead.',
+    heroSubtitle:
+      "Largo residents compare quotes across three or four operators before booking. A locally-routed Pinellas operator beats a franchise truck driving 35 minutes from a Tampa or Clearwater depot — that round-trip is baked into every chain quote.",
+    longIntro:
+      "Largo dryer vent cleaning covers the dense middle-class heart of mid-Pinellas — Largo proper, Bardmoor, Oakhurst, Harbor Bluffs, and East Bay across the 33770, 33771, 33773, 33774, and 33778 ZIPs. The local dryer duct market here is aggressively price-comparison driven: residents routinely pull quotes from three or four operators before booking, and value-for-money wins. Housing is a real mix — 1960s-1990s single-family stock, condo inventory along the coastal edges, and older mobile home parks scattered through the city — and each type needs a different cleaning protocol. National franchise trucks routing in from a Tampa or Clearwater depot carry 70-minute round-trip fuel and labor cost baked into every quote whether the homeowner sees it on the invoice or not. A locally-based operator with a Pinellas route map keeps that overhead down and prices better. The Airflow team runs tight mid-Pinellas routes across all five Largo ZIPs, applies the right cleaning protocol per housing type, and quotes flat-rate pricing that holds up to direct comparison against any chain estimate.",
+    whyClogHere:
+      "Largo's clogging pattern reflects its three-housing-type mix and its middle-density suburban usage profile. The 1960s-1990s single-family stock that dominates Largo proper, Bardmoor, and Oakhurst has standard suburban vent routing, but the 1960s and 1970s original builds are now deep into original-material end-of-life — builder-grade flex, aluminum semi-rigid, and occasionally the first generation of transition hose still in service after fifty years. The condo inventory along the Intracoastal and around Harbor Bluffs has shorter vent runs but more shared-wall routing complexity, which requires permission-to-access coordination and sometimes building-engineer involvement. Mobile home parks across the city — a meaningful share of Largo's housing stock — have different vent-termination heights and different access angles because the mobile-home vent exits near the ground or through a skirt panel rather than through a second-story wall, and many national franchises will not service mobile homes on liability grounds. Three different cleaning protocols, one city. HOAs across Bardmoor, Oakhurst, and the condo inventory drive recurring renovation cycles that push vent updates into every multi-year refresh plan. Annual cleaning is the NFPA 211 baseline across all three housing types, and price-sensitive Largo households generally hold the line at 12 months rather than running a tighter cycle.",
+    neighborhoodDetail: [
+      {
+        name: 'Largo Proper',
+        zip: '33770',
+        detail:
+          "The dense central core — 1960s-1990s single-family and ranch stock with standard suburban vent routing. Original builder-grade flex duct on pre-1980 stock is commonly at end-of-life.",
+      },
+      {
+        name: 'Bardmoor',
+        zip: '33777',
+        detail:
+          "Golf-course community with 1970s-1990s executive single-family housing — longer vent runs on two-story floor plans and HOA-driven recurring-renovation cycles that pull vent updates into refresh plans.",
+      },
+      {
+        name: 'Oakhurst',
+        zip: '33774',
+        detail:
+          "Established neighborhood south of East Bay Drive — 1960s-1980s single-family stock with consistent suburban routing and a share of original aluminum semi-rigid duct past end-of-life.",
+      },
+      {
+        name: 'Harbor Bluffs',
+        zip: '33770',
+        detail:
+          "Intracoastal-adjacent community with mixed single-family and condo housing — salt-air exposure on exterior caps and shorter, straight vent runs in condo units.",
+      },
+      {
+        name: 'East Bay',
+        zip: '33771',
+        detail:
+          "Central-Largo residential corridor with mid-century to 1990s single-family and townhouse stock — standard suburban routing with a share of older builder-grade duct flagged during first deep clean.",
+      },
+      {
+        name: 'Largo Mobile Home Parks',
+        zip: '33778',
+        detail:
+          "Multiple older mobile home parks across Largo — ground-level or skirt-panel vent terminations, different access angles than stick-built housing, frequently declined by national franchise liability policies.",
+      },
+    ],
+    includesList: [
+      "Cleaning protocol selected on arrival based on housing type — single-family, condo, or mobile home",
+      "Rotary brush cleaning sized to actual dryer duct diameter with reach configured for floor-plan run length",
+      "Mobile-home-specific termination access — ground-level and skirt-panel vent handling included",
+      "Exterior termination cap inspection with photo documentation",
+      "Pre- and post-airflow measurement with calibrated anemometer, recorded on the invoice",
+      "Written flat-rate quote before work starts — direct-comparison ready against any chain estimate",
+    ],
+    pricingNotes:
+      "Largo pricing is built for a quote-comparison market. Single-family jobs run $149-$249 with the +$50 second-floor surcharge applying to the share of two-story Bardmoor and Oakhurst stock. Most single-story 1960s-1980s Largo proper and Oakhurst work lands at $149-$199. Condo and townhouse work is $129-$199. Mobile home work is quoted at the single-family rate and does not carry a liability surcharge — we handle the housing type other operators decline. Wall ductwork repair is $195-$595 when original 1960s-1970s builder-grade material needs replacement. Inspection-only is $149.",
+    counterPositioning:
+      "A national franchise truck driving 35 minutes from a Tampa or Clearwater depot to a Largo address charges for that 70-minute round trip whether the homeowner sees it broken out on the invoice or not. A Pinellas-based operator with a local route map keeps overhead down and prices better for the same work. The FTC-mandated \"independently owned and operated franchises\" disclosure on every national-chain quote describes a corporate routing center, not a local service footprint.",
+    testimonial: {
+      text: "Pulled four quotes before I booked. Two were from national chains routing out of Tampa and Clearwater — both were higher, and neither would quote the mobile-home parts of our park the same way. Airflow gave me one flat rate that covered both my daughter's stick-built home and our mobile home, no liability dodge, no fuel-surcharge runaround. Showed up on time, cleaned both vents the same morning, wrote up airflow numbers on the invoice. Easy call.",
+      author: "Linda C.",
+      neighborhood: "Largo Proper",
+    },
+    cityFaqs: [
+      {
+        q: "When is dryer vent cleaning busiest in Largo?",
+        a: "January and September are the Tampa Bay demand peaks, each running near 880 monthly searches across the metro. Largo's quote-comparison market concentrates booking activity in those two windows because residents start collecting quotes several weeks before they commit — so the call volume spike sits in late December and late August. The easiest months to place an individual appointment are February, June, and November.",
+      },
+      {
+        q: "How much does dryer vent cleaning cost in Largo?",
+        a: "Most single-family Largo jobs land at $149-$249 on the residential base, with the +$50 second-floor surcharge applying on two-story Bardmoor and Oakhurst floor plans — single-story Largo proper and Oakhurst homes typically land at $149-$199. Condo and townhouse work is $129-$199. Mobile home work is priced at the single-family rate with no liability surcharge. Wall ductwork repair is $195-$595 for original 1960s-1970s builder-grade replacement. Inspection-only is $149.",
+      },
+      {
+        q: "Why is a locally-based operator cheaper than a Tampa or Clearwater franchise for Largo?",
+        a: "Because a franchise truck driving 35 minutes each way from a Tampa or Clearwater depot to a Largo address is carrying 70 minutes of round-trip fuel and labor cost that has to get priced into the quote, even if the invoice does not break it out explicitly. A Pinellas-based operator with a local route map has materially lower overhead per stop and can price a direct-comparison quote lower for the same scope of work. In a quote-comparison market like Largo, that difference usually wins the booking.",
+      },
+      {
+        q: "Do you service mobile homes in Largo?",
+        a: "Yes. Mobile home vent terminations in Largo parks exit near ground level or through a skirt panel rather than through a wall at second-story height, which is a different access angle than stick-built housing. Many national franchises decline mobile-home work on liability grounds — we service it at the single-family rate with no surcharge and no declined-scope language. Camera inspection of the termination is included, and airflow numbers before and after are on the invoice.",
+      },
+    ],
+    responseNote:
+      "Largo addresses across the five 33770-33778 ZIPs are 40-55 minutes from our Tampa base via the Howard Frankland or Courtney Campbell. Same-week scheduling is standard. We run a tight mid-Pinellas route so multi-home block requests — especially HOA-coordinated Bardmoor and Oakhurst days — are easy to place. Saturday appointments available at no weekend surcharge.",
+  },
+  // ─────────────────────────────────────────────────────────────────────────
+  // 19. PINELLAS PARK — Tier 2 — 1960s-70s aluminum duct end-of-life, mobile
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'pinellas-park',
+    metaTitle: 'Pinellas Park Dryer Vent Cleaning | 1960s Aluminum Retrofit',
+    metaDescription:
+      'Pinellas Park dryer vent and dryer duct cleaning for Mainlands of Tamarac, Bonair Park, Tyrone Gardens. Aluminum-duct retrofit specialists, mobile-home service, from $149.',
+    heroSubtitle:
+      "Many Pinellas Park homes still run original 1960s-70s aluminum exhaust duct — 50-plus years old, brittle at the joints, and mismatched to modern high-CFM dryers. Camera inspection before quote catches the severity; flat cleaning pricing misses it.",
+    longIntro:
+      "Pinellas Park dryer vent cleaning is, in practice, an aluminum-duct retrofit market plus a mobile-home service market that most national franchises will not touch. The core dryer duct issue across Pinellas Park proper, Bonair Park, and Tyrone Gardens is that many homes still run the original 1960s-1970s aluminum exhaust duct — now 50-plus years old, brittle at the joints, crack-prone, and fundamentally mismatched to modern high-efficiency dryers that push substantially more CFM than the duct was originally designed for. Camera inspection before quoting catches the severity level; a flat cleaning price sight-unseen misses it entirely and leaves a working-class homeowner with a cracked duct and a clean brush record. Separately, the Mainlands of Tamarac by the Gulf and other 33781 and 33782 mobile home communities need a service protocol national liability-driven franchises decline to staff. Pinellas Park dryer vent work is also delayed more often than average — the pricing-sensitive demographic waits longer between visits, so when the call finally comes, lint buildup is severe. The Airflow team camera-inspects on arrival, quotes the retrofit scope in writing, and services the mobile-home market at the standard residential rate.",
+    whyClogHere:
+      "Pinellas Park's clogging pattern is dominated by two interacting factors: the oldest housing stock in mid-Pinellas and a pricing-sensitive demographic that pushes service intervals longer than the regional average. The 1960s and 1970s original-construction homes across Pinellas Park proper, Bonair Park, and Tyrone Gardens were built with aluminum semi-rigid exhaust duct that was standard for the era. Fifty-plus years later, that aluminum is brittle at every joint, crack-prone at every elbow, and mechanically past the point where it can safely carry the higher CFM a modern high-efficiency dryer produces. Running a current-model dryer through that legacy aluminum compounds the problem: the duct flexes more per cycle, cracks open further, and starts leaking lint-laden exhaust into the wall cavity. Camera inspection on arrival catches exactly where the cracking is; a brush-and-go protocol misses it. Retrofit from original aluminum to modern semi-rigid or rigid metal is the right answer on most of these homes and is the most-quoted wall-ductwork-repair line in the city. Separately, the Mainlands of Tamarac by the Gulf and other Pinellas Park mobile home parks have vent terminations at different heights with different access angles — many national franchises decline the work on liability grounds. Finally, economics: pricing-sensitive households wait longer between cleanings, so lint buildup at the time of service is severe, and NFPA 211 annual cleaning is more aspirational than actual here.",
+    neighborhoodDetail: [
+      {
+        name: 'Pinellas Park Proper',
+        zip: '33781',
+        detail:
+          "The dense central city core — 1960s-1970s single-family stock with the highest concentration of original aluminum semi-rigid dryer duct still in service and now past end-of-life at every joint.",
+      },
+      {
+        name: 'Mainlands of Tamarac by the Gulf',
+        zip: '33781',
+        detail:
+          "Large established mobile home community — ground-level and skirt-panel vent terminations with different access angles than stick-built housing, declined by most national franchise liability policies.",
+      },
+      {
+        name: 'Bonair Park',
+        zip: '33781',
+        detail:
+          "Mid-century single-family neighborhood with original 1960s-1970s construction — aluminum duct retrofit is a common line item on first professional cleaning.",
+      },
+      {
+        name: 'Tyrone Gardens',
+        zip: '33782',
+        detail:
+          "Established residential pocket with mostly single-story 1960s-1980s housing — original builder-grade duct materials frequently past service life and flagged by camera inspection on arrival.",
+      },
+      {
+        name: 'Central Park',
+        zip: '33781',
+        detail:
+          "Pinellas Park residential area near the Performing Arts Center — mixed 1960s-1990s housing with standard suburban routing on newer builds and aluminum retrofits on the original stock.",
+      },
+      {
+        name: 'Cross Bayou',
+        zip: '33782',
+        detail:
+          "Western Pinellas Park neighborhood with mid-century single-family and some mobile home stock — salt-leaning humid ambient that accelerates lint-moisture compaction inside older aluminum runs.",
+      },
+    ],
+    includesList: [
+      "Camera inspection of the full dryer duct path on arrival — aluminum joint and elbow condition documented before quote",
+      "Rotary brush cleaning sized to actual duct diameter with reach configured for housing-type run length",
+      "Mobile-home-specific termination access — ground-level and skirt-panel vent handling included",
+      "Written scope-first retrofit quote when original 1960s-1970s aluminum duct is at end-of-life",
+      "Pre- and post-airflow measurement with calibrated anemometer, recorded on the invoice",
+      "Exterior termination cap inspection with photo documentation of corrosion or damage",
+    ],
+    pricingNotes:
+      "Pinellas Park pricing is built for a pricing-sensitive working-class market and reflects the predominantly single-story housing stock. Single-family jobs mostly land at $149-$199 on the $149-$249 residential base because the +$50 second-floor surcharge rarely applies. Wall ductwork repair ($195-$595) is the most-quoted line item in Pinellas Park — original 1960s-1970s aluminum-to-modern-rigid-metal retrofit is common enough that it shows up on most first-professional-cleaning invoices. Mobile home work at Mainlands of Tamarac and similar parks is priced at the single-family rate with no liability surcharge. Condo work is $129-$199. Inspection-only is $149.",
+    counterPositioning:
+      "National chains decline mobile-home work on liability grounds — Mainlands of Tamarac and similar Pinellas Park parks are a meaningful share of the local housing stock, and the franchise model leaves the market uncovered. We service it where the market actually is. The FTC-mandated \"independently owned and operated franchises\" disclosure on chain marketing describes a corporate routing center with centralized liability policy, not a local operator making housing-type-by-housing-type service decisions.",
+    testimonial: {
+      text: "1968 Pinellas Park home, original aluminum duct, nobody had ever looked inside it. Airflow ran a camera before quoting and showed me cracks at three elbows — the duct was leaking lint exhaust into my wall. Retrofit to semi-rigid the same visit, quoted in writing, no pressure. Also cleaned my mom's place at Mainlands the same afternoon — no liability runaround, just got it done. Airflow numbers before and after on both invoices.",
+      author: "Robert M.",
+      neighborhood: "Bonair Park",
+    },
+    cityFaqs: [
+      {
+        q: "When is dryer vent cleaning busiest in Pinellas Park?",
+        a: "January and September are the Tampa Bay demand peaks, each running near 880 monthly searches across the metro. Pinellas Park's pricing-sensitive market sees more deferred-service calls — homeowners who waited longer than average and finally book — spread more evenly through the shoulder months than higher-income ZIPs. The easiest months to place an individual appointment are February, May, and November. Mobile home park block-day requests concentrate in October and March.",
+      },
+      {
+        q: "How much does dryer vent cleaning cost in Pinellas Park?",
+        a: "Most single-family jobs land at $149-$199 on the $149-$249 residential base because the housing stock is predominantly single-story and the +$50 second-floor surcharge rarely applies. Wall ductwork repair is $195-$595 and is the most-quoted line item in Pinellas Park because original 1960s-1970s aluminum-to-rigid-metal retrofit is common. Condo work is $129-$199. Mobile home work is priced at the single-family rate with no liability surcharge. Inspection-only is $149.",
+      },
+      {
+        q: "My 1970 Pinellas Park home still has the original aluminum dryer duct. Is that a problem?",
+        a: "Yes. Original 1960s-1970s aluminum semi-rigid exhaust duct is now 50-plus years old, brittle at every joint, crack-prone at every elbow, and mismatched to the higher CFM a modern high-efficiency dryer produces. Cracks leak lint-laden exhaust into the wall cavity. Camera inspection on arrival documents exactly where the cracking is; retrofit to modern semi-rigid or rigid metal is quoted in writing as wall ductwork repair ($195-$595) before any work starts. Flat cleaning pricing without a camera inspection misses the severity entirely.",
+      },
+      {
+        q: "Do you service mobile homes at Mainlands of Tamarac and other Pinellas Park parks?",
+        a: "Yes. Pinellas Park has a meaningful mobile home presence — Mainlands of Tamarac by the Gulf is the largest — and many national chains decline mobile-home work on liability grounds. We service it at the single-family rate with no surcharge. Vent terminations exit near ground level or through a skirt panel rather than through a wall, which is a different access angle than stick-built housing, and the cleaning protocol is adjusted accordingly. Airflow numbers before and after are on the invoice.",
+      },
+    ],
+    responseNote:
+      "Pinellas Park is 45-55 minutes from our Tampa base via the Howard Frankland. Same-week scheduling is standard across both 33781 and 33782, and we coordinate Mainlands of Tamarac and other mobile-home-park block-day requests directly with park management. Saturday appointments available at no weekend surcharge.",
+  },
 ];
 
 export function getAreaContent(slug: string): AreaContent | undefined {
