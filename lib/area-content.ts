@@ -125,7 +125,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'How much does dryer vent cleaning cost in Tampa?',
-        a: 'Standard Tampa single-family homes run $149–$249 flat-rate. Condos and townhouses (Channelside, Westshore high-rises, downtown) run $129–$199. A second-floor laundry adds $50. Inspection-only visits with a written airflow report are $79. We publish the full price sheet on the site — no phone-quote dance, no pressure pricing once the truck arrives.',
+        a: 'Standard Tampa single-family homes run $149–$249 flat-rate. Condos and townhouses (Channelside, Westshore high-rises, downtown) run $129–$199. A second-floor laundry adds $50. Inspection-only visits with a written airflow report are $149. We publish the full price sheet on the site — no phone-quote dance, no pressure pricing once the truck arrives.',
       },
       {
         q: 'How long does a dryer vent cleaning take in a Tampa home?',
@@ -240,7 +240,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'How much does dryer vent cleaning cost in St. Pete?',
-        a: 'Single-family homes are $149–$249. Condos and townhouses — including most downtown high-rises and the barrier-island buildings — are $129–$199. Inspection-only with a written airflow report is $79. The most common St. Pete add-on is exterior stainless-steel cap replacement when corrosion is found; that is quoted with photos before any work happens.',
+        a: 'Single-family homes are $149–$249. Condos and townhouses — including most downtown high-rises and the barrier-island buildings — are $129–$199. Inspection-only with a written airflow report is $149. The most common St. Pete add-on is exterior stainless-steel cap replacement when corrosion is found; that is quoted with photos before any work happens.',
       },
       {
         q: 'How long does a typical St. Pete cleaning take?',
@@ -334,7 +334,7 @@ export const areaContent: AreaContent[] = [
       'Written report with photos emailed within 24 hours',
     ],
     pricingNotes:
-      "South Tampa pricing tracks the historic-home specialty. Standard single-family cleanings start at $149, but Hyde Park, Bayshore Beautiful, and Davis Islands homes more often land at $199–$249 because of pre-cleaning camera inspection time and the longer, often retrofitted, duct paths. Wall ductwork repair ($195–$595) is the line item we quote most often in South Tampa — undersized 3-inch original runs, abandoned duct stubs, and out-of-code flexible foil all surface during the first thorough cleaning. Inspection-only at $79 is a popular entry point for first-time clients who want to know what's behind the wall before committing to repair.",
+      "South Tampa pricing tracks the historic-home specialty. Standard single-family cleanings start at $149, but Hyde Park, Bayshore Beautiful, and Davis Islands homes more often land at $199–$249 because of pre-cleaning camera inspection time and the longer, often retrofitted, duct paths. Wall ductwork repair ($195–$595) is the line item we quote most often in South Tampa — undersized 3-inch original runs, abandoned duct stubs, and out-of-code flexible foil all surface during the first thorough cleaning. Inspection-only at $149 is a popular entry point for first-time clients who want to know what's behind the wall before committing to repair.",
     counterPositioning:
       "Historic South Tampa homes are not a fit for a national chain rotating crews through a corporate routing system. The franchise model trains technicians to one playbook; pre-1965 housing demands judgment that comes from working hundreds of these homes locally. The FTC requires those chains to disclose \"independently owned and operated franchises\" because the operator changes from visit to visit. Airflow is one team, one phone, one set of hands that knows Bayshore housing.",
     testimonial: {
@@ -349,7 +349,7 @@ export const areaContent: AreaContent[] = [
       },
       {
         q: 'How much does cleaning cost for a historic Hyde Park or Bayshore home?',
-        a: "Standard single-family pricing is $149–$249. South Tampa historic homes more often land in the upper half of that band because of pre-cleaning camera inspection and longer retrofitted duct paths. Wall ductwork repair, when needed, runs $195–$595 and is always quoted with photos before any repair work begins. Inspection-only at $79 is a good first step if you've never had a professional look behind the wall.",
+        a: "Standard single-family pricing is $149–$249. South Tampa historic homes more often land in the upper half of that band because of pre-cleaning camera inspection and longer retrofitted duct paths. Wall ductwork repair, when needed, runs $195–$595 and is always quoted with photos before any repair work begins. Inspection-only at $149 is a good first step if you've never had a professional look behind the wall.",
       },
       {
         q: 'How long does a South Tampa cleaning visit take?',
@@ -598,6 +598,6 @@ export const STANDARD_PRICING = [
   { label: 'Condo / townhouse', range: '$129–$199' },
   { label: 'Second-floor laundry surcharge', range: '+$50' },
   { label: 'Wall ductwork repair', range: '$195–$595' },
-  { label: 'Inspection only', range: '$79' },
+  { label: 'Inspection only', range: '$149' },
   { label: 'Commercial / multi-unit', range: 'Custom quote' },
 ] as const;

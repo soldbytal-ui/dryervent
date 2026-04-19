@@ -82,9 +82,9 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
     offers: {
       '@type': 'AggregateOffer',
       priceCurrency: 'USD',
-      lowPrice: '79',
+      lowPrice: '149',
       highPrice: '595',
-      priceRange: '$79–$595',
+      priceRange: '$149–$595',
       availability: 'https://schema.org/InStock',
     },
   };
