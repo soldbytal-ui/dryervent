@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { ArrowRight, MapPin, Clock, ShieldCheck, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, MapPin, Clock, ShieldCheck, CheckCircle2, Star, Landmark, DollarSign } from 'lucide-react';
 import Hero from '@/components/Hero';
 import TrustBar from '@/components/TrustBar';
 import Reviews from '@/components/Reviews';
@@ -11,6 +11,10 @@ import { areas, getAreaBySlug } from '@/lib/areas';
 import { services } from '@/lib/services';
 import { localBusinessSchema, faqSchema, breadcrumbSchema } from '@/lib/schema';
 import { buildMetadata } from '@/lib/seo';
+import { getAreaContent, STANDARD_PRICING } from '@/lib/area-content';
+import { getNearbyAreas, getCountyBySlug } from '@/lib/internal-links';
+
+const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://dryervent.vercel.app';
 
 export function generateStaticParams() {
   return areas.map((a) => ({ slug: a.slug }));
@@ -20,9 +24,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const area = getAreaBySlug(slug);
   if (!area) return {};
+  const content = getAreaContent(slug);
   const base = buildMetadata({
-    title: `Dryer Vent & Duct Cleaning ${area.name}, FL | Same-Day Service`,
-    description: `Locally-owned dryer vent and dryer duct cleaning in ${area.name}, Florida. Prevent fires, cut energy bills, dry clothes faster. Licensed, insured, same-day appointments. Free estimate — call (813) 744-1127.`,
+    title: content?.metaTitle ?? `Dryer Vent & Duct Cleaning ${area.name}, FL | Same-Day Service`,
+    description:
+      content?.metaDescription ??
+      `Locally-owned dryer vent and dryer duct cleaning in ${area.name}, Florida. Prevent fires, cut energy bills, dry clothes faster. Licensed, insured, same-day appointments. Free estimate — call (813) 744-1127.`,
     path: `/areas/${area.slug}`,
   });
   if (area.placeholder) {
@@ -36,10 +43,15 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
   const area = getAreaBySlug(slug);
   if (!area) notFound();
 
-  const areaFaqs = [
+  const content = getAreaContent(slug);
+  const nearby = getNearbyAreas(slug, 4);
+  const countySlug = area.county.toLowerCase().replace(/[^a-z]/g, '');
+  const county = getCountyBySlug(countySlug);
+
+  const faqs = content?.cityFaqs ?? [
     {
       q: `How much does dryer vent cleaning cost in ${area.name}?`,
-      a: `Residential dryer vent cleaning in ${area.name} typically ranges from $99 to $199 depending on vent length, accessibility, and condition. We provide a free estimate before any work begins, with no hidden fees.`,
+      a: `Residential dryer vent cleaning in ${area.name} typically ranges from $149 to $249 depending on vent length, accessibility, and condition. We provide a free estimate before any work begins, with no hidden fees.`,
     },
     {
       q: `How often should ${area.name} homeowners clean their dryer vents?`,
@@ -59,28 +71,51 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
     },
   ];
 
+  const serviceOfferSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: `Dryer Vent & Duct Cleaning in ${area.name}, FL`,
+    serviceType: 'Dryer Vent Cleaning',
+    provider: { '@id': `${SITE}/#localbusiness` },
+    areaServed: { '@type': 'City', name: area.name, containedInPlace: { '@type': 'AdministrativeArea', name: `${area.county} County` } },
+    url: `${SITE}/areas/${area.slug}`,
+    offers: {
+      '@type': 'AggregateOffer',
+      priceCurrency: 'USD',
+      lowPrice: '79',
+      highPrice: '595',
+      priceRange: '$79–$595',
+      availability: 'https://schema.org/InStock',
+    },
+  };
+
   return (
     <>
       <SchemaMarkup
         data={[
           localBusinessSchema(area),
-          faqSchema(areaFaqs),
+          serviceOfferSchema,
+          faqSchema(faqs),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Areas', url: '/areas' },
+            ...(county ? [{ name: county.displayName, url: `/areas/counties/${county.slug}` }] : []),
             { name: area.name, url: `/areas/${area.slug}` },
           ]),
         ]}
       />
 
       <Hero
-        badge={`#1 Dryer Vent Cleaning in ${area.name}, FL`}
+        badge={`Locally-Owned Dryer Vent & Duct Cleaning · ${area.name}, FL`}
         title={
           <>
-            Dryer Vent Cleaning in <em className="not-italic text-fire-glow">{area.name}</em>, Florida
+            Dryer Vent Cleaning in <em className="not-italic text-fire-glow">{area.name}</em>, FL
           </>
         }
-        subtitle={`Trusted by ${area.population.replace('+', '')} residents and businesses in ${area.name}. Same-day appointments. Licensed, insured, and committed to keeping your home safe.`}
+        subtitle={
+          content?.heroSubtitle ??
+          `Trusted by ${area.population.replace('+', '')} residents and businesses in ${area.name}. Same-day appointments. Licensed, insured, locally owned — not a franchise.`
+        }
         city={area.name}
       />
 
@@ -105,10 +140,9 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
             SERVING {area.name.toUpperCase()}, {area.county.toUpperCase()} COUNTY
           </div>
           <h2 className="font-display font-extrabold text-3xl md:text-4xl text-navy leading-tight mb-6">
-            Why {area.name} Homes Need Professional Dryer Vent Cleaning
+            Dryer Vent &amp; Duct Cleaning in {area.name}, Florida
           </h2>
-          <p className="text-lg text-gray-700 leading-relaxed mb-5">{area.intro}</p>
-          <p className="text-base text-gray-600 leading-relaxed mb-8">{area.why}</p>
+          <p className="text-lg text-gray-700 leading-relaxed mb-5">{content?.longIntro ?? area.intro}</p>
 
           <div className="grid sm:grid-cols-3 gap-4 mb-10">
             <div className="bg-gray-50 rounded-xl p-5 border border-gray-200">
@@ -124,21 +158,20 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
               <div className="font-display font-bold text-2xl text-navy">Same-Day</div>
             </div>
           </div>
+        </div>
+      </section>
 
-          {/* Local context — neighborhoods + drivers */}
+      {/* Why vents clog faster here */}
+      <section className="bg-gray-50 py-16">
+        <div className="container-custom max-w-4xl">
+          <h2 className="font-display font-extrabold text-3xl md:text-4xl text-navy leading-tight mb-6">
+            Why Dryer Vents Clog Faster in {area.name}
+          </h2>
+          <p className="text-base text-gray-700 leading-relaxed mb-8">{content?.whyClogHere ?? area.why}</p>
+
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h3 className="font-display font-bold text-xl text-navy mb-4">Neighborhoods We Serve in {area.name}</h3>
-              <div className="flex flex-wrap gap-2">
-                {area.neighborhoods.map((n) => (
-                  <span key={n} className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-orange-50 text-fire-dark rounded-full text-sm font-medium">
-                    <MapPin size={12} /> {n}
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div>
-              <h3 className="font-display font-bold text-xl text-navy mb-4">Why {area.name} Is Different</h3>
+              <h3 className="font-display font-bold text-xl text-navy mb-4 flex items-center gap-2"><MapPin size={18} className="text-fire" /> Local drivers</h3>
               <ul className="space-y-2.5">
                 {area.drivers.map((d) => (
                   <li key={d} className="flex items-start gap-3 text-sm text-gray-700">
@@ -148,18 +181,84 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
                 ))}
               </ul>
             </div>
+            {area.landmarks.length > 0 && (
+              <div>
+                <h3 className="font-display font-bold text-xl text-navy mb-4 flex items-center gap-2"><Landmark size={18} className="text-fire" /> Serving homes near</h3>
+                <ul className="space-y-2.5">
+                  {area.landmarks.map((l) => (
+                    <li key={l} className="flex items-start gap-3 text-sm text-gray-700">
+                      <Landmark className="text-fire flex-shrink-0 mt-0.5" size={16} />
+                      <span>{l}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </section>
 
+      {/* Neighborhoods */}
+      <section className="bg-white py-16">
+        <div className="container-custom max-w-5xl">
+          <h2 className="font-display font-extrabold text-3xl md:text-4xl text-navy mb-6">
+            {area.name} Neighborhoods We Serve
+          </h2>
+          {content?.neighborhoodDetail ? (
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {content.neighborhoodDetail.map((n) => (
+                <div key={n.name} className="bg-gray-50 rounded-xl p-5 border border-gray-200">
+                  <div className="flex items-center justify-between mb-2">
+                    <h3 className="font-display font-bold text-navy text-base">{n.name}</h3>
+                    <span className="text-xs font-semibold text-fire bg-orange-50 px-2 py-0.5 rounded-full">ZIP {n.zip}</span>
+                  </div>
+                  <p className="text-sm text-gray-600 leading-relaxed">{n.detail}</p>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="flex flex-wrap gap-2">
+              {area.neighborhoods.map((n) => (
+                <span key={n} className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-orange-50 text-fire-dark rounded-full text-sm font-medium">
+                  <MapPin size={12} /> {n}
+                </span>
+              ))}
+            </div>
+          )}
+          <p className="text-sm text-gray-500 mt-6">
+            Serving ZIP codes: {area.zip.join(', ')}.
+          </p>
+        </div>
+      </section>
+
+      {/* What's included */}
+      {content && (
+        <section className="bg-gray-50 py-16">
+          <div className="container-custom max-w-5xl">
+            <h2 className="font-display font-extrabold text-3xl md:text-4xl text-navy mb-8">
+              What a Professional Dryer Vent Cleaning in {area.name} Includes
+            </h2>
+            <div className="grid md:grid-cols-2 gap-4">
+              {content.includesList.map((item) => (
+                <div key={item} className="flex items-start gap-3 bg-white rounded-xl p-5 border border-gray-200">
+                  <CheckCircle2 className="text-fire flex-shrink-0 mt-0.5" size={20} />
+                  <span className="text-sm text-gray-700 leading-relaxed">{item}</span>
+                </div>
+              ))}
+            </div>
+            <p className="text-sm text-gray-600 mt-6 leading-relaxed">{content.responseNote}</p>
+          </div>
+        </section>
+      )}
+
       {/* Services in this area */}
-      <section className="bg-gray-50 py-20">
+      <section className="bg-white py-16">
         <div className="container-custom">
           <div className="text-center max-w-2xl mx-auto mb-12">
             <h2 className="font-display font-extrabold text-3xl md:text-4xl text-navy mb-3">
-              Dryer Vent Services in {area.name}
+              Dryer Vent &amp; Duct Services in {area.name}
             </h2>
-            <p className="text-gray-600">Complete solutions for every dryer vent need across {area.name}.</p>
+            <p className="text-gray-600">Complete solutions for every dryer vent and dryer duct need across {area.name}.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
             {services.map((s) => (
@@ -182,17 +281,53 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
         </div>
       </section>
 
+      {/* Pricing transparency */}
+      {content && (
+        <section className="bg-gray-50 py-16">
+          <div className="container-custom max-w-4xl">
+            <div className="inline-flex items-center gap-2 text-fire font-display font-bold text-xs uppercase tracking-widest mb-4">
+              <DollarSign size={14} /> TRANSPARENT PRICING
+            </div>
+            <h2 className="font-display font-extrabold text-3xl md:text-4xl text-navy mb-6">
+              Dryer Vent Cleaning Prices in {area.name}
+            </h2>
+            <p className="text-base text-gray-700 leading-relaxed mb-6">{content.pricingNotes}</p>
+            <div className="bg-white rounded-2xl border border-gray-200 overflow-hidden">
+              <table className="w-full text-left">
+                <thead className="bg-navy text-white">
+                  <tr>
+                    <th className="px-5 py-3 text-sm font-display font-bold">Service</th>
+                    <th className="px-5 py-3 text-sm font-display font-bold text-right">Price range</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {STANDARD_PRICING.map((row, i) => (
+                    <tr key={row.label} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                      <td className="px-5 py-3 text-sm text-gray-700">{row.label}</td>
+                      <td className="px-5 py-3 text-sm font-display font-bold text-fire text-right">{row.range}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-xs text-gray-500 mt-4">
+              Final price quoted before work begins. No hidden fees. Call <a href="tel:+18137441127" className="text-fire font-semibold">(813) 744-1127</a> for a {area.name}-specific estimate.
+            </p>
+          </div>
+        </section>
+      )}
+
       {/* Why us */}
-      <section className="bg-white py-20">
+      <section className="bg-white py-16">
         <div className="container-custom max-w-4xl">
           <h2 className="font-display font-extrabold text-3xl md:text-4xl text-navy text-center mb-12">
             Why {area.name} Chooses Airflow Dryer Vent Cleaning
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { icon: Clock, title: 'Same-Day Service', desc: `Most ${area.name} appointments happen the same day you call. We respect your time.` },
-              { icon: ShieldCheck, title: 'Licensed & Insured', desc: 'Florida-licensed and fully insured. Documentation available on request.' },
-              { icon: CheckCircle2, title: '100% Guarantee', desc: 'If you\'re not fully satisfied, we make it right or your money back.' },
+              { icon: Clock, title: 'Same-Day Response', desc: `Most ${area.name} appointments happen the same day you call.` },
+              { icon: ShieldCheck, title: 'Locally Owned', desc: 'Independent Tampa Bay team — not a national franchise. Your neighbors, our crew.' },
+              { icon: CheckCircle2, title: 'NFPA 211 Process', desc: 'Commercial rotary brushes, airflow verification, and a written report on every job.' },
             ].map((b, i) => {
               const Icon = b.icon;
               return (
@@ -209,24 +344,68 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
         </div>
       </section>
 
+      {/* City-specific testimonial */}
+      {content?.testimonial && (
+        <section className="bg-navy py-16 text-white">
+          <div className="container-custom max-w-3xl text-center">
+            <div className="flex justify-center gap-1 mb-5">
+              {Array.from({ length: 5 }).map((_, i) => (
+                <Star key={i} size={22} className="text-gold" fill="currentColor" />
+              ))}
+            </div>
+            <blockquote className="font-display text-xl md:text-2xl leading-relaxed mb-5">
+              &ldquo;{content.testimonial.text}&rdquo;
+            </blockquote>
+            <div className="text-sm text-white/70">
+              — {content.testimonial.author}
+              {content.testimonial.neighborhood ? `, ${content.testimonial.neighborhood}` : ''}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Counter-positioning callout */}
+      {content?.counterPositioning && (
+        <section className="bg-white py-14">
+          <div className="container-custom max-w-3xl">
+            <div className="bg-gradient-to-br from-orange-50 to-white border-2 border-fire/20 rounded-2xl p-8">
+              <div className="inline-flex items-center gap-2 text-fire font-display font-bold text-xs uppercase tracking-widest mb-3">
+                <ShieldCheck size={14} /> LOCALLY OWNED — NOT A FRANCHISE
+              </div>
+              <h3 className="font-display font-extrabold text-2xl text-navy mb-4">
+                Why {area.name} Homeowners Choose Independent Over Franchise
+              </h3>
+              <p className="text-base text-gray-700 leading-relaxed">{content.counterPositioning}</p>
+            </div>
+          </div>
+        </section>
+      )}
+
       <Reviews city={area.name} max={3} />
 
-      <FAQ faqs={areaFaqs} title={`Dryer Vent Cleaning FAQs — ${area.name}`} />
+      <FAQ faqs={faqs} title={`Dryer Vent Cleaning FAQs — ${area.name}`} />
 
       {/* Nearby areas — internal linking for SEO */}
-      <section className="bg-gray-50 py-16">
-        <div className="container-custom">
-          <h2 className="font-display font-bold text-2xl text-navy text-center mb-8">
-            We Also Serve Nearby Areas
+      <section className="bg-gray-50 py-14">
+        <div className="container-custom max-w-5xl">
+          <h2 className="font-display font-bold text-2xl text-navy text-center mb-3">
+            Nearby Cities We Also Serve
           </h2>
-          <div className="flex flex-wrap gap-2 justify-center max-w-4xl mx-auto">
-            {areas.filter((a) => a.slug !== area.slug).map((a) => (
+          <p className="text-center text-gray-600 text-sm mb-8">
+            Part of {county?.displayName ?? `${area.county} County`} — <Link href={`/areas/counties/${county?.slug ?? countySlug}`} className="text-fire font-semibold hover:underline">view the full county hub</Link>.
+          </p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {nearby.map((n) => (
               <Link
-                key={a.slug}
-                href={`/areas/${a.slug}`}
-                className="inline-flex items-center gap-1.5 px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-navy hover:border-fire hover:text-fire transition-all"
+                key={n.slug}
+                href={`/areas/${n.slug}`}
+                className="group bg-white rounded-xl p-4 border border-gray-200 hover:border-fire hover:shadow-md transition-all"
               >
-                <MapPin size={12} /> {a.name}
+                <div className="flex items-center gap-2 text-fire text-xs font-display font-bold uppercase tracking-wider mb-1">
+                  <MapPin size={12} /> {n.county} County
+                </div>
+                <div className="font-display font-bold text-navy">{n.name}</div>
+                <div className="text-xs text-gray-500 mt-1">Dryer vent cleaning →</div>
               </Link>
             ))}
           </div>
@@ -235,7 +414,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
 
       <FinalCTA
         headline={`Locally-Owned Dryer Vent Service\nin ${area.name}.`}
-        sub={`Join thousands of ${area.name} homeowners who trust Airflow Dryer Vent Cleaning to keep their families safe. Not a franchise — your neighbors, our team.`}
+        sub={`Join thousands of ${area.name} homeowners who trust Airflow Dryer Vent Cleaning. Not a franchise — your neighbors, our team. Call (813) 744-1127.`}
       />
     </>
   );
