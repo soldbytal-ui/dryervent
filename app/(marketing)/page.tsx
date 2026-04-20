@@ -65,14 +65,23 @@ export default function HomePage() {
       />
 
       <Hero
-        badge="Rated 4.9/5 by 847+ Tampa Bay Homeowners"
+        badge="FREE Inspection · No Obligation · 4.9/5 Rated"
         title={
           <>
             Tampa Bay&apos;s #1 <em className="not-italic text-fire-glow">Dryer Vent Cleaning</em> Service
           </>
         }
-        subtitle="Protect your home from dryer fires, cut energy bills by up to 30%, and get clothes drying faster — all in under 60 minutes. Licensed, insured, and trusted across Tampa Bay."
+        subtitle="Free dryer vent inspection — camera scope + airflow test + written assessment, no cost and no pressure. Cleaning starts at $79 (first 10 ft) + $10 per additional foot. Locally owned, not a franchise."
       />
+
+      {/* Free inspection callout strip */}
+      <section className="bg-orange-50 border-y border-fire/15 py-4">
+        <div className="container-custom flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-center">
+          <span className="bg-fire text-white px-3 py-0.5 rounded-full text-xs font-display font-bold uppercase tracking-wider">FREE INSPECTION</span>
+          <span className="text-sm text-navy font-medium">No obligation. Camera scope + airflow test + written assessment.</span>
+          <a href="tel:+18137441127" className="text-sm font-display font-bold text-fire hover:text-fire-dark">Call (813) 744-1127 →</a>
+        </div>
+      </section>
 
       <TrustBar />
 

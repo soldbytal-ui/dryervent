@@ -3,6 +3,7 @@ export type Service = {
   name: string;
   shortName: string;
   priceFrom: number;
+  free?: boolean; // free service offering — drives "FREE" badge + price-0 Offer schema
   intro: string; // AI-extractable definition
   description: string;
   duration: string;
@@ -167,40 +168,42 @@ export const services: Service[] = [
   },
   {
     slug: 'dryer-vent-inspection',
-    name: 'Dryer Vent Inspection',
-    shortName: 'Vent Inspection',
-    priceFrom: 79,
-    intro: 'A dryer vent inspection is a professional evaluation of your dryer exhaust system to identify safety hazards, code violations, blockages, damage, and efficiency problems. Inspections are commonly requested for home purchases, insurance claims, post-fire safety verification, and as preventive maintenance.',
-    description: 'Our inspection service identifies every issue in your vent system without performing cleaning or repairs. This service is ideal for home buyers, sellers, insurance documentation, post-incident investigation, or homeowners wanting to know exactly what shape their vent is in before deciding on cleaning or repair.',
-    duration: '30-45 minutes',
+    name: 'Free Dryer Vent Inspection',
+    shortName: 'Free Inspection',
+    priceFrom: 0,
+    free: true,
+    intro: 'A free dryer vent inspection is a complimentary on-site evaluation of your dryer duct system — camera scope, airflow test, and a written assessment — at no cost and no obligation. The Airflow team offers this as our standard first step so Tampa Bay homeowners get an honest diagnosis before deciding on any cleaning or repair work.',
+    description: 'Free, no-pressure diagnostic. Our certified technician visits your home, runs a camera scope through accessible ducting, measures airflow at the exterior termination, and provides a written assessment with photos. You walk away with an honest picture of your dryer vent — whether it needs cleaning, repair, or nothing at all. No upselling. No quotas. If we find your vent is in good shape, we tell you so.',
+    duration: '20-30 minutes',
     includes: [
-      'Visual inspection of full vent path',
-      'Camera inspection of accessible ducting',
-      'Airflow measurement at exterior termination',
-      'Lint accumulation assessment',
-      'Code compliance review',
-      'Material and connection evaluation',
-      'Detailed written report with photos',
-      'Repair and cleaning recommendations',
+      'Free camera scope of accessible dryer duct path',
+      'Free airflow measurement at exterior termination (calibrated anemometer)',
+      'Free visual inspection of vent hood, damper, and termination cap',
+      'Free lint accumulation assessment with photos',
+      'Free code compliance review (NFPA 211 + Florida Building Code)',
+      'Free written assessment delivered same day or next business day',
+      'Honest recommendation — including "your vent looks fine" if true',
+      'No upsell pressure, no quota-driven recommendations',
     ],
     benefits: [
-      { title: 'Real Estate Documentation', desc: 'Buyer or seller inspection reports provide objective documentation for transactions.' },
-      { title: 'Insurance Claims', desc: 'Post-incident inspections support insurance claim documentation and root cause analysis.' },
-      { title: 'Informed Decisions', desc: 'Know exactly what your vent system needs before committing to cleaning or repair work.' },
-      { title: 'Code Verification', desc: 'Confirm whether your installation meets current Florida Building Code and NFPA standards.' },
+      { title: 'Zero Cost, Zero Obligation', desc: 'Our complimentary diagnostic gives you real data — camera footage, airflow numbers, photos — without a single dollar at risk.' },
+      { title: 'Honest Recommendations', desc: 'No commission quotas. If your vent does not need cleaning, we will tell you. Most franchise inspectors cannot say that.' },
+      { title: 'Real Estate + Insurance Ready', desc: 'Free inspection reports satisfy buyer/seller documentation and insurance claim requirements at no cost to you.' },
+      { title: 'Confident Decisions', desc: 'See the inside of your dryer duct on camera before you decide what to do next. Information first, sales never.' },
     ],
     process: [
-      { title: 'External Assessment', desc: 'Inspector examines exterior termination, hood, damper, and surrounding wall condition.' },
-      { title: 'Internal Inspection', desc: 'Dryer is moved out and the vent connection, transition hose, and accessible ducting are evaluated.' },
-      { title: 'Camera Inspection', desc: 'Where accessible, a vent inspection camera is used to view the interior of ducting and identify hidden issues.' },
-      { title: 'Airflow Testing', desc: 'Anemometer measurement at the exterior termination quantifies actual airflow versus manufacturer specification.' },
-      { title: 'Written Report', desc: 'You receive a detailed report with photos, measurements, code compliance status, and prioritized recommendations.' },
+      { title: 'Schedule Your Free Inspection', desc: 'Call (813) 744-1127 or book online — same-week appointments standard across Tampa Bay.' },
+      { title: 'On-Site Visit (No Cost)', desc: 'Our technician arrives at the appointment time, introduces themselves, and walks you through the inspection plan.' },
+      { title: 'Camera Scope + Airflow Test', desc: 'We scope accessible ducting with a vent camera and measure airflow with a calibrated anemometer — you watch the screen with us.' },
+      { title: 'Honest Assessment On-Site', desc: 'We tell you what we found, what is normal, what is concerning, and what is optional. No pressure, no script.' },
+      { title: 'Written Report — No Strings', desc: 'You receive a written assessment by email within 24 hours. Take it to another contractor if you want a second opinion. We are confident in our work.' },
     ],
     faqs: [
-      { q: 'When should I get a dryer vent inspection?', a: 'Common reasons include: before buying or selling a home, after a dryer fire or near-miss, when symptoms like long dry times or burning smells appear, when changing insurance policies, or annually as preventive maintenance.' },
-      { q: 'What does a dryer vent inspection report include?', a: 'Our reports include the inspection date, vent system layout diagram, airflow measurements, identified issues with photos, code compliance assessment, and prioritized recommendations for cleaning or repair.' },
-      { q: 'Can an inspection find hidden problems?', a: 'Yes. Camera inspection of accessible ducting and airflow measurement at the exterior termination can identify blockages, damage, and improper installations that aren\'t visible from a basic visual check.' },
-      { q: 'Is the inspection fee credited toward cleaning if I book it?', a: 'Yes. If you choose to schedule cleaning or repair work after your inspection, we credit the full inspection fee toward that service.' },
+      { q: 'Is the dryer vent inspection really free?', a: 'Yes. Genuinely free with no obligation. We do not charge a trip fee, a diagnostic fee, or a deposit. The Airflow team offers free inspections because it builds trust — Tampa Bay homeowners can see the inside of their dryer duct on camera before deciding on any cleaning or repair work.' },
+      { q: 'What does the free inspection include?', a: 'Camera scope of accessible dryer duct path, calibrated airflow measurement at the exterior termination, visual inspection of vent hood and damper, lint accumulation assessment with photos, NFPA 211 + Florida Building Code compliance check, and a written assessment delivered same day or next business day.' },
+      { q: 'Do I have to book cleaning after the inspection?', a: 'No. Zero obligation. If your dryer vent looks fine, we tell you so and leave. If it needs cleaning, we quote the work using our transparent per-foot pricing ($79 for the first 10 feet, +$10/foot after that). The decision is yours.' },
+      { q: 'How long does the free inspection take?', a: 'Typically 20-30 minutes on site. Same-week appointments are standard across Tampa Bay; same-day appointments are often available for Hillsborough and Pinellas County addresses.' },
+      { q: 'Why do you offer this for free?', a: 'Because most dryer vent quotes happen blind — over the phone, without anyone actually looking at the vent. That is how households get oversold on services they do not need. A free, scope-first inspection means you get real data before you spend a dollar. It is also why we do not pay our technicians on commission.' },
     ],
   },
 ];

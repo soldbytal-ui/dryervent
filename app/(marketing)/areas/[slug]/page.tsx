@@ -304,8 +304,8 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
                 <tbody>
                   {STANDARD_PRICING.map((row, i) => (
                     <tr key={row.label} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
-                      <td className="px-5 py-3 text-sm text-gray-700 align-top">{row.label}</td>
-                      <td className="px-5 py-3 text-sm font-display font-bold text-fire align-top whitespace-nowrap">{row.range}</td>
+                      <td className="px-5 py-3 text-sm text-gray-700 align-top font-medium">{row.label}</td>
+                      <td className="px-5 py-3 text-sm font-display font-extrabold text-fire align-top whitespace-nowrap">{row.range}</td>
                       <td className="px-5 py-3 text-xs text-gray-600 align-top hidden md:table-cell">{row.note}</td>
                     </tr>
                   ))}

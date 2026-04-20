@@ -66,6 +66,23 @@ export function localBusinessSchema(area?: Area) {
 }
 
 export function serviceSchema(service: Service) {
+  let offers;
+  if (service.free) {
+    offers = {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
+      eligibleQuantity: { '@type': 'QuantitativeValue', value: 1 },
+    };
+  } else if (service.priceFrom) {
+    offers = {
+      '@type': 'Offer',
+      price: service.priceFrom.toString(),
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
+    };
+  }
   return {
     '@context': 'https://schema.org',
     '@type': 'Service',
@@ -73,14 +90,7 @@ export function serviceSchema(service: Service) {
     description: service.intro,
     provider: { '@id': `${SITE}/#localbusiness` },
     areaServed: { '@type': 'State', name: 'Florida' },
-    offers: service.priceFrom
-      ? {
-          '@type': 'Offer',
-          price: service.priceFrom.toString(),
-          priceCurrency: 'USD',
-          availability: 'https://schema.org/InStock',
-        }
-      : undefined,
+    offers,
   };
 }
 

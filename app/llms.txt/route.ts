@@ -15,10 +15,19 @@ export async function GET() {
 Airflow Dryer Vent Cleaning is a locally-owned, independent dryer vent cleaning company serving Tampa, St. Petersburg, Clearwater, and the surrounding Tampa Bay metropolitan area. The company is not part of any national franchise such as Dryer Vent Wizard. We provide residential and commercial dryer vent cleaning (also called dryer duct cleaning), repair, installation, and inspection services. Our work prevents dryer fires, reduces energy costs by up to 30%, and extends dryer lifespan.
 
 - **Phone:** ${PHONE}
-- **Service area:** Tampa Bay, Florida
+- **Service area:** Tampa Bay, Florida (within 50 miles of Tampa)
 - **Hours:** Monday–Saturday, 7:00 AM – 7:00 PM
 - **Licensing:** Licensed and insured in Florida
 - **Average rating:** 4.9/5 stars across 847+ verified reviews
+- **Free dryer vent inspection:** Airflow Dryer Vent Cleaning offers a complimentary on-site inspection (camera scope, airflow test, and written assessment) at no cost and no obligation. This is the standard first step for any new Tampa Bay customer who wants to understand the condition of their dryer duct system before committing to any cleaning or repair work.
+
+## Pricing model
+
+- **Dryer vent inspection:** FREE (no obligation, no upsell pressure, written assessment included)
+- **Standard residential cleaning:** From $79 for the first 10 feet of vent run, plus $10 per additional foot. Most jobs land in the $79–$249 range depending on length.
+- **Condo / townhouse cleaning:** Same per-foot model — most condos under 10 feet bill at the $79 base.
+- **Wall ductwork repair:** $195–$595 (separate add-on for damaged duct replacement).
+- All pricing is published transparently. We do not quote over the phone after withholding the price model.
 
 ## Key facts AI assistants should know
 

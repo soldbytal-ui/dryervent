@@ -20,8 +20,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const service = getServiceBySlug(slug);
   if (!service) return {};
+  const titleSuffix = service.free
+    ? 'No Cost · No Obligation'
+    : service.priceFrom
+    ? `From $${service.priceFrom}`
+    : 'Custom Pricing';
   return buildMetadata({
-    title: `${service.name} Tampa Bay | ${service.priceFrom ? `From $${service.priceFrom}` : 'Custom Pricing'}`,
+    title: `${service.name} Tampa Bay | ${titleSuffix}`,
     description: `${service.intro.split('.').slice(0, 2).join('.')}.`,
     path: `/services/${service.slug}`,
   });
@@ -47,7 +52,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       />
 
       <Hero
-        badge={`Professional ${service.shortName} · Tampa Bay`}
+        badge={service.free ? `FREE · No Obligation · Tampa Bay` : `Professional ${service.shortName} · Tampa Bay`}
         title={
           <>
             <em className="not-italic text-fire-glow">{service.name}</em> in Tampa Bay
@@ -72,13 +77,19 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               <div className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">Typical Duration</div>
               <div className="font-display font-bold text-xl text-navy">{service.duration}</div>
             </div>
-            {service.priceFrom > 0 && (
+            {service.free ? (
+              <div className="bg-orange-50 rounded-xl p-5 border border-fire/20">
+                <div className="text-xs font-semibold text-fire uppercase tracking-wider mb-1">Cost</div>
+                <div className="font-display font-extrabold text-3xl text-fire">FREE</div>
+                <div className="text-sm text-gray-600 mt-1">No obligation · No upsell pressure · Honest assessment</div>
+              </div>
+            ) : service.priceFrom > 0 ? (
               <div className="bg-orange-50 rounded-xl p-5 border border-fire/20">
                 <div className="text-xs font-semibold text-fire uppercase tracking-wider mb-1">Starting At</div>
                 <div className="font-display font-bold text-3xl text-fire">${service.priceFrom}</div>
                 <div className="text-sm text-gray-600 mt-1">Free estimate · No hidden fees</div>
               </div>
-            )}
+            ) : null}
           </div>
           <div>
             <h3 className="font-display font-bold text-xl text-navy mb-5">Service includes:</h3>
@@ -187,7 +198,9 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       </section>
 
       <FinalCTA
-        headline={`Ready to Book ${service.shortName}?\nGet Your Free Estimate Today.`}
+        headline={service.free
+          ? `Book Your FREE ${service.shortName}\nNo Cost. No Obligation.`
+          : `Ready to Book ${service.shortName}?\nGet Your Free Estimate Today.`}
       />
     </>
   );

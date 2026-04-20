@@ -190,7 +190,8 @@ export default function Header() {
       {/* Top bar */}
       <div className="bg-navy text-white/85 text-sm py-2">
         <div className="container-custom flex flex-wrap justify-between items-center gap-2">
-          <div>
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="bg-fire text-white px-3 py-0.5 rounded-full text-xs font-semibold">FREE INSPECTION</span>
             📞 <a href={`tel:${PHONE}`} className="text-gold font-semibold">{PHONE_DISPLAY}</a>
             <span className="hidden sm:inline"> · Mon–Sat 7AM–7PM</span>
           </div>
