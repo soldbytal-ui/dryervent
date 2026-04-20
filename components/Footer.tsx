@@ -34,6 +34,21 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link href="/services/condo-dryer-vent-cleaning" className="text-sm hover:text-fire-glow transition-colors">
+                  Condo Cleaning
+                </Link>
+              </li>
+              <li>
+                <Link href="/hoa-dryer-vent-cleaning" className="text-sm hover:text-fire-glow transition-colors">
+                  HOA Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/landlord-dryer-vent-cleaning" className="text-sm hover:text-fire-glow transition-colors">
+                  For Landlords
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -75,6 +90,7 @@ export default function Footer() {
               <li><Link href="/about" className="text-sm hover:text-fire-glow">About Us</Link></li>
               <li><Link href="/pricing" className="text-sm hover:text-fire-glow">Pricing</Link></li>
               <li><Link href="/blog" className="text-sm hover:text-fire-glow">Blog</Link></li>
+              <li><Link href="/local-vs-franchise-dryer-vent-cleaning" className="text-sm hover:text-fire-glow">Local vs Franchise</Link></li>
               <li><Link href="/contact" className="text-sm hover:text-fire-glow">Contact</Link></li>
               <li><Link href="/services/dryer-vent-inspection" className="text-sm hover:text-fire-glow font-bold text-gold">Free Inspection →</Link></li>
               <li><Link href="/contact#quote" className="text-sm hover:text-fire-glow">Free Estimate →</Link></li>
