@@ -294,7 +294,6 @@ export const areas: Area[] = [
     neighborhoods: ['Gulf Harbors', 'Seven Springs', 'River Ridge', 'Downtown New Port Richey', 'Jasmine Estates'],
     landmarks: ['Sims Park', 'Gulf Harbors Beach Club', 'Starkey Wilderness Preserve'],
     drivers: ['Gulf-front salt air', 'retirement community density', 'canal-adjacent corrosion', 'year-round heavy dryer use'],
-    placeholder: true,
   },
   {
     slug: 'odessa',
@@ -309,7 +308,6 @@ export const areas: Area[] = [
     neighborhoods: ['Starkey Ranch', 'Keystone', 'Ivy Lake Estates', 'Longleaf'],
     landmarks: ['Starkey Wilderness Park', 'Lake Keystone', 'Starkey Ranch District Park'],
     drivers: ['affluent master-planned homes', 'long vent runs in executive homes', 'equestrian-zoned large lots', 'mixed Hillsborough-Pasco geography'],
-    placeholder: true,
   },
   {
     slug: 'bradenton',
@@ -324,7 +322,6 @@ export const areas: Area[] = [
     neighborhoods: ['Lakewood Ranch', 'West Bradenton', 'Palma Sola', 'Cortez', 'Bayshore Gardens'],
     landmarks: ['LECOM Park', 'South Florida Museum', 'Lakewood Ranch Main Street'],
     drivers: ['Lakewood Ranch master-planned scale', 'rapid new construction', 'coastal Gulf exposure', 'within 50-mile Tampa service radius'],
-    placeholder: true,
   },
   {
     slug: 'sarasota',
@@ -339,7 +336,6 @@ export const areas: Area[] = [
     neighborhoods: ['Siesta Key', 'Longboat Key', 'Downtown Sarasota', 'Palmer Ranch', 'Lakewood Ranch (south)'],
     landmarks: ['Siesta Key Beach', 'Ringling Museum', 'St. Armands Circle'],
     drivers: ['luxury waterfront housing', 'snowbird seasonal occupancy', 'Gulf-facing salt exposure', 'semiannual cleaning standard'],
-    placeholder: true,
   },
 ];
 

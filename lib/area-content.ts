@@ -2045,6 +2045,418 @@ export const areaContent: AreaContent[] = [
     responseNote:
       "Pinellas Park is 45-55 minutes from our Tampa base via the Howard Frankland. Same-week scheduling is standard across both 33781 and 33782, and we coordinate Mainlands of Tamarac and other mobile-home-park block-day requests directly with park management. Saturday appointments available at no weekend surcharge.",
   },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 20. NEW PORT RICHEY — retirement + canal-corrosion combo (Pasco)
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'new-port-richey',
+    metaTitle: 'New Port Richey Dryer Vent Cleaning | Canal & 55+ Specialists',
+    metaDescription:
+      'New Port Richey dryer vent and dryer duct cleaning. Gulf Harbors canal homes, 55+ retirement communities, Trinity & Longleaf. Per-foot pricing from $79 + $10/ft.',
+    heroSubtitle:
+      "Gulf Harbors canal homes, Jasmin Lakes retirement villas, Trinity master-planned subdivisions — Pasco-side dryer vent cleaning from a Tampa Bay-owned crew, not a depot-routed franchise.",
+    longIntro:
+      "New Port Richey dryer vent cleaning sits at an unusual demographic and environmental intersection: a 55-and-older majority population layered on top of canal-adjacent housing where exterior dryer duct hardware degrades 5x faster than inland Pasco. Gulf Harbors canal homes, Jasmin Lakes retirement villas, Trinity newer subdivisions, Longleaf, River Ridge, and the Chipco Ranch corridor all share the same per-foot cleaning math — $79 base for the first 10 feet plus $10 per additional foot — but the cap-corrosion and decision-economics on a fixed-income canal home are different from inland Pasco. The Airflow team services every New Port Richey ZIP from 34652 down to 34655 with the same Tampa Bay-owned crew, leads with a free dryer vent inspection so retirees can see scope before any spend, and quotes scope-first with photos before any work begins.",
+    whyClogHere:
+      "Three forces drive New Port Richey's vent issues. First, canal-corrosion acceleration — homes along the Gulf Harbors canal network, Sea Forest Lake, and the Cotee River sit within continuous brackish-air drift, which strips the zinc coating off standard galvanized exterior vent caps in 6-12 months versus the 3-5 years a comparable inland Pasco cap holds up. Once the zinc fails, the steel corrodes, the cap loses spring tension, pests enter, rainwater follows, and lint compaction inside the duct accelerates. Second, the 55-plus demographic — New Port Richey is one of Pasco's most retirement-heavy submarkets, and fixed-income households are pricing-sensitive in ways that make the franchise quote-after-arrival model especially extractive. A free on-site inspection (camera scope plus airflow test plus written report) lets retirees see the scope and the cost before any spend, which is the right model for this market. Third, vacancy patterns — many Gulf Harbors and Jasmin Lakes residents are seasonal, and dryer ducts that go unused for six months at a time accumulate insect intrusion at the exterior cap (palm-frond debris also packs in faster than inland) which turns into a clogged termination on the next return-from-up-north laundry day. Annual cleaning is the floor; six-month inspection cycles are reasonable for direct-canal homes.",
+    neighborhoodDetail: [
+      {
+        name: 'Gulf Harbors',
+        zip: '34652',
+        detail:
+          "Active 55+ canal community with direct Gulf-fed waterway exposure on most lots — exterior galvanized vent caps here corrode within 6-12 months, and stainless-steel replacement is recommended at the first cleaning visit on every canal-facing wall.",
+      },
+      {
+        name: 'Jasmin Lakes',
+        zip: '34652',
+        detail:
+          "Retirement-heavy 55+ community of single-story patio homes with predominantly short 8-12 ft dryer duct runs — most jobs land at the $79 base, and the headline issue is exterior cap condition rather than interior compaction.",
+      },
+      {
+        name: 'Trinity',
+        zip: '34655',
+        detail:
+          'Master-planned newer subdivision east of Little Road — predominantly 1990s-2010s family homes with second-floor laundry and 22-30 ft dryer duct runs through interior wall cavities, which need rotary brush cleaning rather than wand-only passes.',
+      },
+      {
+        name: 'Longleaf',
+        zip: '34655',
+        detail:
+          'Newer master-planned community on the Trinity edge with mixed two-story and ranch plans — vent runs typically 18-26 ft, builder-grade transition material from the 2000s-2010s build cohort is increasingly hitting end-of-life and surfaces during cleaning.',
+      },
+      {
+        name: 'River Ridge',
+        zip: '34655',
+        detail:
+          'Established 1980s-1990s community of single-story and two-story homes — original ducting is now 30-40 years old, end-of-life builder-grade flex hose replacement (wall ductwork repair) is the most-quoted line item here.',
+      },
+      {
+        name: 'Chipco Ranch',
+        zip: '34653',
+        detail:
+          'Rural-edge addresses with larger-lot ranch-style housing — vent runs occasionally extend across breezeways or to detached secondary structures, similar to the Lutz pattern but at lower frequency.',
+      },
+    ],
+    includesList: [
+      'Free on-site inspection — camera scope plus airflow test plus written assessment, no obligation, no spend',
+      'Salt-aware exterior cap inspection on canal-adjacent addresses — corrosion grade documented on the assessment',
+      'Stainless-steel cap replacement quoted in writing before install (not a surprise upcharge)',
+      'Rotary brush cleaning sized to actual dryer duct diameter with reach configured to the run length',
+      'Pre- and post-airflow measurement with calibrated anemometer, recorded on the invoice',
+      'Pest entry inspection at exterior cap — gulf-coast pests get into corroded caps fast on canal addresses',
+      'Lint trap housing vacuum-out and dryer drum back-cleaning on every visit',
+      'Photo documentation and written report emailed within 24 hours',
+    ],
+    pricingNotes:
+      "New Port Richey pricing follows the per-foot rule: $79 base for the first 10 feet of dryer duct plus $10 per additional foot. Most Gulf Harbors and Jasmin Lakes single-story 55+ patio homes have short 8-12 ft runs that land at the $79 base or just above ($79-$99). Trinity, Longleaf, and River Ridge two-story family homes with 22-30 ft runs land at $199-$279. Rural Chipco Ranch addresses with breezeway or detached-structure runs occasionally extend past 30 ft and land at $279-$299. Wall ductwork repair ($195-$595) is most often quoted on River Ridge and older Gulf Harbors homes where original 1980s-1990s builder-grade material is at end-of-life. Free on-site inspection is offered at no cost — particularly valuable for fixed-income retirees who want a no-spend diagnosis before deciding on scope. Stainless-steel exterior cap replacement on canal-adjacent walls runs $65-$125 parts plus install and pays back versus standard galvanized in 1-2 cycles.",
+    counterPositioning:
+      "New Port Richey is too far north for most Tampa-routed franchise crews and too far south for Spring Hill operators — which means the corporate routing center behind the FTC-mandated \"independently owned and operated franchises\" disclosure typically dispatches whatever truck happens to be closest, prices the round-trip overhead from Tampa or Clearwater into the quote, and rotates operators visit-to-visit. A locally-routed Tampa Bay-owned operator stays cost-clean by routing efficiently and arrives with the canal-cap inventory and 55+ scope-first protocol this market actually needs.",
+    testimonial: {
+      text: "Gulf Harbors canal home, fixed income, did not want to spend money on something I did not need. Airflow showed up for the free inspection, ran a camera through the dryer duct, showed me on a screen that the interior cleaning could wait another six months but the corroded exterior cap had failed and was letting palm-frond debris into the run. Quoted the cap replacement in writing — $89 in parts plus install — and let me decide on the cleaning later. No pressure. That is the kind of operator a retirement community deserves.",
+      author: 'Eleanor R.',
+      neighborhood: 'Gulf Harbors',
+    },
+    cityFaqs: [
+      {
+        q: 'When is dryer vent cleaning busiest in New Port Richey?',
+        a: "January and September are the Tampa Bay demand peaks, each running near 880 monthly searches across the metro. New Port Richey layers on a snowbird-return spike in October-November as Gulf Harbors and Jasmin Lakes seasonal residents come back south and discover insect intrusion at exterior caps from the unused summer months. The easiest months to place an individual appointment are February, May, and July.",
+      },
+      {
+        q: 'How much does dryer vent cleaning cost in New Port Richey?',
+        a: "New Port Richey cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Most Gulf Harbors and Jasmin Lakes single-story 55+ patio homes with 8-12 ft runs land at $79-$99. Trinity, Longleaf, and River Ridge two-story family homes with 22-30 ft runs land at $199-$279. Wall ductwork repair is $195-$595 when 1980s-1990s builder-grade material needs replacement. Stainless-steel exterior cap replacement on canal walls runs $65-$125 parts plus install. Free on-site inspection is offered at no cost — camera scope, airflow test, written assessment, no obligation. Particularly valuable for fixed-income retirees who want a no-spend diagnosis first.",
+      },
+      {
+        q: 'Does my Gulf Harbors canal home really need different equipment than an inland Pasco home?',
+        a: "Yes — the cap, not the duct, is the key difference. A standard galvanized exterior vent cap on a Gulf Harbors, Sea Forest Lake, or Cotee River canal-adjacent home loses its protective zinc coating in 6-12 months versus 3-5 years inland. Once coating fails, corrosion accelerates, the cap loses spring tension, pests enter, and rainwater intrusion follows. We carry 316 stainless-steel and powder-coated aluminum replacement caps on every New Port Richey route truck and quote them only when corrosion is documented on the inspection — never as a default upsell.",
+      },
+      {
+        q: 'How long does a typical New Port Richey vent cleaning take?',
+        a: "Single-story Gulf Harbors and Jasmin Lakes 55+ patio homes run 45-60 minutes for cleaning plus a 10-minute exterior cap inspection. Trinity, Longleaf, and River Ridge two-story homes with 22-30 ft runs take 75-100 minutes because of the longer rotary brush path and ladder access to the exterior termination. Free on-site inspection-only visits run 30-40 minutes — camera scope, airflow test, walk-through of findings, written report.",
+      },
+      {
+        q: 'Why hire a Tampa Bay-owned operator over a Pasco franchise?',
+        a: "Because Pasco-routed national franchise crews typically dispatch from a Tampa or Clearwater depot — every quote already prices in 35-55 minutes of round-trip drive overhead, even if the invoice does not break it out. The corporate routing center behind the FTC-mandated \"independently owned and operated franchises\" disclosure rotates operators visit-to-visit and centralizes inventory by suburban template, which means the canal-cap inventory and 55+ scope-first protocol this market needs are not standard. A locally-routed Tampa Bay-owned crew stays cost-clean and arrives with the right gear.",
+      },
+    ],
+    responseNote:
+      "New Port Richey addresses are 45-60 minutes from our Tampa base via the Suncoast Parkway. Same-week scheduling is the norm across all 34652-34655 ZIPs; canal-cap replacement parts (316 stainless and powder-coated aluminum) travel on every truck assigned to the route — no second trip to swap a corroded cap. Saturday appointments available with no weekend surcharge.",
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 21. ODESSA — Starkey Ranch phase knowledge + equestrian overlay (Pasco)
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'odessa',
+    metaTitle: 'Odessa Dryer Vent Cleaning | Starkey Ranch & Keystone',
+    metaDescription:
+      'Odessa dryer vent and dryer duct cleaning for Starkey Ranch (Pasco), Keystone, Lake Keystone, Van Dyke estates. Phase-aware crew, $79 + $10/ft, free inspection.',
+    heroSubtitle:
+      "Starkey Ranch phase-by-phase expertise, Keystone equestrian estates, Van Dyke Road large-lot homes — Odessa dryer vent cleaning from a crew that knows the floor plans by village name, not just the ZIP code.",
+    longIntro:
+      "Odessa dryer vent cleaning is a phase-knowledge discipline. The dominant submarket — Starkey Ranch's Pasco-side villages — is one of the fastest-growing master-planned communities in America, with uniform builder floor plans rolling across the Whitfield, Ridgemoor, and newer Esplanade-style sections at predictable cohort intervals. That uniformity is an advantage when the cleaning crew already knows which builders used which dryer duct material in which phase, and a serious problem when 2015-2020 builder-grade flex foil enters its 5-to-10-year failure cohort across an entire village block at once. The Airflow team services every Odessa ZIP — 33556 and 33558 (Lutz/Odessa overlap) — covers Starkey Ranch (Pasco-side villages), Keystone, Lake Keystone, the Van Dyke Road equestrian estate strip, Starkey Gap, and Longleaf, and leads with a free dryer vent inspection so homeowners can see phase-specific scope before any work is quoted.",
+    whyClogHere:
+      "Two interlocking forces define Odessa's vent profile. First, Starkey Ranch phase failure cohorts — the Pasco-side villages were built in identifiable 3-to-5-year phases by a small set of national builders (Taylor Morrison, M/I Homes, ICI, Cardel, Westbay), each of which specified flex foil or semi-rigid aluminum transition hose in the 2015-2020 cohort that is now hitting the 5-to-10-year failure window simultaneously. A camera-first inspection on a Whitfield or Ridgemoor address reveals which builder spec is in service, which cohort it belongs to, and what failure mode to expect — joint separation, accordion-rib lint packing, kink-compression, or interior surface degradation. Second, the equestrian and large-lot overlay — Keystone, Lake Keystone, and Van Dyke Road estates run a parallel housing pattern to Lutz's Van Dyke Farms: detached mother-in-law suites, pool houses, and barn-converted workshops with secondary laundry, plus equestrian-zone airborne particulate (hay dust, feed dust, grain particulate, horse-barn pollen) that mixes with lint into a denser, faster-compacting compound. Cleaning frequency on horse-property addresses shifts from annual (NFPA 211 baseline) to semiannual six-month cycles. Standard suburban rotary brush kits at 30-foot reach do not handle Keystone and Van Dyke detached-structure runs that exceed 40 feet — the 50-foot reach kit travels on every Odessa route truck.",
+    neighborhoodDetail: [
+      {
+        name: 'Starkey Ranch (Whitfield)',
+        zip: '33556',
+        detail:
+          'Pasco-side village within the Starkey Ranch master-planned community — predominantly 2015-2018 Taylor Morrison and M/I Homes two-story builds with 22-30 ft dryer duct runs from second-floor laundry, deep into the 2015-2020 builder-grade flex failure cohort.',
+      },
+      {
+        name: 'Starkey Ranch (Ridgemoor)',
+        zip: '33556',
+        detail:
+          'Pasco-side village with predominantly 2017-2020 builds (ICI, Cardel, Westbay) — 22-32 ft dryer duct runs typical, builder-spec semi-rigid aluminum transition hose increasingly hitting joint-seal failure at the 5-7 year mark.',
+      },
+      {
+        name: 'Keystone',
+        zip: '33556',
+        detail:
+          'Established equestrian-zoned community east of Lake Keystone — large-lot homes with horse properties, detached pool houses and mother-in-law suites are common, and the 50-foot rotary brush reach kit is standard equipment for the secondary-structure runs.',
+      },
+      {
+        name: 'Lake Keystone',
+        zip: '33556',
+        detail:
+          'Lakefront and lake-adjacent estates with mixed equestrian and residential zoning — vent runs to detached structures past 40 ft are common, and equestrian-particulate compaction shifts cleaning frequency to a 6-month cycle on horse properties.',
+      },
+      {
+        name: 'Van Dyke Road Estates',
+        zip: '33558',
+        detail:
+          'Equestrian estate strip along Van Dyke Road overlapping with Lutz — large-lot horse properties with detached secondary structures, parallel pattern to Lutz Van Dyke Farms, same 50-foot rotary brush reach requirement for the long secondary-structure runs.',
+      },
+      {
+        name: 'Starkey Gap',
+        zip: '33556',
+        detail:
+          'Newer infill subdivisions adjacent to Starkey Wilderness Park — 2018-2022 builds with predominantly two-story plans and 22-28 ft dryer duct runs, builder-spec material still relatively young and clean.',
+      },
+      {
+        name: 'Longleaf (Odessa side)',
+        zip: '33556',
+        detail:
+          'Newer master-planned community spanning the Pasco-Hillsborough line — mixed two-story and ranch plans with 18-26 ft dryer duct runs, similar builder-spec patterns to Starkey Ranch villages on the Pasco side.',
+      },
+    ],
+    includesList: [
+      'Free on-site inspection — camera scope plus airflow test plus written assessment, no obligation',
+      'Phase-aware diagnostic on Starkey Ranch addresses — village name and build year identify expected builder spec and failure mode before arrival',
+      'Rotary brush cleaning sized to actual dryer duct diameter with reach configured to floor-plan run length',
+      '50-foot reach rotary brush kit standard on every Odessa route truck for Keystone and Van Dyke detached-structure runs',
+      'Equestrian-particulate-aware filter media for horse-property addresses or barn-adjacent exposure',
+      'Pre- and post-airflow measurement with calibrated anemometer on every structure serviced',
+      'Identification of builder-grade flex or semi-rigid duct in 2015-2020 failure cohort with photo documentation',
+      'Written report per structure with airflow numbers, photos, and 6-month or annual re-cleaning recommendation within 24 hours',
+    ],
+    pricingNotes:
+      "Odessa pricing follows the per-foot rule: $79 base for the first 10 feet of dryer duct plus $10 per additional foot. Most Starkey Ranch (Whitfield, Ridgemoor) and Starkey Gap two-story plans route 22-32 ft from second-floor laundry to a sidewall termination, landing at $199-$299. Longleaf newer ranch and two-story stock with 18-26 ft runs lands at $159-$239. Keystone, Lake Keystone, and Van Dyke Road equestrian estate primary residences with 14-22 ft runs land at $119-$199; detached secondary structures (pool houses, mother-in-law suites) on those properties price per structure with a reduced rate when serviced on the same appointment, typically landing at $179-$279 per secondary structure depending on run length. Wall ductwork repair ($195-$595) is increasingly common across the 2015-2020 Starkey Ranch flex-failure cohort. Free on-site inspection is offered at no cost — particularly useful before committing to scope on a Starkey Ranch address where village and build year predict the expected failure mode.",
+    counterPositioning:
+      "National franchise crews dispatched from a corporate routing center do not maintain Starkey Ranch phase-level intel — village names like Whitfield, Ridgemoor, and Esplanade do not appear in their territory maps. The FTC-mandated \"independently owned and operated franchises\" disclosure on chain marketing reflects exactly that: the operator changes visit-to-visit, no pattern library accumulates, and a 2017 Ridgemoor home gets the same generic playbook as a 1998 Carrollwood ranch. We know floor plans by village name and arrive with the right diagnostic before stepping out of the truck.",
+    testimonial: {
+      text: "Starkey Ranch Whitfield village, 2017 Taylor Morrison build. Booked the free inspection because I had heard the 2015-2018 flex foil was failing on neighbors' homes. The Airflow tech walked in, said 'I know this floor plan, the clog is going to be at the elbow above the garage door,' and that is exactly where the camera found it — joint separation in the flex foil exactly where he predicted. Quoted rigid-metal replacement in writing, did the cleaning and the retrofit the same morning. Phase knowledge actually matters.",
+      author: 'Marcus T.',
+      neighborhood: 'Starkey Ranch — Whitfield',
+    },
+    cityFaqs: [
+      {
+        q: 'When is dryer vent cleaning busiest in Odessa?',
+        a: "January and September are the Tampa Bay demand peaks, each running near 880 monthly searches across the metro. Odessa adds a Starkey Ranch family-home back-to-school surge in August, and Keystone equestrian addresses layer on a pollen-season spike in March-April because of the higher airborne particulate load on horse properties. October-November is the easiest window for multi-structure estate appointments; individual Starkey Ranch jobs book easily in February, May, and July.",
+      },
+      {
+        q: 'How much does dryer vent cleaning cost in Odessa?',
+        a: "Odessa cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Most Starkey Ranch (Whitfield, Ridgemoor) and Starkey Gap two-story plans with 22-32 ft runs land at $199-$299. Longleaf ranch and two-story stock with 18-26 ft runs lands at $159-$239. Keystone, Lake Keystone, and Van Dyke equestrian estate primary residences land at $119-$199; detached secondary structures on those properties price per structure at $179-$279 with a reduced rate when serviced on the same appointment. Wall ductwork repair is $195-$595 when 2015-2020 builder-grade flex needs replacement. Free on-site inspection is offered at no cost — camera scope, airflow test, written report, no obligation.",
+      },
+      {
+        q: 'Why does the Starkey Ranch village name matter for my dryer vent cleaning?',
+        a: "Because each village in Starkey Ranch was built in identifiable 3-to-5-year phases by a small set of national builders (Taylor Morrison, M/I Homes, ICI, Cardel, Westbay) who each specified different dryer duct material — flex foil, semi-rigid aluminum, or rigid metal — in different cohorts. A 2015-2018 Whitfield home is deep in the flex-foil failure window; a 2020 Ridgemoor home is at the joint-seal failure edge of semi-rigid aluminum; a 2022 Starkey Gap home is still in the clean-original-rigid-metal window. Knowing the village and the build year predicts the expected failure mode before camera inspection even confirms it.",
+      },
+      {
+        q: 'My Keystone property has horses and a detached pool house. Do you handle both on one appointment?',
+        a: "Yes. Equestrian-zone Keystone, Lake Keystone, and Van Dyke Road addresses commonly have a primary residence plus 1-2 detached secondary structures (pool house, mother-in-law suite, barn-converted workshop with laundry hookups) — the 50-foot rotary brush kit travels on every Odessa route truck, which covers the 40-plus-foot detached-structure runs that standard suburban kits cannot reach. Each structure gets its own airflow reading on the invoice and its own written report. Equestrian-particulate compaction also shifts the recommended cleaning interval from annual to a 6-month cycle on horse properties.",
+      },
+      {
+        q: 'How long does a typical Odessa vent cleaning take?',
+        a: "Starkey Ranch and Starkey Gap two-story homes with 22-32 ft runs take 75-100 minutes for cleaning. Keystone or Van Dyke estate primary residences run 60-85 minutes; multi-structure equestrian properties add 45-60 minutes per secondary structure. Free on-site inspection-only visits run 30-45 minutes — camera scope, airflow test, walk-through of findings on a tablet screen, written report emailed within 24 hours.",
+      },
+    ],
+    responseNote:
+      "Odessa addresses are 35-50 minutes from our Tampa base via the Suncoast Parkway or Veterans Expressway. Same-week scheduling is the norm across all 33556 and 33558 ZIPs; the 50-foot rotary brush reach kit for Keystone and Van Dyke detached-structure runs is standard on every truck assigned to the Odessa route — no second trip to return with bigger equipment. Saturday appointments available with no weekend surcharge.",
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 22. BRADENTON — Lakewood Ranch phase expertise, 45-mile radius (Manatee)
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'bradenton',
+    metaTitle: 'Bradenton Dryer Vent Cleaning | Lakewood Ranch Phase Experts',
+    metaDescription:
+      'Bradenton dryer vent and dryer duct cleaning for Lakewood Ranch villages, Palmetto, West Bradenton. 45-mile scheduled service from Tampa, $79 + $10/ft, free inspection.',
+    heroSubtitle:
+      "Lakewood Ranch is 20,000+ homes across multiple villages — phase-by-phase floor-plan knowledge from a Tampa Bay-owned crew willing to schedule the 45-mile route Manatee deserves.",
+    longIntro:
+      "Bradenton dryer vent cleaning sits at the southern edge of our 45-mile scheduled service radius from Tampa, and the headline reason we make the trip is Lakewood Ranch — one of the fastest-growing master-planned communities in America, with 20,000-plus homes spanning multiple villages and a uniform builder-pattern that creates same-pattern dryer duct failures across entire phase cohorts. Most Tampa-area dryer vent operators decline Manatee work; we cover it because Lakewood Ranch deserves quality phase-aware options. The Airflow team services Lakewood Ranch villages (Country Club, Greenbrook, Heritage Harbour Lakewood Ranch, Esplanade, Polo Run, and the newer Cresswind 55+ section), Palmetto, West Bradenton, and Riverview-Bradenton with the same per-foot pricing model — $79 base for the first 10 feet plus $10 per additional foot. Free on-site inspection is offered at no cost; service from Tampa is scheduled, not same-day, with 2-3 day booking windows.",
+    whyClogHere:
+      "Lakewood Ranch's defining feature for dryer vent work is uniformity at scale. The community's 20,000-plus homes were built block-by-block in identifiable 3-to-5-year phases by a small set of national builders (Pulte, Lennar, Taylor Morrison, Neal, Medallion, M/I Homes, Toll Brothers, WCI), each of which specified the same dryer duct material across an entire village section before moving to the next phase. The practical effect is that when 2015-2018 builder-grade flex foil enters its 5-to-10-year failure cohort, it does so across an entire Greenbrook or Country Club section at once — same pattern, same elbow position, same joint-seal failure mode. A camera-first inspection on a Lakewood Ranch address effectively diagnoses the entire street's likely condition. Beyond the master-planned core, Palmetto's 1970s-1990s housing stock has aging original aluminum semi-rigid duct hitting end-of-life, and West Bradenton's mid-century single-story stock often has undersized 3-inch original runs that need 4-inch retrofit. Bradenton humidity tracks Tampa Bay's pattern (dew points above 70°F for half the year), which means lint compacts at the same accelerated rate as inland Hillsborough — annual cleaning is the floor across the submarket, with 9-month cycles reasonable for high-volume Greenbrook and Polo Run family households.",
+    neighborhoodDetail: [
+      {
+        name: 'Lakewood Ranch — Country Club',
+        zip: '34202',
+        detail:
+          'Established Lakewood Ranch village with predominantly early-2000s Pulte and Lennar builds — 22-30 ft second-floor dryer duct runs are standard, original builder-grade material on 2002-2008 cohort homes is at end-of-life and surfaces during cleaning.',
+      },
+      {
+        name: 'Lakewood Ranch — Greenbrook',
+        zip: '34202',
+        detail:
+          'Mid-Lakewood-Ranch village with 2005-2012 Pulte, Neal, and Taylor Morrison builds — 22-30 ft runs typical, deep into the builder-grade flex failure cohort, wall ductwork repair frequently quoted during first professional cleaning.',
+      },
+      {
+        name: 'Lakewood Ranch — Heritage Harbour',
+        zip: '34212',
+        detail:
+          'Newer Lakewood Ranch section with 2010-2018 builds (Lennar, M/I, Taylor Morrison) — 24-32 ft runs through second-floor laundry, semi-rigid aluminum transition hose increasingly at joint-seal failure mark.',
+      },
+      {
+        name: 'Lakewood Ranch — Esplanade',
+        zip: '34211',
+        detail:
+          'Newer 2015-2022 Esplanade-style village by Taylor Morrison — predominantly active-adult single-story patio homes with 12-18 ft dryer duct runs, original rigid metal still relatively clean across most of the cohort.',
+      },
+      {
+        name: 'Lakewood Ranch — Polo Run',
+        zip: '34211',
+        detail:
+          'Lennar Wi-Fi-connected solar-equipped village with 2018-2022 builds — predominantly two-story family plans with 22-28 ft dryer duct runs, builder-spec material still in the clean-original window.',
+      },
+      {
+        name: 'Lakewood Ranch — Cresswind',
+        zip: '34211',
+        detail:
+          '55+ section with 2019-onward Kolter Homes builds — single-story patio plans with 10-16 ft dryer duct runs, most jobs at the $79-$139 range, scope-first protocol particularly relevant for retirement demographic.',
+      },
+      {
+        name: 'Palmetto',
+        zip: '34221',
+        detail:
+          'Older 1970s-1990s housing stock with original aluminum semi-rigid dryer duct now 30-50 years old — wall ductwork repair frequently quoted on first professional cleaning, similar pattern to Pinellas Park 1960s-1970s stock.',
+      },
+      {
+        name: 'West Bradenton',
+        zip: '34209',
+        detail:
+          'Mid-century single-story homes with predominantly 12-18 ft dryer duct runs — undersized 3-inch original ducting common, similar pattern to Dunedin and St. Pete bungalow stock, 4-inch retrofit standard during first professional cleaning.',
+      },
+    ],
+    includesList: [
+      'Free on-site inspection — camera scope plus airflow test plus written assessment, no obligation, scheduled within the route',
+      'Phase-aware diagnostic on Lakewood Ranch addresses — village and build year identify expected builder spec and failure mode before arrival',
+      'Rotary brush cleaning sized to actual dryer duct diameter with reach configured to floor-plan run length',
+      'Pre- and post-airflow measurement with calibrated anemometer on every visit',
+      'Identification of builder-grade flex or semi-rigid duct in 2005-2018 failure cohort with photo documentation',
+      'Written quote with photos before any wall ductwork repair work begins',
+      'Lint trap housing vacuum-out and dryer drum back-cleaning on every visit',
+      'Photo documentation and written report emailed within 24 hours of the appointment',
+    ],
+    pricingNotes:
+      "Bradenton pricing follows the per-foot rule: $79 base for the first 10 feet of dryer duct plus $10 per additional foot. Most Lakewood Ranch Country Club, Greenbrook, Heritage Harbour, and Polo Run two-story plans route 22-30 ft from second-floor laundry to a sidewall termination, landing at $199-$279. Esplanade and Cresswind active-adult patio homes with 12-18 ft runs land at $99-$159. Palmetto and West Bradenton older single-story stock with 14-20 ft runs lands at $119-$179. Wall ductwork repair ($195-$595) is increasingly common across the 2005-2018 Lakewood Ranch flex-failure cohort and on Palmetto homes with original 1970s-1980s aluminum at end-of-life. Free on-site inspection is offered at no cost — camera scope, airflow test, written report. Bradenton service is scheduled within our 45-mile route from Tampa: typical booking window is 2-3 days rather than same-day, and the free inspection is scheduled within the same route rather than as a standalone trip.",
+    counterPositioning:
+      "Most Tampa-area dryer vent companies decline Manatee work — the 45-mile distance from Tampa makes the round-trip uneconomic for ad-hoc dispatch, and most national franchise corporate routing centers run Bradenton out of separate territories that change operators visit-to-visit under the FTC-mandated \"independently owned and operated franchises\" disclosure. We schedule the Bradenton route deliberately — 2-3 day booking windows, route-density pricing, phase-aware Lakewood Ranch crew — because Lakewood Ranch deserves quality options and the math works when the route is planned rather than reactive.",
+    testimonial: {
+      text: "Lakewood Ranch Greenbrook, 2008 Pulte build. Three Tampa companies turned us down because of the distance. Airflow scheduled us within their next-Tuesday Bradenton route, came down for the free inspection first, identified the same builder-grade flex failure my neighbor had at the same house plan, quoted the cleaning plus rigid-metal retrofit in writing, scheduled the work for the same route the following week. Two trips, both planned, no surprise charges, airflow numbers on the invoice. Worth the 2-3 day window.",
+      author: 'Patricia W.',
+      neighborhood: 'Lakewood Ranch — Greenbrook',
+    },
+    cityFaqs: [
+      {
+        q: 'Bradenton is 45 miles from Tampa — do you actually service Manatee County?',
+        a: "Yes, on a scheduled route. Bradenton sits at the southern edge of our 45-mile scheduled service radius from Tampa, and we cover it specifically because Lakewood Ranch's 20,000-plus homes deserve a phase-aware Tampa Bay-owned option. Booking windows are typically 2-3 days rather than same-day, and we schedule the Bradenton route deliberately rather than dispatching reactively from Tampa each call. The free on-site inspection is scheduled within the same route as the cleaning rather than as a standalone trip, which keeps the round-trip overhead off your invoice.",
+      },
+      {
+        q: 'When is dryer vent cleaning busiest in Bradenton?',
+        a: "January and September are the Tampa Bay demand peaks, each running near 880 monthly searches across the metro. Bradenton's Lakewood Ranch family-home demographic adds an August back-to-school surge that pulls some September volume early; Cresswind and Esplanade 55+ residents book more evenly across the calendar. October and February are the easiest months for individual scheduled appointments without waiting on peak-season route capacity.",
+      },
+      {
+        q: 'How much does dryer vent cleaning cost in Bradenton?',
+        a: "Bradenton cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Most Lakewood Ranch Country Club, Greenbrook, Heritage Harbour, and Polo Run two-story plans with 22-30 ft runs land at $199-$279. Esplanade and Cresswind active-adult patio homes with 12-18 ft runs land at $99-$159. Palmetto and West Bradenton older single-story stock with 14-20 ft runs lands at $119-$179. Wall ductwork repair is $195-$595 when 2005-2018 Lakewood Ranch builder-grade flex or 1970s-1980s Palmetto aluminum needs replacement. Free on-site inspection is offered at no cost and is scheduled within the Bradenton route rather than as a separate trip.",
+      },
+      {
+        q: 'Why does the Lakewood Ranch village name matter for my dryer vent cleaning?',
+        a: "Because Lakewood Ranch's 20,000-plus homes were built in identifiable 3-to-5-year phases by a small set of national builders (Pulte, Lennar, Taylor Morrison, Neal, Medallion, M/I Homes, Toll Brothers, WCI), each of which specified the same dryer duct material across an entire village section before moving to the next phase. A 2008 Greenbrook Pulte home shares the same builder-grade flex spec as every other 2008 Greenbrook Pulte home, and the failure mode shows up across the entire phase cohort at the same year. Knowing the village and the build year predicts the expected failure mode before camera inspection even confirms it.",
+      },
+      {
+        q: 'How long does a typical Bradenton vent cleaning take?',
+        a: "Lakewood Ranch two-story homes with 22-30 ft runs take 75-100 minutes for cleaning. Esplanade and Cresswind active-adult patio homes run 45-60 minutes. Palmetto and West Bradenton older single-story stock with retrofit needs runs 75-100 minutes including wall ductwork repair work. Free on-site inspection-only visits run 30-45 minutes — camera scope, airflow test, walk-through of findings on a tablet screen, written report emailed within 24 hours of the route day.",
+      },
+    ],
+    responseNote:
+      "Bradenton is 45 miles from our Tampa base — outside same-day dispatch range and serviced via a scheduled route rather than reactive call-out. Typical booking window is 2-3 days; the Tuesday and Thursday Bradenton routes carry phase-aware Lakewood Ranch crew with the right diagnostic gear. Free on-site inspection visits are scheduled within the same route as the cleaning to keep round-trip overhead off your invoice. Saturday route slots available for Lakewood Ranch HOA block-day requests.",
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 23. SARASOTA — luxury waterfront + snowbird seasonal use, 55-mile radius
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'sarasota',
+    metaTitle: 'Sarasota Dryer Vent Cleaning | Siesta Key, Longboat, Palmer Ranch',
+    metaDescription:
+      'Sarasota dryer vent and dryer duct cleaning. Siesta Key, Longboat Key, Palmer Ranch, Downtown. 55-mile scheduled route from Tampa, $79 + $10/ft, free inspection for snowbirds.',
+    heroSubtitle:
+      "Siesta Key luxury waterfront, Longboat Key snowbird estates, Palmer Ranch master-planned, Downtown Sarasota cultural district — Tampa Bay-to-Sarasota bridge service for property managers coordinating multiple metros.",
+    longIntro:
+      "Sarasota dryer vent cleaning is the Tampa Bay-to-Sarasota bridge service for owners and property managers who need consistent dryer duct work across multiple metros. Sarasota sits 55 miles from our Tampa base — outside same-day dispatch but inside our scheduled service route — and the headline market dynamics are luxury waterfront housing with intense seasonal use patterns and Siesta Key's status as the #1-ranked beach in America driving exceptional vacation-rental volume. Snowbird homes that sit unused for six months and then run dryers daily for the next six produce unique lint compaction and insect intrusion patterns the franchise playbook does not cover. The Airflow team services Siesta Key, Longboat Key, Downtown Sarasota, Palmer Ranch, University Park, and the broader Sarasota market with the same per-foot pricing model — $79 base plus $10 per additional foot — on a scheduled route with a minimum 3-day booking window and a free on-site inspection that is especially compelling for absentee snowbird owners verifying vent status before season starts.",
+    whyClogHere:
+      "Three forces define Sarasota's dryer vent profile. First, snowbird seasonal use pattern — luxury Longboat Key, Siesta Key, and Palmer Ranch waterfront homes commonly sit empty for six months while owners are up north, then transition to daily-laundry intensity for the second six months. Empty months allow insect intrusion at exterior vent caps (palmetto bugs, wasps, geckos) that creates termination clogs nobody discovers until the first laundry day after return. Intense use months then compact lint at higher-than-average rates because of constant beach-day towel volume and saltwater swimwear loads. The combined seasonal cycle produces unique lint-pest-debris compaction patterns franchise crews trained on year-round suburban use do not recognize. Second, Siesta Key vacation-rental volume — being ranked the #1 beach in America makes Siesta Key one of Florida's densest short-term-rental markets, which stacks dryer cycles to multi-tenant intensity (3-5 turnover loads per week is normal) and drives a 6-month minimum cleaning interval for any rental property. Third, luxury cultural district housing — Downtown Sarasota's high-rise condo stock and the cultural-district waterfront homes have shared vertical vent stacks similar to St. Pete and Clearwater Beach inventory, with the additional complication of seasonal occupancy patterns that vary unit-by-unit within the same building. HOA-coordinated stack cleaning is increasingly the standard for these buildings.",
+    neighborhoodDetail: [
+      {
+        name: 'Siesta Key',
+        zip: '34242',
+        detail:
+          'Barrier-island vacation-rental capital with the #1-ranked beach in America — luxury waterfront homes, condo towers, and short-term rental volume that drives a 6-month minimum cleaning interval, plus saltwater swimwear/towel cycles that compact lint faster than typical suburban use.',
+      },
+      {
+        name: 'Longboat Key',
+        zip: '34228',
+        detail:
+          'Luxury barrier-island estates with predominantly snowbird seasonal occupancy — exterior vent caps face the highest saltwater corrosion exposure in the Sarasota market, stainless steel cap replacement is standard, insect intrusion during empty months is the leading clog cause.',
+      },
+      {
+        name: 'Downtown Sarasota',
+        zip: '34236',
+        detail:
+          'High-rise condo stock and cultural-district waterfront housing with shared vertical vent stacks — single-unit cleanings require building access coordination, and HOA-coordinated full-stack cleanings are increasingly the standard for towers built 2010-onward.',
+      },
+      {
+        name: 'Palmer Ranch',
+        zip: '34238',
+        detail:
+          'Master-planned community of mid-1990s through 2010s builds with multiple villages — uniform builder-pattern similar to Lakewood Ranch but at smaller scale, predominantly two-story plans with 22-30 ft dryer duct runs from second-floor laundry.',
+      },
+      {
+        name: 'University Park',
+        zip: '34201',
+        detail:
+          'Established gated golf-course community on the Sarasota-Bradenton border with executive-size homes and 22-32 ft dryer duct runs typical — older builder-grade material from the late-1990s through mid-2000s cohort frequently surfaces during first professional cleaning.',
+      },
+      {
+        name: 'Lakewood Ranch (Sarasota side)',
+        zip: '34202',
+        detail:
+          "Sarasota-side Lakewood Ranch villages overlap the Bradenton-side phase pattern — same uniform builder-spec failure cohorts, same phase-aware diagnostic, served on the same scheduled Tampa-to-Lakewood-Ranch route.",
+      },
+      {
+        name: 'Bird Key / Lido Key',
+        zip: '34236',
+        detail:
+          'Luxury-island waterfront housing between Downtown and Longboat — direct saltwater exposure on multiple sides, exterior cap corrosion accelerated, and a heavy mix of seasonal-residence occupancy patterns that compound the snowbird clog cycle.',
+      },
+    ],
+    includesList: [
+      'Free on-site inspection — camera scope plus airflow test plus written assessment, no obligation, scheduled within the route',
+      'Snowbird-specific assessment — insect intrusion, palm-frond debris, and seasonal-use lint compaction documented separately on the report',
+      'Salt-aware exterior cap inspection on Longboat, Siesta, Bird, and Lido Key addresses — corrosion grade documented',
+      'Stainless-steel cap replacement quoted in writing before install (not a surprise upcharge)',
+      'Rotary brush cleaning sized to actual dryer duct diameter with reach configured to floor-plan run length',
+      'Vacation-rental certification documentation packet for Siesta Key short-term rental owners when HOA paperwork is required',
+      'Pre- and post-airflow measurement with calibrated anemometer, recorded on the invoice',
+      'Photo documentation and written report emailed within 24 hours of the route day',
+    ],
+    pricingNotes:
+      "Sarasota pricing follows the per-foot rule: $79 base for the first 10 feet of dryer duct plus $10 per additional foot. Most Palmer Ranch and University Park two-story plans with 22-32 ft runs land at $199-$299. Siesta Key, Longboat Key, and Downtown high-rise condo units typically have stacked vertical chases under 10 feet and bill at the $79 base — full-stack HOA cleanings are custom-quoted. Single-family Siesta Key and Longboat Key luxury waterfront homes with 14-22 ft runs land at $119-$199. Stainless-steel exterior cap replacement on saltwater-exposed walls runs $65-$125 parts plus install and is the most common Sarasota add-on. Wall ductwork repair ($195-$595) surfaces on University Park and older Palmer Ranch sections with end-of-life builder-grade material. Free on-site inspection is offered at no cost and is especially compelling for absentee snowbird owners — a no-cost way to verify vent status before season starts. Sarasota service is scheduled within our 55-mile route from Tampa: minimum 3-day booking window, scheduled routes only, travel time honestly disclosed.",
+    counterPositioning:
+      "Sarasota has its own local dryer vent competitors, and we are not trying to displace them on every job. Where Airflow fits is the Tampa-Bay-to-Sarasota bridge — property managers coordinating multiple homes across both metros, snowbird owners who already work with us in Tampa and want consistent service on the Sarasota property, vacation-rental management firms that need uniform documentation across a portfolio. National franchise crews dispatched under the FTC-mandated \"independently owned and operated franchises\" disclosure rotate operators visit-to-visit and cannot deliver portfolio-consistent documentation across two metros — we can.",
+    testimonial: {
+      text: "Manage three vacation rentals — two on Siesta Key, one in South Tampa — and was tired of dealing with two different vent cleaning companies with two different documentation formats for HOA certification files. Airflow already serviced the Tampa property; they scheduled the Siesta Key visits within their next Sarasota route, ran the same protocol, produced the same certification packet, kept everything uniform across the portfolio. Worth the 3-day booking window for one consistent operator across two metros. Free inspection let me verify the third property before committing.",
+      author: 'Karen B.',
+      neighborhood: 'Siesta Key',
+    },
+    cityFaqs: [
+      {
+        q: 'Sarasota is 55 miles from Tampa — do you actually service Sarasota County?',
+        a: "Yes, on a scheduled route. Sarasota sits at the southern edge of our 55-mile scheduled service radius from Tampa, and we cover it specifically as the Tampa-Bay-to-Sarasota bridge service for property managers coordinating multiple metros, snowbird owners with a Tampa property already in our system, and vacation-rental firms needing portfolio-consistent documentation. Booking windows are minimum 3 days rather than same-day, scheduled routes only, and travel time is honestly disclosed in the quote rather than buried in fuel surcharges. The free on-site inspection is scheduled within the same route as the cleaning to keep round-trip overhead off your invoice.",
+      },
+      {
+        q: 'When is dryer vent cleaning busiest in Sarasota?',
+        a: "January and September are the Tampa Bay demand peaks, each running near 880 monthly searches across the metro. Sarasota layers on a snowbird-return spike in October-November as Longboat Key, Siesta Key, and Bird Key seasonal residents come back south and discover insect intrusion at exterior caps from the unused summer months. Vacation-rental owners on Siesta Key book on a 6-month cycle that concentrates around peak-season turnover (March-April and October-November). The easiest months for individual scheduled appointments are February, May, and August.",
+      },
+      {
+        q: 'How much does dryer vent cleaning cost in Sarasota?',
+        a: "Sarasota cleaning starts at $79 for the first 10 feet plus $10 per additional foot. Most Palmer Ranch and University Park two-story plans with 22-32 ft runs land at $199-$299. Siesta Key, Longboat Key, and Downtown high-rise condo units typically have stacked chases under 10 feet and bill at the $79 base. Single-family Siesta Key and Longboat Key luxury waterfront homes with 14-22 ft runs land at $119-$199. Stainless-steel exterior cap replacement on saltwater walls runs $65-$125 parts plus install and is the most common Sarasota add-on. Wall ductwork repair is $195-$595 when needed. Free on-site inspection is offered at no cost — particularly compelling for absentee snowbird owners verifying status before season starts. Sarasota service is scheduled within the 55-mile Tampa route, minimum 3-day booking window.",
+      },
+      {
+        q: 'My Longboat Key home sits empty for six months — does that change cleaning frequency?',
+        a: "Yes — but in an unexpected way. Empty months allow insect intrusion at exterior vent caps (palmetto bugs, wasps, geckos) that creates termination clogs nobody discovers until the first laundry day after return. Active months then compact lint at higher-than-average rates because of constant beach-day towel volume and saltwater swimwear loads. The combined seasonal cycle produces unique lint-pest-debris compaction patterns that benefit from a pre-season free inspection visit (no cost, scheduled within our Sarasota route) plus a full cleaning either at season-start or season-end depending on owner preference.",
+      },
+      {
+        q: 'Why hire a Tampa-based operator for Sarasota when local Sarasota companies exist?',
+        a: "For most single-property single-metro Sarasota work, hiring a local Sarasota operator is the right call — the math favors a 5-mile drive over a 55-mile drive. Where Airflow fits is the Tampa-Bay-to-Sarasota bridge: property managers coordinating multiple homes across both metros (Siesta Key plus South Tampa, Longboat plus Davis Islands), snowbird owners who already use us in Tampa and want consistent service on the Sarasota property, and vacation-rental management firms that need uniform certification documentation across a portfolio in both markets. One operator, one protocol, one documentation format, scheduled across both metros on the same booking system.",
+      },
+    ],
+    responseNote:
+      "Sarasota is 55 miles from our Tampa base — well outside same-day dispatch range and serviced via a scheduled route only. Minimum 3-day booking window, scheduled routes only, travel time honestly disclosed in the quote rather than buried in fuel surcharges. Free on-site inspection visits are scheduled within the same route as the cleaning to keep round-trip overhead off your invoice. Most useful for property managers coordinating multiple homes across Tampa Bay and Sarasota and for absentee snowbird owners verifying vent status before season starts.",
+  },
 ];
 
 export function getAreaContent(slug: string): AreaContent | undefined {
