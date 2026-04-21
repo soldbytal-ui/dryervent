@@ -12,7 +12,13 @@ import { services } from '@/lib/services';
 import { localBusinessSchema, faqSchema, breadcrumbSchema } from '@/lib/schema';
 import { buildMetadata } from '@/lib/seo';
 import { getAreaContent, STANDARD_PRICING } from '@/lib/area-content';
-import { getNearbyAreas, getCountyBySlug } from '@/lib/internal-links';
+import {
+  getNearbyAreas,
+  getCountyBySlug,
+  getAreaTags,
+  getRelatedSpecialtyPages,
+  getRelatedBlogPosts,
+} from '@/lib/internal-links';
 
 const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://dryervent.vercel.app';
 
@@ -44,9 +50,12 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
   if (!area) notFound();
 
   const content = getAreaContent(slug);
-  const nearby = getNearbyAreas(slug, 4);
+  const nearby = getNearbyAreas(slug, 3);
   const countySlug = area.county.toLowerCase().replace(/[^a-z]/g, '');
   const county = getCountyBySlug(countySlug);
+  const areaTags = getAreaTags(slug);
+  const relatedSpecialty = getRelatedSpecialtyPages(areaTags);
+  const relatedPosts = getRelatedBlogPosts(areaTags);
 
   const faqs = content?.cityFaqs ?? [
     {
@@ -373,29 +382,86 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
 
       <FAQ faqs={faqs} title={`Dryer Vent Cleaning FAQs — ${area.name}`} />
 
-      {/* Nearby areas — internal linking for SEO */}
+      {/* Related Pages — internal linking block: nearby cities + related specialty + resources */}
       <section className="bg-gray-50 py-14">
-        <div className="container-custom max-w-5xl">
-          <h2 className="font-display font-bold text-2xl text-navy text-center mb-3">
-            Nearby Cities We Also Serve
+        <div className="container-custom max-w-6xl">
+          <h2 className="font-display font-bold text-2xl text-navy text-center mb-8">
+            Related Services &amp; Nearby Areas
           </h2>
-          <p className="text-center text-gray-600 text-sm mb-8">
-            Part of {county?.displayName ?? `${area.county} County`} — <Link href={`/areas/counties/${county?.slug ?? countySlug}`} className="text-fire font-semibold hover:underline">view the full county hub</Link>.
-          </p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {nearby.map((n) => (
-              <Link
-                key={n.slug}
-                href={`/areas/${n.slug}`}
-                className="group bg-white rounded-xl p-4 border border-gray-200 hover:border-fire hover:shadow-md transition-all"
-              >
-                <div className="flex items-center gap-2 text-fire text-xs font-display font-bold uppercase tracking-wider mb-1">
-                  <MapPin size={12} /> {n.county} County
-                </div>
-                <div className="font-display font-bold text-navy">{n.name}</div>
-                <div className="text-xs text-gray-500 mt-1">Dryer vent cleaning →</div>
-              </Link>
-            ))}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {/* Column 1 — Nearby Cities */}
+            <div className="bg-white rounded-xl p-6 border border-gray-200">
+              <h3 className="font-display font-bold text-base text-navy mb-4 flex items-center gap-2">
+                <MapPin size={16} className="text-fire" /> Nearby Cities We Serve
+              </h3>
+              <ul className="space-y-2.5">
+                {nearby.map((n) => (
+                  <li key={n.slug}>
+                    <Link
+                      href={`/areas/${n.slug}`}
+                      className="text-sm text-gray-700 hover:text-fire transition-colors flex items-center justify-between gap-2"
+                    >
+                      <span>Dryer Vent Cleaning in {n.name}</span>
+                      <span className="text-xs text-gray-400 font-medium whitespace-nowrap">{n.distance_miles} mi</span>
+                    </Link>
+                  </li>
+                ))}
+                <li className="pt-2 mt-2 border-t border-gray-100">
+                  <Link
+                    href={`/areas/counties/${county?.slug ?? countySlug}`}
+                    className="text-sm font-semibold text-fire hover:underline"
+                  >
+                    All {county?.displayName ?? `${area.county} County`} →
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            {/* Column 2 — Related Services */}
+            <div className="bg-white rounded-xl p-6 border border-gray-200">
+              <h3 className="font-display font-bold text-base text-navy mb-4 flex items-center gap-2">
+                <CheckCircle2 size={16} className="text-fire" /> Related Services
+              </h3>
+              <ul className="space-y-2.5">
+                {relatedSpecialty.map((p) => (
+                  <li key={p.path}>
+                    <Link
+                      href={p.path}
+                      className="text-sm text-gray-700 hover:text-fire transition-colors"
+                    >
+                      {p.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Column 3 — Dryer Vent Resources */}
+            <div className="bg-white rounded-xl p-6 border border-gray-200">
+              <h3 className="font-display font-bold text-base text-navy mb-4 flex items-center gap-2">
+                <ArrowRight size={16} className="text-fire" /> Dryer Vent Resources
+              </h3>
+              <ul className="space-y-2.5">
+                {relatedPosts.map((p) => (
+                  <li key={p.slug}>
+                    <Link
+                      href={`/blog/${p.slug}`}
+                      className="text-sm text-gray-700 hover:text-fire transition-colors"
+                    >
+                      {p.title}
+                    </Link>
+                  </li>
+                ))}
+                <li className="pt-2 mt-2 border-t border-gray-100">
+                  <Link
+                    href="/areas"
+                    className="text-sm font-semibold text-fire hover:underline"
+                  >
+                    All Service Areas →
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

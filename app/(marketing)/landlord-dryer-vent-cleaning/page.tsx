@@ -7,6 +7,7 @@ import FinalCTA from '@/components/FinalCTA';
 import SchemaMarkup from '@/components/SchemaMarkup';
 import { localBusinessSchema, faqSchema, breadcrumbSchema } from '@/lib/schema';
 import { buildMetadata } from '@/lib/seo';
+import { getTaggedAreas } from '@/lib/internal-links';
 
 const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://dryervent.vercel.app';
 
@@ -354,6 +355,32 @@ export default function LandlordDryerVentPage() {
             <a href="tel:+18137441127" className="btn-primary inline-flex items-center gap-2">
               <Phone size={18} /> (813) 744-1127
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Rental-heavy cities — tag-filtered internal linking */}
+      <section className="bg-gray-50 py-14">
+        <div className="container-custom max-w-5xl">
+          <h2 className="font-display font-bold text-2xl text-navy text-center mb-3">
+            Rental-Heavy Markets We Serve
+          </h2>
+          <p className="text-center text-gray-600 text-sm mb-8">
+            Tampa Bay cities with the highest rental and short-term-rental volume — vacation-rental turnover plans available.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            {getTaggedAreas('rental-heavy').map((c) => (
+              <Link
+                key={c.slug}
+                href={`/areas/${c.slug}`}
+                className="bg-white rounded-lg px-4 py-3 border border-gray-200 hover:border-fire hover:shadow-sm transition-all text-center"
+              >
+                <div className="flex items-center justify-center gap-1.5 text-fire text-xs font-display font-bold uppercase tracking-wider mb-1">
+                  <MapPin size={11} /> {c.county}
+                </div>
+                <div className="font-display font-bold text-sm text-navy">{c.name}</div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

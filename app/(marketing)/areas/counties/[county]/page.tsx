@@ -10,7 +10,7 @@ import SchemaMarkup from '@/components/SchemaMarkup';
 import { services } from '@/lib/services';
 import { faqSchema, breadcrumbSchema } from '@/lib/schema';
 import { buildMetadata } from '@/lib/seo';
-import { COUNTIES, getCountyBySlug, getCitiesByCounty } from '@/lib/internal-links';
+import { COUNTIES, getCountyBySlug, getCitiesByCounty, getCountyNeighbors } from '@/lib/internal-links';
 
 const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://dryervent.vercel.app';
 
@@ -261,6 +261,36 @@ export default async function CountyHubPage({ params }: { params: Promise<{ coun
       <Reviews max={3} />
 
       <FAQ faqs={countyFaqs} title={`Dryer Vent Cleaning FAQs — ${county.displayName}`} />
+
+      {/* Adjacent counties — internal linking block */}
+      {(() => {
+        const neighbors = getCountyNeighbors(county.slug);
+        if (neighbors.length === 0) return null;
+        return (
+          <section className="bg-gray-50 py-14">
+            <div className="container-custom max-w-5xl">
+              <h2 className="font-display font-bold text-2xl text-navy text-center mb-8">
+                Nearby Counties We Serve
+              </h2>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                {neighbors.map((n) => (
+                  <Link
+                    key={n.slug}
+                    href={`/areas/counties/${n.slug}`}
+                    className="group bg-white rounded-xl p-5 border border-gray-200 hover:border-fire hover:shadow-md transition-all"
+                  >
+                    <div className="flex items-center gap-2 text-fire text-xs font-display font-bold uppercase tracking-wider mb-1">
+                      <MapPin size={12} /> County
+                    </div>
+                    <h3 className="font-display font-bold text-navy text-base mb-1">{n.name} County</h3>
+                    <p className="text-xs text-gray-500">Dryer vent cleaning across {n.name} County</p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      })()}
 
       <FinalCTA
         headline={`Locally-Owned Service\nAcross ${county.displayName}.`}

@@ -6,6 +6,7 @@ import FinalCTA from '@/components/FinalCTA';
 import SchemaMarkup from '@/components/SchemaMarkup';
 import { breadcrumbSchema, faqSchema } from '@/lib/schema';
 import { posts, type BodySection } from '@/lib/posts';
+import { getPopularCities } from '@/lib/internal-links';
 
 const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://dryervent.vercel.app';
 
@@ -231,6 +232,58 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           </div>
         </div>
       </article>
+
+      {/* Related Resources — internal linking block (only on posts with body) */}
+      {post.body && (() => {
+        const otherPosts = posts
+          .filter((p) => p.slug !== post.slug && p.body && p.body.length > 0)
+          .slice(0, 3);
+        const topCities = getPopularCities(5);
+        return (
+          <section className="bg-gray-50 py-14">
+            <div className="container-custom max-w-5xl">
+              <h2 className="font-display font-bold text-2xl text-navy text-center mb-8">
+                Related Resources
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="bg-white rounded-xl p-6 border border-gray-200">
+                  <h3 className="font-display font-bold text-base text-navy mb-4">More Articles</h3>
+                  <ul className="space-y-2.5">
+                    {otherPosts.map((p) => (
+                      <li key={p.slug}>
+                        <Link href={`/blog/${p.slug}`} className="text-sm text-gray-700 hover:text-fire transition-colors">
+                          {p.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="bg-white rounded-xl p-6 border border-gray-200">
+                  <h3 className="font-display font-bold text-base text-navy mb-4">Get Started</h3>
+                  <ul className="space-y-2.5">
+                    <li><Link href="/pricing" className="text-sm text-gray-700 hover:text-fire transition-colors">Transparent Per-Foot Pricing</Link></li>
+                    <li><Link href="/services/dryer-vent-inspection" className="text-sm text-gray-700 hover:text-fire transition-colors">Free Dryer Vent Inspection</Link></li>
+                    <li><Link href="/areas" className="text-sm text-gray-700 hover:text-fire transition-colors">Service Areas Across Tampa Bay</Link></li>
+                    <li><Link href="/services/residential-dryer-vent-cleaning" className="text-sm text-gray-700 hover:text-fire transition-colors">Residential Cleaning Service</Link></li>
+                  </ul>
+                </div>
+                <div className="bg-white rounded-xl p-6 border border-gray-200">
+                  <h3 className="font-display font-bold text-base text-navy mb-4">Popular Service Areas</h3>
+                  <ul className="space-y-2.5">
+                    {topCities.map((c) => (
+                      <li key={c.slug}>
+                        <Link href={`/areas/${c.slug}`} className="text-sm text-gray-700 hover:text-fire transition-colors">
+                          Dryer Vent Cleaning in {c.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        );
+      })()}
 
       <FinalCTA />
     </>

@@ -7,6 +7,8 @@ import FinalCTA from '@/components/FinalCTA';
 import SchemaMarkup from '@/components/SchemaMarkup';
 import { localBusinessSchema, faqSchema, breadcrumbSchema } from '@/lib/schema';
 import { buildMetadata } from '@/lib/seo';
+import { getPopularCities } from '@/lib/internal-links';
+import { areas } from '@/lib/areas';
 
 const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://dryervent.vercel.app';
 
@@ -308,6 +310,41 @@ export default function LocalVsFranchisePage() {
           </div>
         </div>
       </section>
+
+      {/* Our Service Areas — popular + bridge cities */}
+      {(() => {
+        const popular = getPopularCities(5);
+        const extras = ['south-tampa', 'riverview', 'apollo-beach']
+          .map((s) => areas.find((a) => a.slug === s))
+          .filter((a): a is NonNullable<typeof a> => Boolean(a));
+        const combined = [...popular, ...extras];
+        return (
+          <section className="bg-gray-50 py-14">
+            <div className="container-custom max-w-5xl">
+              <h2 className="font-display font-bold text-2xl text-navy text-center mb-3">
+                Our Service Areas
+              </h2>
+              <p className="text-center text-gray-600 text-sm mb-8">
+                Locally-owned dryer vent cleaning across Tampa Bay — these are the cities where we see the highest volume of franchise-vs-local quote-shopping.
+              </p>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                {combined.map((c) => (
+                  <Link
+                    key={c.slug}
+                    href={`/areas/${c.slug}`}
+                    className="bg-white rounded-lg px-4 py-3 border border-gray-200 hover:border-fire hover:shadow-sm transition-all text-center"
+                  >
+                    <div className="flex items-center justify-center gap-1.5 text-fire text-xs font-display font-bold uppercase tracking-wider mb-1">
+                      <MapPin size={11} /> {c.county}
+                    </div>
+                    <div className="font-display font-bold text-sm text-navy">{c.name}</div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      })()}
 
       <FinalCTA
         headline={'Skip the Franchise Routing Center.\nCall a Local Tampa Bay Owner.'}
