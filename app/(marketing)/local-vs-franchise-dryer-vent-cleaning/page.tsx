@@ -41,6 +41,11 @@ const faqs = [
     q: 'How does local pricing actually compare to franchise pricing in Tampa Bay?',
     a: 'In our experience reviewing customer quotes from competitors, franchise dryer vent cleaning quotes in Tampa Bay typically range from $189 to $450 for a standard residential job — sometimes more once "additional services" are added at the door. Airflow charges $79 for the first 10 feet of dryer duct plus $10 per additional foot, with most jobs landing in the $79–$249 range. Wall ductwork repair, when actually required, is $195–$595 quoted in advance with photos. Free inspection always — no upsell, no obligation.',
   },
+  // PAA-targeted (Phase 8)
+  {
+    q: 'Is it better to hire a local or franchise dryer vent cleaner?',
+    a: 'For Tampa Bay homeowners, the practical differences favor local operators: published pricing (vs "call for quote"), fixed-wage technicians with no commission pressure, consistent crew over multiple visits, and knowledge of local housing stock. Franchise operators offer brand recognition and standardized processes — useful in some trades, less useful for a job like dryer vent cleaning where every home\'s duct is slightly different. Quality exists in both models; structural incentives differ.',
+  },
 ];
 
 export default function LocalVsFranchisePage() {

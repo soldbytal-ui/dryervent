@@ -204,6 +204,9 @@ export const services: Service[] = [
       { q: 'Do I have to book cleaning after the inspection?', a: 'No. Zero obligation. If your dryer vent looks fine, we tell you so and leave. If it needs cleaning, we quote the work using our transparent per-foot pricing ($79 for the first 10 feet, +$10/foot after that). The decision is yours.' },
       { q: 'How long does the free inspection take?', a: 'Typically 20-30 minutes on site. Same-week appointments are standard across Tampa Bay; same-day appointments are often available for Hillsborough and Pinellas County addresses.' },
       { q: 'Why do you offer this for free?', a: 'Because most dryer vent quotes happen blind — over the phone, without anyone actually looking at the vent. That is how households get oversold on services they do not need. A free, scope-first inspection means you get real data before you spend a dollar. It is also why we do not pay our technicians on commission.' },
+      // PAA-targeted FAQs (Phase 8)
+      { q: 'How much does a dryer vent inspection cost?', a: 'In Tampa Bay with Airflow, a dryer vent inspection costs nothing — no trip fee, no diagnostic fee, no deposit. Industry-wide, paid inspections typically run $50–$150. We offer it free because scope-first transparency builds trust faster than a phone quote ever can.' },
+      { q: 'Do I need a dryer vent inspection?', a: 'You likely need one if any of these apply: clothes take more than one cycle to dry, the dryer cabinet runs unusually hot, a burning smell appears, it has been more than 12 months since the last professional cleaning, or you are buying or selling a home. Since the inspection is free and takes 20–30 minutes, it is the low-risk way to find out.' },
     ],
   },
 ];

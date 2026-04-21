@@ -146,6 +146,19 @@ const PRICING_FAQS = [
     q: 'Do you honor your quoted price or add surprise fees?',
     a: `We honor every quote. Once the free inspection is complete and you receive a written estimate, that is the price — no add-ons, no "we found something extra," no inflated invoice at the door. The only way the number changes is if you approve additional work (for example, a wall ductwork repair you authorize after seeing photos of the damage). This is a written commitment. If a technician ever quotes one number and bills another, the difference is on us. That is the difference between a published-price local operator and a corporate routing center with revenue quotas.`,
   },
+  // PAA-targeted FAQs (Phase 8): match common Google "People Also Ask" phrasings for pricing-intent queries.
+  {
+    q: 'How much does it cost to clean a dryer vent?',
+    a: `In Tampa Bay, professional dryer vent cleaning costs $79 for the first 10 feet of vent run plus $10 per additional foot. Most residential jobs total $79–$249 depending on length. Wall ductwork repair, when needed, is $195–$595 separately. On-site inspection is always free.`,
+  },
+  {
+    q: 'Is dryer vent cleaning worth the cost?',
+    a: `Yes, for most homes. Failure to clean is the leading cause of home dryer fires per the U.S. Fire Administration, a clogged vent can increase energy use by up to 30% per cycle, and restricted airflow shortens dryer lifespan. At $79–$249 once a year, the math is favorable even before accounting for fire risk.`,
+  },
+  {
+    q: 'What is a fair price for dryer vent cleaning?',
+    a: `A fair Tampa Bay price is in the $79–$249 range for standard residential cleaning, quoted transparently before the work starts. Quotes above $300 for a simple residential cleaning typically reflect either franchise commission structures or undisclosed add-ons. If a company refuses to publish pricing, that is usually a sign the number is going to flex based on their on-site assessment of your willingness to pay.`,
+  },
 ];
 
 // ---------------------------------------------------------------------------

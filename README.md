@@ -1,6 +1,13 @@
-# Airflow Dryer Vent Cleaning
+# Airflow Dryer Vent Cleaning Tampa
 
-> Florida's highest-converting dryer vent cleaning website — built to dominate Google, Google Ads, AI search engines (ChatGPT, Perplexity, Claude, Gemini), and local SEO across the Tampa Bay area.
+> Locally-owned Tampa Bay dryer vent cleaning service — Next.js 15 site engineered to rank in Google, Google Ads, and AI search engines (ChatGPT, Perplexity, Claude, Gemini).
+
+- **Live URL:** Whatever `NEXT_PUBLIC_SITE_URL` resolves to in production (currently `https://dryervent.vercel.app`; client will point a final domain — intended alias is `https://dryerventcleaningtampa.com`)
+- **Brand:** Airflow Dryer Vent Cleaning Tampa
+- **Pages:** 65 static pages · 46 URLs in sitemap.xml
+- **Service areas:** 23 cities · 5 county hubs · 50-mile radius from Tampa
+- **Admin:** `/admin/scale` (Scale dashboard, internal-only, disallowed in robots.txt)
+- **Status:** 8-phase SEO build complete (2026-04-21) — see `seo-audit/launch-checklist.md` for client pre-launch tasks and `seo-audit/final-launch-audit.md` for full audit state.
 
 **Stack:** Next.js 15 (App Router) · TypeScript · Tailwind CSS · Prisma · Supabase (Postgres) · Vercel · Resend · n8n webhook
 
