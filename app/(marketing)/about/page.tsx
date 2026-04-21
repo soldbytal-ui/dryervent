@@ -2,6 +2,8 @@ import { buildMetadata } from '@/lib/seo';
 import { ShieldCheck, Award, Users, Clock } from 'lucide-react';
 import FinalCTA from '@/components/FinalCTA';
 import TrustBar from '@/components/TrustBar';
+import SchemaMarkup from '@/components/SchemaMarkup';
+import { aboutPageSchema, breadcrumbSchema } from '@/lib/schema';
 
 export const metadata = buildMetadata({
   title: 'About Airflow Dryer Vent Cleaning | Locally Owned Tampa Bay',
@@ -12,6 +14,15 @@ export const metadata = buildMetadata({
 export default function AboutPage() {
   return (
     <>
+      <SchemaMarkup
+        data={[
+          aboutPageSchema(),
+          breadcrumbSchema([
+            { name: 'Home', url: '/' },
+            { name: 'About', url: '/about' },
+          ]),
+        ]}
+      />
       <section className="bg-gradient-to-br from-navy via-navy-mid to-navy-light py-20 relative overflow-hidden">
         <div className="absolute inset-0" style={{
           background: 'radial-gradient(ellipse at 70% 20%, rgba(232,69,14,0.12) 0%, transparent 60%)',

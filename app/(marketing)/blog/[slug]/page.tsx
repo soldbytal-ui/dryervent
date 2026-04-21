@@ -4,11 +4,9 @@ import { Calendar, ArrowLeft } from 'lucide-react';
 import { buildMetadata } from '@/lib/seo';
 import FinalCTA from '@/components/FinalCTA';
 import SchemaMarkup from '@/components/SchemaMarkup';
-import { breadcrumbSchema, faqSchema } from '@/lib/schema';
+import { breadcrumbSchema, faqSchema, articleSchema } from '@/lib/schema';
 import { posts, type BodySection } from '@/lib/posts';
 import { getPopularCities } from '@/lib/internal-links';
-
-const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://dryervent.vercel.app';
 
 export function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
@@ -106,28 +104,18 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   const post = posts.find((p) => p.slug === slug);
   if (!post) notFound();
 
-  const articleSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Article',
-    headline: post.title,
-    description: post.excerpt,
-    datePublished: post.date,
-    dateModified: post.date,
-    author: { '@type': 'Organization', name: 'Airflow Dryer Vent Cleaning' },
-    publisher: {
-      '@type': 'Organization',
-      name: 'Airflow Dryer Vent Cleaning',
-      logo: { '@type': 'ImageObject', url: `${SITE}/og-image.jpg` },
-    },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE}/blog/${post.slug}` },
-  };
-
   const faqItems = post.body
     ?.filter((s): s is Extract<BodySection, { type: 'faq' }> => s.type === 'faq')
     .flatMap((s) => s.items) ?? [];
 
   const schemaData: object[] = [
-    articleSchema,
+    articleSchema({
+      slug: post.slug,
+      title: post.title,
+      description: post.excerpt,
+      datePublished: post.date,
+      // TODO: when posts get independent dateModified fields, wire that through here.
+    }),
     breadcrumbSchema([
       { name: 'Home', url: '/' },
       { name: 'Blog', url: '/blog' },

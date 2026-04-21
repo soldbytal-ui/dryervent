@@ -2,7 +2,11 @@ import Link from 'next/link';
 import { buildMetadata } from '@/lib/seo';
 import { Calendar, ArrowRight } from 'lucide-react';
 import FinalCTA from '@/components/FinalCTA';
+import SchemaMarkup from '@/components/SchemaMarkup';
 import { posts } from '@/lib/posts';
+import { breadcrumbSchema, webPageSchema } from '@/lib/schema';
+
+const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://dryervent.vercel.app';
 
 export const metadata = buildMetadata({
   title: 'Dryer Vent Cleaning Blog | Tampa Bay Expert Tips',
@@ -11,8 +15,42 @@ export const metadata = buildMetadata({
 });
 
 export default function BlogPage() {
+  const livePosts = posts.filter((p) => p.body && p.body.length > 0);
+  const blogSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Blog',
+    '@id': `${SITE}/blog#blog`,
+    url: `${SITE}/blog`,
+    name: 'Airflow Dryer Vent Cleaning Blog',
+    description:
+      'Expert guides on dryer vent cleaning, fire prevention, energy efficiency, and home safety from Tampa Bay\'s locally-owned dryer vent specialists.',
+    publisher: { '@id': `${SITE}/#organization` },
+    isPartOf: { '@id': `${SITE}/#website` },
+    blogPost: livePosts.map((p) => ({
+      '@type': 'BlogPosting',
+      headline: p.title,
+      url: `${SITE}/blog/${p.slug}`,
+      datePublished: p.date,
+    })),
+  };
   return (
     <>
+      <SchemaMarkup
+        data={[
+          webPageSchema({
+            path: '/blog',
+            name: 'Dryer Vent Cleaning Blog | Tampa Bay Expert Tips',
+            description:
+              'Expert guides on dryer vent cleaning, fire prevention, energy efficiency, and home safety from Tampa Bay\'s locally-owned dryer vent specialists.',
+            type: 'CollectionPage',
+          }),
+          blogSchema,
+          breadcrumbSchema([
+            { name: 'Home', url: '/' },
+            { name: 'Blog', url: '/blog' },
+          ]),
+        ]}
+      />
       <section className="bg-gradient-to-br from-navy via-navy-mid to-navy-light py-16 relative overflow-hidden">
         <div className="absolute inset-0" style={{
           background: 'radial-gradient(ellipse at 70% 20%, rgba(232,69,14,0.12) 0%, transparent 60%)',

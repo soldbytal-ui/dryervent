@@ -1,6 +1,8 @@
 import { buildMetadata } from '@/lib/seo';
 import { Phone, Mail, Clock, MapPin } from 'lucide-react';
 import LeadForm from '@/components/LeadForm';
+import SchemaMarkup from '@/components/SchemaMarkup';
+import { contactPageSchema, breadcrumbSchema } from '@/lib/schema';
 
 const PHONE = process.env.NEXT_PUBLIC_BUSINESS_PHONE || '+18137441127';
 const PHONE_DISPLAY = process.env.NEXT_PUBLIC_BUSINESS_PHONE_DISPLAY || '(813) 744-1127';
@@ -14,6 +16,15 @@ export const metadata = buildMetadata({
 export default function ContactPage() {
   return (
     <>
+      <SchemaMarkup
+        data={[
+          contactPageSchema(),
+          breadcrumbSchema([
+            { name: 'Home', url: '/' },
+            { name: 'Contact', url: '/contact' },
+          ]),
+        ]}
+      />
       <section className="bg-gradient-to-br from-navy via-navy-mid to-navy-light py-16 relative overflow-hidden">
         <div className="absolute inset-0" style={{
           background: 'radial-gradient(ellipse at 70% 20%, rgba(232,69,14,0.12) 0%, transparent 60%)',

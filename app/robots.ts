@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
       // Standard crawlers
-      { userAgent: '*', allow: '/', disallow: ['/api/', '/_next/'] },
+      { userAgent: '*', allow: '/', disallow: ['/api/', '/_next/', '/admin/'] },
       // AI crawlers — explicitly allow (this is the modern best practice)
       { userAgent: 'GPTBot', allow: '/' },
       { userAgent: 'ChatGPT-User', allow: '/' },

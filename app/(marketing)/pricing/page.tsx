@@ -19,6 +19,7 @@ import {
   localBusinessSchema,
   faqSchema,
   breadcrumbSchema,
+  webPageSchema,
 } from '@/lib/schema';
 import SchemaMarkup from '@/components/SchemaMarkup';
 import TrustBar from '@/components/TrustBar';
@@ -196,6 +197,12 @@ export default function PricingPage() {
     <>
       <SchemaMarkup
         data={[
+          webPageSchema({
+            path: '/pricing',
+            name: 'Dryer Vent Cleaning Cost Tampa — Transparent Per-Foot Pricing',
+            description:
+              'Transparent dryer vent cleaning pricing in Tampa Bay. From $79 (first 10ft) + $10/ft. Free inspection, no obligation.',
+          }),
           localBusinessSchema(),
           cleaningServiceSchema,
           freeInspectionSchema,
