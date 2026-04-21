@@ -52,7 +52,7 @@ export const posts: Post[] = [
       { type: 'h3', text: '1. Clogged Dryer Vent (the #1 Cause — Roughly 8 in 10 Cases)' },
       {
         type: 'p',
-        text: 'Roughly 80% of the slow-dry calls our certified technicians take in Tampa Bay trace back to a clogged dryer vent. Lint is the byproduct of every cycle, and even with a perfectly clean lint trap, fine fibers escape past the screen, ride the moist exhaust through the dryer duct, and slowly plate the inside walls. As the layer thickens, the cross-section of the duct narrows, and the dryer\'s blower has to push hot, wet air through a smaller and smaller tunnel. The physics is simple: less airflow means less moisture removed per minute, which means longer cycles, hotter dryer cabinets, and eventually a fire risk.',
+        text: 'Roughly 80% of the slow-dry calls our technicians take in Tampa Bay trace back to a clogged dryer vent. Lint is the byproduct of every cycle, and even with a perfectly clean lint trap, fine fibers escape past the screen, ride the moist exhaust through the dryer duct, and slowly plate the inside walls. As the layer thickens, the cross-section of the duct narrows, and the dryer\'s blower has to push hot, wet air through a smaller and smaller tunnel. The physics is simple: less airflow means less moisture removed per minute, which means longer cycles, hotter dryer cabinets, and eventually a fire risk.',
       },
       {
         type: 'p',
@@ -176,7 +176,7 @@ export const posts: Post[] = [
       { type: 'h2', text: 'What to Do Right Now' },
       {
         type: 'p',
-        text: 'If your dryer has been taking too long to dry for more than a couple of weeks, the safest and cheapest first step is to find out exactly why. Airflow Dryer Vent Cleaning offers a free, no-obligation inspection in Tampa Bay — our certified technicians camera-scope your dryer duct, measure airflow at the exterior vent, and give you a written assessment of whether you need cleaning, repair, or nothing at all. Call (813) 744-1127 or book online. Most diagnostic visits are completed within 30 minutes and same-day appointments are usually available.',
+        text: 'If your dryer has been taking too long to dry for more than a couple of weeks, the safest and cheapest first step is to find out exactly why. Airflow Dryer Vent Cleaning offers a free, no-obligation inspection in Tampa Bay — our technicians camera-scope your dryer duct, measure airflow at the exterior vent, and give you a written assessment of whether you need cleaning, repair, or nothing at all. Call (813) 744-1127 or book online. Most diagnostic visits are completed within 30 minutes and same-day appointments are usually available.',
       },
 
       {
@@ -228,7 +228,7 @@ export const posts: Post[] = [
       },
       {
         type: 'p',
-        text: 'In Tampa Bay, the warning signs show up faster than the national average. Florida humidity (70–90% for most of the year), year-round AC operation, and laundry rooms tucked inside the conditioned envelope of the house all accelerate lint compaction inside the dryer duct. The Airflow team has cleaned more than 15,000 vents across Tampa, St. Petersburg, Clearwater, Brandon, and surrounding communities — and these are the 10 warning signs we see again and again, in the order they typically appear.',
+        text: 'In Tampa Bay, the warning signs show up faster than the national average. Florida humidity (70–90% for most of the year), year-round AC operation, and laundry rooms tucked inside the conditioned envelope of the house all accelerate lint compaction inside the dryer duct. The Airflow team services Tampa, St. Petersburg, Clearwater, Brandon, and surrounding communities — and these are the 10 warning signs we see again and again, in the order they typically appear.',
       },
 
       { type: 'h2', text: 'The 10 Warning Signs of a Clogged Dryer Vent' },
@@ -311,7 +311,7 @@ export const posts: Post[] = [
       { type: 'h2', text: 'What a Free Inspection Reveals' },
       {
         type: 'p',
-        text: 'Airflow offers a no-obligation, free dryer vent inspection across Tampa Bay. Our certified technicians camera-scope the dryer duct from the appliance to the exterior termination, measure airflow at the vent hood, and give you a written assessment of what they found. If your vent is clean and your airflow is healthy, we tell you so — and we leave. No upsell, no pressure. If your vent does need cleaning or repair, you get an exact quote on the spot. Most inspections take 20–30 minutes.',
+        text: 'Airflow offers a no-obligation, free dryer vent inspection across Tampa Bay. Our technicians camera-scope the dryer duct from the appliance to the exterior termination, measure airflow at the vent hood, and give you a written assessment of what they found. If your vent is clean and your airflow is healthy, we tell you so — and we leave. No upsell, no pressure. If your vent does need cleaning or repair, you get an exact quote on the spot. Most inspections take 20–30 minutes.',
       },
 
       { type: 'h2', text: 'Tampa Bay Pricing for the Fix' },
@@ -333,7 +333,7 @@ export const posts: Post[] = [
           },
           {
             q: 'Will the free inspection tell me if I need cleaning or repair?',
-            a: 'Yes. Our certified technicians camera-scope the entire dryer duct, measure airflow at the exterior termination, and give you a written assessment that distinguishes between standard cleaning ($79–$249) and wall-cavity repair ($195–$595). If your vent is clean and airflow is healthy, we tell you that too and leave. No obligation, no upsell.',
+            a: 'Yes. Our technicians camera-scope the entire dryer duct, measure airflow at the exterior termination, and give you a written assessment that distinguishes between standard cleaning ($79–$249) and wall-cavity repair ($195–$595). If your vent is clean and airflow is healthy, we tell you that too and leave. No obligation, no upsell.',
           },
           {
             q: 'How often should I clean my dryer vent in Florida?',
@@ -369,7 +369,7 @@ export const posts: Post[] = [
       },
       {
         type: 'p',
-        text: 'Florida homes accumulate lint faster than the national average for three measurable reasons: ambient humidity sits at 70–90% for most of the year, AC runs nearly year-round which keeps laundry-room intake air cool and moist, and many homes here run more dryer cycles per week (beach towels, pool towels, gym clothes, kids\' sports gear). The Airflow team has cleaned more than 15,000 dryer vents across Tampa, St. Petersburg, Clearwater, Brandon, and surrounding communities — and our service data consistently shows that Florida lint compacts inside the dryer duct three to four times faster than in low-humidity regions like Arizona or Colorado.',
+        text: 'Florida homes accumulate lint faster than the national average for three measurable reasons: ambient humidity sits at 70–90% for most of the year, AC runs nearly year-round which keeps laundry-room intake air cool and moist, and many homes here run more dryer cycles per week (beach towels, pool towels, gym clothes, kids\' sports gear). The Airflow team services Tampa, St. Petersburg, Clearwater, Brandon, and surrounding communities — and our service data consistently shows that Florida lint compacts inside the dryer duct three to four times faster than in low-humidity regions like Arizona or Colorado.',
       },
 
       { type: 'h2', text: 'Why Florida Homes Need More Frequent Cleaning Than the National Average' },
@@ -449,7 +449,7 @@ export const posts: Post[] = [
       { type: 'h2', text: 'What a Free Inspection Tells You' },
       {
         type: 'p',
-        text: 'If you are not sure whether you are due, the cheapest first step is to find out for free. Airflow offers a no-obligation dryer vent inspection across Tampa Bay — our certified technicians camera-scope your dryer duct from the appliance to the exterior termination, measure airflow at the vent hood, and give you an honest written assessment. If you are clean and your airflow is healthy, we tell you so and leave. No upsell, no pressure. If you are due, you get an exact quote on the spot. Most inspections take 20–30 minutes.',
+        text: 'If you are not sure whether you are due, the cheapest first step is to find out for free. Airflow offers a no-obligation dryer vent inspection across Tampa Bay — our technicians camera-scope your dryer duct from the appliance to the exterior termination, measure airflow at the vent hood, and give you an honest written assessment. If you are clean and your airflow is healthy, we tell you so and leave. No upsell, no pressure. If you are due, you get an exact quote on the spot. Most inspections take 20–30 minutes.',
       },
 
       { type: 'h2', text: 'Tampa Bay Cost If You\'re Due' },
@@ -463,7 +463,7 @@ export const posts: Post[] = [
         items: [
           {
             q: 'Is annual cleaning really enough for Florida?',
-            a: 'For a low-use, no-pet, owner-occupied single-family home, annual is usually sufficient — that matches NFPA 211 guidance. But the Airflow team\'s service data across 15,000+ Tampa Bay cleanings shows that homes with pets, larger families, two-story long vent runs, or coastal sand exposure often need cleaning every 6–9 months to maintain healthy airflow inside the dryer duct. The free inspection is the easiest way to find out which category you fall into.',
+            a: 'For a low-use, no-pet, owner-occupied single-family home, annual is usually sufficient — that matches NFPA 211 guidance. But Tampa Bay homes with pets, larger families, two-story long vent runs, or coastal sand exposure often need cleaning every 6–9 months to maintain healthy airflow inside the dryer duct. The free inspection is the easiest way to find out which category you fall into.',
           },
           {
             q: 'Should I clean more often if I have pets?',
@@ -475,7 +475,7 @@ export const posts: Post[] = [
           },
           {
             q: 'What does the free inspection check?',
-            a: 'Our certified technicians camera-scope the entire dryer duct from the appliance to the exterior termination, measure airflow at the vent hood with a calibrated anemometer, inspect the transition hose behind the dryer for kinks or damage, and document the condition in a written assessment. If you need cleaning or repair, you get an exact quote on the spot. If you are fine, we tell you that and leave. No obligation, no upsell. Call (813) 744-1127.',
+            a: 'Our technicians camera-scope the entire dryer duct from the appliance to the exterior termination, measure airflow at the vent hood with a calibrated anemometer, inspect the transition hose behind the dryer for kinks or damage, and document the condition in a written assessment. If you need cleaning or repair, you get an exact quote on the spot. If you are fine, we tell you that and leave. No obligation, no upsell. Call (813) 744-1127.',
           },
         ],
       },

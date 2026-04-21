@@ -8,7 +8,7 @@ Airflow Dryer Vent Cleaning is a Next.js 15 lead-generation website for a Tampa 
 
 **Phone:** (813) 744-1127 — always reference via `process.env.NEXT_PUBLIC_BUSINESS_PHONE_DISPLAY`
 **Production URL:** Set via `NEXT_PUBLIC_SITE_URL` env var. The client will choose a final domain later; until then the live deployment is at whatever URL is configured in `.env.local`.
-**Team voice:** "the Airflow team" / "our certified technicians". Never mention personal names.
+**Team voice:** "the Airflow team" / "our technicians" / "our trained technicians". Never mention personal names. Do NOT use "certified technicians" or "NFPA 211 certified" — those imply credentials we can't back.
 **Counter-positioning:** Against national franchises (Dryer Vent Wizard). Emphasize locally owned, not a franchise.
 
 **Stack:** Next.js 15 (App Router) · TypeScript · Tailwind · Prisma · Supabase (Postgres) · Resend · Vercel · n8n webhook
@@ -42,7 +42,7 @@ Airflow Dryer Vent Cleaning is a Next.js 15 lead-generation website for a Tampa 
 3. **Structured comparisons.** Tables and clear bullet lists. AI extracts these.
 4. **Question-shaped headings.** H2/H3 should match how people ask AI ("How often should...", "What does X cost...").
 5. **Entity density.** Mention "Tampa Bay", "Florida", "NFPA 211", specific neighborhoods. Builds authority.
-6. **Author signals.** "11 years serving Tampa Bay", "certified technicians", "15,000+ vents cleaned".
+6. **Author signals.** Use only verifiable trust phrases: "locally owned Tampa Bay", "free on-site inspection", "transparent per-foot pricing", "licensed and insured in Florida", "following NFPA 211 guidelines". **DO NOT** claim years-in-business, customer counts, review counts, or certifications (all unverified for a new business).
 
 ## Commands (Slash Commands)
 

@@ -47,9 +47,11 @@ Mention specific proper nouns repeatedly:
 - Specific statistics
 
 ### 6. E-E-A-T signals (Experience, Expertise, Authoritativeness, Trust)
-- "11+ years serving Tampa Bay"
-- "15,000+ vents cleaned"
-- "Certified to NFPA 211 standards"
+- "Locally owned Tampa Bay"
+- "Free on-site inspection (camera scope + airflow test + written assessment)"
+- "Transparent per-foot pricing published on-site"
+- "Following NFPA 211 guidelines" (NOT "certified" — unverified)
+- DO NOT claim years-in-business, customer counts, review counts, or certifications — Airflow is a new Tampa Bay business
 - "Licensed and insured in Florida"
 - Customer review counts with sources
 

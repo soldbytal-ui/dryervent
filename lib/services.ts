@@ -173,7 +173,7 @@ export const services: Service[] = [
     priceFrom: 0,
     free: true,
     intro: 'A free dryer vent inspection is a complimentary on-site evaluation of your dryer duct system — camera scope, airflow test, and a written assessment — at no cost and no obligation. The Airflow team offers this as our standard first step so Tampa Bay homeowners get an honest diagnosis before deciding on any cleaning or repair work.',
-    description: 'Free, no-pressure diagnostic. Our certified technician visits your home, runs a camera scope through accessible ducting, measures airflow at the exterior termination, and provides a written assessment with photos. You walk away with an honest picture of your dryer vent — whether it needs cleaning, repair, or nothing at all. No upselling. No quotas. If we find your vent is in good shape, we tell you so.',
+    description: 'Free, no-pressure diagnostic. Our technician visits your home, runs a camera scope through accessible ducting, measures airflow at the exterior termination, and provides a written assessment with photos. You walk away with an honest picture of your dryer vent — whether it needs cleaning, repair, or nothing at all. No upselling. No quotas. If we find your vent is in good shape, we tell you so.',
     duration: '20-30 minutes',
     includes: [
       'Free camera scope of accessible dryer duct path',

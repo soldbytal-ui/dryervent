@@ -5,7 +5,7 @@ type Props = { headline?: string; sub?: string };
 
 export default function FinalCTA({
   headline = 'Protect Your Home Today.\nBook Your Free Estimate.',
-  sub = 'Join 15,000+ Tampa Bay homeowners who trust Airflow Dryer Vent Cleaning to keep their families safe.',
+  sub = 'Free Tampa Bay inspection. Transparent per-foot pricing. Locally owned — not a franchise.',
 }: Props) {
   return (
     <section className="bg-gradient-to-br from-navy to-navy-light py-20 relative overflow-hidden text-center">

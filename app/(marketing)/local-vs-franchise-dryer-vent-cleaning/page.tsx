@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: 'Will I get the same crew if I call back next year?',
-    a: 'With a national franchise model, you call a corporate routing center that dispatches whichever crew is available in the territory that day — and franchise ownership can change hands without notice, meaning the company you trusted last year may be a different operator this year. With Airflow, you call (813) 744-1127 directly and reach the same locally owned operation every time. Our certified technicians are W-2 employees, not contractors, and most of our team has been with us for years.',
+    a: 'With a national franchise model, you call a corporate routing center that dispatches whichever crew is available in the territory that day — and franchise ownership can change hands without notice, meaning the company you trusted last year may be a different operator this year. With Airflow, you call (813) 744-1127 directly and reach the same locally owned operation every time. Our technicians are W-2 employees, not contractors, and most of our team has been with us for years.',
   },
   {
     q: 'How does local pricing actually compare to franchise pricing in Tampa Bay?',
@@ -74,7 +74,7 @@ export default function LocalVsFranchisePage() {
     },
     {
       dimension: 'Who shows up',
-      local: 'W-2 certified technicians on the Airflow team — not commissioned contractors.',
+      local: 'W-2 technicians on the Airflow team paid a fixed wage — not commissioned contractors.',
       franchise: 'Technician is often paid on commission or quota, which shapes what gets recommended.',
     },
     {
@@ -213,7 +213,7 @@ export default function LocalVsFranchisePage() {
             A national franchise playbook standardizes process — that is the entire point of franchising. But a standardized national process applied to wildly different Tampa Bay housing types frequently misses the local detail: which wall to access first in a Channelside tower, how to get HOA approval in a Westchase community, how to address salt-corroded hardware in Apollo Beach, when a Snell Isle cottage actually needs rerouting versus simple cleaning.
           </p>
           <p className="text-base text-gray-700 leading-relaxed">
-            A locally-owned operator who has cleaned 15,000 vents across these specific neighborhoods knows the answers. That local pattern recognition is the practical difference — not a marketing claim.
+            A locally-owned operator who builds up pattern recognition in these specific neighborhoods — and who doesn&rsquo;t rotate crews across states every quarter — knows the answers. That local accountability is the practical difference. It isn&rsquo;t a marketing claim; it&rsquo;s a structural one.
           </p>
         </div>
       </section>
@@ -233,7 +233,7 @@ export default function LocalVsFranchisePage() {
                 <CheckCircle2 size={18} className="text-fire" /> No commission quotas on technicians
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                Our certified technicians are paid a fixed wage. They have no quota to hit, no commission on add-on services, and no bonus tied to the dollar amount of your invoice. Their incentive is to do the job right the first time so you call us back next year — not to upsell on the visit.
+                Our technicians are paid a fixed wage. They have no quota to hit, no commission on add-on services, and no bonus tied to the dollar amount of your invoice. Their incentive is to do the job right the first time so you call us back next year — not to upsell on the visit.
               </p>
             </div>
             <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">

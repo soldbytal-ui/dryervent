@@ -12,9 +12,10 @@ export function localBusinessSchema(area?: Area) {
     image: `${SITE}/og-image.jpg`,
     url: SITE,
     telephone: PHONE,
-    priceRange: '$$',
+    priceRange: '$79-$595',
+    slogan: 'Free Inspection · Transparent Pricing · Locally Owned Tampa Bay',
     description:
-      'Locally owned, professional dryer vent cleaning, repair, and installation serving Tampa Bay and all of Florida within 50 miles of Tampa. Licensed, insured, same-day appointments available.',
+      'Locally owned dryer vent cleaning, repair, and installation across Tampa Bay and all of Florida within 50 miles of Tampa. Free on-site inspection, transparent per-foot pricing, licensed and insured.',
     address: {
       '@type': 'PostalAddress',
       addressLocality: area?.name || 'Tampa',
@@ -31,19 +32,46 @@ export function localBusinessSchema(area?: Area) {
       'Wesley Chapel', 'New Tampa', 'Carrollwood', 'Westchase', 'South Tampa',
       'Lutz', 'Land O\' Lakes', 'Plant City', 'Apollo Beach', 'Valrico',
     ].map((c) => ({ '@type': 'City', name: c })),
-    openingHoursSpecification: {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-      opens: '07:00',
-      closes: '19:00',
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '847',
-      bestRating: '5',
-      worstRating: '1',
-    },
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+        opens: '07:00',
+        closes: '19:00',
+      },
+    ],
+    // aggregateRating removed pending real Review schema backing.
+    // Re-add only when: (1) minimum 5 verified Google/BBB reviews exist,
+    // AND (2) actual Review schema entries render on-page with matching count.
+    makesOffer: [
+      {
+        '@type': 'Offer',
+        name: 'Free Dryer Vent Inspection',
+        price: '0',
+        priceCurrency: 'USD',
+        availability: 'https://schema.org/InStock',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Residential Dryer Vent Cleaning',
+        priceSpecification: {
+          '@type': 'PriceSpecification',
+          price: '79',
+          priceCurrency: 'USD',
+          description: 'From $79 for the first 10 feet plus $10 per additional foot. Typical residential total $79–$249. Wall ductwork repair $195–$595.',
+        },
+      },
+    ],
+    hasCredential: [
+      {
+        '@type': 'EducationalOccupationalCredential',
+        credentialCategory: 'license',
+        name: 'Florida Contractor License',
+        recognizedBy: { '@type': 'Organization', name: 'State of Florida' },
+        // TODO: Update hasCredential identifier field with real license # from client.
+        // Add a second insurance credential block when insurance carrier + policy # provided.
+      },
+    ],
     sameAs: [
       'https://www.facebook.com/airflowdryerventcleaning',
       'https://www.instagram.com/airflowdryerventcleaning',

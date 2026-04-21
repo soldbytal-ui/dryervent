@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { ArrowRight, MapPin, Clock, ShieldCheck, CheckCircle2, Star, Landmark, DollarSign } from 'lucide-react';
+import { ArrowRight, MapPin, Clock, ShieldCheck, CheckCircle2, Landmark, DollarSign } from 'lucide-react';
 import Hero from '@/components/Hero';
 import TrustBar from '@/components/TrustBar';
 import Reviews from '@/components/Reviews';
@@ -329,7 +329,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
             {[
               { icon: Clock, title: 'Same-Day Response', desc: `Most ${area.name} appointments happen the same day you call.` },
               { icon: ShieldCheck, title: 'Locally Owned', desc: 'Independent Tampa Bay team — not a national franchise. Your neighbors, our crew.' },
-              { icon: CheckCircle2, title: 'NFPA 211 Process', desc: 'Commercial rotary brushes, airflow verification, and a written report on every job.' },
+              { icon: CheckCircle2, title: 'NFPA 211-Aligned Process', desc: 'Commercial rotary brushes, airflow verification, and a written report on every job — following NFPA 211 guidelines.' },
             ].map((b, i) => {
               const Icon = b.icon;
               return (
@@ -346,25 +346,11 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
         </div>
       </section>
 
-      {/* City-specific testimonial */}
-      {content?.testimonial && (
-        <section className="bg-navy py-16 text-white">
-          <div className="container-custom max-w-3xl text-center">
-            <div className="flex justify-center gap-1 mb-5">
-              {Array.from({ length: 5 }).map((_, i) => (
-                <Star key={i} size={22} className="text-gold" fill="currentColor" />
-              ))}
-            </div>
-            <blockquote className="font-display text-xl md:text-2xl leading-relaxed mb-5">
-              &ldquo;{content.testimonial.text}&rdquo;
-            </blockquote>
-            <div className="text-sm text-white/70">
-              — {content.testimonial.author}
-              {content.testimonial.neighborhood ? `, ${content.testimonial.neighborhood}` : ''}
-            </div>
-          </div>
-        </section>
-      )}
+      {/* Testimonial section intentionally hidden until real reviews exist.
+          Data lives in lib/area-content.ts AreaContent.testimonial — sample
+          content only, never rendered. Re-enable this block (and add a
+          `verified: true` gate) once each city has verified Google / BBB
+          reviews with explicit customer permission. */}
 
       {/* Counter-positioning callout */}
       {content?.counterPositioning && (
@@ -416,7 +402,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
 
       <FinalCTA
         headline={`Locally-Owned Dryer Vent Service\nin ${area.name}.`}
-        sub={`Join thousands of ${area.name} homeowners who trust Airflow Dryer Vent Cleaning. Not a franchise — your neighbors, our team. Call (813) 744-1127.`}
+        sub={`Free on-site inspection in ${area.name}. Transparent per-foot pricing. Locally owned — not a franchise. Call (813) 744-1127.`}
       />
     </>
   );

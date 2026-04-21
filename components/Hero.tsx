@@ -63,7 +63,7 @@ export default function Hero({ badge, title, subtitle, city, defaultService }: P
             </div>
             <div className="flex items-center gap-2 text-white/70 text-sm font-medium">
               <Award size={18} className="text-green-400" />
-              4.9★ on Google
+              Free On-Site Inspection
             </div>
           </div>
         </div>

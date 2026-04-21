@@ -74,7 +74,7 @@ export default function AreasIndexPage() {
       <section className="bg-white py-14">
         <div className="container-custom max-w-4xl">
           <p className="text-gray-700 leading-relaxed">
-            Select your county to see every city we cover, or jump straight to your city&apos;s page for local context — ZIP codes, neighborhood detail, and climate factors that affect your dryer vent. Every service area is supported by the same Airflow crew, the same rotary brush equipment, and the same NFPA 211-aligned process. Same-day appointments are available year-round; demand peaks in <strong>January</strong> and <strong>September</strong>, so book early in those months.
+            Select your county to see every city we cover, or jump straight to your city&apos;s page for local context — ZIP codes, neighborhood detail, and climate factors that affect your dryer vent. Every service area is supported by the same Airflow crew, the same rotary brush equipment, and the same NFPA 211-aligned process. Same-day appointments are available year-round; demand peaks in January and September, so book early in those months.
           </p>
         </div>
       </section>

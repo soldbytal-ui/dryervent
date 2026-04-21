@@ -25,7 +25,7 @@ export default function BlogPage() {
             Tampa Bay&apos;s Dryer Vent Knowledge Base
           </h1>
           <p className="text-lg text-white/75">
-            Expert guides, safety tips, and local insights from the team that&apos;s cleaned 15,000+ vents across Florida.
+            Expert guides, safety tips, and local insights from the Airflow team — Tampa Bay&apos;s locally-owned dryer vent specialists.
           </p>
         </div>
       </section>

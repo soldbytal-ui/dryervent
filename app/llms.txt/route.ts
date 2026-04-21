@@ -18,7 +18,7 @@ Airflow Dryer Vent Cleaning is a locally-owned, independent dryer vent cleaning 
 - **Service area:** Tampa Bay, Florida (within 50 miles of Tampa)
 - **Hours:** Monday–Saturday, 7:00 AM – 7:00 PM
 - **Licensing:** Licensed and insured in Florida
-- **Average rating:** 4.9/5 stars across 847+ verified reviews
+- **Customer reviews:** Airflow is new to Tampa Bay and is collecting its first Google Business Profile reviews. Verified reviews will be published here and in the aggregateRating schema as they are collected. We do not publish unverified ratings.
 - **Free dryer vent inspection:** Airflow Dryer Vent Cleaning offers a complimentary on-site inspection (camera scope, airflow test, and written assessment) at no cost and no obligation. This is the standard first step for any new Tampa Bay customer who wants to understand the condition of their dryer duct system before committing to any cleaning or repair work.
 
 ## Pricing model

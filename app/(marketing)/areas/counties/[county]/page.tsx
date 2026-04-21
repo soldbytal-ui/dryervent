@@ -85,7 +85,7 @@ export default async function CountyHubPage({ params }: { params: Promise<{ coun
     },
     {
       q: `Are you a franchise in ${county.displayName}?`,
-      a: `No. Airflow Dryer Vent Cleaning is locally owned and independent. We are not part of Dryer Vent Wizard, Dryer Vent Squad, or any other national franchise. Every job is handled by our own certified technicians.`,
+      a: `No. Airflow Dryer Vent Cleaning is locally owned and independent. We are not part of Dryer Vent Wizard, Dryer Vent Squad, or any other national franchise. Every job is handled by our own technicians.`,
     },
     {
       q: `Do you offer same-day service across ${county.displayName}?`,
@@ -129,7 +129,7 @@ export default async function CountyHubPage({ params }: { params: Promise<{ coun
             Dryer Vent Cleaning in <em className="not-italic text-fire-glow">{county.displayName}</em>
           </>
         }
-        subtitle={`Locally-owned dryer vent and dryer duct cleaning across ${county.displayName}, Florida — ${firstFour}${cities.length > 4 ? ', and more' : ''}. Same-day appointments, NFPA 211 process, and the same certified crew every visit.`}
+        subtitle={`Locally-owned dryer vent and dryer duct cleaning across ${county.displayName}, Florida — ${firstFour}${cities.length > 4 ? ', and more' : ''}. Same-day appointments, NFPA 211-aligned process, and the same Airflow crew every visit.`}
       />
 
       <TrustBar />
@@ -239,7 +239,7 @@ export default async function CountyHubPage({ params }: { params: Promise<{ coun
               },
               {
                 icon: CheckCircle2,
-                title: 'NFPA 211 Process',
+                title: 'NFPA 211-Aligned Process',
                 desc: 'Commercial rotary brushes, airflow verification, and a written report on every job.',
               },
             ].map((b, i) => {
@@ -264,7 +264,7 @@ export default async function CountyHubPage({ params }: { params: Promise<{ coun
 
       <FinalCTA
         headline={`Locally-Owned Service\nAcross ${county.displayName}.`}
-        sub={`Join thousands of ${county.displayName} homeowners who trust Airflow Dryer Vent Cleaning. Not a franchise — your neighbors, our team.`}
+        sub={`Free Tampa Bay inspection across ${county.displayName}. Transparent per-foot pricing. Locally owned — not a franchise.`}
       />
     </>
   );

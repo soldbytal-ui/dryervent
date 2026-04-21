@@ -131,7 +131,7 @@ const PRICING_FAQS = [
   },
   {
     q: 'Why do competitors refuse to give prices over the phone?',
-    a: `Two reasons: (1) Flat-rate pricing on a per-foot job means giving you a number that is wrong half the time — so they avoid quoting until they are on-site and you have already invested time. (2) Many large operators are franchises that route calls through corporate centers; the "technician" is graded on revenue per visit, not honesty. The FTC requires national franchise brands to disclose "independently owned and operated franchises" — but the pricing model is set centrally, with quotas. Our certified technicians are not commissioned, our prices are published, and the inspection is free.`,
+    a: `Two reasons: (1) Flat-rate pricing on a per-foot job means giving you a number that is wrong half the time — so they avoid quoting until they are on-site and you have already invested time. (2) Many large operators are franchises that route calls through corporate centers; the "technician" is graded on revenue per visit, not honesty. The FTC requires national franchise brands to disclose "independently owned and operated franchises" — but the pricing model is set centrally, with quotas. Our technicians are not commissioned, our prices are published, and the inspection is free.`,
   },
   {
     q: 'Do you offer HOA bulk pricing?',
@@ -228,8 +228,8 @@ export default function PricingPage() {
           </p>
           <p className="text-sm text-white/70 max-w-2xl mx-auto mb-8">
             Most Tampa Bay competitors hide their pricing. We publish ours — and
-            send a certified technician out for a free dryer duct inspection
-            before a single dollar changes hands.
+            send a technician out for a free dryer duct inspection before a
+            single dollar changes hands.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <a
@@ -266,7 +266,7 @@ export default function PricingPage() {
             fee. No diagnostic fee. If your dryer duct is in good shape, the
             Airflow team tells you so and leaves. We are locally owned in
             Tampa Bay, not a national franchise routing center, and our
-            certified technicians are not paid on commission — so the
+            technicians are paid a fixed wage rather than commission — so the
             recommendation you get is honest by design.
           </p>
         </div>

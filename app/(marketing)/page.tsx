@@ -26,7 +26,7 @@ const homepageFaqs = [
   },
   {
     q: 'How much does dryer vent cleaning cost in Tampa Bay?',
-    a: 'Residential dryer vent cleaning in Tampa Bay typically ranges from $99 to $199 depending on vent length, accessibility, and condition. We provide a clear quote before any work begins, with no hidden fees.',
+    a: 'Residential dryer vent cleaning in Tampa Bay starts at $79 for the first 10 feet of vent run, plus $10 per additional foot. Most jobs land in the $79–$249 range depending on length. Wall ductwork repair, when needed, runs $195–$595. Free on-site inspection is included at no cost and no obligation.',
   },
   {
     q: 'What are the warning signs my dryer vent needs cleaning?',
@@ -65,7 +65,7 @@ export default function HomePage() {
       />
 
       <Hero
-        badge="FREE Inspection · No Obligation · 4.9/5 Rated"
+        badge="FREE Inspection · No Obligation · Locally Owned"
         title={
           <>
             Tampa Bay&apos;s #1 <em className="not-italic text-fire-glow">Dryer Vent Cleaning</em> Service
@@ -141,8 +141,8 @@ export default function HomePage() {
             <div className="hidden md:block absolute top-9 left-[12%] right-[12%] h-0.5 bg-gradient-to-r from-fire via-gold to-fire opacity-30" />
             {[
               { n: 1, t: 'Book Online or Call', d: 'Fill out our quick form or call us. We\'ll confirm a time that works for you — often same day.' },
-              { n: 2, t: 'We Inspect Your Vent', d: 'Our certified tech inspects your entire vent line and identifies blockages, damage, or hazards.' },
-              { n: 3, t: 'Professional Cleaning', d: 'Using rotary brush systems and commercial vacuums, we remove 100% of lint and debris.' },
+              { n: 2, t: 'We Inspect Your Vent', d: 'Our technician inspects your entire vent line with a camera scope and airflow test, identifying blockages, damage, or hazards.' },
+              { n: 3, t: 'Professional Cleaning', d: 'Using commercial-grade rotary brush systems and high-CFM vacuums, we clear the full length of your dryer duct — bends, vertical runs, exterior hood.' },
               { n: 4, t: 'Verify & Report', d: 'We verify airflow, provide a before/after report, and give you maintenance recommendations.' },
             ].map((s) => (
               <div key={s.n} className="text-center relative">

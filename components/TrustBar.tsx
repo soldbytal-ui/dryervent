@@ -1,9 +1,9 @@
 export default function TrustBar() {
   const items = [
-    { number: '847+', label: '5-Star Reviews' },
-    { number: '15,000+', label: 'Vents Cleaned' },
-    { number: '11+', label: 'Years Experience' },
-    { number: '100%', label: 'Satisfaction Rate' },
+    { headline: 'Free Inspection', subtitle: 'No obligation · No trip fee' },
+    { headline: '$79 + $10/ft', subtitle: 'Published pricing · No sales calls' },
+    { headline: 'Locally Owned', subtitle: 'Tampa Bay · Not a franchise' },
+    { headline: 'Same-Day Service', subtitle: 'Mon–Sat · 7AM–7PM' },
   ];
 
   return (
@@ -12,8 +12,8 @@ export default function TrustBar() {
         {items.map((item, i) => (
           <div key={i} className="flex items-center gap-3">
             <div>
-              <div className="font-display font-extrabold text-3xl text-navy leading-none">{item.number}</div>
-              <div className="text-xs text-gray-500 font-medium uppercase tracking-wider mt-1">{item.label}</div>
+              <div className="font-display font-extrabold text-xl md:text-2xl text-navy leading-tight">{item.headline}</div>
+              <div className="text-xs text-gray-500 font-medium uppercase tracking-wider mt-1">{item.subtitle}</div>
             </div>
             {i < items.length - 1 && <div className="hidden md:block w-px h-10 bg-gray-200 ml-12" />}
           </div>

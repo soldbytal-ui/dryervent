@@ -192,7 +192,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                     Ready for a free Tampa Bay dryer vent inspection?
                   </p>
                   <p className="text-gray-700 leading-relaxed mb-3">
-                    No-obligation camera scope and airflow assessment from our certified
+                    No-obligation camera scope and airflow assessment from our
                     technicians. Same-day appointments usually available.
                   </p>
                   <p className="text-gray-700">

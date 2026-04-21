@@ -38,9 +38,11 @@ Business: Airflow Dryer Vent Cleaning
 Tagline: Tampa Bay's locally-owned dryer vent & duct cleaning
 Positioning: Locally owned and independent. NOT a national franchise (counter to Dryer Vent Wizard).
 Phone: {{PHONE}}
-Licensed & Insured in Florida. NFPA 211 compliant.
-11 years serving Tampa Bay. 15,000+ vents cleaned. 4.9/5 across 847+ reviews.
-Same-day service available. Free estimates. No obligation.
+Licensed & Insured in Florida. Follows NFPA 211 guidelines.
+Free on-site inspection (camera scope + airflow test + written assessment) — no obligation.
+Transparent per-foot pricing: $79 for first 10 ft + $10 per additional foot. Wall ductwork repair $195–$595.
+Same-day service available across Hillsborough and Pinellas. Mon–Sat 7AM–7PM.
+DO NOT CLAIM: years-in-business, customer counts, review counts, or NFPA/C-DET certifications — Airflow is a new Tampa Bay business and those are unverified.
 `.trim();
 
 function businessFacts() {
