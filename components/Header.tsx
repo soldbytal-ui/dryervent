@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useState, useRef, useEffect, useCallback } from 'react';
-import { Phone, Flame, ChevronDown, ChevronRight } from 'lucide-react';
+import { Phone, ChevronDown, ChevronRight } from 'lucide-react';
 import { getCountyList, getCitiesByCounty, COUNTIES } from '@/lib/internal-links';
 
 const PHONE = process.env.NEXT_PUBLIC_BUSINESS_PHONE || '+18137441127';
@@ -207,7 +207,24 @@ export default function Header() {
         <div className="container-custom flex justify-between items-center">
           <Link href="/" className="flex items-center gap-3" aria-label="Airflow Dryer Vent Cleaning Home">
             <div className="w-12 h-12 bg-fire rounded-xl flex items-center justify-center shadow-lg shadow-fire/30">
-              <Flame className="text-white" size={26} strokeWidth={2.5} />
+              {/* Airflow lines — three gentle S-curves suggesting flowing air */}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width={26}
+                height={26}
+                viewBox="0 0 26 26"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={2.5}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="text-white"
+                aria-hidden="true"
+              >
+                <path d="M 5 8 C 10 5, 16 11, 21 8" />
+                <path d="M 5 13 C 10 10, 16 16, 21 13" />
+                <path d="M 5 18 C 10 15, 16 21, 21 18" />
+              </svg>
             </div>
             <div>
               <div className="font-display font-extrabold text-xl text-navy leading-tight">
