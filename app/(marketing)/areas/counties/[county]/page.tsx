@@ -199,7 +199,7 @@ export default async function CountyHubPage({ params }: { params: Promise<{ coun
             <p className="text-gray-600">Every Airflow service — residential, commercial, repair, installation, inspection — is available throughout the county.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-auto">
-            {services.map((s) => (
+            {services.filter((s) => s.category !== 'secondary').map((s) => (
               <Link
                 key={s.slug}
                 href={`/services/${s.slug}`}

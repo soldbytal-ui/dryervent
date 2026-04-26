@@ -13,7 +13,10 @@ import { serviceSchema, faqSchema, breadcrumbSchema } from '@/lib/schema';
 import { buildMetadata } from '@/lib/seo';
 
 export function generateStaticParams() {
-  return services.map((s) => ({ slug: s.slug }));
+  // Air-duct-cleaning is rendered by the static file at
+  // app/(marketing)/services/air-duct-cleaning/page.tsx — exclude from
+  // dynamic-route generateStaticParams to avoid double-render of the same URL.
+  return services.filter((s) => s.slug !== 'air-duct-cleaning').map((s) => ({ slug: s.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
@@ -23,7 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const titleSuffix = service.free
     ? 'No Cost · No Obligation'
     : service.priceFrom
-    ? `From $${service.priceFrom}`
+    ? `From $${service.priceFrom}${service.priceUnit ? ` ${service.priceUnit}` : ''}`
     : 'Custom Pricing';
   return buildMetadata({
     title: `${service.name} Tampa Bay | ${titleSuffix}`,
@@ -86,7 +89,10 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             ) : service.priceFrom > 0 ? (
               <div className="bg-orange-50 rounded-xl p-5 border border-fire/20">
                 <div className="text-xs font-semibold text-fire uppercase tracking-wider mb-1">Starting At</div>
-                <div className="font-display font-bold text-3xl text-fire">${service.priceFrom}</div>
+                <div className="font-display font-bold text-3xl text-fire">
+                  ${service.priceFrom}
+                  {service.priceUnit && <span className="text-base text-fire/70 font-medium ml-1">{service.priceUnit}</span>}
+                </div>
                 <div className="text-sm text-gray-600 mt-1">Free estimate · No hidden fees</div>
               </div>
             ) : null}

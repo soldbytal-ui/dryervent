@@ -270,7 +270,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
             <p className="text-gray-600">Complete solutions for every dryer vent and dryer duct need across {area.name}.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {services.map((s) => (
+            {services.filter((s) => s.category !== 'secondary').map((s) => (
               <Link
                 key={s.slug}
                 href={`/services/${s.slug}`}

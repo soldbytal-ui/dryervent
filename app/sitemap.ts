@@ -49,13 +49,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/contact`, lastModified: now, changeFrequency: cf('yearly'), priority: 0.55 },
   ];
 
-  const servicePages: MetadataRoute.Sitemap = services.map((s) => ({
-    url: `${SITE}/services/${s.slug}`,
-    lastModified: now,
-    changeFrequency: cf(s.slug === 'dryer-vent-inspection' ? 'weekly' : 'monthly'),
-    // /services/dryer-vent-inspection is the free-inspection conversion driver — bump to 0.95
-    priority: s.slug === 'dryer-vent-inspection' ? 0.95 : 0.9,
-  }));
+  const servicePages: MetadataRoute.Sitemap = services.map((s) => {
+    // Per-slug priority + changeFrequency overrides:
+    // - dryer-vent-inspection is the free-inspection conversion driver → weekly + 0.95
+    // - air-duct-cleaning is a secondary service (per Apr-26 add) → monthly + 0.85
+    const isInspection = s.slug === 'dryer-vent-inspection';
+    const isAirDuct = s.slug === 'air-duct-cleaning';
+    return {
+      url: `${SITE}/services/${s.slug}`,
+      lastModified: now,
+      changeFrequency: cf(isInspection ? 'weekly' : 'monthly'),
+      priority: isInspection ? 0.95 : isAirDuct ? 0.85 : 0.9,
+    };
+  });
 
   const countyPages: MetadataRoute.Sitemap = COUNTIES.map((c) => ({
     url: `${SITE}/areas/counties/${c.slug}`,

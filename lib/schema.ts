@@ -181,6 +181,21 @@ export function serviceSchema(service: Service) {
       availability: 'https://schema.org/InStock',
       eligibleQuantity: { '@type': 'QuantitativeValue', value: 1 },
     };
+  } else if (service.priceFrom && service.priceUnit) {
+    // Per-unit pricing (e.g., "per opening" for air duct cleaning).
+    // UnitPriceSpecification tells Google rich-results that this is unit-based,
+    // not a flat fee — prevents misrepresentation of the actual cost.
+    offers = {
+      '@type': 'Offer',
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
+      priceSpecification: {
+        '@type': 'UnitPriceSpecification',
+        price: service.priceFrom.toString(),
+        priceCurrency: 'USD',
+        unitText: service.priceUnit,
+      },
+    };
   } else if (service.priceFrom) {
     offers = {
       '@type': 'Offer',

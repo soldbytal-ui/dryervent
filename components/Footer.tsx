@@ -36,6 +36,11 @@ export default function Footer() {
                 </li>
               ))}
               <li>
+                <Link href="/services/air-duct-cleaning" className="text-sm hover:text-fire-glow transition-colors">
+                  Air Duct Cleaning
+                </Link>
+              </li>
+              <li>
                 <Link href="/services/condo-dryer-vent-cleaning" className="text-sm hover:text-fire-glow transition-colors">
                   Condo Cleaning
                 </Link>

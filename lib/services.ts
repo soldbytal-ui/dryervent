@@ -3,7 +3,9 @@ export type Service = {
   name: string;
   shortName: string;
   priceFrom: number;
+  priceUnit?: string; // e.g., "per opening" — when present, renders alongside price
   free?: boolean; // free service offering — drives "FREE" badge + price-0 Offer schema
+  category?: 'primary' | 'secondary'; // brand-identity ranking; secondary = related but not core
   intro: string; // AI-extractable definition
   description: string;
   duration: string;
@@ -207,6 +209,56 @@ export const services: Service[] = [
       // PAA-targeted FAQs (Phase 8)
       { q: 'How much does a dryer vent inspection cost?', a: 'In Tampa Bay with Airflow, a dryer vent inspection costs nothing — no trip fee, no diagnostic fee, no deposit. Industry-wide, paid inspections typically run $50–$150. We offer it free because scope-first transparency builds trust faster than a phone quote ever can.' },
       { q: 'Do I need a dryer vent inspection?', a: 'You likely need one if any of these apply: clothes take more than one cycle to dry, the dryer cabinet runs unusually hot, a burning smell appears, it has been more than 12 months since the last professional cleaning, or you are buying or selling a home. Since the inspection is free and takes 20–30 minutes, it is the low-risk way to find out.' },
+      // Subtle cross-link to air duct cleaning (per Apr-26 spec — single mention, not aggressive)
+      { q: 'Can you also assess my home\'s HVAC air ducts during the inspection?', a: 'Yes. While we are on-site for your free dryer vent inspection, we can do a free assessment of your HVAC air ducts at the same time — same team, same equipment. We count openings, scope a sample run, and quote our $89-per-opening air duct cleaning service if you want it. No obligation either way. See /services/air-duct-cleaning for full details.' },
+    ],
+  },
+  {
+    slug: 'air-duct-cleaning',
+    name: 'Air Duct Cleaning',
+    shortName: 'Air Duct Cleaning',
+    priceFrom: 89,
+    priceUnit: 'per opening',
+    category: 'secondary',
+    intro: 'Air duct cleaning is the professional removal of accumulated dust, allergens, and debris from a home\'s HVAC supply ducts, return ducts, registers, and air handler. In Tampa Bay, where humidity, year-round AC operation, and pet density push dust accumulation faster than the national average, NADCA recommends professional cleaning every 3–5 years for typical households. Airflow charges $89 per opening (each supply vent + each return vent) so pricing scales fairly with the actual size of your HVAC system.',
+    description: 'Whole-home HVAC duct cleaning following NADCA-aligned protocols: HEPA-filtered negative-air containment, mechanical agitation with rotary brush, supply + return + main trunk cleaning, air handler interior cleaning, register/grille removal and cleaning, before/after photos at every opening, and a written airflow assessment. Per-opening pricing means a small condo pays for 6 openings while a 4-bedroom home pays for 18 — the price reflects the work, not a one-size-fits-all flat fee.',
+    duration: '3–5 hours for an average Tampa Bay home (10–12 openings)',
+    includes: [
+      'Free on-site assessment with opening count + photos',
+      'HEPA-filtered negative-air containment setup',
+      'Supply duct cleaning (every supply opening, mechanical agitation)',
+      'Return duct cleaning (every return opening)',
+      'Main trunk line cleaning',
+      'Air handler interior cleaning (coils, blower)',
+      'Register and grille removal + wash',
+      'Before/after photos at every opening',
+      'Final airflow measurement + written assessment',
+    ],
+    benefits: [
+      { title: 'Per-Opening Transparency', desc: '$89 per opening — the price scales with your actual HVAC system instead of a flat fee that overcharges small homes.' },
+      { title: 'NADCA-Aligned Process', desc: 'We follow the National Air Duct Cleaners Association\'s published cleaning protocols — not a 30-minute drive-by.' },
+      { title: 'HVAC Efficiency', desc: 'Clean ducts reduce restriction on your air handler, which lowers electric bills and extends HVAC lifespan.' },
+      { title: 'Indoor Air Quality', desc: 'Removes accumulated dust, pet dander, mold spores, and allergens that recirculate through every cycle.' },
+    ],
+    process: [
+      { title: 'Free Assessment', desc: 'Technician arrives, counts supply + return openings, scopes a sample run, photographs current dust load, and provides a per-opening quote on the spot.' },
+      { title: 'Containment Setup', desc: 'HEPA-filtered negative-air machine connects to the main trunk; we protect floors and surrounding areas before any work begins.' },
+      { title: 'Mechanical Agitation', desc: 'Rotary brush system loosens compacted dust at every opening while the negative-air machine captures the debris.' },
+      { title: 'Air Handler Cleaning', desc: 'Interior coils and blower assembly cleaned; visible mold or moisture issues photographed and flagged.' },
+      { title: 'Reassembly + Verification', desc: 'Registers and grilles reinstalled, airflow measured at each opening, before/after photos delivered with written assessment.' },
+    ],
+    faqs: [
+      { q: 'How much does air duct cleaning cost in Tampa Bay?', a: 'Airflow charges $89 per opening (each supply vent + each return vent). A small 1–2-bedroom condo with 6–8 openings runs $534–$712. An average 3-bedroom single-family home with 10–12 openings runs $890–$1,068. Larger 4+ bedroom homes with 15–20 openings run $1,335–$1,780. Free on-site assessment counts your home\'s actual openings before any quote.' },
+      { q: 'Why is it $89 per opening instead of a flat fee?', a: 'Because every home has a different number of vents. A flat $499 fee either overcharges small condos or undercharges large homes. Per-opening pricing is honest math: you pay for the actual work in your home. Most NADCA-aligned operators price this way; flat fees are a marketing convenience that obscures real cost.' },
+      { q: 'How do I know how many openings my home has?', a: 'The free assessment counts them precisely. As a rough guide: 1–2-bedroom condos typically have 6–8 openings, 3-bedroom homes have 10–12, and 4+ bedroom homes have 15–20. Two-story homes have more (separate supply/return per floor). The assessment also catches openings homeowners forget — closets, hallway returns, basement supplies.' },
+      { q: 'How long does air duct cleaning take?', a: 'For an average Tampa Bay home (10–12 openings) plan on 3–5 hours from setup through final airflow test. Small condos with 6 openings can finish in 2–3 hours. Larger homes (15–20 openings) take 5–7 hours. This is why we do not recommend any operator who promises a complete air duct cleaning in under 90 minutes — that is a vacuum-only sweep, not a NADCA-aligned cleaning.' },
+      { q: 'Is the free assessment really free?', a: 'Yes. Same model as our free dryer vent inspection — no trip fee, no diagnostic fee, no deposit. Our technician counts openings, photographs current dust load inside the trunk, and gives you a written per-opening quote. If you want to think about it, take the photos and quote with you.' },
+      { q: 'What is the difference between dryer vent cleaning and air duct cleaning?', a: 'Dryer vent cleaning addresses the single exhaust line from your dryer to the outside termination. Air duct cleaning addresses your home\'s entire HVAC supply and return system — every room\'s vents, the return air ducts, the main trunk lines, and the air handler interior. Different equipment, different scope, different problem. Many homes need both eventually; they are independent decisions.' },
+      { q: 'How often should air ducts be cleaned?', a: 'NADCA recommends every 3–5 years for typical households. Tampa Bay homes lean toward the 3-year end of that range because of humidity (mold/mildew growth potential) and 11-month AC season (continuous dust circulation). Households with pets, smokers, or recent renovation work should consider every 2–3 years. After mold or water damage, schedule cleaning before running the HVAC again.' },
+      { q: 'Will my AC work better after air duct cleaning?', a: 'For most homes, yes. Restricted ducts force the blower to work harder, raise electric bills, and shorten compressor lifespan. Cleaner ducts let the system breathe at design specifications. The biggest gains show up in homes that have not been cleaned in 5+ years, after major renovation, or after pet hair has been accumulating for years.' },
+      { q: 'Do you sanitize the ducts too?', a: 'Sanitization is an optional add-on, priced separately based on system size. We do not recommend it for every job — most homes do not need it. Sanitization makes sense after mold remediation, after pest infestation in the duct system, or in homes with severe allergy concerns. We will tell you honestly during the assessment whether your home is a candidate.' },
+      { q: 'What about mold in my air ducts?', a: 'If we find visible mold during the assessment, we photograph it, show you, and discuss next steps. Light surface mold is often handled during cleaning + sanitization. Heavy mold growth typically requires a separate mold remediation specialist before duct cleaning is appropriate. We will refer you to qualified Tampa Bay mold remediators rather than overstep — that is not our specialty.' },
+      { q: 'Will you make a mess in my home?', a: 'No. The HEPA-filtered negative-air containment is designed specifically to prevent dust from escaping the duct system into your living space during cleaning. Floors near each opening are protected with drop cloths. By the time we leave, your home should be cleaner than when we arrived — that is the entire point of professional duct cleaning.' },
     ],
   },
 ];

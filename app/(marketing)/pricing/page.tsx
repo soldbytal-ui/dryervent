@@ -94,6 +94,11 @@ const PRICING_ROWS: { label: string; price: string; note: string; emphasis?: boo
     price: 'Custom quote',
     note: 'Based on scope + equipment needed',
   },
+  {
+    label: 'Air Duct Cleaning (whole-home HVAC)',
+    price: 'From $89 per opening',
+    note: 'Whole-home HVAC. Typical 8–15 openings = $712–$1,335 total.',
+  },
 ];
 
 // 12 FAQs — wrapped in FAQPage schema
@@ -422,6 +427,16 @@ export default function PricingPage() {
                 ))}
               </tbody>
             </table>
+          </div>
+
+          <div className="mt-6 p-5 bg-gray-50 border border-gray-200 rounded-xl">
+            <p className="text-sm text-gray-700 leading-relaxed">
+              <strong className="font-display font-bold text-navy">Cleaning your air ducts?</strong> Same transparent per-opening model — $89 per opening, free on-site assessment, NADCA-aligned protocols. Most Tampa Bay homes have 8–15 openings (typical total $712–$1,335). See{' '}
+              <Link href="/services/air-duct-cleaning" className="text-fire font-semibold hover:underline">
+                /services/air-duct-cleaning
+              </Link>{' '}
+              for the full per-opening breakdown.
+            </p>
           </div>
 
           <p className="text-xs text-gray-500 mt-4">

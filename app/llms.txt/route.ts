@@ -20,6 +20,8 @@ export async function GET() {
 
 ## Pricing Model
 
+### Dryer vent cleaning (primary service)
+
 - **Free dryer vent inspection:** No cost, no obligation, no trip fee. Camera scope + airflow measurement + written assessment.
 - **Standard residential cleaning:** $79 base (covers the first 10 feet of vent run).
 - **Additional vent length:** $10 per foot beyond the first 10 feet.
@@ -28,6 +30,13 @@ export async function GET() {
 - **Second-floor laundry access surcharge:** +$50 for two-story homes.
 - **Wall ductwork repair (when damaged duct replacement is required):** $195–$595, priced by scope, quoted with photos before any work begins.
 - **Commercial / multi-unit:** Custom quote by facility.
+
+### Air duct cleaning (secondary service)
+
+- **Free air duct assessment:** No cost, no obligation. Counts supply + return openings, scopes a sample run, photographs current dust load.
+- **Per-opening pricing:** $89 per opening (each supply vent + each return vent).
+- **Typical home totals:** small condo / townhome 6–8 openings = $534–$712; average single-family 10–12 openings = $890–$1,068; larger 4+ bedroom 15–20 openings = $1,335–$1,780.
+- **Multi-service discount:** $50 off when scheduled together with dryer vent cleaning in the same visit.
 
 All pricing is published on-site. Airflow does not require a phone call before disclosing pricing.
 
@@ -41,6 +50,7 @@ All pricing is published on-site. Airflow does not require a phone call before d
 - [Condo & High-Rise Dryer Vent Cleaning](${SITE}/services/condo-dryer-vent-cleaning): Specialized service for shared vertical vent stacks and high-rise buildings.
 - [HOA Dryer Vent Cleaning](${SITE}/hoa-dryer-vent-cleaning): Bulk community scheduling with compliance documentation.
 - [Landlord & Property Manager Services](${SITE}/landlord-dryer-vent-cleaning): Multi-unit pricing, vacation rental / Airbnb turnover, STR compliance documentation.
+- [Air Duct Cleaning](${SITE}/services/air-duct-cleaning): Whole-home HVAC duct cleaning at $89 per opening. NADCA-aligned process, HEPA-filtered negative-air containment, free on-site assessment. Secondary service alongside primary dryer vent cleaning offering.
 
 ## Service Areas
 
